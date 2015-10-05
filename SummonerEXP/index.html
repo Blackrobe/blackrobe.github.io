@@ -256,10 +256,12 @@
 			
 			if (numberOfTimes - howManyQuestWithFullEnergy > 0) {
 				
-				waitEnergyTime = ((numberOfTimes - howManyQuestWithFullEnergy) * questEnergy - (g(i) % questEnergy)) * 3 - howManyQuestWithFullEnergy * questTime;
+				waitEnergyTime = ((numberOfTimes - howManyQuestWithFullEnergy) * questEnergy - (g(i) % questEnergy)) * 3;
 				
-				if (waitEnergyTime > 0) {
-					resultTextEnergy = resultTextEnergy + "Level " + i + " : " + g(i) + " energy with current EXP: " + currentEXP + " --- EXP to level up: " + neededEXP + ". You need to run the quest " + numberOfTimes + " times to level up. You can run the quest " + howManyQuestWithFullEnergy + " times (will take you " + (howManyQuestWithFullEnergy * questTime) + " minutes) before you have to wait a total of " + waitEnergyTime + " minutes to do " + (numberOfTimes - howManyQuestWithFullEnergy) + " more.<br>";
+				waitTime = ((numberOfTimes - howManyQuestWithFullEnergy) * questEnergy - (g(i) % questEnergy)) * 3 - howManyQuestWithFullEnergy * questTime;
+				
+				if (waitTime > 0) {
+					resultTextEnergy = resultTextEnergy + "Level " + i + " : " + g(i) + " energy with current EXP: " + currentEXP + " --- EXP to level up: " + neededEXP + ". You need to run the quest " + numberOfTimes + " times to level up. You can run the quest " + howManyQuestWithFullEnergy + " times (will take you " + (howManyQuestWithFullEnergy * questTime) + " minutes) before you have to wait a total of " + waitTime + " minutes to do " + (numberOfTimes - howManyQuestWithFullEnergy) + " more.<br>";
 				}
 				else {
 					waitEnergyTime = 0;
@@ -278,8 +280,32 @@
 			
 			currentEXP = cutEXP;
 		}				
+				
+		totalTimeText = "";
 		
-		document.getElementById("resultEnergy").innerHTML = "About " + totalTime + " minutes.<br>";
+		if (totalTime >= 1440) {
+			totalTimeText = Math.floor(totalTime/1440) + " day(s)";
+			totalTime = totalTime % 1440;
+			if (totalTime >= 60) {
+				totalTimeText = totalTimeText + ", " + Math.floor(totalTime/60) + " hour(s)";
+				totalTime = totalTime % 60;
+				if (totalTime > 0) {
+					totalTimeText = totalTimeText + ", " + totalTime + " minute(s)";
+				}
+			}				
+		}
+		else if (totalTime >= 60) {
+			totalTimeText = Math.floor(totalTime/60) + " hour(s)";
+			totalTime = totalTime % 60;
+			if (totalTime > 0) {
+				totalTimeText = totalTimeText + ", " + totalTime + " minute(s)";
+			}
+		}
+		else {
+			totalTimeText = totalTime + " minutes";
+		}
+		
+		document.getElementById("resultEnergy").innerHTML = "About " + totalTimeText + "<br>";
 		document.getElementById("resultEnergyDetails").innerHTML = resultTextEnergy;
 	}
 	</script>
