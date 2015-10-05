@@ -1,194 +1,200 @@
 <html>
 <head>
-<meta charset="utf-8">
-<link rel="stylesheet" href="css/bootstrap.min.css">  
-<script type="text/javascript">
-if (navigator.userAgent.match(/Android/i)
-  || navigator.userAgent.match(/webOS/i)
-  || navigator.userAgent.match(/iPhone/i)
-  || navigator.userAgent.match(/iPad/i)
-  || navigator.userAgent.match(/iPod/i)
-  || navigator.userAgent.match(/BlackBerry/i)
-  || navigator.userAgent.match(/Windows Phone/i))
-	document.write('<meta name="viewport" content="width=500, user-scalable=yes" />');
-</script>
-<title>Brave Frontier Player EXP Calculator</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/bootstrap.min.css">  
+	<script type="text/javascript">
+	if (navigator.userAgent.match(/Android/i)
+	  || navigator.userAgent.match(/webOS/i)
+	  || navigator.userAgent.match(/iPhone/i)
+	  || navigator.userAgent.match(/iPad/i)
+	  || navigator.userAgent.match(/iPod/i)
+	  || navigator.userAgent.match(/BlackBerry/i)
+	  || navigator.userAgent.match(/Windows Phone/i))
+		document.write('<meta name="viewport" content="width=500, user-scalable=yes" />');
+	</script>
+	<title>Brave Frontier Player EXP Calculator</title>
 </head>
 <body>
+	<br>
+	<br>
+	Your current level (51 to 300): <input type="text" id="currentLevel" value="0"><br>
+	<br>
+	Your current EXP: <input type="text" id="currentEXP" value="0"> (leave 0 if you want to assume you just leveled up and have 0 EXP)<br>
+	<br>
+	Your goal is to reach level <input type="text" id="goalLevel"> (max 301)<br>
+	<br>
+	You have a quest which gives <input type="text" id="questEXP" value="16600"> EXP.<br>
+	<br>
+	<br>
+	<input type="Button" value="Calculate Total EXP" onclick="calculate()">
+	<br>
+	<br>
+	<div id="result" style="color:blue; font-size: 24px;">
+	</div>
+	<input type="button" id="showEXPListButton" value="Show Details" style="visibility:hidden" onclick="showEXPTable()">
+	<br>
+	<div id="EXPTable">
+	</div>
+	<br>
+	<br>
+	<br>
+	<div id="nextStep" style="visibility:hidden">
+		Now the selected quest requires <input type="text" id="questEnergy" value="25"> energy.<br>
+		<br>
+		Assuming 3 minute per energy, full energy at your current level, and factoring in energy refill each level up...<br>
+		<br>
+		<input type="Button" value="Calculate time needed" onclick="calculateTime()"><br>
+		<div id="resultEnergy" style="color:blue; font-size: 24px;">
+	</div>
+	</div>
+	<br>
+	<br>
+	For references: <br>
+	St. Lamia - St. Lamia Palace - Fourfold Pillar: 10 energy, 2600 EXP (double EXP event: 5200)<br>
+	Lanara - Alnakeid Castle - Call of the Storm: 23 energy, 7200 EXP (double EXP event: 14400 EXP)<br>
+	Atharva - Crystal Palace - Changing the World: 25 energy, 8300 EXP (double EXP event: 16600 EXP)<br>
+	Celgrad - Soaring Tree Tower - Tested Power: 25 energy, 8400 EXP (double EXP event: 16800 EXP)<br>
+	Monday Vortex - Soul Sanctuary Lv. 4: 30 energy (half energy event: 15 energy), 13,200 EXP<br>
+	<br>
 
-<br>
-<br>
-Your current level (51 to 300): <input type="text" id="currentLevel" value="0"><br>
-<br>
-Your current EXP: <input type="text" id="currentEXP" value="0"> (leave 0 if you want to assume you just leveled up and have 0 EXP)<br>
-<br>
-Your goal is to reach level <input type="text" id="goalLevel"> (max 301)<br>
-<br>
-You have a quest which gives <input type="text" id="questEXP" value="16600"> EXP.<br>
-<br>
-<br>
-<input type="Button" value="Calculate" onclick="calculate()">
-<br>
-<br>
-<div id="result" style="color:blue; font-size: 24px;">
-</div>
-
-<br>
-For references: <br>
-St. Lamia - St. Lamia Palace - Fourfold Pillar: 2600 EXP (double EXP event: 5200)<br>
-Lanara - Alnakeid Castle - Call of the Storm: 7200 EXP (double EXP event: 14400 EXP)<br>
-Atharva - Crystal Palace - Changing the World: 8300 EXP (double EXP event: 16600 EXP)<br>
-Celgrad - Soaring Tree Tower - Tested Power: 8400 EXP (double EXP event: 16800 EXP)<br>
-Monday Vortex - Soul Sanctuary Lv. 4: 13,200 EXP<br>
-<br>
 
 
-<br><br><br>
-<input type="button" id="showEXPListButton" value="Show EXP List" onclick="showEXPTable()">
-<br>
-<div id="EXPTable">
-</div>
-
-<!--
-My to-do list: count how many energy needed, and with 3 minute per energy, how long it gonna take (this must consider energy refill from leveling up)
--->
+	<!--
+	My to-do list: count how many energy needed, and with 3 minute per energy, how long it gonna take (this must consider energy refill from leveling up)
+	-->
 
 
 
-<script type="text/javascript">
-function calculate() {
+	<script type="text/javascript">
+
+	/* 
+		function calculate(): Just to calculate total EXP needed from the current level to reach goal level.
 		
-	var currentLevel = document.getElementById("currentLevel").value;
-	var currentEXP = document.getElementById("currentEXP").value;
-	var goalLevel = document.getElementById("goalLevel").value;
-	var questEXP = document.getElementById("questEXP").value;
-		
-	if (currentLevel != "0" && goalLevel != "0" && questEXP != "0") {		
-		
-		if (goalLevel < currentLevel) {
-			document.getElementById("result").innerHTML = "Invalid: You can't level down.";
-		}
-		else if (currentLevel < 51 || currentLevel > 300 || goalLevel < 51 || goalLevel > 300) {
-			document.getElementById("result").innerHTML = "Can only calculate from level 51 to 300.";
-		}		
-		else {
+		The EXP formula for each level is pretty simple:
+		BASE_EXP + (n - BASE_LV) * (NEXT_EXP - BASE_EXP) + ((n - (BASE_LV + 1) + 1) * (n - (BASE_LV + 1)) / 2) * INCREMENT
+		Level 51-58 follows the same constants.
+		Level 58-255 follows a different constants.
+		Level 255 and above (until when, I didn't know) follows an even different constants.
 			
-			function f(n) {
-				if (n >= 51 && n < 58) {
-					BASE_EXP = 19958;
-					BASE_LV = 51;
-					NEXT_EXP = 20636;
-					INCREMENT = 6
-					return BASE_EXP + (n - BASE_LV) * (NEXT_EXP - BASE_EXP) + ((n - (BASE_LV + 1) + 1) * (n - (BASE_LV + 1)) / 2) * INCREMENT
+		To calculate from level 51 to level 58 you just need the same set of constants (NEXT_EXP, BASE_EXP, INCREMENT, and BASE_LV). But to calculate beyond level 58 you need a different constants (a new NEXT_EXP, BASE_EXP, INCREMENT, and BASE_LV) otherwise the result will be incorrect. The same goes with level 58 to level 255. Beyond level 255, the calculation uses a new and different constants than before.
+	*/
+
+	function calculate() {
+			
+		var currentLevel = parseInt(document.getElementById("currentLevel").value);
+		var currentEXP = parseInt(document.getElementById("currentEXP").value);
+		var goalLevel = parseInt(document.getElementById("goalLevel").value);
+		var questEXP = parseInt(document.getElementById("questEXP").value);
+			
+		if (currentLevel != "0" && goalLevel != "0" && questEXP != "0") {		
+			
+			if (goalLevel < currentLevel) {
+				document.getElementById("result").innerHTML = "Invalid: You can't level down.";
+			}
+			else if (currentLevel < 51 || currentLevel > 300 || goalLevel < 51 || goalLevel > 301) {
+				document.getElementById("result").innerHTML = "Can only calculate from level 51 to 300.";
+			}		
+			else {
+				
+				function f(n) {
+					if (n >= 51 && n < 58) {
+						BASE_EXP = 19958;
+						BASE_LV = 51;
+						NEXT_EXP = 20636;
+						INCREMENT = 6
+						return BASE_EXP + (n - BASE_LV) * (NEXT_EXP - BASE_EXP) + ((n - (BASE_LV + 1) + 1) * (n - (BASE_LV + 1)) / 2) * INCREMENT
+					}
+					else if (n >= 58 && n < 255) {
+						BASE_EXP = 24830
+						BASE_LV = 58
+						NEXT_EXP = 25580
+						INCREMENT = 2
+						return BASE_EXP + (n - BASE_LV) * (NEXT_EXP - BASE_EXP) + ((n - (BASE_LV + 1) + 1) * (n - (BASE_LV + 1)) / 2) * INCREMENT
+					}
+					else {
+						BASE_EXP = 212713
+						BASE_LV = 255
+						NEXT_EXP = 214114
+						INCREMENT = 3
+						return BASE_EXP + (n - BASE_LV) * (NEXT_EXP - BASE_EXP) + ((n - (BASE_LV + 1) + 1) * (n - (BASE_LV + 1)) / 2) * INCREMENT
+					}
 				}
-				else if (n >= 58 && n < 255) {
-					BASE_EXP = 24830
-					BASE_LV = 58
-					NEXT_EXP = 25580
-					INCREMENT = 2
-					return BASE_EXP + (n - BASE_LV) * (NEXT_EXP - BASE_EXP) + ((n - (BASE_LV + 1) + 1) * (n - (BASE_LV + 1)) / 2) * INCREMENT
+				
+				goalEXP = 0;
+				
+				for (i = currentLevel; i < goalLevel; i++) {
+					goalEXP = goalEXP + f(i);
+				}				
+				
+				if (currentEXP == 0) {
+					questCount = (goalEXP % questEXP == 0) ? Math.floor(goalEXP / questEXP) : Math.floor(goalEXP / questEXP)+ 1;
+				
+					document.getElementById("result").innerHTML = "At level " + currentLevel + " you have to run the quest " + questCount + " times " + " to reach level " + goalLevel + ".";
 				}
 				else {
-					BASE_EXP = 212713
-					BASE_LV = 255
-					NEXT_EXP = 214114
-					INCREMENT = 3
-					return BASE_EXP + (n - BASE_LV) * (NEXT_EXP - BASE_EXP) + ((n - (BASE_LV + 1) + 1) * (n - (BASE_LV + 1)) / 2) * INCREMENT
+					goalEXP = goalEXP - currentEXP;
+					questCount = (goalEXP % questEXP == 0) ? Math.floor(goalEXP / questEXP) : Math.floor(goalEXP / questEXP)+ 1;
+				
+					document.getElementById("result").innerHTML = "At level " + currentLevel + " with " + (f(currentLevel) - currentEXP) + " EXP left to level up, you have to run the quest " + questCount + " times " + " to reach level " + goalLevel + ".";
 				}
+				
+				document.getElementById("showEXPListButton").style.visibility = "visible";
+				
 			}
-			
-			goalEXP = 0;
-			
-			start = (currentLevel > 51) ? currentLevel : 51;
-			end = (goalLevel < 57) ? goalLevel : 57;
-			
-			for (i = start; i < end; i++) {
-				goalEXP = goalEXP + f(i);
+		}
+		
+	}
+
+	function showEXPTable() {
+		function f(n) {
+			if (n >= 51 && n < 58) {
+				var BASE_EXP = 19958;
+				var BASE_LV = 51;
+				var NEXT_EXP = 20636;
+				var INCREMENT = 6
+				return BASE_EXP + (n - BASE_LV) * (NEXT_EXP - BASE_EXP) + ((n - (BASE_LV + 1) + 1) * (n - (BASE_LV + 1)) / 2) * INCREMENT
 			}
-			
-			BASE_EXP = 24830
-			BASE_LV = 58
-			NEXT_EXP = 25580
-			INCREMENT = 2
-			
-			start = (currentLevel > 57) ? currentLevel : 57;
-			end = (goalLevel < 255) ? goalLevel : 255;
-			
-			for (i = start; i < end; i++) {
-				goalEXP = goalEXP + f(i);
-			}
-			
-			BASE_EXP = 212713
-			BASE_LV = 255
-			NEXT_EXP = 214114
-			INCREMENT = 3
-			
-			start = (currentLevel > 255) ? currentLevel : 255;
-			end = (goalLevel < 301) ? goalLevel : 301;
-			
-			for (i = start; i < end; i++) {
-				goalEXP = goalEXP + f(i);
-			}
-			
-			if (currentEXP == 0) {
-				questCount = (goalEXP % questEXP == 0) ? Math.floor(goalEXP / questEXP) : Math.floor(goalEXP / questEXP)+ 1;
-			
-				document.getElementById("result").innerHTML = "At level " + currentLevel + " you have to run the quest " + questCount + " times " + " to reach level " + goalLevel + ".";
+			else if (n >= 58 && n < 255) {
+				var BASE_EXP = 24830
+				var BASE_LV = 58
+				var NEXT_EXP = 25580
+				var INCREMENT = 2
+				return BASE_EXP + (n - BASE_LV) * (NEXT_EXP - BASE_EXP) + ((n - (BASE_LV + 1) + 1) * (n - (BASE_LV + 1)) / 2) * INCREMENT
 			}
 			else {
-				goalEXP = goalEXP - currentEXP;
-				questCount = (goalEXP % questEXP == 0) ? Math.floor(goalEXP / questEXP) : Math.floor(goalEXP / questEXP)+ 1;
-			
-				document.getElementById("result").innerHTML = "At level " + currentLevel + " with " + (f(currentLevel) - currentEXP) + " EXP left to level up, you have to run the quest " + questCount + " times " + " to reach level " + goalLevel + ".";
+				var BASE_EXP = 212713
+				var BASE_LV = 255
+				var NEXT_EXP = 214114
+				var INCREMENT = 3
+				return BASE_EXP + (n - BASE_LV) * (NEXT_EXP - BASE_EXP) + ((n - (BASE_LV + 1) + 1) * (n - (BASE_LV + 1)) / 2) * INCREMENT
 			}
-			
 		}
+		
+		resultText = "";
+		
+		var currentLevel = parseInt(document.getElementById("currentLevel").value);		
+		var goalLevel = parseInt(document.getElementById("goalLevel").value);
+		
+		for (i = currentLevel; i < goalLevel; i++) {
+			resultText = resultText + "Level " + i + ": " + f(i) + " EXP required to level up." + "<br>";
+		}
+		
+		document.getElementById("EXPTable").innerHTML = resultText;
+		document.getElementById("showEXPListButton").value = "Hide Details";
+		document.getElementById("showEXPListButton").onclick = function() { hideEXPTable(); };
 	}
-	
-}
 
-function showEXPTable() {
-	function f(n) {
-		if (n >= 51 && n < 58) {
-			var BASE_EXP = 19958;
-			var BASE_LV = 51;
-			var NEXT_EXP = 20636;
-			var INCREMENT = 6
-			return BASE_EXP + (n - BASE_LV) * (NEXT_EXP - BASE_EXP) + ((n - (BASE_LV + 1) + 1) * (n - (BASE_LV + 1)) / 2) * INCREMENT
-		}
-		else if (n >= 58 && n < 255) {
-			var BASE_EXP = 24830
-			var BASE_LV = 58
-			var NEXT_EXP = 25580
-			var INCREMENT = 2
-			return BASE_EXP + (n - BASE_LV) * (NEXT_EXP - BASE_EXP) + ((n - (BASE_LV + 1) + 1) * (n - (BASE_LV + 1)) / 2) * INCREMENT
-		}
-		else {
-			var BASE_EXP = 212713
-			var BASE_LV = 255
-			var NEXT_EXP = 214114
-			var INCREMENT = 3
-			return BASE_EXP + (n - BASE_LV) * (NEXT_EXP - BASE_EXP) + ((n - (BASE_LV + 1) + 1) * (n - (BASE_LV + 1)) / 2) * INCREMENT
-		}
+	function hideEXPTable() {
+		document.getElementById("EXPTable").innerHTML = "";
+		document.getElementById("showEXPListButton").value = "Show Details";
+		document.getElementById("showEXPListButton").onclick = function() { showEXPTable(); };
 	}
-	
-	resultText = "";
-	
-	for (i = 51; i <= 300; i++) {
-		resultText = resultText + "Level " + i + ": " + f(i) + " EXP required to level up." + "<br>";
-	}
-	
-	document.getElementById("EXPTable").innerHTML = resultText;
-	document.getElementById("showEXPListButton").value = "Hide EXP List";
-	document.getElementById("showEXPListButton").onclick = function() { hideEXPTable(); };
-}
 
-function hideEXPTable() {
-	document.getElementById("EXPTable").innerHTML = "";
-	document.getElementById("showEXPListButton").value = "Show EXP List";
-	document.getElementById("showEXPListButton").onclick = function() { showEXPTable(); };
-}
-</script>
+	
+	
+	
+	
+	</script>
 
 
 </body>
