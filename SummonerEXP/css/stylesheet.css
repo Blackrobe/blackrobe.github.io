@@ -1,0 +1,68 @@
+header {
+    text-align: center;
+}
+
+.input_col {
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
+.result_col {
+    width: 50%;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#EXPTable {
+    height: 150px;
+    width: 60%;
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: none;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+#showEXPListButton {
+    display: none;
+    margin: 0 auto;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+#nextStep {
+    width: 100%;
+    text-align: center;
+    display: none;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+#resultEnergyDetails {
+    height: 250px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+    display: none;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.references {
+    margin: 20px auto;
+    text-align: center;
+}
