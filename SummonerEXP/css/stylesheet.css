@@ -1,0 +1,84 @@
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 0;
+}
+
+header {
+    width: 60%;
+    border: 5px solid #FFD700;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.input_col {
+    width: 50%;
+    float: left;
+}
+
+.result_col {
+    width: 50%;
+    float: left;
+    vertical-align: middle;
+}
+
+#EXPTable {
+    height: 150px;
+    width: 60%;
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: none;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+#showEXPListButton {
+    display: none;
+    margin: 0 auto;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+#nextStep {
+    width: 100%;
+    display: none;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+#resultEnergyDetails {
+    height: 250px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    overflow-y: scroll;
+    display: none;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.references {
+    margin: 20px auto;
+}
+
+hr {
+    width: 80%;
+    margin: 10px auto;
+}
