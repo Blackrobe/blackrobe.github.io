@@ -19,6 +19,8 @@
         <h2>Summoner EXP Calculator</h2>
     </header>
     
+    <hr />
+    
     <div class="input_col">
         <h3>Summoner Input</h3>
         <h4>Current Level (51-299)</h4>
@@ -46,9 +48,12 @@
     
     <div style="clear: both;"></div>
     
+    <hr />
+    
+    <h3 style="text-align: center;">Additional Info</h3>
     <div id="nextStep">
 		<input type="hidden" id="goalEXPValue" value="0" />
-        <h3>Time needed to level up to <span id="desiredLevel"></span></h3>
+        <h3 style="border: none">Time needed to level up to Level <span id="desiredLevel">xxx</span></h3>
         <h4>Energy Needed for Quest</h4>
         <input type="text" id="questEnergy" value="25" /><h4>Time Taken to Finish the Quest</h4>
         <input type="text" id="questTime" value="10">
@@ -59,6 +64,8 @@
 		<div id="resultEnergy" style="color:blue; font-size: 24px;"></div>
 		<div id="resultEnergyDetails"></div>
 	</div>
+    
+    <hr />
     
     <div class="references">
         <h3>Common Level Grinding Quest/Dungeons</h3>
@@ -79,8 +86,6 @@
         Soul Sanctuary Lv. 4<br />
         30 energy, 13,200 EXP<br />
     </div>
-
-
 
 	<!--
 	My (Blackrobe's) to-do list: count how many energy needed, and with 3 minute per energy, how long it's gonna take (this must consider energy refill from leveling up)

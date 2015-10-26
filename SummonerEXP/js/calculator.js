@@ -65,9 +65,11 @@
 					questCount = (goalEXP % questEXP == 0) ? Math.floor(goalEXP / questEXP) : Math.floor(goalEXP / questEXP)+ 1;
 				}
 				
-                document.getElementById("result").innerHTML = "You have to run the quest<h3>" + questCount + "</h3>times to reach level " + goalLevel + ".";
+                document.getElementById("result").innerHTML = "You have to run the quest<h3 style=\"border: none\">" + questCount + "</h3>times to reach level " + goalLevel + ".";
                 
 				document.getElementById("goalEXPValue").value = goalEXP;
+                
+                document.getElementById("desiredLevel").innerHTML = goalLevel;
 			}
 		}
 		
