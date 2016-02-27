@@ -7,6 +7,14 @@ currentTxtList = []
 currentTxt = ""
 playerName = "Hans"
 
+ignoredPortraitList = [
+    "navi_chara29",
+    "navi_chara53",
+    "navi_chara56",
+    "navi_chara57",
+    "navi_chara73"
+    ]
+
 import glob, os
 import codecs
 
@@ -35,8 +43,6 @@ for currentTxt in currentTxtList:
         speakerFacePortraitStack.append("blank.png")
         speakerName = ""
 
-        fadeOut = False
-
         line = f.readline()
 
         while line:                        
@@ -50,34 +56,30 @@ for currentTxt in currentTxtList:
 
             # Begin extracting
 
+            # ID = 2: add (push) portrait to stack
             if not (line.find("type=PARAM,id=2,") == -1):
                 aliasBegin = line.find("param=") + 6
-                aliasEnd = line.find(":")
-                if not (alias[line[aliasBegin:aliasEnd]].find("navi_chara") == -1):
+                aliasEnd = line.find(":")                
+                
+                if not (alias[line[aliasBegin:aliasEnd]].find("navi_chara") == -1) and not (line[aliasBegin:aliasEnd] in ignoredPortraitList):
                     speakerFacePortraitStack.append(alias[line[aliasBegin:aliasEnd]])
 
                 line = f.readline()
                 if not (line.find("type=PARAM,id=2,") == -1):
                     aliasBegin = line.find("param=") + 6
-                    aliasEnd = line.find(":")
-                    if not (alias[line[aliasBegin:aliasEnd]].find("navi_chara") == -1):
+                    aliasEnd = line.find(":")                    
+
+                    if not (alias[line[aliasBegin:aliasEnd]].find("navi_chara") == -1) and not (line[aliasBegin:aliasEnd] in ignoredPortraitList):
                         speakerFacePortraitStack.append(alias[line[aliasBegin:aliasEnd]])
 
+            # ID = 3: remove (pop) portrait from stack
             if not (line.find("type=PARAM,id=3,") == -1):
                 aliasBegin = line.find("param=") + 6
                 aliasEnd = line.find(":")
-                if not (alias[line[aliasBegin:aliasEnd]].find("navi_chara") == -1):
+                if not (alias[line[aliasBegin:aliasEnd]].find("navi_chara") == -1) and not (line[aliasBegin:aliasEnd] in ignoredPortraitList):
                     speakerFacePortraitStack.pop()
                     if speakerFacePortraitStack == []:
-                        speakerFacePortraitStack.append("blank.png")
-                    
-
-            #if not (line.find("type=PARAM,id=36,") == -1) or not (line.find("type=PARAM,id=40,") == -1):
-            #    speakerFacePortrait = "blank.png"
-            #    fadeOut = True
-
-            #if fadeOut and not (line.find("type=STOP,") == -1):
-            #    fadeOut = False
+                        speakerFacePortraitStack.append("blank.png")            
 
             if not (line.find("type=PARAM,id=15,") == -1):
                 messageBegin = line.find("msg=") + 4
