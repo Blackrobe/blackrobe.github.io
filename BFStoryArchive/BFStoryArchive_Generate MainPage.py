@@ -14,6 +14,7 @@ outputLines += "<head>"
 outputLines += "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">"
 outputLines += "</head>"
 outputLines += "<body>"
+outputLines += "<div id=\"greetingsText\">p.s. your name is <b>Hans</b> now. Welcome to Grand Gaia... yeah? Everyone is so nice to you. Where's for adventure today?</div>"
 outputLines += "<ul>"
 
 for currentHtmlPage in htmlPageList:    
