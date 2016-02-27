@@ -110,7 +110,7 @@ for currentTxt in currentTxtList:
     outputLines += ""
     outputLines += ""
     outputLines += ""
-    outputLines += "<!-- contact my account /u/Oracle_Knight_Ark -->"
+    outputLines += "<!-- contact me at reddit /u/blackrobe199 -->"
 
     fileName = f.name[:-4]
 
