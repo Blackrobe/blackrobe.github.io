@@ -19,12 +19,14 @@ for currentTxt in currentTxtList:
 
     outputLines = []
 
-    
-    outputLines += "<html>"
-    outputLines += "<head>"
-    outputLines += "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">"
-    outputLines += "</head>"
-    outputLines += "<body>"
+    outputLines.append("<!DOCTYPE html>")
+    outputLines.append("")
+    outputLines.append("<html>")
+    outputLines.append("<head>")
+    outputLines.append("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">")
+    outputLines.append("<link rel=\"stylesheet\" type=\"text/css\" href=\"style/style.css\">")
+    outputLines.append("</head>")
+    outputLines.append("<body>")
     
     with codecs.open(currentTxt,'r',encoding='utf8') as f:
 
@@ -96,7 +98,17 @@ for currentTxt in currentTxtList:
 
                 #print len(speakerFacePortraitStack), "<div class=\"facePortrait\"> <img src=\"" + navi_chara_collectionDirectory + speakerFacePortraitStack[len(speakerFacePortraitStack)-1] + "\" style=\"width:125px;height:125px;\"></div><div class=\"speakerName\">", speakerName, "</div><div class=\"speakerMessage\">", message, "</div><br>"
                 
-                outputLines += "<div class=\"facePortrait\"> <img src=\"" + navi_chara_collectionDirectory + speakerFacePortraitStack[len(speakerFacePortraitStack)-1] + "\" style=\"width:125px;height:125px;\"></div><div class=\"speakerName\">", speakerName, "</div><div class=\"speakerMessage\">", message, "</div><br>"
+                outputLines.append("")
+                outputLines.append("<div class=\"dialogueContainer\">")
+                outputLines.append("<div class=\"facePortrait\">")
+                outputLines.append("<img class=\"facePortraitFrame\" src=\"navi_chara_collection/characterFrame.png\" />")
+                outputLines.append("<img class=\"facePortraitImg\" src=\"" + navi_chara_collectionDirectory + speakerFacePortraitStack[len(speakerFacePortraitStack)-1] + "\" />")                
+                outputLines.append("</div>")
+                outputLines.append("<div class=\"speakerName\">" + speakerName + "</div>")
+                outputLines.append("<div class=\"speakerMessage\">" + message + "</div>")
+                outputLines.append("</div>")
+                outputLines.append("<br>")                
+                outputLines.append("")
 
             if not (line.find("type=PARAM,id=39,") == -1):
                 nameBegin = line.find("param=") + 6
@@ -105,16 +117,16 @@ for currentTxt in currentTxtList:
 
             line = f.readline()
 
-    outputLines += "</body>"
-    outputLines += "</html>"
-    outputLines += ""
-    outputLines += ""
-    outputLines += ""
-    outputLines += "<!-- contact me at reddit /u/blackrobe199 -->"
+    outputLines.append("</body>")
+    outputLines.append("</html>")
+    outputLines.append("")
+    outputLines.append("")
+    outputLines.append("")
+    outputLines.append("<!-- contact me at reddit /u/blackrobe199 -->")
 
     fileName = f.name[:-4]
 
     with codecs.open(fileName + ".html", 'w+', encoding='utf8') as f:    
         for outputLine in outputLines:
-            f.write(outputLine)
+            f.write(outputLine + "\n")
             
