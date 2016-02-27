@@ -4,8 +4,8 @@ import codecs
 htmlPageList = []
 story_txtDirectory = "BFStoryArchive/"
 
-for file in glob.glob(story_txtDirectory + "*.html"):
-    htmlPageList.append(file)
+for filename in glob.glob(story_txtDirectory + "*.html"):    
+    htmlPageList.append(filename)
 
 outputLines = []
 
@@ -16,9 +16,10 @@ outputLines += "</head>"
 outputLines += "<body>"
 outputLines += "<ul>"
 
-for currentHtmlPage in htmlPageList:
-    pageDirectory = currentHtmlPage[:-5]
-    outputLines += "<li><a href=\"" + pageDirectory + ".html\">" + pageDirectory + "</a>"
+for currentHtmlPage in htmlPageList:    
+    pageDirectory = str(currentHtmlPage[:-5])    
+    outputLines += "<li><a href=\"" + story_txtDirectory + pageDirectory[len(story_txtDirectory):] + ".html\">" + pageDirectory[len(story_txtDirectory):] + "</a>"
+    print "<li><a href=\"" + story_txtDirectory + pageDirectory[len(story_txtDirectory):] + ".html\">" + pageDirectory[len(story_txtDirectory):] + "</a>"
 
 outputLines += "</ul>"
 outputLines += "</body>"
