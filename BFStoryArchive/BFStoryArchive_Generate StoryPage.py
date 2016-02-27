@@ -7,20 +7,13 @@ currentTxtList = []
 currentTxt = ""
 playerName = "Hans"
 
-speakerFacePortraitStack = []
-speakerName = ""
-
-fadeOut = False
-
-alias = {}
-
-speakerFacePortraitStack.append("blank.png")
-
 import glob, os
 import codecs
 
 for file in glob.glob(story_txtDirectory + "*.txt"):
     currentTxtList.append(file)
+
+#currentTxtList = [story_txtDirectory + "raid_803_1.txt"]
 
 for currentTxt in currentTxtList:
 
@@ -34,6 +27,13 @@ for currentTxt in currentTxtList:
     outputLines += "<body>"
     
     with codecs.open(currentTxt,'r',encoding='utf8') as f:
+
+        alias = {}
+        speakerFacePortraitStack = []
+        speakerFacePortraitStack.append("blank.png")
+        speakerName = ""
+
+        fadeOut = False
 
         line = f.readline()
 
