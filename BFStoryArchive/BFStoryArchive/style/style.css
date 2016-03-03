@@ -1,6 +1,7 @@
 .dialogueContainer {
 	position: relative;
-	height: 150px;
+	clear: both;
+	height: auto;
 }
 
 .facePortrait {
@@ -36,6 +37,54 @@
 .speakerMessage {
 	padding: 0px 20px;
 	display: block;	
+	width: 460px;
 	font-family: "serif";
 	font-size: 16px;
+}
+
+.deityDialogueContainer {
+	position: relative;
+	text-align: center;
+	height: auto;
+	width:100%;
+}
+
+.deityPortrait {
+	position: relative;
+	margin:auto;
+	text-align: center;
+	width:348px;
+	height: 150px;
+}
+
+.deityPortraitFrame {
+	position: absolute;
+	left: 0px;	
+	z-index:5;
+}
+
+.deityPortraitImgBack {
+	position: absolute;	
+	top: 28px;
+	left: 7px;	
+	width: 335px;
+	height: 87px;	
+	z-index:3;
+}
+
+.deityPortraitImg {
+	position: absolute;
+	top: 28px;
+	left: 130px;	
+	margin: auto;
+	width: 88px;
+	height: 88px;	
+	overflow: hidden;
+	z-index:4;
+}
+
+.deityMessage {
+	position: absolute;
+	text-align: center;
+	width:100%;
 }

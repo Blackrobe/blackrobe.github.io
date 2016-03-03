@@ -25,6 +25,8 @@ for file in glob.glob(story_txtDirectory + "*.txt"):
 
 for currentTxt in currentTxtList:
 
+    print currentTxt
+
     outputLines = []
 
     outputLines.append("<!DOCTYPE html>")
@@ -79,8 +81,9 @@ for currentTxt in currentTxtList:
                 if not (alias[line[aliasBegin:aliasEnd]].find("navi_chara") == -1) and not (line[aliasBegin:aliasEnd] in ignoredPortraitList):
                     speakerFacePortraitStack.pop()
                     if speakerFacePortraitStack == []:
-                        speakerFacePortraitStack.append("blank.png")            
+                        speakerFacePortraitStack.append("blank.png")
 
+            # ID = 5: mark a line of dialogue text information
             if not (line.find("type=PARAM,id=15,") == -1):
                 messageBegin = line.find("msg=") + 4
                 messageEnd = line.find(",#*,type=MSGWAIT")
@@ -88,7 +91,7 @@ for currentTxt in currentTxtList:
                 message = line[messageBegin:messageEnd]
 
                 message = message.replace("<rep_handlename>", playerName)
-                message = message.replace("<br>", "")
+                message = message.replace("<br>", " ")
 
                 while (message.find("<wait=") != -1):
                     tempMessage = message[:message.find("<wait=")] + message[message.find("<wait=")+message[message.find("<wait="):].find(">")+1:]
@@ -96,6 +99,14 @@ for currentTxt in currentTxtList:
 
                 while (message.find("<size=") != -1):
                     tempMessage = message[:message.find("<size=")] + message[message.find("<size=")+message[message.find("<size="):].find(">")+1:]
+                    message = tempMessage
+
+                while (message.find("<anchor=") != -1):
+                    tempMessage = message[:message.find("<anchor=")] + message[message.find("<anchor=")+message[message.find("<anchor="):].find(">")+1:]
+                    message = tempMessage
+
+                while (message.find("<speed=") != -1):
+                    tempMessage = message[:message.find("<speed=")] + message[message.find("<speed=")+message[message.find("<speed="):].find(">")+1:]
                     message = tempMessage
 
                 #print len(speakerFacePortraitStack), "<div class=\"facePortrait\"> <img src=\"" + navi_chara_collectionDirectory + speakerFacePortraitStack[len(speakerFacePortraitStack)-1] + "\" style=\"width:125px;height:125px;\"></div><div class=\"speakerName\">", speakerName, "</div><div class=\"speakerMessage\">", message, "</div><br>"
@@ -112,11 +123,57 @@ for currentTxt in currentTxtList:
                 outputLines.append("<br>")                
                 outputLines.append("")
 
+            # ID = 16: mark a line of NPC deity dialogue session
+            if not (line.find("type=PARAM,id=16,") == -1):
+                messageBegin = line.find("msg=") + 4
+                messageEnd = len(line[:messageBegin]) + line[messageBegin:].find(",#")                
+
+                message = line[messageBegin:messageEnd]
+
+                message = message.replace("<rep_handlename>", playerName)
+                message = message.replace("<br>", "")
+
+                while (message.find("<wait=") != -1):
+                    tempMessage = message[:message.find("<wait=")] + message[message.find("<wait=")+message[message.find("<wait="):].find(">")+1:]
+                    message = tempMessage
+
+                while (message.find("<size=") != -1):
+                    tempMessage = message[:message.find("<size=")] + message[message.find("<size=")+message[message.find("<size="):].find(">")+1:]
+                    message = tempMessage
+
+                while (message.find("<anchor=") != -1):
+                    tempMessage = message[:message.find("<anchor=")] + message[message.find("<anchor=")+message[message.find("<anchor="):].find(">")+1:]
+                    message = tempMessage
+
+                while (message.find("<speed=") != -1):
+                    tempMessage = message[:message.find("<speed=")] + message[message.find("<speed=")+message[message.find("<speed="):].find(">")+1:]
+                    message = tempMessage
+
+                outputLines.append("")
+                outputLines.append("<div class=\"deityMessage\">" + message + "</div>")                
+                outputLines.append("<br>")
+                outputLines.append("<br>")
+                outputLines.append("<br>")
+                outputLines.append("")
+
+            # ID = 39: mark a line of dialogue NPC name information
             if not (line.find("type=PARAM,id=39,") == -1):
                 nameBegin = line.find("param=") + 6
                 nameEnd = line.find(",#")
                 speakerName = line[nameBegin:nameEnd]
 
+            # ID = 46: mark a line of NPC deity portrait
+            if not (line.find("type=PARAM,id=46,") == -1):
+                outputLines.append("")
+                outputLines.append("<div class=\"deityDialogueContainer\">")
+                outputLines.append("<div class=\"deityPortrait\">")
+                outputLines.append("<img class=\"deityPortraitFrame\" src=\"navi_chara_collection/deityFrame.png\" />")
+                outputLines.append("<img class=\"deityPortraitImgBack\" src=\"navi_chara_collection/blank.png\" />")
+                outputLines.append("<img class=\"deityPortraitImg\" src=\"navi_chara_collection/deity.gif\" />")
+                outputLines.append("</div>")                
+                outputLines.append("</div>")              
+                outputLines.append("")
+            
             line = f.readline()
 
     outputLines.append("</body>")
