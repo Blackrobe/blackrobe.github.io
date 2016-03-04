@@ -1,7 +1,7 @@
 .dialogueContainer {
 	position: relative;
 	clear: both;
-	height: auto;
+	height: 150px;
 }
 
 .facePortrait {
@@ -28,7 +28,7 @@
 }
 
 .speakerName {	
-	padding: 5px 20px;
+	padding: 10px 20px;
 	display: block;	
 	font-family: "Garamond", "Georgia", "serif";
 	font-size: 24px;
@@ -38,8 +38,8 @@
 	padding: 0px 20px;
 	display: block;	
 	width: 460px;
-	font-family: "serif";
-	font-size: 16px;
+	font-family: "Arial", "serif";
+	font-size: 14px;
 }
 
 .deityDialogueContainer {
@@ -87,4 +87,10 @@
 	position: absolute;
 	text-align: center;
 	width:100%;
+}
+
+.dialogueSeparator {
+	position: relative;
+	width: 100%;
+	text-align: center;
 }

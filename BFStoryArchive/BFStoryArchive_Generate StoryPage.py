@@ -162,6 +162,15 @@ for currentTxt in currentTxtList:
                 nameEnd = line.find(",#")
                 speakerName = line[nameBegin:nameEnd]
 
+            # ID = 45: mark a dialogue long wait session (with fading in and out)
+            if not (line.find("type=PARAM,id=45,") == -1):
+                outputLines.append("")
+                outputLines.append("<div class=\"dialogueSeparator\" >")
+                outputLines.append("<img src=\"navi_chara_collection/dialogueSeparator.png\" align=\"middle\" />")
+                outputLines.append("</div>")
+                outputLines.append("")
+            
+
             # ID = 46: mark a line of NPC deity portrait
             if not (line.find("type=PARAM,id=46,") == -1):
                 outputLines.append("")
