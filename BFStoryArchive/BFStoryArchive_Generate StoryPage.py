@@ -1,7 +1,7 @@
 # coding: utf-8
 
 navi_chara_collectionDirectory = "navi_chara_collection/"
-
+dungeon_battle_collectionDirectory = "dungeon_battle_collection/"
 story_txtDirectory = "BFStoryArchive/"
 currentTxtList = []
 currentTxt = ""
@@ -15,6 +15,8 @@ ignoredPortraitList = [
     "navi_chara73"
     ]
 
+print "begin"
+    
 import glob, os
 import codecs
 
@@ -58,21 +60,23 @@ for currentTxt in currentTxtList:
 
             # Begin extracting
 
-            # ID = 2: add (push) portrait to stack
+            # ID = 2: add (push) portrait to stack / add background image
             if not (line.find("type=PARAM,id=2,") == -1):
                 aliasBegin = line.find("param=") + 6
-                aliasEnd = line.find(":")                
+                aliasEnd = line.find(":")                                
                 
+                # Character portrait
                 if not (alias[line[aliasBegin:aliasEnd]].find("navi_chara") == -1) and not (line[aliasBegin:aliasEnd] in ignoredPortraitList):
                     speakerFacePortraitStack.append(alias[line[aliasBegin:aliasEnd]])
-
-                line = f.readline()
-                if not (line.find("type=PARAM,id=2,") == -1):
-                    aliasBegin = line.find("param=") + 6
-                    aliasEnd = line.find(":")                    
-
-                    if not (alias[line[aliasBegin:aliasEnd]].find("navi_chara") == -1) and not (line[aliasBegin:aliasEnd] in ignoredPortraitList):
-                        speakerFacePortraitStack.append(alias[line[aliasBegin:aliasEnd]])
+                
+                # Background image
+                if not (alias[line[aliasBegin:aliasEnd]].find("dungeon") == -1):
+                    outputLines.append("")                    
+                    outputLines.append("<div class=\"dungeonBackgroundContainer\">")
+                    outputLines.append("<img class=\"dungeonFrame\" src=\""+dungeon_battle_collectionDirectory+"baseDungeonFrame.png\" />")
+                    outputLines.append("<img class=\"dungeonImage\" src=\""+dungeon_battle_collectionDirectory+alias[line[aliasBegin:aliasEnd]]+"\" />")
+                    outputLines.append("</div>")
+                    outputLines.append("")                
 
             # ID = 3: remove (pop) portrait from stack
             if not (line.find("type=PARAM,id=3,") == -1):
@@ -153,7 +157,6 @@ for currentTxt in currentTxtList:
                 outputLines.append("<div class=\"deityMessage\">" + message + "</div>")                
                 outputLines.append("<br>")
                 outputLines.append("<br>")
-                outputLines.append("<br>")
                 outputLines.append("")
 
             # ID = 39: mark a line of dialogue NPC name information
@@ -161,6 +164,10 @@ for currentTxt in currentTxtList:
                 nameBegin = line.find("param=") + 6
                 nameEnd = line.find(",#")
                 speakerName = line[nameBegin:nameEnd]
+
+            # ID = 40: reset NPC name information
+            if not (line.find("type=PARAM,id=40,") == -1):
+                speakerName = "   "
 
             # ID = 45: mark a dialogue long wait session (with fading in and out)
             if not (line.find("type=PARAM,id=45,") == -1):
@@ -170,7 +177,6 @@ for currentTxt in currentTxtList:
                 outputLines.append("</div>")
                 outputLines.append("")
             
-
             # ID = 46: mark a line of NPC deity portrait
             if not (line.find("type=PARAM,id=46,") == -1):
                 outputLines.append("")
