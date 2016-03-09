@@ -12,6 +12,16 @@ outputLines = []
 outputLines += "<html>"
 outputLines += "<head>"
 outputLines += "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">"
+outputLines.append("<script>")
+outputLines.append("(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){")
+outputLines.append("(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),")
+outputLines.append("m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)")
+outputLines.append("})(window,document,'script','//www.google-analytics.com/analytics.js','ga');")
+outputLines.append("")
+outputLines.append("ga('create', 'UA-74917613-1', 'auto');")
+outputLines.append("ga('send', 'pageview');")
+outputLines.append("")
+outputLines.append("</script>")
 outputLines += "</head>"
 outputLines += "<body>"
 outputLines += "<div id=\"greetingsText\">p.s. your name is <b>Hans</b> now. Welcome to Grand Gaia... yeah? Everyone is so nice to you. Where's for adventure today?</div>"
