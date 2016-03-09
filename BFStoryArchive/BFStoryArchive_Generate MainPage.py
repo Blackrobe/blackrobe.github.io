@@ -24,7 +24,7 @@ outputLines.append("")
 outputLines.append("</script>")
 outputLines += "</head>"
 outputLines += "<body>"
-outputLines += "<div id=\"greetingsText\">p.s. your name is <b>Hans</b> now. Welcome to Grand Gaia... yeah? Everyone is so nice to you. Where's for adventure today?</div>"
+outputLines += "<div id=\"greetingsText\">Your name is <b>Hans</b>. You are the talented summoner from the organization called Akras Summoners' Hall, located in your homeworld of Elgaia. Your first journey brings you into Grand Gaia, a world completely different from your origin...</div>"
 outputLines += "<ul>"
 
 for currentHtmlPage in htmlPageList:    
