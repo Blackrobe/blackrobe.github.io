@@ -109,18 +109,26 @@ for currentTxt in currentTxtList:
 
                 while (message.find("<wait=") != -1):
                     tempMessage = message[:message.find("<wait=")] + message[message.find("<wait=")+message[message.find("<wait="):].find(">")+1:]
+                    tempMessage = tempMessage.replace("</wait>", "")
                     message = tempMessage
 
-                while (message.find("<size=") != -1):
-                    tempMessage = message[:message.find("<size=")] + message[message.find("<size=")+message[message.find("<size="):].find(">")+1:]
+                while (message.find("<size=") != -1):                    
+                    tagPosition = message.find("<size=")
+                    if (tempMessage.find("</size>") != -1):
+                        tempMessage = message[:tagPosition] + "<div style=\"display:inline;font-size:" + message[tagPosition+6:tagPosition+6+message[tagPosition+6:].find(">")] +"px\">" + message[tagPosition + message[tagPosition:].find(">")+1 :]
+                        tempMessage = tempMessage.replace("</size>", "</div>")
+                    else:
+                        tempMessage = message[:tagPosition] + "<div style=\"display:inline;font-size:" + message[tagPosition+6:tagPosition+6+message[tagPosition+6:].find(">")] +"px\">" + message[tagPosition + message[tagPosition:].find(">")+1 :] + "</div>"
                     message = tempMessage
 
                 while (message.find("<anchor=") != -1):
                     tempMessage = message[:message.find("<anchor=")] + message[message.find("<anchor=")+message[message.find("<anchor="):].find(">")+1:]
+                    tempMessage = tempMessage.replace("</anchor>", "")
                     message = tempMessage
 
                 while (message.find("<speed=") != -1):
                     tempMessage = message[:message.find("<speed=")] + message[message.find("<speed=")+message[message.find("<speed="):].find(">")+1:]
+                    tempMessage = tempMessage.replace("</speed>", "")
                     message = tempMessage
 
                 #print len(speakerFacePortraitStack), "<div class=\"facePortrait\"> <img src=\"" + navi_chara_collectionDirectory + speakerFacePortraitStack[len(speakerFacePortraitStack)-1] + "\" style=\"width:125px;height:125px;\"></div><div class=\"speakerName\">", speakerName, "</div><div class=\"speakerMessage\">", message, "</div><br>"
