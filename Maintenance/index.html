@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"> 
+</head>
+<body>
+	<span id="explanationTextTop">Brave Frontier's next maintenance is set on </span><span id="explanationText"></span><br>
+	<span id="explanationTextBottom">Time left: </span><span id="daysText"></span><span id="hoursText"></span><span id="minutesText"></span><span id="secondsText"></span>
+	
+	<script>
+		setInterval(getMaintenanceDateDifference, 100);
+		
+		function getMaintenanceDateDifference() {
+			year = 2016;
+			month = 3;
+			day = 15;
+			hour = 22;
+			minute = 0;
+			second = 0;
+			
+			maintenance = new Date(Date.UTC(year, month-1, day, hour+8, minute, second)); 
+			sekarang = new Date(Date.now()); 
+			diff = maintenance-sekarang;
+			if (diff > 0) {
+				daysDiff = Math.floor((diff)/(1000*60*60*24));
+				hoursLeft = Math.floor((diff % (1000*60*60*24))/(1000*60*60));
+				minutesLeft = Math.floor((diff % (1000*60*60))/(1000*60));
+				secondsLeft = Math.floor((diff % (1000*60))/(1000));
+				document.getElementById("explanationText").innerHTML = new Date(Date.UTC(year, month-1, day, hour+8, minute, second));
+				document.getElementById("daysText").innerHTML = daysDiff + " Day(s), ";
+				document.getElementById("hoursText").innerHTML = hoursLeft + " Hour(s), ";
+				document.getElementById("minutesText").innerHTML = minutesLeft + " Minute(s), and ";
+				document.getElementById("secondsText").innerHTML = secondsLeft + " Second(s)";
+			}
+			else {
+				document.getElementById("explanationTextTop").innerHTML = "No maintenance scheduled or Blackrobe haven't updated this page yet"
+				document.getElementById("explanationTextBottom").innerHTML = ""
+				document.getElementById("daysText").innerHTML = "";
+				document.getElementById("hoursText").innerHTML = "";
+				document.getElementById("minutesText").innerHTML = "";
+				document.getElementById("secondsText").innerHTML = "";
+			}
+		}
+		
+	</script>
+</body>
+</html>
