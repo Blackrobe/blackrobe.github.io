@@ -27,10 +27,21 @@ outputLines += "<body>"
 outputLines += "<div id=\"greetingsText\">Your name is <b>Hans</b>. You are the talented summoner from the organization called Akras Summoners' Hall, located in your homeworld of Elgaia. Your first journey brings you into Grand Gaia, a world completely different from your origin...</div>"
 outputLines += "<ul>"
 
+def calculatePageData(pageName):
+    if not (pageName.find("arena") == -1):
+        print 40000 + int(pageName[5:]), "Arena " + pageName[5:]
+        return 40000 + int(pageName[5:]), "Arena " + pageName[5:]    
+    else:
+        return 50000, pageName
+
+pageList = []
+
 for currentHtmlPage in htmlPageList:    
-    pageDirectory = str(currentHtmlPage[:-5])    
-    outputLines += "<li><a href=\"" + story_txtDirectory + pageDirectory[len(story_txtDirectory):] + ".html\">" + pageDirectory[len(story_txtDirectory):] + "</a>"
-    print "<li><a href=\"" + story_txtDirectory + pageDirectory[len(story_txtDirectory):] + ".html\">" + pageDirectory[len(story_txtDirectory):] + "</a>"
+    pageDirectory = str(currentHtmlPage[:-5])
+    pageName = pageDirectory[len(story_txtDirectory):]
+    pageOrder, pageLabel = calculatePageData(pageName)    
+    outputLines += "<li><a href=\"" + story_txtDirectory + pageDirectory[len(story_txtDirectory):] + ".html\">" + pageLabel + "</a>"
+    #print "<li><a href=\"" + story_txtDirectory + pageDirectory[len(story_txtDirectory):] + ".html\">" + pageLabel + "</a>"
 
 outputLines += "</ul>"
 outputLines += "</body>"
