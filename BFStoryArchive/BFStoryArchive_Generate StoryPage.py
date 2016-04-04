@@ -12,7 +12,15 @@ ignoredPortraitList = [
     "navi_chara53",
     "navi_chara56",
     "navi_chara57",
+    "navi_chara58",
+    "navi_chara59",
+    "navi_chara60",
+    "navi_chara61",
+    "navi_chara62",
+    "navi_chara63",
     "navi_chara73"
+    "navi_chara116",
+    "navi_chara117",    
     ]
 
 print "begin"
