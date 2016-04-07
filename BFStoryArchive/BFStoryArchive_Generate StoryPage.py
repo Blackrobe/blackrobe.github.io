@@ -68,7 +68,7 @@ for currentTxt in currentTxtList:
 
         line = f.readline()
 
-        while line:                        
+        while line:
 
             # Searching for aliases
             if not (line.find("type=PARAM,id=1,") == -1):
@@ -95,7 +95,48 @@ for currentTxt in currentTxtList:
                     outputLines.append("<img class=\"dungeonFrame\" src=\""+dungeon_battle_collectionDirectory+"baseDungeonFrame.png\" />")
                     outputLines.append("<img class=\"dungeonImage\" src=\""+dungeon_battle_collectionDirectory+alias[line[aliasBegin:aliasEnd]]+"\" />")
                     outputLines.append("</div>")
-                    outputLines.append("")                
+                    outputLines.append("")
+                # Background image - Randall Survey Office
+                elif not (alias[line[aliasBegin:aliasEnd]].find("operating_room") == -1):
+                    outputLines.append("")
+                    outputLines.append("<div class=\"dungeonBackgroundContainer\">")
+                    outputLines.append("<img class=\"dungeonFrame\" src=\""+dungeon_battle_collectionDirectory+"baseDungeonFrame.png\" />")
+                    outputLines.append("<img class=\"dungeonImage\" src=\""+dungeon_battle_collectionDirectory+"operating_room2.jpg\" />")
+                    outputLines.append("</div>")
+                    outputLines.append("")
+                # Background image - Randall Administration Office
+                elif not (alias[line[aliasBegin:aliasEnd]].find("randall_reception") == -1):
+                    outputLines.append("")
+                    outputLines.append("<div class=\"dungeonBackgroundContainer\">")
+                    outputLines.append("<img class=\"dungeonFrame\" src=\""+dungeon_battle_collectionDirectory+"baseDungeonFrame.png\" />")
+                    outputLines.append("<img class=\"dungeonImage\" src=\""+dungeon_battle_collectionDirectory+"randall_reception2.jpg\" />")
+                    outputLines.append("</div>")
+                    outputLines.append("")
+                # Background image - Summoners' Research Lab
+                elif not (alias[line[aliasBegin:aliasEnd]].find("trial_room") == -1):
+                    outputLines.append("")
+                    outputLines.append("<div class=\"dungeonBackgroundContainer\">")
+                    outputLines.append("<img class=\"dungeonFrame\" src=\""+dungeon_battle_collectionDirectory+"baseDungeonFrame.png\" />")
+                    outputLines.append("<img class=\"dungeonImage\" src=\""+dungeon_battle_collectionDirectory+"trial_room.jpg\" />")
+                    outputLines.append("</div>")
+                    outputLines.append("")
+                # Background image - Conference Room
+                elif not (alias[line[aliasBegin:aliasEnd]].find("conference_room") == -1):
+                    outputLines.append("")
+                    outputLines.append("<div class=\"dungeonBackgroundContainer\">")
+                    outputLines.append("<img class=\"dungeonFrame\" src=\""+dungeon_battle_collectionDirectory+"baseDungeonFrame.png\" />")
+                    outputLines.append("<img class=\"dungeonImage\" src=\""+dungeon_battle_collectionDirectory+"conference_room.jpg\" />")
+                    outputLines.append("</div>")
+                    outputLines.append("")
+                # Background image - Raid Room
+                elif not (alias[line[aliasBegin:aliasEnd]].find("raidBack") == -1):
+                    outputLines.append("")
+                    outputLines.append("<div class=\"dungeonBackgroundContainer\">")
+                    outputLines.append("<img class=\"dungeonFrame\" src=\""+dungeon_battle_collectionDirectory+"baseDungeonFrame.png\" />")
+                    outputLines.append("<img class=\"dungeonImage\" src=\""+dungeon_battle_collectionDirectory+"raidBack.jpg\" />")
+                    outputLines.append("</div>")
+                    outputLines.append("")
+
 
             # ID = 3: remove (pop) portrait from stack
             if not (line.find("type=PARAM,id=3,") == -1):

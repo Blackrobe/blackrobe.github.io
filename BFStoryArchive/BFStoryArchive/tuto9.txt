@@ -44,7 +44,6 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=23,param=-1,#
 *,type=PARAM,id=17,param=0:231:320:248:cm_all_ip5h,#
-*,type=PARAM,id=10000,param=Tutorial Tracking Point:Q2W1a Element (Dialog End),#
 *,type=PARAM,id=13,param=1:,#*,type=MSGDRAW,msg=Let's look at <color=FFD700>Unit Elements</color>. Remembering the Elements is <color=00FFFF>useful in battle</color>, so don't forget them!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=14,param=Unit Element:106:227:2:tag56,#
@@ -81,7 +80,6 @@
 *,type=PARAM,id=13,param=0:,#*,type=MSGDRAW,msg=,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=element:2:0.3,#
 *,type=STOP,id=-1,#
-*,type=PARAM,id=10000,param=Tutorial Tracking Point:Q2W1b After Diagram,#
 *,type=PARAM,id=13,param=1:,#*,type=MSGDRAW,msg=Elements <color=FFD700>heavily affect battle</color>, so you should always build your Squad accordingly. Let's finish 'em!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=100,param=remove_target:remove_target:none,#
 *,type=PARAM,id=20,param=0,#
@@ -93,7 +91,6 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=23,param=-1,#
 *,type=PARAM,id=17,param=0:231:320:248:cm_all_ip5h,#
-*,type=PARAM,id=10000,param=Tutorial Tracking Point:Q2W2a BB,#
 *,type=PARAM,id=13,param=1:,#*,type=MSGDRAW,msg=Looks like your enemy is powering up. Guess it's time I teach you about your special move, <color=FFD700>Brave Burst</color>.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=18,param=all,#
 *,type=PARAM,id=19,param=55:324:100:22:tag103,#
@@ -128,7 +125,6 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=20,param=0,#
 *,type=PARAM,id=100,param=tuto6_bat2_on_flick_navi:tuto6_bat2_on_flick_navi:none,#
-*,type=PARAM,id=10000,param=Tutorial Tracking Point:Q2W2b Try BB,#
 *,type=PARAM,id=13,param=1:,#*,type=MSGDRAW,msg=A <color=FFD700>long press when your Brave Gauge is full</color> brings up the <color=00FFFF>Brave Command</color>. Now <color=00FF00>flick up and to the right</color>!,#*,type=MSGWAIT,#
 *,type=PARAM,id=100,param=tuto6_bat2_flick:tuto6_bat2_flick:none,#
 *,type=STOP,id=-1,#
@@ -145,7 +141,6 @@
 *,type=PARAM,id=100,param=next_battle:battle_start:none,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=17,param=0:231:320:248:cm_all_ip5h,#
-*,type=PARAM,id=10000,param=Tutorial Tracking Point:Q2W3 Try Boss,#
 *,type=PARAM,id=13,param=1:,#*,type=MSGDRAW,msg=Look, it's another Boss! Use everything I taught you and put all you've got into knocking this guy out!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=18,param=all,#
 *,type=PARAM,id=20,param=0,#

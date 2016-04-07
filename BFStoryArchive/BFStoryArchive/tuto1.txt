@@ -43,7 +43,6 @@
 *,type=PARAM,id=2,param=chr1_do:60:30:2:0.5,#
 *,type=PARAM,id=39,param=???,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Come on... <wait=20>WAKE UP ALREADY!!!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=10000,param=Tutorial Tracking Point:Q1W1 Basic GP (Dialog End),#
 *,type=PARAM,id=2,param=chr1_ko:60:30:1:0.5,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...Hmm?<wait=30> Me?<wait=40><br>I'm your guide, can't you tell?!<br>Didn't you hear from Lord Lucius?<wait=40><br>Hmph…,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=chr1_fu:60:30:1:0.5,#
@@ -166,7 +165,6 @@
 *,type=PARAM,id=22,param=40:146:40:32:tag172,#
 *,type=PARAM,id=21,param=62:143:tag173,#
 *,type=PARAM,id=17,param=0:231:320:248:cm_all_ip5h,#
-*,type=PARAM,id=10000,param=Tutorial Tracking Point:Q1W2a Targetting,#
 *,type=PARAM,id=13,param=1:,#*,type=MSGDRAW,msg=There's more... Which should we attack first... Let's get the <color=00FFFF>one at the back</color>. <color=FFD700>Tap the Enemy</color> to select it.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=34,param=bf247_se_town_get.mp3,#
 *,type=PARAM,id=100,param=tuto1_bat2_target:tuto1_bat2_target:none,#
@@ -217,7 +215,6 @@
 *,type=PARAM,id=19,param=55:305:100:26:tag222,#
 *,type=PARAM,id=28,param=55:305:100:26:tag223,#
 *,type=STOP,id=-1,#
-*,type=PARAM,id=10000,param=Tutorial Tracking Point:Q1W2b HC,#
 *,type=PARAM,id=13,param=1:,#*,type=MSGDRAW,msg=A <color=FFD700>Unit's HP decreases</color> when it's attacked. Be careful as a Unit is <color=FF637>knocked out when their HP reaches 0</color>.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=18,param=all,#
 *,type=PARAM,id=20,param=0,#
@@ -260,7 +257,6 @@
 *,type=PARAM,id=18,param=all,#
 *,type=PARAM,id=17,param=0:231:320:248:cm_all_ip5h,#
 *,type=PARAM,id=14,param=Heart Crystals:64:148:1:tag266,#
-*,type=PARAM,id=10000,param=Tutorial Tracking Point:Q1W2c Chests,#
 *,type=PARAM,id=13,param=1:,#*,type=MSGDRAW,msg=<color=FF6347>Heart Crystals</color> dropped during battle <color=FFD700>slightly restore HP</color>. <color=00FFFF>More hits</color> produces more Heart Crystals.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=20,param=0,#
 *,type=PARAM,id=18,param=all,#
@@ -286,7 +282,6 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=17,param=0:231:320:248:cm_all_ip5h,#
 *,type=STOP,id=-1,#
-*,type=PARAM,id=10000,param=Tutorial Tracking Point:Q1W3 Heal Item,#
 *,type=PARAM,id=13,param=1:,#*,type=MSGDRAW,msg=Looks like we've encountered a <color=00FFFF>Boss</color>. This won't be easy, you'd better prepare yourself!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=20,param=0,#
 *,type=PARAM,id=18,param=all,#

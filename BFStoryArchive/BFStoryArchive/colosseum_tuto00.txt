@@ -1,0 +1,135 @@
+﻿*,type=PARAM,id=23,param=-1,#
+*,type=PARAM,id=35,param=-1,#
+*,type=PARAM,id=6,param=/dungeon/dungeon_battle_colosseum.jpg,#
+*,type=PARAM,id=6,param=/sound/bf007_btl_arina.mp3,#
+*,type=PARAM,id=6,param=/event/navi_chara2_0.png,#
+*,type=PARAM,id=6,param=/event/navi_chara2_1.png,#
+*,type=PARAM,id=6,param=/event/navi_chara2_2.png,#
+*,type=PARAM,id=6,param=/event/navi_chara2_3.png,#
+*,type=PARAM,id=6,param=/event/navi_chara2_5.png,#
+*,type=PARAM,id=6,param=/event/navi_chara2_6.png,#
+*,type=STOP,id=-1,#
+*,type=PARAM,id=26,param=1,#
+*,type=PARAM,id=1,param=bg1:dungeon_battle_colosseum.jpg,#
+*,type=PARAM,id=1,param=navi_chara2_0:navi_chara2_0.png,#
+*,type=PARAM,id=1,param=navi_chara2_1:navi_chara2_1.png,#
+*,type=PARAM,id=1,param=navi_chara2_2:navi_chara2_2.png,#
+*,type=PARAM,id=1,param=navi_chara2_3:navi_chara2_3.png,#
+*,type=PARAM,id=1,param=navi_chara2_5:navi_chara2_5.png,#
+*,type=PARAM,id=1,param=navi_chara2_6:navi_chara2_6.png,#
+*,type=PARAM,id=2,param=bg1:0:0:1:0,#
+*,type=PARAM,id=33,param=bf007_btl_arina.mp3,#
+*,type=PARAM,id=8,param=2:0&0&0,#
+*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=1,#
+*,type=PARAM,id=2,param=navi_chara2_0:-110:-40:2:0.5,#
+*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=0.5,#
+*,type=PARAM,id=39,param=Karl,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Well, <wait=20>if it isn't <rep_handlename>!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=If you're here it must mean you're wanting to give the Colosseum a go, <wait=20>right?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=1,#
+*,type=PARAM,id=3,param=navi_chara2_0:1:0.5,#
+*,type=PARAM,id=2,param=navi_chara2_3:-110:-40:1:0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>What is it, <wait=10>you ask? <br><wait=20><speed=15>Don't tell me you came all the way out here without knowing at least that much!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=0.5,#
+*,type=PARAM,id=3,param=navi_chara2_3:1:0.5,#
+*,type=PARAM,id=2,param=navi_chara2_1:-110:-40:1:0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Ha ha ha. <br><wait=20>Oh <rep_handlename>, <wait=20>you never change.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Fine, <wait=20>I'll teach you a thing or two about the Colosseum then.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=1,#
+*,type=PARAM,id=3,param=navi_chara2_1:1:0.5,#
+*,type=PARAM,id=2,param=navi_chara2_0:-110:-40:1:0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=The Colosseum is a battleground located beneath the Arena.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Summoners can fight each other just like in the Arena, <wait=20>but the rules are a bit different.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=First of all, <wait=20>all Summoners are entitled to both a first and second strike, <wait=20>which means that all battles are decided in two rounds.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=And for each round, <wait=20>depending on whether you strike first or second, <wait=20>you will have to choose a battle formation to proceed.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=The term "battle formation" should be self-explanatory, but <wait=20>it basically just refers to how your Units will move on the battlefield.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=However, <wait=20>Colosseum battle formations have their own strengths and weaknesses, <wait=20>so make sure to choose wisely!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=3,param=navi_chara2_0:1:0.5,#
+*,type=PARAM,id=2,param=navi_chara2_6:-110:-40:1:0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=If your opponent chooses a formation stronger than yours, <wait=20>that means you'll lose that round.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=0.5,#
+*,type=PARAM,id=3,param=navi_chara2_6:1:0.5,#
+*,type=PARAM,id=2,param=navi_chara2_0:-110:-40:1:0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=So the point of it all is <wait=20>to choose the formation which will allow you to use your battle power in the most efficient way possible.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=0.5,#
+*,type=PARAM,id=3,param=navi_chara2_0:1:0.5,#
+*,type=PARAM,id=2,param=navi_chara2_5:-110:-40:1:0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>You with me so far? <wait=20>You look like you're spacing out a little...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=0.5,#
+*,type=PARAM,id=3,param=navi_chara2_5:1:0.5,#
+*,type=PARAM,id=2,param=navi_chara2_0:-110:-40:1:0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Anyway, <wait=20>let's move on, shall we?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Let's talk about rewards and classes.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=0.5,#
+*,type=PARAM,id=36,param=0.1:2:6:6,#
+*,type=STOP,id=-1,#
+*,type=PARAM,id=3,param=navi_chara2_0:1:0.5,#
+*,type=PARAM,id=2,param=navi_chara2_1:-110:-40:1:0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Well, well! <wait=20>Looks like you're more focused now that we're talking about rewards, eh?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=When you win at the Colosseum, <wait=20>you get special points called Colosseum Battle Points (CBP).,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=If you collect a bunch of these, <wait=20>you can trade them for rewards later at the Exchange Hall.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=There are also different classes in the Colosseum.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=3,param=navi_chara2_1:1:0.5,#
+*,type=PARAM,id=2,param=navi_chara2_0:-110:-40:1:0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=A certain Cost limit is assigned to each class you participate in.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=However, <wait=20>there are classes without Cost limits in which you can get more CBP than usual...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...but the opponents awaiting you there are pretty powerful, <wait=20>so don't push yourself harder than you need to at first.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=0.5,#
+*,type=PARAM,id=3,param=navi_chara2_0:1:0.5,#
+*,type=PARAM,id=2,param=navi_chara2_1:-110:-40:1:0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=But knowing you I'd say you'll be reaching that class in no time.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=By the way, <wait=20>the rewards you can trade for are also divided into different ranks.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Once you have claimed all the rewards in one specific rank, <wait=20>the rewards for the next rank will become available for exchange.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I hear that the higher the rank, <wait=20>the better the rewards, <wait=20>so make sure to exchange your points often!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=0.5,#
+*,type=PARAM,id=3,param=navi_chara2_1:1:0.5,#
+*,type=PARAM,id=2,param=navi_chara2_0:-110:-40:1:0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=And one last thing.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=The Colosseum also has a seasonal ranking system.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=This ranking is based on all the points you have collected during a certain period of time.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=And actually, <wait=20>there are rankings for each class...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...so there's a chance you could make it into the rankings for all classes if you're lucky enough!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=So? <wait=20>Are you excited to get started now?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=1,#
+*,type=PARAM,id=3,param=navi_chara2_0:1:0.5,#
+*,type=PARAM,id=2,param=navi_chara2_5:-110:-40:1:0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Personally, <wait=20>I don't really care for stuff like this or the Arena.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=0.5,#
+*,type=PARAM,id=3,param=navi_chara2_5:1:0.5,#
+*,type=PARAM,id=2,param=navi_chara2_1:-110:-40:1:0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Ha ha ha. <wait=20>C'mon, don't act so surprised.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=The truth is that I only came here to explain all this stuff to you <wait=20>because I was ordered to by the Summoners' Hall.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=But I'm looking forward to seeing you in action anyway!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It's gonna be great having you show off your amazing skills against other Summoners.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=1,#
+*,type=PARAM,id=3,param=navi_chara2_1:1:0.5,#
+*,type=PARAM,id=2,param=navi_chara2_0:-110:-40:1:0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=So, <wait=20>do you have a better idea of how the Colosseum works now?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It might be more difficult than the Arena...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...but it's something new, <wait=20>so it might be good to just give it a try.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Oh yeah, <wait=20>don't forget that you can get the tickets you need to fight in the Colosseum by winning at the Arena.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=But just this one time the Hall has been gracious enough...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...to let you have 3 tickets to start with! <wait=20>So here you go!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Now, <wait=20>why don't you hurry up and try your luck?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=0.5,#
+*,type=PARAM,id=3,param=navi_chara2_0:1:0.5,#
+*,type=PARAM,id=2,param=navi_chara2_1:-110:-40:1:0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I gotta go though. <wait=20>But I'll be waiting to hear about your victories soon!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=7,param=2:0&0&0,#
+*,type=STOP,id=-1,#
+*,type=PARAM,id=40,param=-1,#
+*,type=PARAM,id=3,param=navi_chara2_1:1:0.5,#
+*,type=PARAM,id=3,param=bg1:1:0.5,#
+*,type=PARAM,id=30,param=-1,#
+*,type=PARAM,id=41,param=2,#
