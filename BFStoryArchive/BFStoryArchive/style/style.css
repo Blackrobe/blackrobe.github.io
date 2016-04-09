@@ -3,6 +3,18 @@ a:link {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+}
+
+.listSeparator {
+	padding: 10px 0px;
+}
+
+.listSeparatorLarge {
+	padding: 20px 0px;
+}
+
 a:visited {
 	color: purple;
     text-decoration: underline;

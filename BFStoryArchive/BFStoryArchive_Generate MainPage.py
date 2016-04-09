@@ -50,6 +50,11 @@ class StoryPage(object):
                 self.setOrder(100000)
                 self.setDirectory(pageName)
                 self.setName(pageName)
+        elif not (pageName[:4].find("tuto") == -1):
+            tutorialNumber = pageName[4:]
+            self.setOrder(0 + int(tutorialNumber))
+            self.setDirectory(pageName)
+            self.setName("Chapter 0: Tutorial Scene " + tutorialNumber)
         elif not (pageName.find("randall_tuto2") == -1):
             self.setOrder(399820)
             self.setDirectory(pageName)
@@ -152,13 +157,13 @@ if __name__ == '__main__':
             if (currentPage.order < 100000) and (floor(currentPage.order/1000) - floor(currentMapOrder/1000) > 0):
                 print "Above!"
                 currentMapOrder = floor(currentPage.order/1000)*1000
-                outputLines += "<li>--------------------"
+                outputLines += "<li class=\"listSeparator\">--------------------"
                 outputLines += "<li><a href=\"" + story_txtDirectory + currentPage.directory + ".html\">" + currentPage.name + "</a>"
             else:
                 outputLines += "<li><a href=\"" + story_txtDirectory + currentPage.directory + ".html\">" + currentPage.name + "</a>"
         else:
             currentOrder = currentPage.order
-            outputLines += "<li>===================="
+            outputLines += "<li class=\"listSeparatorLarge\">===================="
             outputLines += "<li><a href=\"" + story_txtDirectory + currentPage.directory + ".html\">" + currentPage.name + "</a>"
 
 

@@ -31,14 +31,14 @@ arenaRankName = {
 mapName = {
     "1": {
         "dungeon": {
-            "1": "Adventurer's Prairie",
-            "2": "Cave of Flames",
-            "3": "Egor Snowfield",
-            "4": "Forest of Beasts",
-            "5": "Magutagal Wetlands",
-            "6": "Remains of Mirza",
-            "7": "Monster's Nest",
-            "8": "Tower of Mistral"
+            "0": "Adventurer's Prairie",
+            "1": "Cave of Flames",
+            "2": "Egor Snowfield",
+            "3": "Forest of Beasts",
+            "4": "Magutagal Wetlands",
+            "5": "Remains of Mirza",
+            "6": "Monster's Nest",
+            "7": "Tower of Mistral"
         },
         "name": "Mistral",
         "order": 1
