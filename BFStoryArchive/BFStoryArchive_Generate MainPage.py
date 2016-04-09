@@ -116,6 +116,7 @@ if __name__ == '__main__':
     outputLines += "<html>"
     outputLines += "<head>"
     outputLines += "<title>Brave Frontier Story Archive</title>"
+    outputLines += "<link rel=\"stylesheet\" type=\"text/css\" href=\"BFStoryArchive/style/style.css\">"
     outputLines += "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">"
     outputLines.append("<script>")
     outputLines.append("(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){")
