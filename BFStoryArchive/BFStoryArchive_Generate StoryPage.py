@@ -128,6 +128,14 @@ for currentTxt in currentTxtList:
                     outputLines.append("<img class=\"dungeonImage\" src=\""+dungeon_battle_collectionDirectory+"conference_room.jpg\" />")
                     outputLines.append("</div>")
                     outputLines.append("")
+                # Background image - Library
+                elif not (alias[line[aliasBegin:aliasEnd]].find("randall_library") == -1):
+                    outputLines.append("")
+                    outputLines.append("<div class=\"dungeonBackgroundContainer\">")
+                    outputLines.append("<img class=\"dungeonFrame\" src=\""+dungeon_battle_collectionDirectory+"baseDungeonFrame.png\" />")
+                    outputLines.append("<img class=\"dungeonImage\" src=\""+dungeon_battle_collectionDirectory+"randall_library.jpg\" />")
+                    outputLines.append("</div>")
+                    outputLines.append("")
                 # Background image - Raid Room
                 elif not (alias[line[aliasBegin:aliasEnd]].find("raidBack") == -1):
                     outputLines.append("")

@@ -1,7 +1,7 @@
 import glob, os
 import codecs
 from math import floor
-from storylabels import arenaRankName, mapName
+from storyutil import arenaRankName, mapName, grandQuestName
 
 class StoryPage(object):
     def __init__(self):
@@ -55,48 +55,59 @@ class StoryPage(object):
             self.setOrder(0 + int(tutorialNumber))
             self.setDirectory(pageName)
             self.setName("Chapter 0: Tutorial Scene " + tutorialNumber)
+        elif not (pageName.find("grand") == -1):
+            grandQuestNumber = pageName.split("_")[1]
+            if not (pageName[9:].find("op") == -1):
+                self.setOrder(100000 + int(grandQuestNumber)*1000)
+                self.setDirectory(pageName)
+                self.setName("Grand Quest " + grandQuestNumber + ": " + grandQuestName[str(int(grandQuestNumber))]["name"] + " -- Opening Scene")
+            else:
+                grandQuestSceneNumber = pageName[9:]
+                self.setOrder(100000 + int(grandQuestNumber)*1000 + int(grandQuestSceneNumber))
+                self.setDirectory(pageName)
+                self.setName("Grand Quest " + grandQuestNumber + ": " + grandQuestName[str(int(grandQuestNumber))]["name"] + " -- Scene " + pageName[9:])
         elif not (pageName.find("randall_tuto2") == -1):
-            self.setOrder(399820)
+            self.setOrder(400010)
             self.setDirectory(pageName)
             self.setName("Tutorial - Akras Administration Office")
         elif not (pageName.find("randall_tuto3") == -1):
-            self.setOrder(399830)
+            self.setOrder(400020)
             self.setDirectory(pageName)
             self.setName("Tutorial - Akras Survey Office ")
         elif not (pageName.find("randall_tuto4") == -1):
-            self.setOrder(399840)
+            self.setOrder(400030)
             self.setDirectory(pageName)
             self.setName("Tutorial - Summoners' Research Lab")
         elif not (pageName.find("hunter01") == -1):
-            self.setOrder(399850)
+            self.setOrder(400040)
             self.setDirectory(pageName)
             self.setName("Tutorial - Frontier Hunter")
         elif not (pageName.find("frontiergate_op") == -1):
-            self.setOrder(399860)
+            self.setOrder(400050)
             self.setDirectory(pageName)
             self.setName("Tutorial - Frontier Gate part 1")
         elif not (pageName.find("frontiergate_v2_op") == -1):
-            self.setOrder(399870)
+            self.setOrder(400060)
             self.setDirectory(pageName)
             self.setName("Tutorial - Frontier Gate part 2")
         elif not (pageName.find("syuurenjyo_tuto00") == -1):
-            self.setOrder(399880)
+            self.setOrder(400070)
             self.setDirectory(pageName)
             self.setName("Tutorial - Summoners' Training Ground")
         elif not (pageName.find("colosseum_tuto00") == -1):
-            self.setOrder(399890)
+            self.setOrder(400080)
             self.setDirectory(pageName)
             self.setName("Tutorial - Colosseum")
         elif not (pageName.find("arena_tuto") == -1):
-            self.setOrder(399895)
+            self.setOrder(400090)
             self.setDirectory(pageName)
             self.setName("Tutorial - Arena")
         elif not (pageName.find("arena") == -1):
-            self.setOrder(400000 + int(pageName[5:])*10)
+            self.setOrder(500000 + int(pageName[5:])*10)
             self.setDirectory(pageName)
             self.setName("Arena - Rank " + arenaRankName[pageName[5:]])
         else:
-            self.setOrder(500000)
+            self.setOrder(1100000)
             self.setDirectory(pageName)
             self.setName(pageName)
 
@@ -154,7 +165,10 @@ if __name__ == '__main__':
     for currentPage in sorted(pageList, key=lambda StoryPage: StoryPage.order):
         print currentPage.order, currentMapOrder, currentPage.name
         if (currentPage.order - currentOrder < 100000):
-            if (currentPage.order < 100000) and (floor(currentPage.order/1000) - floor(currentMapOrder/1000) > 0):
+            if (
+                       (floor(currentPage.order/100000) == 0)
+                    or (floor(currentPage.order/100000) == 1)
+                ) and (floor(currentPage.order/1000) - floor(currentMapOrder/1000) > 0):
                 print "Above!"
                 currentMapOrder = floor(currentPage.order/1000)*1000
                 outputLines += "<li class=\"listSeparator\">--------------------"
@@ -163,6 +177,7 @@ if __name__ == '__main__':
                 outputLines += "<li><a href=\"" + story_txtDirectory + currentPage.directory + ".html\">" + currentPage.name + "</a>"
         else:
             currentOrder = currentPage.order
+            currentMapOrder = floor(currentPage.order/1000)*1000
             outputLines += "<li class=\"listSeparatorLarge\">===================="
             outputLines += "<li><a href=\"" + story_txtDirectory + currentPage.directory + ".html\">" + currentPage.name + "</a>"
 

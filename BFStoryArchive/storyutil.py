@@ -381,8 +381,64 @@ mapName = {
     }
 }
 
+grandQuestName = {
+    "1": {
+        "name": "Demonic Agitation"
+    },
+    "2": {
+        "name": "Proud Soldier's Feast"
+    },
+    "3": {
+        "name": "Cobalt Spirit's Waking"
+    },
+    "4": {
+        "name": "The Crimson God's Cry"
+    },
+    "5": {
+        "name": "The Old Dawn General"
+    },
+    "6": {
+        "name": "Lin's Long Day"
+    },
+    "7": {
+        "name": "Virtual Garden"
+    },
+    "8": {
+        "name": "Warped Reflection"
+    },
+    "9": {
+        "name": "Hopes and Regrets"
+    },
+    "10": {
+        "name": ""
+    },
+    "11": {
+        "name": ""
+    },
+    "12": {
+        "name": ""
+    },
+    "13": {
+        "name": ""
+    },
+    "14": {
+        "name": ""
+    },
+    "15": {
+        "name": ""
+    },
+    "16": {
+        "name": ""
+    },
+    "17": {
+        "name": "(Japanese) Ishgria Expedition Team"
+    }
+}
+
 if __name__ == '__main__':
 
+
+    '''
     import json
 
     resultingdict = []
@@ -397,3 +453,4 @@ if __name__ == '__main__':
     print json.dumps(resultingdict["25"]["dungeon"], indent=4, sort_keys=True)
 
     #print json.dump(, indent=4)
+    '''
