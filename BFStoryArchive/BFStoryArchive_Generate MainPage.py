@@ -56,16 +56,25 @@ class StoryPage(object):
             self.setDirectory(pageName)
             self.setName("Chapter 0: Tutorial Scene " + tutorialNumber)
         elif not (pageName.find("grand") == -1):
-            grandQuestNumber = pageName.split("_")[1]
-            if not (pageName[9:].find("op") == -1):
-                self.setOrder(100000 + int(grandQuestNumber)*1000)
+            if pageName == "grand_op":
+                self.setOrder(100000)
                 self.setDirectory(pageName)
-                self.setName("Grand Quest " + grandQuestNumber + ": " + grandQuestName[str(int(grandQuestNumber))]["name"] + " -- Opening Scene")
+                self.setName("Grand Quest Introduction - Dawn of the Summoner")
+            elif pageName == "grand_op2":
+                self.setOrder(100001)
+                self.setDirectory(pageName)
+                self.setName("Grand Quest Introduction - Saga of Heroes")
             else:
-                grandQuestSceneNumber = pageName[9:]
-                self.setOrder(100000 + int(grandQuestNumber)*1000 + int(grandQuestSceneNumber))
-                self.setDirectory(pageName)
-                self.setName("Grand Quest " + grandQuestNumber + ": " + grandQuestName[str(int(grandQuestNumber))]["name"] + " -- Scene " + pageName[9:])
+                grandQuestNumber = pageName.split("_")[1]
+                if not (pageName[9:].find("op") == -1):
+                    self.setOrder(100000 + int(grandQuestNumber)*1000)
+                    self.setDirectory(pageName)
+                    self.setName("Grand Quest " + grandQuestNumber + ": " + grandQuestName[str(int(grandQuestNumber))]["name"] + " -- Opening Scene")
+                else:
+                    grandQuestSceneNumber = pageName[9:]
+                    self.setOrder(100000 + int(grandQuestNumber)*1000 + int(grandQuestSceneNumber))
+                    self.setDirectory(pageName)
+                    self.setName("Grand Quest " + grandQuestNumber + ": " + grandQuestName[str(int(grandQuestNumber))]["name"] + " -- Scene " + pageName[9:])
         elif not (pageName.find("randall_tuto2") == -1):
             self.setOrder(400010)
             self.setDirectory(pageName)
@@ -94,6 +103,14 @@ class StoryPage(object):
             self.setOrder(400070)
             self.setDirectory(pageName)
             self.setName("Tutorial - Summoners' Training Ground")
+        elif not (pageName.find("randall_library") == -1):
+            self.setOrder(400074)
+            self.setDirectory(pageName)
+            self.setName("Tutorial - Library")
+        elif not (pageName.find("randall_achievement") == -1):
+            self.setOrder(400078)
+            self.setDirectory(pageName)
+            self.setName("Tutorial - Achievement Store")
         elif not (pageName.find("colosseum_tuto00") == -1):
             self.setOrder(400080)
             self.setDirectory(pageName)

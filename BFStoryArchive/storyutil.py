@@ -407,22 +407,22 @@ grandQuestName = {
         "name": "Warped Reflection"
     },
     "9": {
-        "name": "Hopes and Regrets"
+        "name": "Gathering Hope"
     },
     "10": {
-        "name": ""
+        "name": "Four Heroes of Palmyna"
     },
     "11": {
-        "name": ""
+        "name": "Ten-Winged Tormentor"
     },
     "12": {
         "name": ""
     },
     "13": {
-        "name": ""
+        "name": "Hopes and Regrets"
     },
     "14": {
-        "name": ""
+        "name": "The Correct Path"
     },
     "15": {
         "name": ""
@@ -436,7 +436,6 @@ grandQuestName = {
 }
 
 if __name__ == '__main__':
-
 
     '''
     import json

@@ -9,6 +9,9 @@ playerName = "Hans"
 
 ignoredPortraitList = [
     "navi_chara29",
+    "navi_chara39",
+    "navi_chara40",
+    "navi_chara42",
     "navi_chara53",
     "navi_chara56",
     "navi_chara57",
@@ -18,8 +21,17 @@ ignoredPortraitList = [
     "navi_chara61",
     "navi_chara62",
     "navi_chara63",
+    "navi_chara64",
+    "navi_chara65",
+    "navi_chara66",
+    "navi_chara67",
+    "navi_chara68",
+    "navi_chara69",
     "navi_chara71",
     "navi_chara73",
+    "navi_chara74",
+    "navi_chara75",
+    "navi_chara76",
     "navi_chara116",
     "navi_chara117",    
     ]
@@ -69,6 +81,11 @@ for currentTxt in currentTxtList:
         line = f.readline()
 
         while line:
+
+            # DEBUG
+            # ==========
+            # print line
+            # ==========
 
             # Searching for aliases
             if not (line.find("type=PARAM,id=1,") == -1):
@@ -142,6 +159,14 @@ for currentTxt in currentTxtList:
                     outputLines.append("<div class=\"dungeonBackgroundContainer\">")
                     outputLines.append("<img class=\"dungeonFrame\" src=\""+dungeon_battle_collectionDirectory+"baseDungeonFrame.png\" />")
                     outputLines.append("<img class=\"dungeonImage\" src=\""+dungeon_battle_collectionDirectory+"raidBack.jpg\" />")
+                    outputLines.append("</div>")
+                    outputLines.append("")
+                # Background image - City of Randall
+                elif not (alias[line[aliasBegin:aliasEnd]].find("Randall") == -1):
+                    outputLines.append("")
+                    outputLines.append("<div class=\"dungeonBackgroundContainer\">")
+                    outputLines.append("<img class=\"dungeonFrame\" src=\""+dungeon_battle_collectionDirectory+"baseDungeonFrame.png\" />")
+                    outputLines.append("<img class=\"dungeonImage\" src=\""+dungeon_battle_collectionDirectory+"Randall.jpg\" />")
                     outputLines.append("</div>")
                     outputLines.append("")
 
@@ -280,3 +305,4 @@ for currentTxt in currentTxtList:
         for outputLine in outputLines:
             f.write(outputLine + "\n")
             
+
