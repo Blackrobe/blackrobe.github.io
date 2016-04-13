@@ -102,17 +102,17 @@
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara28_0:-80:-10:2:0.5,#
-*,type=PARAM,id=39,param=ルジーナ,#
+*,type=PARAM,id=39,param=Lugina,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=よう、<wait=20>随分といいツラになったじゃねーか。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>「俺は不幸な中でも必死に生きてる」<wait=20><speed=13>って<wait=20><br>悲壮感が伝わってくるぜ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Hey there, <wait=20>aren't you looking sharp?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>You really captured that sense of tragic heroism, <wait=20><speed=13>like, <wait=20>"I fight to live even against great adversity.",#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=お前、<wait=20>まさか自分が主人公として<wait=20><br>世界が回ってると思ってねーか？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Surely you don't think you're the hero this world revolves around, <wait=20>do you?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara28_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara28_3:-80:-10:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>残念だったな。<wait=20><br>お前はただの脇役なんだよ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>なあ、<wait=20>アーク！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Hate to tell you, <wait=20>but you're just a supporting role!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Am I right, Ark?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara28_3:2:0.5,#
@@ -121,16 +121,16 @@
 *,type=PARAM,id=2,param=navi_chara18_4:110:15:2:1.5,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=アーク,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>俺は……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Ark,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>I...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara18_4:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=カル,#
+*,type=PARAM,id=39,param=Karl,#
 *,type=PARAM,id=36,param=0.2:6:4:4,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<size=20><speed=10>おーい！<wait=20><br>ルジーナーーー！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<size=20><speed=10>Hey! <wait=20>Lugina!!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=1,#
@@ -142,553 +142,553 @@
 *,type=PARAM,id=3,param=navi_chara29:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara28_4:-80:-10:2:0.5,#
-*,type=PARAM,id=39,param=ルジーナ,#
+*,type=PARAM,id=39,param=Lugina,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=チッ、<wait=20>やっと追いついてきたか。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Hmph, <wait=20>took you long enough.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara28_4:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18:110:15:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara18:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara30_3:100:-25:2:0.5,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……<wait=30><speed=13>アンタは。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>That's...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara30_3:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara29_0:-320:-22:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara29:-320:138:2:0.5,#
-*,type=PARAM,id=39,param=カル,#
+*,type=PARAM,id=39,param=Karl,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=やっと会えたな。<wait=20><br>元気そうで何よりだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=アークさん。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=We finally found you. <wait=20>It's good to see you're looking well...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...Ark.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara29_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara29:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara73_0:10:0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara73:10:140:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>アーク、<wait=20>無事で良かったね！<wait=20><br>心配したんだよ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Ark, <wait=20>I'm glad you're all right! <wait=20>I was worried!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara73_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara73:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18:110:15:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara18:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara28_0:-80:-10:2:0.5,#
-*,type=PARAM,id=39,param=ルジーナ,#
+*,type=PARAM,id=39,param=Lugina,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=で、<wait=20>このタイミングで現れるってことは,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=やっぱりお前は俺たち“人間”の敵に<br>なったってことでいいんだな？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=So?<wait=20> For you to show up at a time like this...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...that means that you've become an enemy to us "humans," doesn't it?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara28_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara73_3:10:0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara73:10:140:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=36,param=0.1:2:4:4,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>え、<wait=20>どういうこと！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Huh? <wait=20>What do you mean?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara73_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara73:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18:110:15:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=俺はイリア…<wait=30>神託の巫女の意志を守りたい。<wait=20><br>ただ、それだけだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I wish to honor Ilia's...<br><wait=30>I mean, Oracle Maiden Ilia's wishes. <wait=20>That is all.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_2:100:-25:2:0.5,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>それじゃあ、わからないわよ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>That doesn't tell us anything!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>アンタは何がしたいの？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>この地に封じられてた<wait=20><br>神託の巫女はどうしたのよ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>What do you want to do?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>What happened to the Oracle Maiden who was sealed here?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara30_2:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18_4:110:15:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara18_4:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara27_4:0:15:2:0.5,#
-*,type=PARAM,id=39,param=パリス,#
+*,type=PARAM,id=39,param=Paris,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=人の事情を深く詮索するつもりはないわ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I don't intend to pry into anyone's affairs.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=でも、もしあなたが私たちの邪魔をするなら<wait=20><br>その理由を聞く権利は私たちにはあるわ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ルシアスとともに戦った私たちには。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=But we do have a right to ask your reasons, <wait=20>if you intend to get in our way.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=We did fight with Lucius, after all.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara27_4:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18:110:15:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara29_3:-320:-22:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara29:-320:138:2:0.5,#
-*,type=PARAM,id=39,param=カル,#
+*,type=PARAM,id=39,param=Karl,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=アークさんのことだ<wait=20>それなりに悩んだ結果<br>なんだろうからどうこう言うつもりはない。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I know you, Ark. <wait=20>You probably agonized over it yourself, so it's not my place to say anything.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だが、理由だけでも教えてくれないか？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=But won't you at least tell us your reasons?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara29_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara29:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_2:100:-25:2:0.5,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>カル、<wait=20>甘いわよ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>私は理由がどうであろうと<wait=20><br>どうこう言うわよ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Karl, <wait=20>you're too soft!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Who cares what reasons he has, <wait=20>if you know something you should tell us!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><rep_handlename>、<wait=20><br>アンタもそうでしょ！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><rep_handlename>, <wait=20>you're with me on this, right?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara30_2:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara18:110:15:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……<wait=30><speed=13><rep_handlename>。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=どうやら無事に自分で道を選び<wait=20><br>進めているようだな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=お前のことは心配していたんだ。<wait=20><br>俺と同じ様にならなくて良かったよ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>...<wait=30><speed=13><rep_handlename>.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It would appear that you are still proceeding down the path of your own choosing.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I was worried. <wait=20>I'm glad to see you haven't ended up like me.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara73_8:10:0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara73:10:140:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>アーク……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Ark...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara73_8:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara73:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18:110:15:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=45,param=3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=そうだな。<wait=20><br>お前たちに話すのは当然だな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=俺がここにいる理由を……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Yes, <wait=20>it's only natural that I share with you...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...the reason I'm here...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara29_0:-320:-22:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara29:-320:138:2:0.5,#
-*,type=PARAM,id=39,param=カル,#
+*,type=PARAM,id=39,param=Karl,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara29_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara29:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18:110:15:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=33,param=bf031_map_summons.mp3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>少しだけ長くなるが聞いてくれ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>It's a long story, so bear with me...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=この地に降りた俺は<wait=20><br>すぐにイリアの力を感じた。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だが、それは１カ所ではなく<wait=20><br>様々な場所からだった。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=After arriving in this land, <wait=20>I sensed Ilia's power immediately.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=But it wasn't in one place. <wait=20>It was from many locations.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=不思議に思った俺は１カ所ずつ<br>それらの場所の調査に向かったんだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Unsettled by this, I set out to investigate each location one by one.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara27_1:0:15:2:0.5,#
-*,type=PARAM,id=39,param=パリス,#
+*,type=PARAM,id=39,param=Paris,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara27_1:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18:110:15:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=それらを調査する中で俺は理解した。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=なぜルシアスがカルナ・マスタを封じる際に<wait=20><br>イリアも同時に封じられたのかを。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=As I investigated, it became clear.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I understood why Lucius sealed Ilia when he sealed away Karna Masta.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_3:100:-25:2:0.5,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=それは、たまたまだったんじゃなかったの？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=So it wasn't just a coincidence?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara30_3:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18:110:15:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ああ、<wait=20>俺もそう思っていた。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=あのカルナ・マスタとの激戦の中で、<wait=20>他に<br>気をかける余裕など無いと思ったからな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Yes, <wait=20>I thought so too.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I thought that amidst the fevered battle with Karna Masta, <wait=20>Lucius just didn't have room to focus on anything else.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=そして、<wait=20>ルシアスはたまたま封じられた<br>イリアを利用して俺を従わせた。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=And that Lucius used her to make me obey, <wait=20>since Ilia just happened to be sealed.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18_4:110:15:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>この地に来るまでは俺も<wait=20><br>ずっとそう思っていたんだ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>That's what I had always assumed...<wait=20>until I came here.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara18_4:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara29_0:-320:-22:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara29:-320:138:2:0.5,#
-*,type=PARAM,id=39,param=カル,#
+*,type=PARAM,id=39,param=Karl,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だが、それは違ったんだな？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=So, that wasn't really the case?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara29_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara29:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18_2:110:15:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>イリアをカルナ・マスタと一緒に封じる<br>ことは、<wait=20>最初から奴の計画通りだったんだ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>He had always planned to seal Ilia away along with Karna Masta!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara18_2:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara27_5:0:15:2:0.5,#
-*,type=PARAM,id=39,param=パリス,#
+*,type=PARAM,id=39,param=Paris,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=どういうことなの？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=What do you mean?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara27_5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18:110:15:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=俺は調査を進める中で、<wait=20>カロンという<br>封印を守る魔神に出会った。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=その魔神から聞いた話では、<wait=20><br>魔神たちがカルナ・マスタを封じる際に,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=影でイリアの助力があったらしい。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=As I investigated, <wait=20>I met a demon named Kalon that protects the seal.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=According to Kalon, <wait=20>when the demons sealed Karna Masta...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...Ilia apparently helped in secret.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=封印はその後の俺とルシアスの戦いの際に、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=この地に墜ちることとなった<br>メロードが取り仕切ったらしいが,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=奴がイリアの力を利用したのだろう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Then, later, during my battle with Lucius...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...Melord, who had descended into this land, was the one managing the seal...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...and he must have used Ilia.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_3:100:-25:2:0.5,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=えっと、<wait=20>イリアさんは<br>そんなに凄い力を持っていたの？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Um, <wait=20>was Ilia's power that incredible?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara30_3:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18:110:15:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=いや、<wait=20>イリアに戦う力はほとんどない。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=No, <wait=20>Ilia has almost no power in battle.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=彼女が持っているのは<wait=20><br>神託の巫女としての力。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=神を封じる力だ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=What she has is power as an Oracle Maiden.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=The power to seal gods.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara27_5:0:15:2:0.3,#
-*,type=PARAM,id=39,param=パリス,#
+*,type=PARAM,id=39,param=Paris,#
 *,type=PARAM,id=36,param=0.1:3:6:6,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>神を封じる力ですって！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>The power to seal gods?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara27_5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18:110:15:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ああ、<wait=20>当時の俺たちはそれを知らなかった。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=実際、<wait=20>イリア自身もその力を<br>知らなかっただろう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Yes, <wait=20>although we didn't know it at the time.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Actually, <wait=20>Ilia probably didn't even know about that power, herself.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だが、ルシアスの神徒だったメロードは<wait=20><br>それを知っていた。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=そして、ルシアスの目的にも<br>気が付いたのだろう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=カルナ・マスタと同時に<wait=20><br>自身とイリアが封じられた理由を。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=But Lucius's disciple Melord knew.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=And he was probably aware of Lucius's objective...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...as well as the reason why Ilia and himself were sealed, <wait=20>at the same time as Karna Masta.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara29_0:-320:-22:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara29:-320:138:2:0.5,#
-*,type=PARAM,id=39,param=カル,#
+*,type=PARAM,id=39,param=Karl,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=つまり、ルシアスは<wait=20><br>神託の巫女の力を利用して,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=真の意味でこの地にカルナ・マスタを<br>封じるつもりだったってことか。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=In short, <wait=20>Lucius intended to use the power of an Oracle Maiden...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...to seal Karna Masta in this land, in the truest sense of the word.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara29_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara29:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18:110:15:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=そうだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Exactly.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=メロードはそれに気が付き、<wait=20><br>魔神たちの力とイリアの力を合わせ,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=カルナ・マスタを封じようとしたんだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Melord realized that. <wait=20>He combined the powers of the demons with Ilia's...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...and attempted to seal Karna Masta.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=また奴自身は、<wait=20>カルナ・マスタを封じた後<wait=20><br>自分だけは戻れると思っていたようだがな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It would seem Melord thought that after Karna Masta was sealed, <wait=20>only he would be able to return.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara28_4:-80:-10:2:0.5,#
-*,type=PARAM,id=39,param=ルジーナ,#
+*,type=PARAM,id=39,param=Lugina,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ケッ、<wait=20>まんまとダマされてあのザマか。<wait=20><br>情けねー神徒様だなー。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Hmph, <wait=20>getting fooled completely and ending up like that. <wait=20>What a pathetic disciple.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara28_4:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara28_3:-80:-10:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>女神さんも危ないところだったな！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>That was a close one for you, too, goddess!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara28_3:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara73_7:10:0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara73:10:140:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>わ、<wait=20>私は大丈夫だよ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Th-<wait=20>There's no need to worry about me!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara73_7:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara73:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara73_0:10:0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara73:10:140:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<rep_handlename>が一緒だから♪,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Because I have <rep_handlename>!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara73_0:2:0.5,#
 *,type=PARAM,id=3,param=navi_chara73:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara30_0:100:-25:2:0.5,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=でも、<wait=20>どうしてイリアさんは<wait=20><br>黙って魔神たちに従ったの？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=But why did Ilia keep silent and obey the demons?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara30_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18_4:110:15:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>わからない……。<wait=20><br><speed=13>でも、彼女のことだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=カルナ・マスタがこの地で暴れるのを見て<wait=20><br>自ら協力したのだろう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>I don't know. <wait=20><speed=13>But knowing her...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...she probably saw Karna Masta rampaging this land, <wait=20>and decided to help on her own.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara18_4:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_6:100:-25:2:0.5,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>優しい人なんだ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>She was so kind...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara30_6:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara29_0:-320:-22:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara29:-320:138:2:0.5,#
-*,type=PARAM,id=39,param=カル,#
+*,type=PARAM,id=39,param=Karl,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=で、<wait=20>アークさん。<wait=20><br>アンタはそれを知って何を決めたんだ？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=So, <wait=20>Ark, <wait=20>what have you decided, now that you found this out?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara29_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara29:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18:110:15:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=最初にも話したが<wait=20><br>俺は彼女の意志を守りたい。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=カルナ・マスタを封じ続けるという<wait=20><br>彼女の意志をな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I said this at the start: <wait=20>I wish to honor her wishes.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Her wish to keep Karna Masta sealed away.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara27_4:0:15:2:0.5,#
-*,type=PARAM,id=39,param=パリス,#
+*,type=PARAM,id=39,param=Paris,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=それはつまり、<wait=20>カルナ・マスタを倒そうと<br>している私たちの敵になるということ？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=So if I understand this correctly, <wait=20>you're our enemy because we're trying to defeat Karna Masta?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara27_4:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18:110:15:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=敵になるつもりは無い。<wait=20><br>ただ、<wait=20>お前たちを止めたいだけだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I don't intend to become your enemy. <wait=20>I just want to stop you.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_2:100:-25:2:0.3,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PARAM,id=36,param=0.1:3:6:6,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>同じことでしょ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>That's the same thing!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara30_2:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_5:100:-25:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……<wait=30><speed=13>まあいいわ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>...<wait=30><speed=13>oh, forget it.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara30_5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_0:100:-25:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=で、<wait=20>その様子だとイリアさんには<br>まだ会えてないんでしょう？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=彼女がどこにいるかはわかったの？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Anyway, <wait=20>by the looks of things, you haven't found Ilia yet, have you?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Don't you have any idea where she is?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=彼女と話してもいないのに<speed=10><wait=20>「彼女の意志を<br>守る」<wait=20><speed=13>なんて勝手な思い込みじゃないの？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Isn't it a bit of a big assumption to say, <speed=10><wait=20>"I wish to honor her wishes," <wait=20><speed=13>without actually speaking to her?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara30_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18_4:110:15:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>俺の勝手な思い込みか……。<wait=20><br><speed=13>確かにそうかもしれないな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>A big assumption... <wait=20><speed=13>It may be.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara18_4:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18:110:15:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=お前が言うように、<wait=20>俺はまだイリアに<br>会えていない。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Just as you say, <wait=20>I haven't seen Ilia yet.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=彼女はカルナ・マスタの真の力とともに<wait=20><br>封印されているらしく,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=その場所に行くためには<wait=20><br>この地にいるカルナ・マスタだけでなく、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=真の力を封印している影をすべて<br>倒す必要があるようだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=She's sealed away, <wait=20>along with Karna Masta's true power.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=In order to get to where she is, <wait=20>one must defeat not only Karna Masta...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...but also all of the shadows that seal away his true power.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_2:100:-25:2:0.5,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>だったら、全部倒せばいいじゃない！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Then we just need to defeat all of them!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara30_2:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara29_0:-320:-22:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara29:-320:138:2:0.5,#
-*,type=PARAM,id=39,param=カル,#
+*,type=PARAM,id=39,param=Karl,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=セリアの言う通りだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Seria's right.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=アークさん、<wait=20>俺たちと協力して<wait=20><br>カルナ・マスタを倒さないか？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Ark, <wait=20>why not work with us to defeat Karna Masta?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=そうすればイリアさんも自由に<br>なるんじゃないか？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=If you do that, it will set Ilia free too, right?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara29_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara29:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18_4:110:15:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>俺もそれは考えた……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>I thought of that...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>だが、お前たちはわかっていない。<wait=20><br>カルナ・マスタの力を……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>But you don't understand. <wait=20>You don't know Karna Masta's power.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara18_4:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18:110:15:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=俺はかつて仲間たちとともに<wait=20><br>カルナ・マスタと戦った。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だが、仲間たちを犠牲にして<wait=20><br>ようやく隙を作れただけだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I once fought Karna Masta, <wait=20>alongside my comrades...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...and I lost all of them. <wait=20>We barely managed to create an opening in his defenses.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=まともに戦って奴に勝つことは<wait=20><br>お前たちでも不可能だ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Fighting him head-on and winning is impossible, <wait=20>even for all of you.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara28_4:-80:-10:2:0.5,#
-*,type=PARAM,id=39,param=ルジーナ,#
+*,type=PARAM,id=39,param=Lugina,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=決めつけてくれるじゃねーか。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Don't tell us what we can't do.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara28_4:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara28_3:-80:-10:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=お前の昔の仲間とやらが<wait=20><br>弱かっただけじゃねーのか？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Maybe your comrades or whoever back in the day were just weak, huh?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara28_3:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18_2:110:15:2:0.3,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PARAM,id=36,param=0.1:3:6:6,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>……！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara18_2:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18:110:15:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>俺の仲間は強かったさ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>My comrades were powerful.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=navi_chara18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18_4:110:15:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>弱かったのは俺だけだ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>I was the only one who was weak...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara18_4:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18_2:110:15:1:0.5,#
 *,type=PARAM,id=36,param=0.1:3:6:6,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>俺はかつてルシアスの力を借りて<wait=20><br>カルナ・マスタを封じた！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>I was the one who used Lucius's power in the past to seal Karna Masta!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=36,param=0.1:3:6:6,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>そのために、<wait=20>俺は仲間とイリアを<br>犠牲にした！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>To do that, <wait=20>I sacrificed my comrades, and Ilia, too!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=36,param=0.1:2:6:6,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>そして、<wait=20>イリアは今も奴を<br>封じ続けている！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>And to this day Ilia continues to keep him sealed away!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>俺は仲間やイリアの思いを<br>無駄にしたくない！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>I will not let all their wishes, Ilia's wishes, be in vain!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara18_2:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18:110:15:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=カルナ・マスタはこの地の封印が<br>解けたばかりでまだ半覚醒の状態だ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ここでお前たちが出て行けば、<wait=20><br>この地をカロンが再び封じるだろう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=The seal this land has only just been broken, and Karna Masta has only partially awakened.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=If all of you leave now, <wait=20>Kalon will likely seal this land again.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だが、<wait=20>逆にお前たちがカルナ・マスタと<br>戦うことで完全に覚醒する可能性もある。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=その時、<wait=20>俺の仲間たちの死は無駄になる。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=But if you do battle with Karna Masta, <wait=20>he may awaken fully.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=My comrades' deaths will have been for nothing.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=そして、<wait=20>今も奴の真の力を封じている<br>イリアも危険にさらされるだろう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=And it will place Ilia,<wait=20> who seals away his true power, in danger.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18_2:110:15:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だから俺は<wait=20><br>お前たちの前に立つことを決めた。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=お前たちをここで止めるために。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=That is why I have decided to take a stand before you.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=In order to stop you here.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara18_2:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara73_8:10:0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara73:10:140:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>アーク……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Ark...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara73_8:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara73:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18:110:15:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=俺はお前たちと戦いたいわけじゃない。<wait=20><br>無駄な戦いはできれば避けたい。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だから…<wait=30><rep_handlename>、<wait=20><br>俺の相手はお前だけだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I do not wish to fight with you. <wait=20>I want to avoid meaningless battle if I can.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=So...<wait=30> <br><rep_handlename>, <wait=20>my challenge is only for you.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara27_4:0:15:2:0.5,#
-*,type=PARAM,id=39,param=パリス,#
+*,type=PARAM,id=39,param=Paris,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>どういうこと！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>What do you mean?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara27_4:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara18:110:15:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=お前が敗れれば他の者もわかるだろう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=自分たちがどれだけ無謀なことを<br>しようとしているのか。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=If you lose, the others will likely understand as well.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=You will understand just how foolish this thing you are attempting is.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara18:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara28_0:-80:-10:2:0.5,#
-*,type=PARAM,id=39,param=ルジーナ,#
+*,type=PARAM,id=39,param=Lugina,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=面倒くさくなくていいじゃねーか。<wait=20><br><rep_handlename>、<wait=20>しっかり戦ってこいよ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Well, that makes life easier for me, so I like it. <wait=20><rep_handlename>, <wait=20>give it your best.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara28_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara28_3:-80:-10:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=まあ、<wait=20>お前が負けても俺は<br>気にしねーがな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I won't shed a tear if you lose, <wait=20>though.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara28_3:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara30_0:100:-25:2:0.5,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=私も任せるわ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I'll leave it to you, too.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara30_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_6:100:-25:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=やっぱりアークとは<wait=20><br>本気で戦える気がしないから……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I just don't feel like I could fight my best, <wait=20>not against Ark...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara30_6:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara27_1:0:15:2:0.5,#
-*,type=PARAM,id=39,param=パリス,#
+*,type=PARAM,id=39,param=Paris,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……<wait=30><speed=13><rep_handlename>。<wait=20><br>大変だと思うけどがんばってね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......<br><wait=30><speed=13><rep_handlename>, <wait=20>I don't think this will be easy, but good luck.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara27_1:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara27_8:0:15:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>ごめんなさい。<wait=20>あなたの苦労はわかるけど<wait=20><br>これくらいしか言えなくて……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I'm sorry. <wait=20>I know it's hard on you, <wait=20>but that's all I can say...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara27_8:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara29_0:-320:-22:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara29:-320:138:2:0.5,#
-*,type=PARAM,id=39,param=カル,#
+*,type=PARAM,id=39,param=Karl,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<rep_handlename>、<wait=20>任せたぜ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=アークさんに教えてやってくれ。<wait=20><br>俺たちの可能性をな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<rep_handlename>, <wait=20>you've got this.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=You go and show Ark. <wait=20>Show him our potential.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara29_0:2:0.5,#
@@ -696,15 +696,15 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara73_0:10:0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara73:10:140:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><rep_handlename>なら大丈夫だよ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>You'll be just fine, <rep_handlename>!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara73_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara73:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara73_8:10:0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara73:10:140:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=アークを助けてあげて。<wait=20><br>やっぱり今のアークは苦しそうだもの。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Help Ark. <wait=20>Maybe this will help ease his suffering.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara73_8:2:0.5,#
@@ -712,15 +712,15 @@
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara18:110:15:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<rep_handlename>、<wait=20><br>お前とは違った形で戦ってみたかったよ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=遠慮せずかかってこい。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<rep_handlename>, <wait=20>I would've preferred to face you under different circumstances.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Now face me, and don't hold back.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara18:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara18_2:110:15:1:0.5,#
 *,type=PARAM,id=36,param=0.1:4:6:6,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>神託の騎士と呼ばれた力、<wait=20><br>お前に見せてやる！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>I will show you the power of the Oracle Knight!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
@@ -733,4 +733,3 @@
 *,type=PARAM,id=43,param=BattleDungeon80181AddHamon.sam,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

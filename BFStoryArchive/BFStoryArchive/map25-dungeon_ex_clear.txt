@@ -45,76 +45,76 @@
 *,type=PARAM,id=36,param=0.1:8:10:10,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=39,param=カロン,#
+*,type=PARAM,id=39,param=Kalon,#
 *,type=PARAM,id=36,param=0.1:2:4:4,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>グッ……。<wait=20><br><speed=13>さすがはカルナ・マスタを倒した召喚師。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=私の力では止められぬか……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Argh...<wait=20><br><speed=13>As expected from the Summoner who defeated Karna Masta.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=My power is not enough to stop you...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara53_6:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara53:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53_1:-305:-50:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ならばお前には伝えよう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=私はカロンでもその分身でもなく<wait=20><br>封魔導神カロンの“影”であることを。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=In that case, <wait=20>I shall tell you only this.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I am neither Kalon, not a clone of his creation. <wait=20>I am his Shadow.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=私は間もなくその役目を終えて消滅する。<wait=20><br>それと同時に２つの封印が解ける。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Now that I've played my role, I shall soon disappear from this world. <wait=20>And with my departure, two seals shall be broken.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=１つは８体の魔神が封じた<wait=20><br>カルナ・マスタの真の力。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=お前が今までに倒した私は<wait=20><br>影でなく分身体。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=それらは封印は担っていない。<wait=20><br>今が真に封印が解ける時だ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=The first seal to break <wait=20>will be the one placed on Karna Masta's true power by the Eight Demons of Ishgria.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=The versions of myself you have faced until now were all clones of the original Kalon. <wait=20>None of them were his Shadow.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Therefore, their defeat did not lead to any real repercussions. <wait=20>But after facing me here, the seal has now truly been broken.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=そしてもう１つはカルナ・マスタの魂を<br>封じた地の封印。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=レームの西、<wait=20>ミルドランにあるその地では,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=今頃、解かれたカルナ・マスタの力が<wait=20><br>自身の魂を探し求めているだろう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=3,param=navi_chara53_1:1:0.5,#
-*,type=PARAM,id=3,param=navi_chara53:1:0.5,#
-*,type=PARAM,id=2,param=navi_chara53_4:-305:-50:1:0.5,#
-*,type=PARAM,id=2,param=navi_chara53:-305:117:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だが、<wait=20>その魂の最後の封印は<wait=20><br>神託の巫女がその身を捧げて担っている。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=カルナ・マスタの魂と力が<br>復活することはない。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>永遠にな……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=3,param=navi_chara53_4:1:0.5,#
-*,type=PARAM,id=3,param=navi_chara53:1:0.5,#
-*,type=PARAM,id=2,param=navi_chara53_1:-305:-50:1:0.5,#
-*,type=PARAM,id=2,param=navi_chara53:-305:117:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=それでもお前は<wait=20><br>ミルドランに向かうのだろう？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=眠れる破壊神を目覚めさせ<wait=20><br>必要の無い戦いをするのだろう？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=The second seal to break <wait=20>will be the one placed on Karna Masta's soul.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=At this very moment, <wait=20>west of Lem, in Mildran...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...Karna Masta's power must be looking to reunite with his soul.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara53_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara53:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53_4:-305:-50:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>己の欲を満たすためだけに……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=However, <wait=20>the Oracle Maiden sacrificed her life to place the last seal on Karna Masta's soul.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=And thus, it, <wait=20>along with Karna Masta's power, <wait=20>shall never be revived.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Never, <wait=20>ever again...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara53_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara53:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53_1:-305:-50:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<rep_handlename>よ。<wait=20><br>お前は何を望み願う？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=神をも倒すお前は人の人生をも<wait=20><br>その手で支配したいのか？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=But in spite of this, <wait=20>you still intend to make your way to Mildran?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=You really plan to awaken the God of Destruction just to fight an unnecessary battle?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara53_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara53:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53_4:-305:-50:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=運命を見通す我が瞳でも<wait=20><br>お前の未来は見えない。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=アークやイリアも、<wait=20><br>お前の仲間たちの未来も……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>And for no purpose but to satisfy your own selfish desires, no less...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara53_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara53:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53_1:-305:-50:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>それは幸せなのか、<wait=20><br>それとも不幸なのか……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<rep_handlename>, <wait=20>what is it you hope to accomplish with that?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Now that you have destroyed even the gods themselves, <wait=20>is your next wish to rule the lives of your human brethren?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=0.5,#
+*,type=PARAM,id=3,param=navi_chara53_1:1:0.5,#
+*,type=PARAM,id=3,param=navi_chara53:1:0.5,#
+*,type=PARAM,id=2,param=navi_chara53_4:-305:-50:1:0.5,#
+*,type=PARAM,id=2,param=navi_chara53:-305:117:1:0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Even with these eyes that can gaze into fate itself, <wait=20>your destiny still eludes me.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=The same goes for whatever is in store for Ark, Ilia, and your other friends in the future...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=1,#
+*,type=PARAM,id=3,param=navi_chara53_4:1:0.5,#
+*,type=PARAM,id=3,param=navi_chara53:1:0.5,#
+*,type=PARAM,id=2,param=navi_chara53_1:-305:-50:1:0.5,#
+*,type=PARAM,id=2,param=navi_chara53:-305:117:1:0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Whether what awaits you is fortune, <wait=20>or misfortune...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=navi_chara53_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara53:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53_2:-305:-50:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>いつかその答えを聞いてみたいものだ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>...someday I would like to hear what ultimately becomes of you...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=8,param=0.2:255&255&255,#
@@ -139,4 +139,3 @@
 *,type=PARAM,id=43,param=BattleDungeon80187AddLight.sam,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=0,#
-

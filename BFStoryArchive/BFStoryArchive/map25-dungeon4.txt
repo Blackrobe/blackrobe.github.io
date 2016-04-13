@@ -126,102 +126,102 @@
 *,type=PLAYWAIT,param=1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=33,param=bf027_map_god.mp3,#
-*,type=PARAM,id=39,param=カロン,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=アークを越えてきたか。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Kalon,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=So you made it past Ark.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara53_0:2:0.5,#
 *,type=PARAM,id=3,param=navi_chara53:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara30_3:100:-25:2:0.5,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>アンタは確か……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I remember you...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara30_3:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara29_0:-320:-22:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara29:-320:138:2:0.5,#
-*,type=PARAM,id=39,param=カル,#
+*,type=PARAM,id=39,param=Karl,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=カロンさん、<wait=20>アンタは俺たちの<br>邪魔をしないんじゃなかったのか？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Kalon, <wait=20>I thought you weren't going to interfere with us?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara29_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara29:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53_0:-305:-50:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:2:0.5,#
-*,type=PARAM,id=39,param=カロン,#
+*,type=PARAM,id=39,param=Kalon,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=私はお前たちの力を見誤っていた。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=お前たちがアークを越えることは<wait=20><br>無いと考えていたんだがな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I was wrong about all of you.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I thought that there was no way you would make it past Ark.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara53_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara53:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara73_0:10:0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara73:10:140:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>私の<rep_handlename>は<wait=20><br>強いんだから！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>アークだって１人で倒したんだよ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>My darling <rep_handlename> is really strong!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><rep_handlename> even beat Ark one-on-one!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara73_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara73:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53_0:-305:-50:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:2:0.5,#
-*,type=PARAM,id=39,param=カロン,#
+*,type=PARAM,id=39,param=Kalon,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……<wait=30><speed=11>そうか。<wait=20><br>１人でか。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>...<wait=30><speed=11>I see. <wait=20>One-on-one, you say.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara53_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara53:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara73_0:10:0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara73:10:140:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>そうだよ！<wait=20><br>１人でだよ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>That's right! All alone.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara73_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara73:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara29_3:-320:-22:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara29:-320:138:2:0.3,#
-*,type=PARAM,id=39,param=カル,#
+*,type=PARAM,id=39,param=Karl,#
 *,type=PARAM,id=36,param=0.1:2:3:3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>ちょ、<wait=20>ティリス！<wait=20><br>ちょっと待ってくれ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>H-<wait=20>Hey, Tilith! <wait=20>Hold on a second!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara29_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara29:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara73_3:10:0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara73:10:140:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ん、<wait=20>なんで？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=アークは<rep_handlename>が<wait=20><br>１人でバッチリ倒したでしょ？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Huh? <wait=20>Why?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<rep_handlename> totally beat Ark one-on-one, <wait=20>right?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara73_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara73:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara29_3:-320:-22:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara29:-320:138:2:0.5,#
-*,type=PARAM,id=39,param=カル,#
+*,type=PARAM,id=39,param=Karl,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>ま、<wait=20>まあそうなんだが……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Yeah, <wait=20>that's true, but...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>あの時のアークはまだ本気じゃなかった<br>っていうか……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Ark wasn't fighting all-out then, or, well...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara29_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara29:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara73_8:10:0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara73:10:140:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>む～、<wait=30><speed=14>カルくんひど～い！<wait=20><br>親友の力を疑うの？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Hmph! <wait=30><speed=14>Karl, you're so mean! <wait=20>You doubt your friend's abilities?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara73_8:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara73:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara29_6:-320:-22:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara29:-320:138:2:0.5,#
-*,type=PARAM,id=39,param=カル,#
+*,type=PARAM,id=39,param=Karl,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>いや、<wait=20>そういうわけじゃなくて……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>No, <wait=20>it's not that...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara29_6:2:0.5,#
@@ -230,74 +230,74 @@
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara53_0:-305:-50:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:2:0.5,#
-*,type=PARAM,id=39,param=カロン,#
+*,type=PARAM,id=39,param=Kalon,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<rep_handlename>、<wait=20><br>アークを越えし者よ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=お前の力をここで試させてもらう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<rep_handlename>, <wait=20>the one who surpassed Ark.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I shall test your power here.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara53_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara53:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara73_3:10:0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara73:10:140:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>ちょ、<wait=20>ちょっと～！<wait=20><br>どうしてそうなるの～！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>H-<wait=20>Hey! <wait=20>Why do you have to be that way?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara73_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara73:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara29_5:-320:-22:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara29:-320:138:2:0.5,#
-*,type=PARAM,id=39,param=カル,#
+*,type=PARAM,id=39,param=Karl,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>あー、<wait=30><speed=11>やっぱりそうなるか……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Yup, <wait=30><speed=11>I was expecting this...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=navi_chara29_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara29:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_5:100:-25:2:0.5,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ティリス、<wait=20><br>なんとなくわからなかった？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Tilith, <wait=20>didn't you kind of see this coming?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だから私、黙ってたのよ。<wait=20><br>ルジーナとパリスもそうでしょ？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=That's why I kept quiet. <wait=20>So did Lugina and Paris.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara30_5:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara28_3:-80:-10:2:0.5,#
-*,type=PARAM,id=39,param=ルジーナ,#
+*,type=PARAM,id=39,param=Lugina,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=面倒なことは<rep_handlename>の<br>担当だからな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<rep_handlename>'s the one in charge of handling annoyances, after all.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara28_3:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara27_8:0:15:2:0.5,#
-*,type=PARAM,id=39,param=パリス,#
+*,type=PARAM,id=39,param=Paris,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ティリス様、<wait=20>申し訳ございません。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Lady Tilith, <wait=20>my apologies.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara27_8:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara73_4:10:0:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara73:10:140:2:0.3,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PARAM,id=36,param=0.2:2:4:4,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>え～、<wait=20><speed=13>みんなひど～い！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Ohh, <wait=20><speed=13>you're all so mean!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara73_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara73:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara73_8:10:0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara73:10:140:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=でも、<wait=20>どうして<rep_handlename>が<br>戦わなくちゃいけないの！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Why does <rep_handlename> have to fight?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara73_8:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara73:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53_0:-305:-50:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:2:0.5,#
-*,type=PARAM,id=39,param=カロン,#
+*,type=PARAM,id=39,param=Kalon,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ルシアスの力を継ぎし女神よ。<wait=20><br>これは試練だ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=この者が本当にカルナ・マスタに抗しうる者<br>かどうかを試すためのな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Goddess and heir to the power of Lucius, <wait=20>this is a trial.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=A trial to test whether or not this individual is truly the one who can stand up to Karna Masta.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=45,param=2.5,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=34,param=bf252_se_gousei01.mp3,#
@@ -310,12 +310,12 @@
 *,type=PLAYWAIT,param=1.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=33,param=bf006_btl_boss.mp3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><rep_handlename>よ！<wait=20><br>お前の力を見せてみろ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><rep_handlename>! <wait=20>Show me your power!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=navi_chara53_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara53:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53_3:-305:-50:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>この封魔導神カロンにな！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Demonstrate it here before me, the Heresy Demon Kalon!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara53_3:2:0.5,#
@@ -324,9 +324,9 @@
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara73_4:10:0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara73:10:140:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><rep_handlename>～。<wait=20><br><speed=11>ゴメンなさ～～い！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><rep_handlename>! <wait=20>I'm so sorry!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -342,4 +342,3 @@
 *,type=PARAM,id=43,param=ゼブラ影2-2,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

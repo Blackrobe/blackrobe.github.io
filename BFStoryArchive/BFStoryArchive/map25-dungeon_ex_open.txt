@@ -43,55 +43,55 @@
 *,type=PARAM,id=2,param=navi_chara53:-305:117:1:0.5,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=39,param=カロン,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<rep_handlename>か……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=どうやら本当にカルナ・マスタを<br>倒したようだな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Kalon,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<rep_handlename>...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It would seem you have somehow managed to defeat Karna Masta.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara53_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara53:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53_2:-305:-50:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>イリアの願いは<br>叶えられたということか……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I guess Ilia's wish finally came true...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara53_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara53:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53_1:-305:-50:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だが、<rep_handlename>よ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ここを訪れたということは<wait=20><br>お前はまだ戦いを求めるというのか？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=However...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...your visit here gives me the impression that you are still intent on fighting.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=カルナ・マスタの体は滅びた。<wait=20><br>ヤツの力と魂が復活することはないだろう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Karna Masta's body was destroyed. <wait=20>His power and soul may never rise again.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=それに直接戦いを挑まない限りな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=As long as no one challenges him directly, I suppose.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara53_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara53:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53_4:-305:-50:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara53_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara53:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53_1:-305:-50:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<rep_handlename>よ。<wait=20><br>お前は何を期待している？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=What is it you intend to do, <rep_handlename>?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=神託の巫女はその体と魂のすべてを<wait=20><br>カルナ・マスタの封印に捧げた。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=たとえすべての封印を解き<wait=20><br>カルナ・マスタのすべてを滅しても,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=彼女が救われることはない。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=The Oracle Maiden sacrificed her very being and soul to seal away Karna Masta.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Even if you have dispelled that seal and destroyed Karna Masta...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...she still remains beyond salvation.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara53_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara53:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53_6:-305:-50:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=お前がまだ微かでも希望を持っている<br>というのなら,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=その希望、<wait=20>私がすべて消してやろう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=If you are still clinging to the slightest glimmer of hope...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...I'll make sure to snatch it from you myself.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara53_6:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara53:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53_3:-305:-50:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>神託の巫女イリアは戻らない。<wait=20><br>そのことを教えるためにな！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Face reality.<wait=20><br>The Oracle Maiden will never return!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=34,param=bf506_se_reach.mp3,#
@@ -126,4 +126,3 @@
 *,type=PARAM,id=43,param=BattleDungeon80187AddLight.sam,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-
