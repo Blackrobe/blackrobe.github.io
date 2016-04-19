@@ -269,6 +269,20 @@ mapName = {
     },
     "25": {
         "dungeon": {
+            "1": "Sealed God's Gate",
+            "2": "Hydra Geyser",
+            "3": "Remains of Raza",
+            "4": "Thunder Hill Padam",
+            "5": "Hope's Light Castle",
+            "6": "Cursed Town Ygmeon",
+            "7": "Empty Seal Menon",
+            "8": ""
+        },
+        "name": "Menon",
+        "order": 25
+    },
+    "26": {
+        "dungeon": {
             "1": "",
             "2": "",
             "3": "",
@@ -278,8 +292,8 @@ mapName = {
             "7": "",
             "8": ""
         },
-        "name": "Menon",
-        "order": 25
+        "name": "Something",
+        "order": 26
     },
     "3": {
         "dungeon": {
