@@ -55,6 +55,17 @@ class StoryPage(object):
             self.setOrder(0 + int(tutorialNumber))
             self.setDirectory(pageName)
             self.setName("Chapter 0: Tutorial Scene " + tutorialNumber)
+        elif not (pageName.find("GQX") == -1):            
+            grandQuestNumber = pageName[3]
+            if not (pageName[4:].find("OP") == -1):
+                self.setOrder(180000 + int(grandQuestNumber)*1000)
+                self.setDirectory(pageName)
+                self.setName("Exclusive Grand Quest " + grandQuestNumber + " -- Opening Scene")
+            else:
+                grandQuestSceneNumber = pageName[-2:]
+                self.setOrder(180000 + int(grandQuestNumber)*1000 + int(grandQuestSceneNumber))
+                self.setDirectory(pageName)
+                self.setName("Exclusive Grand Quest " + grandQuestNumber + " Scene " + grandQuestSceneNumber)
         elif not (pageName.find("grand") == -1):
             if pageName == "grand_op":
                 self.setOrder(100000)
