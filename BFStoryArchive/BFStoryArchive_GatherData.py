@@ -14,9 +14,12 @@ def gatherNaviChara(filename):
 if __name__ == "__main__":
 
     #for filename in glob.glob("BFStoryArchive/" + "*.jpg"):
-    for filename in glob.glob("BFStoryArchive/" + "*.png"):
-        filename = filename[15:]
-        fileList.append(filename)
+    #for filename in glob.glob("BFStoryArchive/" + "*.png"):
+        #filename = filename[15:]
+        #fileList.append(filename)
+
+    for i in range(0, 10):
+        fileList.append("navi_chara80043_%d.png" % (i,))
 
     for i, filename in enumerate(fileList):
         #threadList.append(Thread(target = gatherDungeonBattle, args = (filename,)))
