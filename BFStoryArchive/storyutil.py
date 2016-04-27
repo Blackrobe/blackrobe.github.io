@@ -292,7 +292,7 @@ mapName = {
             "7": "",
             "8": ""
         },
-        "name": "Something",
+        "name": "Mildran",
         "order": 26
     },
     "3": {
