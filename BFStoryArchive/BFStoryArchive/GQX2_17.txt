@@ -672,8 +672,9 @@
 *,type=PLAYWAIT,param=haile_3,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=The thought of losing someone close is unbearable.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=3,param=haile_3:2:0.5,#
+*,type=PARAM,id=2,param=haile_3:2:0.5,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Were it not for you, this might not have been possible, <rep_handlename>.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=3,param=haile_3:2:0.5,#
 *,type=PARAM,id=3,param=haile_base:2:0.5,#
 *,type=PARAM,id=3,param=haile_1:2:0.5,#
 *,type=PLAYWAIT,param=0.5,#
