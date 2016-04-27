@@ -19,7 +19,7 @@ if __name__ == "__main__":
         #fileList.append(filename)
 
     for i in range(0, 10):
-        fileList.append("navi_chara80043_%d.png" % (i,))
+        fileList.append("navi_chara39_%d.png" % (i,))
 
     for i, filename in enumerate(fileList):
         #threadList.append(Thread(target = gatherDungeonBattle, args = (filename,)))
