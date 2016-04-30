@@ -311,7 +311,7 @@ mapName = {
             "8": ""
         },
         "special": "The Hermit's Resting Place",
-        "name": "Mildran",
+        "name": "(Japanese) Mildran",
         "order": 26
     },
     "27": {
