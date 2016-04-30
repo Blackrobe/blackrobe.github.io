@@ -40,6 +40,7 @@ mapName = {
             "6": "Monster's Nest",
             "7": "Tower of Mistral"
         },
+        "special": "Egor Mountains",
         "name": "Mistral",
         "order": 1
     },
@@ -54,6 +55,7 @@ mapName = {
             "7": "Ocean Shrine Albina",
             "8": ""
         },
+        "special": "Agni Dungeon",
         "name": "Agni",
         "order": 10
     },
@@ -68,6 +70,7 @@ mapName = {
             "7": "Tower of the Gods",
             "8": ""
         },
+        "special": "",
         "name": "Mirvana",
         "order": 11
     },
@@ -82,6 +85,7 @@ mapName = {
             "7": "Alnakeid Castle",
             "8": ""
         },
+        "special": "",
         "name": "Lanara",
         "order": 12
     },
@@ -96,6 +100,7 @@ mapName = {
             "7": "Adan's Tower",
             "8": ""
         },
+        "special": "",
         "name": "Vriksha",
         "order": 13
     },
@@ -110,6 +115,7 @@ mapName = {
             "7": "Wolf's Lair",
             "8": ""
         },
+        "special": "Elnada Sea Temple",
         "name": "Aldahlia",
         "order": 14
     },
@@ -124,6 +130,7 @@ mapName = {
             "7": "Amuris Cemetery",
             "8": "Crystal Palace"
         },
+        "special": "Garnes Research Cave",
         "name": "Atharva",
         "order": 15
     },
@@ -138,6 +145,7 @@ mapName = {
             "7": "Sacred Mt. Bari",
             "8": "Grand Gaia Crater"
         },
+        "special": "Subterranean Cave",
         "name": "Bariura",
         "order": 16
     },
@@ -152,6 +160,7 @@ mapName = {
             "7": "Poisonous Bug Forest",
             "8": "Soaring Tree Tower"
         },
+        "special": "Cave of Sealed Might",
         "name": "Celgrad",
         "order": 17
     },
@@ -166,6 +175,7 @@ mapName = {
             "7": "Bridge of Despair",
             "8": ""
         },
+        "special": "Cape of Sealed Ploys",
         "name": "Lem",
         "order": 18
     },
@@ -180,6 +190,7 @@ mapName = {
             "7": "Beiorg Castle",
             "8": ""
         },
+        "special": "Sealed Forest",
         "name": "Beiorg",
         "order": 19
     },
@@ -194,6 +205,7 @@ mapName = {
             "7": "Tower of Morgan",
             "8": ""
         },
+        "special": "",
         "name": "Morgan",
         "order": 2
     },
@@ -208,6 +220,7 @@ mapName = {
             "7": "Forsaken Castle Biorad",
             "8": ""
         },
+        "special": "Sealed Ship Graveyard",
         "name": "Wulgee",
         "order": 20
     },
@@ -222,6 +235,7 @@ mapName = {
             "7": "Weather Tower",
             "8": ""
         },
+        "special": "Sealed Empty Garden",
         "name": "Rakshult",
         "order": 21
     },
@@ -236,6 +250,7 @@ mapName = {
             "7": "Tower of Amu Yunos",
             "8": ""
         },
+        "special": "Sealed Crystal Cave",
         "name": "Zamburg",
         "order": 22
     },
@@ -250,6 +265,7 @@ mapName = {
             "7": "Mt. Nerga",
             "8": ""
         },
+        "special": "Sealed Dragon's Deep",
         "name": "Fal Nerga",
         "order": 23
     },
@@ -264,6 +280,7 @@ mapName = {
             "7": "Demon Castle Estria",
             "8": ""
         },
+        "special": "Sealed Altar",
         "name": "Estria",
         "order": 24
     },
@@ -278,10 +295,26 @@ mapName = {
             "7": "Empty Seal Menon",
             "8": ""
         },
+        "special": "Ark of the Sealed God",
         "name": "Menon",
         "order": 25
     },
     "26": {
+        "dungeon": {
+            "1": "Ruins of Zera",
+            "2": "Scorching City of Fevu",
+            "3": "Floating Castle of Mildran",
+            "4": "Holy Temple of Eternity",
+            "5": "",
+            "6": "",
+            "7": "",
+            "8": ""
+        },
+        "special": "The Hermit's Resting Place",
+        "name": "Mildran",
+        "order": 26
+    },
+    "27": {
         "dungeon": {
             "1": "",
             "2": "",
@@ -292,8 +325,9 @@ mapName = {
             "7": "",
             "8": ""
         },
-        "name": "Mildran",
-        "order": 26
+        "special": "",
+        "name": "Something",
+        "order": 27
     },
     "3": {
         "dungeon": {
@@ -306,6 +340,7 @@ mapName = {
             "7": "St. Lamia Palace",
             "8": ""
         },
+        "special": "",
         "name": "St. Lamia",
         "order": 3
     },
@@ -320,6 +355,7 @@ mapName = {
             "7": "Giant's Ruins",
             "8": ""
         },
+        "special": "Ignia Cavern",
         "name": "Cordelica",
         "order": 4
     },
@@ -334,6 +370,7 @@ mapName = {
             "7": "Amdahl Castle",
             "8": ""
         },
+        "special": "",
         "name": "Amdahl",
         "order": 5
     },
@@ -348,6 +385,7 @@ mapName = {
             "7": "Sky Fort Solaris",
             "8": ""
         },
+        "special": "Valmodora's Nest",
         "name": "Encervis",
         "order": 6
     },
@@ -362,6 +400,7 @@ mapName = {
             "7": "Spirit World Palmyna",
             "8": ""
         },
+        "special": "",
         "name": "Palmyna",
         "order": 7
     },
@@ -376,6 +415,7 @@ mapName = {
             "7": "The Black Bridge",
             "8": "Tower of Destruction"
         },
+        "special": "Golzo Underground Lake",
         "name": "Lizeria",
         "order": 8
     },
@@ -390,6 +430,7 @@ mapName = {
             "7": "The White Tower",
             "8": ""
         },
+        "special": "",
         "name": "Ryvern",
         "order": 9
     }

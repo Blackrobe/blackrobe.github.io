@@ -60,6 +60,7 @@ for currentTxt in currentTxtList:
     outputLines.append("<head>")
     outputLines.append("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">")
     outputLines.append("<link rel=\"stylesheet\" type=\"text/css\" href=\"style/style.css\">")
+    outputLines.append("<link rel=\"stylesheet\" type=\"text/css\" media=\"only screen and (min-device-width: 360px)\" href=\"style-compact.css\">")
     outputLines.append("<script>")
     outputLines.append("(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){")
     outputLines.append("(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),")

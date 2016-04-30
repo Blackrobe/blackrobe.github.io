@@ -11,13 +11,25 @@ class StoryPage(object):
 
     def __init__(self, pageName):
         if not (pageName[:3].find("map") == -1):
-            print "we found map"
             mapNumber = pageName.split("-")[0][3:]
             if (str(mapNumber) in [str(i) for i in range(0, 99)]):
                 if not (pageName.find("dungeon_ex") == -1):
-                    self.setOrder(int(mapNumber)*1000+990)
-                    self.setDirectory(pageName)
-                    self.setName("Chapter " + mapNumber + " Special: " + mapName[mapNumber]["name"] + " " + pageName.split("-")[1])
+                    if not (pageName.find("ex1_clear") == -1):
+                        self.setOrder(int(mapNumber)*1000+993)
+                        self.setDirectory(pageName)
+                        self.setName("Chapter " + mapNumber + " Special: " + mapName[mapNumber]["name"] + " - " + mapName[mapNumber]["special"] + " [ Ending 1 ]")
+                    elif not (pageName.find("ex2_clear") == -1):
+                        self.setOrder(int(mapNumber)*1000+994)
+                        self.setDirectory(pageName)
+                        self.setName("Chapter " + mapNumber + " Special: " + mapName[mapNumber]["name"] + " - " + mapName[mapNumber]["special"] + " [ Ending 2 ]")
+                    elif not (pageName.find("ex_clear") == -1):
+                        self.setOrder(int(mapNumber)*1000+995)
+                        self.setDirectory(pageName)
+                        self.setName("Chapter " + mapNumber + " Special: " + mapName[mapNumber]["name"] + " - " + mapName[mapNumber]["special"] + " [ Ending ]")
+                    else:
+                        self.setOrder(int(mapNumber)*1000+990)
+                        self.setDirectory(pageName)
+                        self.setName("Chapter " + mapNumber + " Special: " + mapName[mapNumber]["name"] + " - " + mapName[mapNumber]["special"])
                 elif not (pageName.find("open") == -1):
                     self.setOrder(int(mapNumber)*1000)
                     self.setDirectory(pageName)
