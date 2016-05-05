@@ -487,7 +487,13 @@ grandQuestName = {
     },
     "17": {
         "name": "(Japanese) Ishgria Expedition Team"
-    }
+    },
+    "X1": {
+        "name": "The Tinkerer's Deceit"
+    },
+    "X2": {
+        "name": "Rih'alnase -- Genesis"
+    },
 }
 
 if __name__ == '__main__':
