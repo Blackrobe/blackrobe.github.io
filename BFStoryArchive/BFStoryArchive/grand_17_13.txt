@@ -25,12 +25,12 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara71_2:-120:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara71:-120:170:2:0.5,#
-*,type=PARAM,id=39,param=ミーファ,#
+*,type=PARAM,id=39,param=Mirfah,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>ハァッ<wait=20>ハァッ<wait=20>ハァッ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>*Huff* <wait=20>*huff* <wait=20>*huff...*,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>ここが滅獄の岸壁……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>このあたりに<br>帰還用のゲートがあるはず……<wait=30><speed=14>どこだ！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>This is Doomcell Wharf...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>The return gate should be around here. <wait=30><speed=14>Where is it?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=45,param=3,#
 *,type=PARAM,id=7,param=2:0&0&0,#
@@ -43,21 +43,21 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara71_4:-120:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara71:-120:170:2:0.5,#
-*,type=PARAM,id=39,param=ミーファ,#
+*,type=PARAM,id=39,param=Mirfah,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>そ、<wait=20>そんな……<wait=30>どこにも…<wait=20>ない！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>N-<wait=20>No... <wait=30>It's...<wait=20>not here?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>バ、<wait=20>バカな…。<wait=20><br>出発前のグラデンス様の説明では……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I-<wait=20>It can't be... <wait=20>Before we departed, Lord Grahdens clearly told us...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>でも……<wait=20><speed=8>ないってことは……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>But...<wait=20><speed=8>if it's not here, then...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara71_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara71:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara71_5:-120:10:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara71:-120:170:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>俺たちは……<wait=20>召喚老の方々に、<wait=20><br>嘘をつかれていたのか……？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>...were the Summoners of Old...<wait=20>lying to us?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>あの人たちは、<wait=20><br>最初から俺たちを見捨てるつもりで……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>They intended to write us off, <wait=20>from the very beginning...?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara71_5:2:1,#
@@ -71,30 +71,30 @@
 *,type=PARAM,id=7,param=0.5:50&45&150,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=8,param=2:50&45&150,#
-*,type=PARAM,id=39,param=魔獣,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<size=20><speed=8>グゴオオオオォォ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Demonic Beast,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<size=20><speed=8>RRRROOOOAAAAAAARRR!!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara71_2:-120:10:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara71:-120:170:2:0.3,#
-*,type=PARAM,id=39,param=ミーファ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>貴様は俺たちを襲っていた魔獣……！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Mirfah,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>You're the demonic beast that attacked us!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara71_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara71:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara71_5:-120:10:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara71:-120:170:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>クッ…<wait=30><speed=13>貴様がここにいるということは、<wait=20><br>ロアさんとカフカさんは……！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>Grh... <wait=30><speed=13>If you're here, <wait=20>that means Rhoa and Kafka are dead!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara71_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara71:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara71_2:-120:10:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara71:-120:170:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=俺はもうグランガイアに帰れない。<wait=20><br><speed=11>でも…<wait=20><speed=9>それでも俺は……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I can't return to Grand Gaia again. <wait=20><speed=11>But...<wait=20><speed=9>even so, I...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=36,param=0.1:10:8:8,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>死ぬことは許されない！<br>絶対に生き延びなければいけないんだ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>I can't allow myself to die here! I absolutely have to survive!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -106,4 +106,3 @@
 *,type=PARAM,id=43,param=BattleDungeon80151FogFront,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

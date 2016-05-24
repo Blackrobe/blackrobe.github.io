@@ -32,8 +32,8 @@
 *,type=PARAM,id=2,param=navi_chara32_0:-100:-180:1:0.5,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1.5,#
-*,type=PARAM,id=39,param=シュスイ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=フンッ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Shusui,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Hmph...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=34,param=bf223_se_dark3.mp3,#
@@ -47,8 +47,8 @@
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=36,param=0.1:3:10:10,#
 *,type=PARAM,id=8,param=0.3:255&40&40,#
-*,type=PARAM,id=39,param=グリフ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=グハッ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Griff,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Gragh...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
@@ -57,20 +57,20 @@
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara32_0:-100:-180:2:0.5,#
-*,type=PARAM,id=39,param=シュスイ,#
+*,type=PARAM,id=39,param=Shusui,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=どうやらこれまでのようだな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=貴様は人間としてはなかなかの強さだった。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だが、<wait=20>我には今一歩届かなかったようだな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It seems you're finished.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=You were quite strong for a human.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=However, <wait=20>you didn't quite measure up to me.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=我の勝ちだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Victory is mine.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara32_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58_5:-310:-65:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara58:-310:250:2:0.5,#
-*,type=PARAM,id=39,param=グリフ,#
+*,type=PARAM,id=39,param=Griff,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>いや、<wait=20>俺の……<wait=30><speed=13>勝ちだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>No, <wait=20>it's...<wait=30><speed=13>my win.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
@@ -84,19 +84,19 @@
 *,type=PARAM,id=34,param=bf237_se_sickness.mp3,#
 *,type=PARAM,id=36,param=0.1:10:10:10,#
 *,type=PARAM,id=8,param=1:255&40&40,#
-*,type=PARAM,id=39,param=シュスイ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>グッ……<wait=20>脚が……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Shusui,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Argh...<wait=20>my leg...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=貴様の狙いは、<wait=20><br>初めからこれだったということか？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=So this was what you were aiming for, <wait=20>from the start?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=45,param=3,#
 *,type=PARAM,id=3,param=navi_chara32_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58_1:-310:-65:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara58:-310:250:2:0.5,#
-*,type=PARAM,id=39,param=グリフ,#
+*,type=PARAM,id=39,param=Griff,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>これで貴様は、<wait=20><br>しばらくここから動けまい……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Now you'll be stuck here for a while...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=36,param=0.1:3:10:10,#
 *,type=PARAM,id=8,param=1:255&40&40,#
@@ -104,7 +104,7 @@
 *,type=PARAM,id=3,param=navi_chara58:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58_5:-310:-65:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58:-310:250:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>グハッ………！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Urgh!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=33,param=bf031_map_summons.mp3,#
 *,type=PLAYWAIT,param=0.5,#
@@ -114,16 +114,16 @@
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara32_0:-100:-180:2:0.5,#
-*,type=PARAM,id=39,param=シュスイ,#
+*,type=PARAM,id=39,param=Shusui,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>………<wait=30><speed=13>貴様の名を聞いておこう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>I should...<wait=30><speed=13>ask your name.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara32_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58_1:-310:-65:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara58:-310:250:2:0.5,#
-*,type=PARAM,id=39,param=グリフ,#
+*,type=PARAM,id=39,param=Griff,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>アクラス召喚院……<wait=20><br><speed=9>第四魔神討伐隊…<wait=20><speed=8>隊…<wait=20><speed=7>長……<wait=20><speed=6>グリ…<wait=20><speed=5>フ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Akras Summoners' Hall...<wait=20><speed=9>Demon Slayers 4th Squad...<wait=20><speed=8>Com...<wait=20><speed=7>mander...<wait=20><speed=6>Griff...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=1.5,#
 *,type=PARAM,id=34,param=bf202_se_slash2.mp3,#
@@ -142,9 +142,9 @@
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1.5,#
 *,type=PARAM,id=2,param=navi_chara32_0:-100:-180:2:0.5,#
-*,type=PARAM,id=39,param=シュスイ,#
+*,type=PARAM,id=39,param=Shusui,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>グリフ……<wait=30><br><speed=13>その名、<wait=20>我の中で強者として憶えておこう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Griff... <wait=30><speed=13>I will remember your name, <wait=20>as that of a mighty warrior.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -158,4 +158,3 @@
 *,type=PARAM,id=43,param=ゼブラ影2-2,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

@@ -40,8 +40,8 @@
 *,type=PLAYWAIT,param=1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=33,param=bf049_raid_boss.mp3,#
-*,type=PARAM,id=39,param=シュスイ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Shusui,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara32_0:2:0.5,#
@@ -49,33 +49,33 @@
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara58_0:-310:-65:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara58:-310:250:2:0.5,#
-*,type=PARAM,id=39,param=グリフ,#
+*,type=PARAM,id=39,param=Griff,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=やはり待っていたか……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=So you were waiting for me after all...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara58_0:2:0.5,#
 *,type=PARAM,id=3,param=navi_chara58:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara32_0:-100:-180:2:0.5,#
-*,type=PARAM,id=39,param=シュスイ,#
+*,type=PARAM,id=39,param=Shusui,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=貴様のその強さ、<wait=20>再び我に見せてみよ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=貴様が生き残るすべは、<wait=20><speed=14>それ以外にない！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Show me that strength of yours once more.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=You must defeat me<wait=20><speed=14> if you want to live!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara32_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58_0:-310:-65:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara58:-310:250:2:0.5,#
-*,type=PARAM,id=39,param=グリフ,#
+*,type=PARAM,id=39,param=Griff,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>………<wait=30><speed=13>無論だ。<wait=20>避けられぬのならば、<wait=20><br>覚悟を決めて戦うのみ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>Of course... <wait=20>I see there's no avoiding this. <wait=20>You've given me no other option.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara58_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara58:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58_2:-310:-65:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58:-310:250:1:0.5,#
 *,type=PARAM,id=36,param=0.1:16:8:8,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>貴様をクランツたちのもとへは行かせん。<br>たとえこの身が、ここで朽ちようともな！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>I will not let you reach Krantz and the others. Even if it means my death!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
@@ -86,39 +86,39 @@
 *,type=PARAM,id=2,param=navi_chara48_0:-40:-50:2:1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=ミーファ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=その戦い、<wait=20>俺も参加させてもらおう…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Mirfah,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I'll be joining you in this battle.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara48_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58_0:-310:-65:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara58:-310:250:2:0.5,#
-*,type=PARAM,id=39,param=グリフ,#
+*,type=PARAM,id=39,param=Griff,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=36,param=0.1:2:6:6,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>貴様は先ほどの……！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>You again!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara58_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara58:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58_2:-310:-65:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58:-310:250:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>手を出すな！<wait=20><br>正体の分からぬ者と共闘する気はない！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Don't get involved! <wait=20>I have no intention of fighting alongside a stranger!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara58_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara58:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara32_0:-100:-180:2:0.5,#
-*,type=PARAM,id=39,param=シュスイ,#
+*,type=PARAM,id=39,param=Shusui,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=貴様などには用はない…。<wait=20><br><speed=14>我とこの者との戦いの邪魔をするなッ！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I have no business with you... <wait=20><speed=14>Do not interfere in our battle!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara32_0:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara48_0:-40:-50:2:0.5,#
-*,type=PARAM,id=39,param=ミーファ,#
+*,type=PARAM,id=39,param=Mirfah,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>………<wait=30><speed=13>貴様らの意思など知らん。<wait=20><br>許可を貰うつもりもない。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=俺は俺のため、<wait=20><br>勝手にやらせてもらうまでだ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>I don't care what either of you thinks. <wait=20>I am not asking you for permission.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I'm just going to do what I must, <wait=20>for my own sake!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -132,4 +132,3 @@
 *,type=PARAM,id=43,param=BattleDungeon80104LightAddBack,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

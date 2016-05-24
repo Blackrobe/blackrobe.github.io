@@ -34,8 +34,8 @@
 *,type=PARAM,id=8,param=1:255&255&255,#
 *,type=PARAM,id=2,param=navi_chara58_5:-310:-65:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58:-310:250:1:0.5,#
-*,type=PARAM,id=39,param=グリフ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>グッ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Griff,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>Ugh...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara58_5:2:0.5,#
@@ -46,8 +46,8 @@
 *,type=PARAM,id=36,param=0.1:10:10:10,#
 *,type=PARAM,id=8,param=1:220&40&40,#
 *,type=PARAM,id=2,param=navi_chara32_0:-100:-180:1:0.5,#
-*,type=PARAM,id=39,param=シュスイ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>ムッ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Shusui,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Argh...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
@@ -56,22 +56,22 @@
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara58_5:-310:-65:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara58:-310:250:2:0.5,#
-*,type=PARAM,id=39,param=グリフ,#
+*,type=PARAM,id=39,param=Griff,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>ハァッ<wait=20>ハァッ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>*Gasp* <wait=20>*pant...*,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara58_5:2:0.5,#
 *,type=PARAM,id=3,param=navi_chara58:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara32_0:-100:-180:2:0.5,#
-*,type=PARAM,id=39,param=シュスイ,#
+*,type=PARAM,id=39,param=Shusui,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=貴様のような<br>強者と出会うのは久しい。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ここで終わらせるには惜しい。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=もう一度、<wait=20>我と戦う機会をやろう…。<wait=20><br>再び我が心を滾らせてみよ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It has been a long time since I encountered an opponent as strong as you.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It would be a shame to end this here.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I will give you another chance to face me...<wait=20>and set my heart aflame again.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=45,param=4,#
 *,type=PLAYWAIT,param=1.5,#
@@ -97,24 +97,24 @@
 *,type=PARAM,id=2,param=navi_chara58:-310:250:2:0.5,#
 *,type=PARAM,id=33,param=bf023_map_ruins.mp3,#
 *,type=PARAM,id=44,param=3,#
-*,type=PARAM,id=39,param=グリフ,#
+*,type=PARAM,id=39,param=Griff,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>フゥ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>Phew...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>撃退した……<wait=30><speed=13>などとは、<wait=20><br>お世辞にも言えんだろうな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>I drove him off...<wait=30><speed=13> Heh, that's not true...<wait=20>I won't flatter myself.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=俺の見たところ、<wait=20>あの魔神は、<br>このイシュグリアでも別格の強さ…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=From what I've seen, <wait=20>that demon's particularly strong, even for Ishgria.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=navi_chara58_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara58:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58_1:-310:-65:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58:-310:250:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=それと一番最初に出くわし、<wait=20>俺が相手をする<br>ことになったのは、<wait=20>運がいいのか悪いのか…,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Encountering him right away, <wait=20>and then having him face me could either be great or terrible luck...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara58_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara58:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58_0:-310:-65:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58:-310:250:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>………<wait=30><speed=13>やはりあの魔神を止めるには、<wait=20><br>俺の生命を賭けねばならぬようだな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>...<wait=30><speed=13>I'll have to put my life on the line, in order to stop him.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -126,4 +126,3 @@
 *,type=PARAM,id=43,param=BattleDungeon80102WaterAddBack,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

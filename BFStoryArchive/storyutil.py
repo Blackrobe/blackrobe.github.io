@@ -486,7 +486,7 @@ grandQuestName = {
         "name": ""
     },
     "17": {
-        "name": "(Japanese) Ishgria Expedition Team"
+        "name": "Entrusted Will"
     },
     "X1": {
         "name": "The Tinkerer's Deceit"

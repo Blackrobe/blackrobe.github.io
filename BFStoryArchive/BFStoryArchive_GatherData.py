@@ -9,14 +9,16 @@ def gatherDungeonBattle(filename):
     urllib.urlretrieve("http://dlc.bfglobal.gumi.sg/content/dungeon/" + filename, filename)
 
 def gatherNaviChara(filename):
-    urllib.urlretrieve("http://dlc.bfglobal.gumi.sg/content/event/" + filename, filename)
+    urllib.urlretrieve("http://v2.cdn.android.brave.a-lim.jp/event/" + filename, filename)
 
 def gatherMap(filename):
     urllib.urlretrieve("http://dlc.bfglobal.gumi.sg/content/raid/raid_map/" + filename, "result/" + filename)
 
 def gatherMapStory(filename):
+    urllib.urlretrieve("http://dlc.bfglobal.gumi.sg/content/event/" + filename, "result/" + filename)
+    
     #urllib.urlretrieve("http://dlc.bfglobal.gumi.sg/content/event/" + filename, "result/" + filename)
-    urllib.urlretrieve("http://v2.cdn.android.brave.a-lim.jp/" + filename, "result/" + filename)
+    #urllib.urlretrieve("http://v2.cdn.android.brave.a-lim.jp/event/" + filename, "result/" + filename)
 
 if __name__ == "__main__":
 
@@ -33,6 +35,11 @@ if __name__ == "__main__":
         #filename = filename[15:]
         #fileList.append(filename)
 
+    for i in range(0, 30):
+        fileList.append("grand_17_%02d.txt" % (i,))
+    fileList.append("grand_17_op.txt")
+    
+
     #for i in range(0, 10):
     #    fileList.append("navi_chara39_%d.png" % (i,))
 
@@ -43,6 +50,7 @@ if __name__ == "__main__":
 
     for i, filename in enumerate(fileList):
         #threadList.append(Thread(target = gatherDungeonBattle, args = (filename,)))
+        #threadList.append(Thread(target = gatherNaviChara, args = (filename,)))
         threadList.append(Thread(target = gatherMapStory, args = (filename,)))
 
     for threadIndividual in threadList:

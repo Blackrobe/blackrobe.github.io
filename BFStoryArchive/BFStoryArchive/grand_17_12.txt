@@ -58,8 +58,8 @@
 *,type=PARAM,id=2,param=navi_chara62:-130:285:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara60_2:-130:20:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara60:-130:140:2:0.3,#
-*,type=PARAM,id=39,param=クランツ・リベラ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=15>くらえ…！<br>ハッ……！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Krantz & Libera,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=15>Take this! Hyaa!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=36,param=0.1:8:10:10,#
 *,type=PARAM,id=34,param=bf201_se_slash1.mp3,#
@@ -78,16 +78,16 @@
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara53_4:-305:-50:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:2:0.3,#
-*,type=PARAM,id=39,param=カロン,#
+*,type=PARAM,id=39,param=Kalon,#
 *,type=PARAM,id=36,param=0.1:3:10:10,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=グッ……！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Grh!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara53_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara53:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53_0:-305:-50:1:0.3,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:1:0.3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>……その程度の攻撃で調子にのるなよ！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Is that the best you can do after all that boasting?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=34,param=bf506_se_reach.mp3,#
 *,type=PARAM,id=8,param=0.2:255&255&255,#
@@ -109,8 +109,8 @@
 *,type=PARAM,id=36,param=0.1:3:10:10,#
 *,type=PARAM,id=2,param=navi_chara62_5:-10:5:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara62:-10:285:2:0.3,#
-*,type=PARAM,id=39,param=クランツ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>グハァッ…！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Krantz,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Gragh!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=34,param=bf237_se_sickness.mp3,#
 *,type=PARAM,id=8,param=0.2:255&40&40,#
@@ -119,8 +119,8 @@
 *,type=PARAM,id=3,param=navi_chara62:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara60_5:-160:20:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara60:-160:140:2:0.3,#
-*,type=PARAM,id=39,param=リベラ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>キャァァァッーーー！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Libera,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Eeeeek!!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara60_5:2:0.5,#
@@ -129,14 +129,14 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara53_0:-305:-50:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:2:0.5,#
-*,type=PARAM,id=39,param=カロン,#
+*,type=PARAM,id=39,param=Kalon,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>あの１人を逃すため、<wait=20>貴様ら２人で<br>私の足止めをするつもりなのであろう…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>だが、それは無駄なこと。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>The two of you must intend to delay me, <wait=20>in order to let that other one get away...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>But your efforts are wasted.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>悪いが１人も逃さぬ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I am sorry, but I will not allow even one of you to escape.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>先に逃げたあの者も、<wait=20><br>すぐに始末させてもらう！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>I will soon eliminate the one that fled!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara53_0:2:0.5,#
@@ -144,24 +144,24 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara60_2:-160:20:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara60:-160:140:2:0.5,#
-*,type=PARAM,id=39,param=リベラ,#
+*,type=PARAM,id=39,param=Libera,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>行かせは……<wait=30><speed=14>しないわ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>I won't...<wait=30><speed=14>let you go.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=navi_chara60_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara60:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara62_2:-10:5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara62:-10:285:2:0.5,#
-*,type=PARAM,id=39,param=クランツ,#
+*,type=PARAM,id=39,param=Krantz,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>そんなことは、<wait=20>させない！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>I'm not letting you do that!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara62_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara62:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53_0:-305:-50:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:2:0.5,#
-*,type=PARAM,id=39,param=カロン,#
+*,type=PARAM,id=39,param=Kalon,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>ほう、<wait=20>まだ立ち上がるか…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Oh, <wait=20>so you can still stand...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=45,param=3,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
@@ -170,10 +170,10 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara62_3:-10:5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara62:-10:285:2:0.5,#
-*,type=PARAM,id=39,param=クランツ,#
+*,type=PARAM,id=39,param=Krantz,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。<wait=20><br><speed=13>ゴメン、<wait=20>リベラ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=本当はミーファを行かせた後、<wait=20><speed=11><br>君も逃がすつもりだったんだ…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>I'm...<wait=20><speed=13>sorry, Libera.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Honestly, I intended to have you escape next, <wait=20><speed=11>after we let Mirfah get away...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1.5,#
 *,type=PARAM,id=3,param=navi_chara62_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara62:1:0.5,#
@@ -181,23 +181,23 @@
 *,type=PARAM,id=2,param=navi_chara62:-10:285:1:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=33,param=bf060_alvest.mp3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>でも…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>But...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara62_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara62:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara60_2:-160:20:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara60:-160:140:2:0.5,#
-*,type=PARAM,id=39,param=リベラ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>わかってる……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>この魔神は、私たち２人がかりでないと<wait=20><br>止めることはできないわ…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Libera,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>I know.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>There's no way to stop this demon<wait=20> unless we work together.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>それに……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>And...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara60_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara60:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara60_0:-160:20:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara60:-160:140:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=私はクランツのその気持ちだけで十分よ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...just knowing that you felt that way is enough for me, Krantz.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara60_0:2:0.5,#
@@ -206,9 +206,9 @@
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara53_0:-305:-50:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:2:0.5,#
-*,type=PARAM,id=39,param=カロン,#
+*,type=PARAM,id=39,param=Kalon,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>この一撃で…<wait=30><speed=14>消え失せろ！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Now, with this attack...<wait=30><speed=14>begone!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=34,param=bf506_se_reach.mp3,#
 *,type=PARAM,id=8,param=0.2:255&255&255,#
@@ -233,8 +233,8 @@
 *,type=PARAM,id=36,param=0.1:8:8:8,#
 *,type=PARAM,id=2,param=navi_chara62_5:-10:5:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara62:-10:285:2:0.3,#
-*,type=PARAM,id=39,param=クランツ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=15><size=16>グハァッッ……！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Krantz,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=15><size=16>Gragh!!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=navi_chara62_5:2:0.5,#
 *,type=PARAM,id=3,param=navi_chara62:2:0.5,#
@@ -245,8 +245,8 @@
 *,type=PARAM,id=36,param=0.1:8:8:8,#
 *,type=PARAM,id=2,param=navi_chara60_5:-160:20:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara60:-160:140:2:0.3,#
-*,type=PARAM,id=39,param=リベラ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=15><size=16>グッ……！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Libera,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=15><size=16>Ugh!!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara60_5:2:1,#
@@ -255,15 +255,15 @@
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara62_5:-10:5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara62:-10:285:2:0.5,#
-*,type=PARAM,id=39,param=クランツ,#
+*,type=PARAM,id=39,param=Krantz,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>まだだ……<wait=30><speed=14>まだ死ねない！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>Not yet...<wait=30><speed=14>I can't die yet!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara62_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara62:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara62_2:-10:5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara62:-10:285:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><size=19>アース・ディヴァイダー！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><size=19>Earth Divider!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=34,param=bf218_se_saint1.mp3,#
@@ -287,14 +287,14 @@
 *,type=PARAM,id=2,param=navi_chara53_4:-305:-50:1:0.2,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:1:0.2,#
 *,type=STOP,id=-1,#
-*,type=PARAM,id=39,param=カロン,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>…な、<wait=20>なに！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Kalon,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Wh-<wait=20>What?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=34,param=bf237_se_sickness.mp3,#
 *,type=PARAM,id=34,param=bf202_se_slash2.mp3,#
 *,type=PARAM,id=8,param=1:255&40&40,#
 *,type=PARAM,id=36,param=0.1:8:10:10,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=グッ…！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Argh!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
@@ -303,11 +303,11 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara60_2:-160:20:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara60:-160:140:2:0.5,#
-*,type=PARAM,id=39,param=リベラ,#
+*,type=PARAM,id=39,param=Libera,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>私の最期の一撃を……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Take my final attack...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><size=19>アンドラステ！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><size=19>Andraste!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=34,param=bf204_se_shot2.mp3,#
@@ -339,8 +339,8 @@
 *,type=PARAM,id=34,param=bf239_se_curse.mp3,#
 *,type=PARAM,id=8,param=1:255&40&40,#
 *,type=PARAM,id=36,param=0.1:8:10:10,#
-*,type=PARAM,id=39,param=カロン,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=グハッ………！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Kalon,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Urgh!!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
@@ -352,18 +352,18 @@
 *,type=PARAM,id=36,param=0.1:2:15:15,#
 *,type=PARAM,id=2,param=navi_chara60_5:-160:20:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara60:-160:140:2:0.3,#
-*,type=PARAM,id=39,param=リベラ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ウッ………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Libera,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Ugh...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara60_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara60:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara60_3:-160:20:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara60:-160:140:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>クランツ…<wait=20>これまでありがとう……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>Krantz...<wait=20>thank you for everything...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>お父様、<wait=20>お母様……<wait=40><br>リベラは立派に戦いました…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>………<wait=30>もう一度<wait=20>会いたかった。<wait=20><br>そして……<wait=20>許して…<wait=20>ほしかった……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>Father, <wait=20>Mother... <wait=40>Your daughter fought well...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>I wish...<wait=20>I could've seen you again. <wait=20>And I wish...<wait=20>I could have asked for...<wait=20>your forgiveness...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=34,param=bf251_se_whiteout.mp3,#
@@ -375,23 +375,23 @@
 *,type=PARAM,id=36,param=0.1:2:15:15,#
 *,type=PARAM,id=2,param=navi_chara62_5:-10:5:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara62:-10:285:2:0.3,#
-*,type=PARAM,id=39,param=クランツ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>………………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Krantz,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>グリフさん……<wait=30>俺は<wait=20>ちゃんと隊長代理を<br>務めることが<wait=20>できましたか？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Griff... <wait=30>Was I...<wait=20>a good acting commander?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>アイリスさん……<wait=30>見つかるまで<wait=20>捜すことが<br>できず、<wait=20>申し訳<wait=20>ありませんでした。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Iris... <wait=30>I'm so sorry...<wait=20>I couldn't search...<wait=20>until we found you.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>ロアさん、<wait=20>カフカさん……<wait=30>これまでの<wait=20>ご指導<br>ありがとう<wait=20>ございました。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Rhoa, <wait=20>Kafka... <wait=30>Thank you...<wait=20>for your advice.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>リベラ……<wait=30>最後まで<wait=20>この俺に<br>付き合ってくれて<wait=20>ありがとう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Libera... <wait=30>Thank you...<wait=20>for sticking with me...<wait=20>until the end.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>グラデンス様、<wait=20>オーン様……<wait=30><br>後のことは<wait=20>頼みます。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Lord Grahdens, <wait=20>Lord Owen...<wait=30>Please take care...<wait=20>of the rest.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>アイビー……<wait=40>帰れなく<wait=20>て<wait=20>ごめん。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>Ivy...<wait=40>I'm sorry...<wait=20>I can't...<wait=20>make it home.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>ミー<wait=20>ファ……<wait=40>生き<wait=20>ろよ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>Mirfah...<wait=20>you must...<wait=20>survive...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=34,param=bf251_se_whiteout.mp3,#
@@ -401,17 +401,17 @@
 *,type=PLAYWAIT,param=2,#
 *,type=PARAM,id=2,param=navi_chara53_4:-305:-50:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:2:0.3,#
-*,type=PARAM,id=39,param=カロン,#
+*,type=PARAM,id=39,param=Kalon,#
 *,type=PARAM,id=36,param=0.1:2:6:6,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>クッ……<wait=30><speed=11>私としたことが……。<wait=20><br>ここまでダメージを受けるとは……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Urgh... <wait=30><speed=11>To think that I...<wait=20>should sustain such heavy damage...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>ひとまずは、傷を癒やすことが先決か…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>For now, I must focus on healing my wounds...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara53_4:2:3,#
 *,type=PARAM,id=3,param=navi_chara53:2:3,#
 *,type=PARAM,id=2,param=navi_chara53_0:-305:-50:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>私とて、自由に動ける体には限りがある。<wait=20><br>みだりに倒れるわけにはいかないからな…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>There are limits on how many bodies I can move freely in. <wait=20>I cannot let them die without reason...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=8,param=0.5:255&255&255,#
@@ -436,4 +436,3 @@
 *,type=PARAM,id=43,param=BattleDungeon80115MountainBack,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

@@ -110,9 +110,9 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara60_0:-160:20:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara60:-160:140:2:0.5,#
-*,type=PARAM,id=39,param=リベラ,#
+*,type=PARAM,id=39,param=Libera,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=みんな、無事みたいね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It looks like everyone's okay.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara60_0:2:0.5,#
@@ -120,26 +120,26 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara63_0:-120:-35:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara63:-120:165:2:0.5,#
-*,type=PARAM,id=39,param=カフカ,#
+*,type=PARAM,id=39,param=Kafka,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=当たり前よ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ここにいるのは、<wait=20><br>みんな魔神討伐隊の隊長なんだから。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Of course.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Everyone here is a leader of the Demon Slayers, <wait=20>after all.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara63_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara63:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara63_1:-120:-35:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara63:-120:165:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=特に１人、<wait=20>筋肉だけが<br>取り柄のヤツもいるしね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=One of us in particular is known only for his muscles, too.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara63_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara63:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara61_2:-160:-20:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara61:-160:105:2:0.5,#
-*,type=PARAM,id=39,param=ロア,#
+*,type=PARAM,id=39,param=Rhoa,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=36,param=0.1:3:4:4,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>うるせえ！！<wait=20> <br>俺の取り柄は、筋肉だけじゃねえ！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=俺の異界技術の研究は、<wait=20>お前の死霊術よりも<br>ずっと役に立つもんなんだよ！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Shut up! <wait=20>I'm not known for my muscles alone!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=My otherworldly technology research is a lot more useful than your necromancy!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara61_2:2:0.5,#
@@ -147,30 +147,30 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara62_0:-10:5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara62:-10:285:2:0.5,#
-*,type=PARAM,id=39,param=クランツ,#
+*,type=PARAM,id=39,param=Krantz,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>皆さん、無事でよかった！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Everyone, I'm glad you made it!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara62_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara62:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara62_3:-10:5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara62:-10:285:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>ですが、<wait=20>この状況、<wait=20>あまりいいものとは<br>言えないですね…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>But I wouldn't say that we're quite out of the woods yet...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara62_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara62:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara59_0:-50:-55:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara59:-50:185:2:0.5,#
-*,type=PARAM,id=39,param=アイリス,#
+*,type=PARAM,id=39,param=Iris,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=私たちがイシュグリアを、<wait=20><br>甘く見ていたということなのでしょうね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It seems that all of us underestimated the world of Ishgria.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara59_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara59:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara59_5:-50:-55:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara59:-50:185:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>………。<wait=20><br><speed=12>もっとも、<wait=20>そういったことも含めて,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>この世界の情報を持って帰るのが<wait=20><br>私たちの役目なんでしょうけど。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>First and foremost, <wait=20>our mission is to...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>...bring back information on this world, <wait=20>including details like that.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara59_5:2:0.5,#
@@ -178,68 +178,68 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara62_0:-10:5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara62:-10:285:2:0.5,#
-*,type=PARAM,id=39,param=クランツ,#
+*,type=PARAM,id=39,param=Krantz,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ともかく、<wait=20><br>我々はグリフさんの指示通りに、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=帰還用ゲートがあるとされる<wait=20><br>滅獄の岸壁に向かいましょう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=In any case, <wait=20>just as Griff ordered...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...let's head for Doomcell Wharf, <wait=20>where the return gate should be.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara62_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara62:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara71_3:-120:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara71:-120:170:2:0.5,#
-*,type=PARAM,id=39,param=ミーファ,#
+*,type=PARAM,id=39,param=Mirfah,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……………。<wait=20><br><speed=11>グリフさん…<wait=20>１人で大丈夫でしょうか？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=いくらあの人でも、<wait=20><br>あの魔神相手に１人で戦うなんて…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>Will Griff...<wait=20><speed=11>really be all right on his own?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Even for someone like Griff, <wait=20>fighting that demon alone is...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara71_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara71:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara62_3:-10:5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara62:-10:285:2:0.5,#
-*,type=PARAM,id=39,param=クランツ,#
+*,type=PARAM,id=39,param=Krantz,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara62_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara62:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara62_0:-10:5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara62:-10:285:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>………<wait=30><speed=13>心配性だな、<wait=20>ミーファは。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>I can see you're worried, <wait=20>Mirfah.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara62_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara62:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara62_1:-10:5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara62:-10:285:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=あの人ならきっと大丈夫だよ。<wait=20><br>何しろ、俺たちを鍛えてくれた人なんだぜ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=But you know Griff. I'm sure he'll be fine. <wait=20>I mean, he's the person who trained us all.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=そもそも<wait=20><speed=10>「勝算なき戦いはするな！」<wait=20><speed=13>って<br>教えてくれたのはあの人じゃないか。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=今回のことだって、<wait=20><br>きっと勝算があってのことさ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=He's the guy who taught us<wait=20><speed=13> "never fight when you can't win," isn't he?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=He must think he has a chance at winning this time, too.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara62_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara62:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara61_0:-160:-20:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara61:-160:105:2:0.3,#
-*,type=PARAM,id=39,param=ロア,#
+*,type=PARAM,id=39,param=Rhoa,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=まったくだな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=むしろ俺は、<wait=20>あの人が負けるところを<br>１度でいいから見てみてーぐらいだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Seriously.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Just once,<wait=20> I want a chance to see him lose.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara61_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara61:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara63_1:-120:-35:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara63:-120:165:2:0.5,#
-*,type=PARAM,id=39,param=カフカ,#
+*,type=PARAM,id=39,param=Kafka,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>あー…<wait=30><speed=13>アンタは特に<br>グリフさんに絞られていたからねー。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>That's right... <wait=30><speed=13>Griff did seem to single you out a lot, didn't he?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara63_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara63:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara61_3:-160:-20:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara61:-160:105:2:0.5,#
-*,type=PARAM,id=39,param=ロア,#
+*,type=PARAM,id=39,param=Rhoa,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=36,param=0.2:2:4:4,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>ウッ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>Urgh...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
@@ -248,59 +248,59 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara60_0:-160:20:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara60:-160:140:2:0.5,#
-*,type=PARAM,id=39,param=リベラ,#
+*,type=PARAM,id=39,param=Libera,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=私も心配していません。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=何しろ、<wait=20>私たち全員に<br>戦い方を教えてくれた人ですからね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I'm not worried, either.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=All else aside, <wait=20>he's the one who taught us all how to fight.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara60_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara60:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara59_0:-50:-55:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara59:-50:185:2:0.5,#
-*,type=PARAM,id=39,param=アイリス,#
+*,type=PARAM,id=39,param=Iris,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=というか、<wait=20>あの人に勝てるのって、<wait=20><br><speed=11>オーンさんぐらいだと思うわ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=When you think about it, <wait=20>I'm pretty sure the only one who could ever beat Griff,<wait=20><speed=11> is Owen.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara59_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara59:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara62_1:-10:5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara62:-10:285:2:0.5,#
-*,type=PARAM,id=39,param=クランツ,#
+*,type=PARAM,id=39,param=Krantz,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>さあ、行こうぜ、<wait=20>ミーファ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>あの人はきっとすぐに追いついてくる。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Now, let's get going, Mirfah!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>He'll catch up with us soon.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=その時<wait=20><speed=14>「お前ら、なにをやっている！！」<speed=13><wait=20><br>って、<wait=20>叱られたくないからな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=When he does, <wait=20><speed=14>I don't want him scolding us <speed=13><wait=20>with a "what are you all doing?!",#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara62_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara62:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara71_0:-120:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara71:-120:170:2:0.5,#
-*,type=PARAM,id=39,param=ミーファ,#
+*,type=PARAM,id=39,param=Mirfah,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>そう……<wait=20><speed=13>ですよね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>Yeah...<wait=20><speed=13>you're right.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara71_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara71:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara71_1:-120:10:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara71:-120:170:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=わかりました。<wait=20><br>俺は俺のできることをやることにします。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I understand. <wait=20>I'll focus on doing what I can.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara71_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara71:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara62_0:-10:5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara62:-10:285:2:0.5,#
-*,type=PARAM,id=39,param=クランツ,#
+*,type=PARAM,id=39,param=Krantz,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=うん。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Yeah.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara62_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara62:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara60_1:-160:20:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara60:-160:140:2:0.5,#
-*,type=PARAM,id=39,param=リベラ,#
+*,type=PARAM,id=39,param=Libera,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>フフ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>He he...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=45,param=3,#
 *,type=PARAM,id=7,param=3:0&0&0,#
@@ -323,54 +323,54 @@
 *,type=PARAM,id=2,param=navi_chara58:-310:250:2:2,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=グリフ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>あの魔神…<wait=20>シュスイとか言ったな…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Griff,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>That demon... <wait=20>He said his name was Shusui or something...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara58_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara58:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58_5:-310:-65:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58:-310:250:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>あそこまでの強さ……。<wait=20><speed=13><br>正直、俺の予想を遥かに超えていた。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>あのような魔神が数多く棲まう場所、<wait=20><br>それがこのイシュグリアというわけか…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>That level of strength... <wait=20><speed=13>To be honest, it was far beyond anything I had imagined.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>So this "Ishgria" is home to a lot of demons like that...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara58_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara58:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58_0:-310:-65:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58:-310:250:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>隊のことは…<wait=20><br><speed=13>クランツに任せて大丈夫だろう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=あいつは他人の気持ちをよく察し、<wait=20><br>どんな意見も素直に受け入れる…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=あいつ自身は気づいていないが、<wait=20>,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=俺などよりも、<wait=20>人を導く才能を<br>持っているからな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>As for the squad...<wait=20><speed=13>they should be fine with Krantz.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=He's perceptive toward others' feelings, <wait=20>and will hear out anything they have to say.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=He doesn't know it himself...<wait=20>,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...but he's an even more gifted leader than I am.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara58_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara58:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58_1:-310:-65:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58:-310:250:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=フッ、<wait=20>こんなことは本人の前では<wait=20><br>口が裂けても言えんか。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ヤツを調子に乗らせないためにも<wait=20><br>生き延びてもう少し厳しく育てねばな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Heh, <wait=20>not that I'd ever tell him that to his face, <wait=20>not in a million years.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Just to keep him from getting full of himself, <wait=20>I've got to survive this and give him a bit more tough love.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1.5,#
 *,type=PARAM,id=3,param=navi_chara58_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara58:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58_0:-310:-65:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58:-310:250:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=さて、<wait=20>ここから向かえるのは、<wait=20><br>ホグン酸棚と<wait=20>炎獄吊橋か……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>順当に行くならホグン酸棚だが……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Now, <wait=20>from here I can head to either the Hogun Acid Cascades or the Lava Bridges...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>Normally, I'd head for the Hogun Acid Cascades, but...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>どちらに行っても、<wait=20><br><speed=13>あの魔神が待ち構えているのは確実だろう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=思惑通り俺を<wait=20><br>標的に選んでくれたようだからな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>...no matter where I go, <wait=20><speed=13>that demon will definitely be waiting for me.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It seems to have picked me as its target, <wait=20>just as we expected it would.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ならば、<wait=20>あえて炎獄吊橋に行って<br>死中に活を求めるのもいいかもしれん…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=So the best choice might be to head for the Lava Bridges, <wait=20>and seek a chance at life amidst certain death...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara58_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara58:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58_1:-310:-65:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58:-310:250:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>フッ…<wait=30><br><speed=12>死中に活など、<wait=20>俺らしくもないな……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Heh... <wait=30><speed=12>Seeking life in death. <wait=20>That's not like me at all.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だが、<wait=20>これまでにない強敵と遭遇したのだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=慣れないことをやってみるのも、<wait=20><br>一興かもしれんな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=But I'm facing a stronger opponent than I ever have before.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It might work in my favor to try something different for a change.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -382,4 +382,3 @@
 *,type=PARAM,id=43,param=BattleDungeon80100WaterAddBack,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

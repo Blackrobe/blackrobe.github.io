@@ -38,8 +38,8 @@
 *,type=PLAYWAIT,param=1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=33,param=bf049_raid_boss.mp3,#
-*,type=PARAM,id=39,param=シュスイ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Shusui,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara32_0:2:0.5,#
@@ -47,32 +47,32 @@
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara58_0:-310:-65:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara58:-310:250:2:0.5,#
-*,type=PARAM,id=39,param=グリフ,#
+*,type=PARAM,id=39,param=Griff,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=やはり待っていたか……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=So you were waiting for me after all...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara58_0:2:0.5,#
 *,type=PARAM,id=3,param=navi_chara58:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara32_0:-100:-180:2:0.5,#
-*,type=PARAM,id=39,param=シュスイ,#
+*,type=PARAM,id=39,param=Shusui,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=貴様のその強さ、<wait=20>再び我に見せてみよ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=貴様が生き残るすべは、<wait=20><speed=14>それ以外にない！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Show me that strength of yours once more.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=There is no other way for you to survive this!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara32_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58_0:-310:-65:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara58:-310:250:2:0.5,#
-*,type=PARAM,id=39,param=グリフ,#
+*,type=PARAM,id=39,param=Griff,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>………<wait=30><speed=13>無論だ。<wait=20>避けられぬのならば、<wait=20><br>覚悟を決めて戦うのみ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>Of course... <wait=20>I see there's no avoiding this. <wait=20>You've given me no other option.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara32_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58_2:-310:-65:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara58:-310:250:1:0.5,#
 *,type=PARAM,id=36,param=0.1:16:8:8,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>貴様をクランツたちのもとへは行かせん。<wait=20><br>たとえこの身が、ここで朽ちようともな！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>I will not let you reach Krantz and the others. <wait=20>Even if it means my death!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=1,#
@@ -101,4 +101,3 @@
 *,type=PARAM,id=43,param=BattleDungeon80104LightAddBack,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

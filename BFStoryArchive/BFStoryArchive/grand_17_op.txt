@@ -153,8 +153,8 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=8,param=1:0&0&0,#
 *,type=STOP,id=-1,#
-*,type=PARAM,id=16,param=7,#*,type=MSGDRAW,msg=<anchor=center><speed=8><size=15>ルシアスの門が開かれて以来、<wait=20><br>グランガイアを探索、調査を行っていた<wait=20><br>アクラス召喚院。<wait=40><br><br>組織の幹部であるグラデンスとオーンは、<wait=20><br>ある特殊任務のため、<wait=20><br>召喚院最精鋭の人員を選出していた……。,#
-*,type=PLAYWAIT,param=18,#
+*,type=PARAM,id=16,param=3,#*,type=MSGDRAW,msg=<anchor=center><speed=8><size=15>The Akras Summoners' Hall has explored and surveyed Grand Gaia since the opening of Lucius' Gate. <wait=10><br><br>Grahdens and Owen, two leaders of the organization, <wait=10>once selected the most elite members of the Summoners' Hall for a special mission.,#
+*,type=PLAYWAIT,param=25,#
 *,type=PARAM,id=7,param=1:0&0&0,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=23,param=-1,#
@@ -168,86 +168,86 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara117_0:-90:-175:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara117:-90:149:2:0.5,#
-*,type=PARAM,id=39,param=グラデンス,#
+*,type=PARAM,id=39,param=Grahdens,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=では、<wait=20>最終確認をする。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Now, <wait=20>let's go over this one more time.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=メンバーは、<wait=20>グリフ、<wait=20>アイリス、<wait=20><br>カフカ、<wait=20>ロア、<wait=20>リベラ、<wait=20>クランツ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=これで間違いないな？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=The members will be <wait=20>Griff, <wait=20>Iris, <wait=20>Kafka, <wait=20>Rhoa, <wait=20>Libera, <wait=20>and Krantz.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Is that right?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara117_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara117:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara116_0:-280:-20:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara116:-280:230:2:0.5,#
-*,type=PARAM,id=39,param=オーン,#
+*,type=PARAM,id=39,param=Owen,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ミーファもだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=グリフとクランツが推薦してきた。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Mirfah too.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Griff and Krantz recommended him.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara116_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara116:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara117_4:-90:-175:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara117:-90:149:2:0.5,#
-*,type=PARAM,id=39,param=グラデンス,#
+*,type=PARAM,id=39,param=Grahdens,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>ミーファもか…？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Mirfah too, huh?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だが、あいつは<wait=20><br>討伐隊の隊長になったばかり。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=すこし早すぎるだろう…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=But he only just became a leader of the Demon Slayers.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It seems too early for him...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara117_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara117:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara116_0:-280:-20:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara116:-280:230:2:0.5,#
-*,type=PARAM,id=39,param=オーン,#
+*,type=PARAM,id=39,param=Owen,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=フン、<wait=20>グリフとクランツには、<br>何か目論見があるのだろう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だが、あのヒヨッコどもの思惑が<br>どうであろうと、<wait=20>俺に異論はない。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Hmph, <wait=20>Griff and Krantz must have some sort of agenda in this.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Even so, <wait=20>whatever those brats are thinking, I have no objections.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara116_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara116:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara117_0:-90:-175:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara117:-90:149:2:0.5,#
-*,type=PARAM,id=39,param=グラデンス,#
+*,type=PARAM,id=39,param=Grahdens,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=おおよそ、未知の場所に連れて行って、<wait=20><br>一皮剥いてやろうといったところか。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=They probably think if they take him off into the unknown it'll knock some of the rough edges off of him.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=navi_chara117_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara117:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara117_1:-90:-175:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara117:-90:149:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>ハッハッハッハッ…。<wait=20><br><speed=13>それもいいだろう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Ha ha ha ha... <wait=20><speed=13>They might have the right idea, too.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara117_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara117:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara117_0:-90:-175:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara117:-90:149:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=魔神討伐隊隊長で構成された<br>このメンバーだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=どんな場所であろうとも、<wait=20><br>間違いが起こることなどあるまい。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=With a group like this, made up from the leaders of the Demon Slayers...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...whatever the place is like, <wait=20>they won't screw things up.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara117_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara117:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara116_3:-280:-20:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara116:-280:230:2:0.5,#
-*,type=PARAM,id=39,param=オーン,#
+*,type=PARAM,id=39,param=Owen,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara116_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara116:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara117_3:-90:-175:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara117:-90:149:2:0.5,#
-*,type=PARAM,id=39,param=グラデンス,#
+*,type=PARAM,id=39,param=Grahdens,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=不機嫌そうだな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=どうせお前のことだ。<wait=20><br>自らが乗り込んでいきたいのだろう？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I know that sour look.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=You want to tag along,<wait=20> don't you?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara117_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara117:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara116_3:-280:-20:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara116:-280:230:2:0.5,#
-*,type=PARAM,id=39,param=オーン,#
+*,type=PARAM,id=39,param=Owen,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=フン……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Hmph...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=2:0&0&0,#
 *,type=STOP,id=-1,#
@@ -259,13 +259,13 @@
 *,type=PARAM,id=37,param=0&0&0,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=2,#
-*,type=PARAM,id=16,param=4,#*,type=MSGDRAW,msg=<anchor=center><speed=8><size=15>グラデンスとオーンが計画していたのは、<wait=20><br>遠くない未来、人類の脅威となりうる<wait=20><br>異界イシュグリアに先遣隊を送り込み、<wait=20><br>現地を調査探索することだった……。,#
-*,type=PLAYWAIT,param=12,#
+*,type=PARAM,id=16,param=1,#*,type=MSGDRAW,msg=<anchor=center><speed=8><size=15>Grahdens and Owen were planning to send a Recon Squad <wait=10>to Ishgria, <wait=10>in order to explore and survey the other world. <wait=10>Ishgria, a land that would pose a threat to all humanity in the not-too-distant future...,#
+*,type=PLAYWAIT,param=25,#
 *,type=PARAM,id=7,param=1:0&0&0,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1.5,#
-*,type=PARAM,id=16,param=2,#*,type=MSGDRAW,msg=<anchor=center><speed=8><size=15>そして、その先遣隊のメンバーとして、<wait=20><br>選ばれた７人の魔神討伐隊隊長たち。,#
-*,type=PLAYWAIT,param=8,#
+*,type=PARAM,id=16,param=1,#*,type=MSGDRAW,msg=<anchor=center><speed=8><size=15>For the members of this Recon Squad, <wait=10>they selected the seven leaders of the Demon Slayers.,#
+*,type=PLAYWAIT,param=13,#
 *,type=PARAM,id=7,param=1:0&0&0,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=23,param=-1,#
@@ -286,11 +286,11 @@
 *,type=PARAM,id=26,param=1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10><size=18>先遣隊隊長にして<wait=20><br>第四魔神討伐隊隊長<wait=20>グリフ,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=39,param=グリフ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=可能性に満ちた若造どもの未来を守るのは<wait=20><br>年長者の役目だ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だから俺は強くあり続ける！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10><size=18>The captain of the Recon Squad was Griff, <wait=10>leader of the 4th Squadron of the Demon Slayers.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=5,#
+*,type=PARAM,id=39,param=Griff,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=The job of the old is to protect the future of the young.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=That's why I'll continue to get stronger!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1:0&0&0,#
 *,type=STOP,id=-1,#
@@ -317,12 +317,12 @@
 *,type=PARAM,id=26,param=1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10><size=18>第五魔神討伐隊隊長<wait=20>アイリス,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=39,param=アイリス,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=必要とされるのは嬉しいわ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10><size=18>The leader of the 5th Squad was Iris.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=5,#
+*,type=PARAM,id=39,param=Iris,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I'm happy to be of service.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=でも、私の力を必要とする状況。<wait=20><br>それは喜べない状況よね…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=But the reason why you need my power is not one I'm happy about...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1:0&0&0,#
 *,type=STOP,id=-1,#
@@ -349,11 +349,11 @@
 *,type=PARAM,id=26,param=1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10><size=18>第六魔神討伐隊隊長<wait=20>カフカ,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=39,param=カフカ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=再現させた死霊術の力、<wait=20><br>せっかくだから見せてあげる。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=どんな時も<wait=20><br>このカフカさんに任せなさい！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10><size=18>The 6th Squad was captained by Kafka.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=5,#
+*,type=PARAM,id=39,param=Kafka,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I'll give you a special chance to see the spirits of the dead manipulated.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Just leave it all to me, the amazing Kafka!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1:0&0&0,#
 *,type=STOP,id=-1,#
@@ -380,11 +380,11 @@
 *,type=PARAM,id=26,param=1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10><size=18>第七魔神討伐隊隊長<wait=20>ロア,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=39,param=ロア,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>異界の技術ってのは、<wait=20><br>なかなかに興味深いぜ！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>調べれば調べるほど<wait=20><br>新しい発見があるんだからな！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10><size=18>Rhoa led the 7th Squad.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=5,#
+*,type=PARAM,id=39,param=Rhoa,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Otherworldly techniques are cool.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>If we keep researching them, <wait=20>we'll discover something new.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1:0&0&0,#
 *,type=STOP,id=-1,#
@@ -412,11 +412,11 @@
 *,type=PARAM,id=26,param=1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10><size=18>第八魔神討伐隊隊長<wait=20>リベラ,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=39,param=リベラ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=早く新しい場所へ探索に行きましょ！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=怖い敵がいるかもしれないけど、<wait=20><br>きっと新しい発見もあるからね！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10><size=18>Libera was in charge of the 8th Squad.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=5,#
+*,type=PARAM,id=39,param=Libera,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Let's get to exploring new lands right away!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=The enemies there might be scary, <wait=20>but we'll definitely make new discoveries!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1:0&0&0,#
 *,type=STOP,id=-1,#
@@ -444,12 +444,12 @@
 *,type=PARAM,id=26,param=1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10><size=18>第九魔神討伐隊隊長<wait=20>クランツ,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=39,param=クランツ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>よっし、<wait=20>この勢いで<br>一気に任務を終わらせよう！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10><size=18>Krantz commanded the 9th Squad.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=5,#
+*,type=PARAM,id=39,param=Krantz,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>With all this energy, I'll have this mission completed before you know it!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>俺は自分の感覚を信じて、<wait=20><br>もっと高みを目指すだけさ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>I just have to believe in my own judgment, <wait=20>and keep aiming higher!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1:0&0&0,#
 *,type=STOP,id=-1,#
@@ -476,12 +476,12 @@
 *,type=PARAM,id=26,param=1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10><size=18>第十魔神討伐隊隊長<wait=20>ミーファ,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=39,param=ミーファ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>俺もクランツさんみたいに、<wait=20><br>もっと強くなりたいです！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10><size=18>The 10th Squad of the Demon Slayers was led by Mirfah.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=5,#
+*,type=PARAM,id=39,param=Mirfah,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>I want to get stronger, <wait=20>just like Krantz!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>皆さんの足を引っ張らないよう、<wait=20><br>精一杯頑張ります！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>I'll do my best not to hold everyone else back!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1:0&0&0,#
 *,type=STOP,id=-1,#
@@ -495,37 +495,36 @@
 *,type=PARAM,id=37,param=0&0&0,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=16,param=8,#*,type=MSGDRAW,msg=<anchor=center><speed=8><size=15>遙かなる未開の地イシュグリアに<wait=20><br>意気揚々と出発する先遣隊メンバーたち…。<wait=40><br><br>送り出すグラデンスやオーンたち召喚老も<wait=20><br>誰１人として先遣隊の成功を、<wait=20><br>信じて疑わなかった……。<wait=40><br><br><speed=6>そう、<wait=20>誰１人として……。,#
-*,type=PLAYWAIT,param=18,#
+*,type=PARAM,id=16,param=5,#*,type=MSGDRAW,msg=<anchor=center><speed=8><size=15>The Recon Squad's members set off for the distant, <wait=10>unknown land of Ishgria in high spirits...<wait=10><br><br>Everyone, even Grahdens and Owen, the Summoners of Old who sent them off, <wait=10>believed, without a doubt, that the squad would succeed in their mission.<wait=10><br><br><speed=6>That's what they believed...,#
+*,type=PLAYWAIT,param=25,#
 *,type=PARAM,id=45,param=3,#
 *,type=PARAM,id=7,param=1:0&0&0,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=4,#
-*,type=PARAM,id=16,param=1,#*,type=MSGDRAW,msg=<anchor=center><speed=6><size=15>だが……,#
+*,type=PARAM,id=16,param=1,#*,type=MSGDRAW,msg=<anchor=center><speed=6><size=15>However...,#
 *,type=PLAYWAIT,param=5,#
 *,type=PARAM,id=7,param=1:0&0&0,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=33,param=bf015_map_wilds.mp3,#
-*,type=PARAM,id=16,param=2,#*,type=MSGDRAW,msg=<anchor=center><speed=8><size=15>異界イシュグリアは、彼らの想像を<wait=20><br>遥かに超えた過酷な場所だった……。,#
-*,type=PLAYWAIT,param=8,#
+*,type=PARAM,id=16,param=1,#*,type=MSGDRAW,msg=<anchor=center><speed=8><size=15>The world of Ishgria was a brutal place, <wait=10>far beyond anything they had imagined.,#
+*,type=PLAYWAIT,param=13,#
 *,type=PARAM,id=7,param=1:0&0&0,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=16,param=2,#*,type=MSGDRAW,msg=<anchor=center><speed=8><size=15>現地に到着早々、<wait=20><br>強大な魔神に襲撃される先遣隊たち。,#
-*,type=PLAYWAIT,param=5,#
+*,type=PARAM,id=16,param=1,#*,type=MSGDRAW,msg=<anchor=center><speed=8><size=15>Soon after arriving in Ishgria, <wait=10>the squad was attacked by a massive demon.,#
+*,type=PLAYWAIT,param=13,#
 *,type=PARAM,id=7,param=1:0&0&0,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=16,param=3,#*,type=MSGDRAW,msg=<anchor=center><speed=8><size=15>その魔神と対峙するため、<wait=20><br>グリフは１人、隊を離脱。<wait=20><br>隊長代理にクランツを任命する。,#
-*,type=PLAYWAIT,param=8,#
+*,type=PARAM,id=16,param=1,#*,type=MSGDRAW,msg=<anchor=center><speed=8><size=15>Griff left the squad on his own in order to face the demon, <wait=10>and named Krantz the acting commander.,#
+*,type=PLAYWAIT,param=17,#
 *,type=PARAM,id=7,param=1:0&0&0,#
 *,type=STOP,id=-1,#
-*,type=PARAM,id=16,param=3,#*,type=MSGDRAW,msg=<anchor=center><speed=8><size=15>クランツは残りのメンバーとともに、<wait=20><br>ランドールへの帰還用ゲートがある場所を<wait=20><br>目指して進むことにしたが…。,#
-*,type=PLAYWAIT,param=10,#
+*,type=PARAM,id=16,param=1,#*,type=MSGDRAW,msg=<anchor=center><speed=8><size=15>Krantz decided to take the other members and begin searching for the gate back to the Randall Empire, <wait=10>but...,#
+*,type=PLAYWAIT,param=17,#
 *,type=PARAM,id=7,param=1:0&0&0,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

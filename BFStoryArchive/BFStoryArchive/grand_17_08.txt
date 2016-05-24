@@ -35,8 +35,8 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara59_2:-50:-55:2:0.2,#
 *,type=PARAM,id=2,param=navi_chara59:-50:185:2:0.2,#
-*,type=PARAM,id=39,param=アイリス,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>ハッ…！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Iris,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Ahh!!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=34,param=bf203_se_shot1.mp3,#
@@ -49,9 +49,9 @@
 *,type=PARAM,id=3,param=navi_chara59:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara37_0:-120:-30:2:0.5,#
-*,type=PARAM,id=39,param=モーラ,#
+*,type=PARAM,id=39,param=Mora,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=フフ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=He he...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=36,param=0.1:15:13:13,#
@@ -65,46 +65,46 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara59_5:-50:-55:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara59:-50:185:2:0.5,#
-*,type=PARAM,id=39,param=アイリス,#
+*,type=PARAM,id=39,param=Iris,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>ハァッ<wait=20>ハァッ<wait=20>ハァッ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>*Gasp* <wait=20>*pant* <wait=20>*gasp...*,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara59_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara59:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara37_0:-120:-30:2:0.5,#
-*,type=PARAM,id=39,param=モーラ,#
+*,type=PARAM,id=39,param=Mora,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>なかなかやりますね…。<wait=20><br><speed=13>ここまでお強いとは、予想外でしたよ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Most impressive... <br><wait=20><speed=13>I did not anticipate that you would be so strong.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ですが、<wait=20>さすがに疲労の色は<br>隠せない様子ですね…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=However, <wait=20>it seems that even you cannot hide your exhaustion.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara37_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara59_5:-50:-55:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara59:-50:185:2:0.5,#
-*,type=PARAM,id=39,param=アイリス,#
+*,type=PARAM,id=39,param=Iris,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>そんなことは…<wait=30><speed=14>ないわ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>That's...<wait=30><speed=14>not true!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=45,param=2,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara59_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara59:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara59_2:-50:-55:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara59:-50:185:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>くらいなさい！<wait=20><br><speed=12>カルト・グラオ………,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Take this! <wait=20><speed=12>Kalt Grau--,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara59_2:2:0.3,#
 *,type=PARAM,id=3,param=navi_chara59:2:0.3,#
 *,type=STOP,id=-1,#
-*,type=PARAM,id=39,param=魔獣,#
+*,type=PARAM,id=39,param=Demonic Beast,#
 *,type=PARAM,id=36,param=0.1:20:10:10,#
 *,type=PARAM,id=34,param=bf215_se_thunder1.mp3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8><size=18>グオォォオオォォオオ……！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8><size=18>ROOOAAARRR!!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara59_4:-50:-55:2:0.2,#
 *,type=PARAM,id=2,param=navi_chara59:-50:185:2:0.2,#
-*,type=PARAM,id=39,param=アイリス,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>…な！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Iris,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Huh?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=36,param=0.1:10:10:10,#
 *,type=PARAM,id=34,param=bf223_se_dark3.mp3,#
@@ -119,20 +119,20 @@
 *,type=PARAM,id=8,param=0.3:255&40&40,#
 *,type=PARAM,id=34,param=bf236_se_debility.mp3,#
 *,type=PARAM,id=34,param=bf202_se_slash2.mp3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>グハッ……！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Urgh!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=33,param=bf063_sec1_lboss.mp3,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>な…<wait=20><speed=10>なぜ……<wait=20><speed=9>ここに…<wait=20><speed=8>この魔獣が…？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Wh-<wait=20><speed=10>Why...<wait=20><speed=9>is this...<wait=20><speed=8>beast here?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara59_5:2:0.5,#
 *,type=PARAM,id=3,param=navi_chara59:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=魔獣,#
+*,type=PARAM,id=39,param=Demonic Beast,#
 *,type=PARAM,id=36,param=0.1:20:13:8,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<size=20><speed=8>グゴゴゴォォォォォーーーー！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<size=20><speed=8>RAAAARRR!!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
@@ -143,11 +143,11 @@
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara37_0:-120:-30:2:0.5,#
-*,type=PARAM,id=39,param=モーラ,#
+*,type=PARAM,id=39,param=Mora,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>下等な魔獣が…。<wait=20><br><speed=13>私にまで牙をむきますか…？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>A lowly demonic beast...<br><wait=20><speed=13>You dare to challenge me?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>消えなさい……！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Begone!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=34,param=bf225_se_buff.mp3,#
@@ -163,9 +163,9 @@
 *,type=PARAM,id=3,param=navi_chara37_0:1:0.5,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=39,param=魔獣,#
+*,type=PARAM,id=39,param=Demonic Beast,#
 *,type=PARAM,id=36,param=0.2:12:13:8,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8><size=18>グオォォォォゴゴゴォォォ………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8><size=18>*Growl* *snarl...*,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
@@ -181,10 +181,10 @@
 *,type=PARAM,id=33,param=bf020_map_nightwood.mp3,#
 *,type=PARAM,id=2,param=navi_chara59_5:-50:-55:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara59:-50:185:2:0.3,#
-*,type=PARAM,id=39,param=アイリス,#
+*,type=PARAM,id=39,param=Iris,#
 *,type=PARAM,id=36,param=0.1:2:6:6,#
 *,type=PARAM,id=8,param=0.3:255&40&40,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>グッ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>Ugh...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
@@ -192,19 +192,19 @@
 *,type=PARAM,id=3,param=navi_chara59:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara37_0:-120:-30:2:0.5,#
-*,type=PARAM,id=39,param=モーラ,#
+*,type=PARAM,id=39,param=Mora,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=あの魔獣は獲物が分散しても、<wait=20><br>分身体を作って追いかける習性があります。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=おそらくは、<wait=20><br>あなたを追いかけて来たのでしょう…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=That demonic beast will create duplicates of itself<wait=20> to pursue its prey if a group it's after splits up.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=In all likelihood, <wait=20>it followed you here.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara37_0:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara59_5:-50:-55:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara59:-50:185:2:0.5,#
-*,type=PARAM,id=39,param=アイリス,#
+*,type=PARAM,id=39,param=Iris,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>ウッ………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>Ugh...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=36,param=0.1:3:8:8,#
@@ -216,32 +216,32 @@
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara37_0:-120:-30:2:0.5,#
-*,type=PARAM,id=39,param=モーラ,#
+*,type=PARAM,id=39,param=Mora,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=もはや私の言葉など聞こえていませんか…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I suppose you aren't listening to me anymore...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=どうやらその傷では、<wait=20><br>手当も無駄のようですね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=あなたの調査、<wait=20>分析能力には<br>注目していたので、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=殺すつもりはなかったのですが……<wait=20><br><speed=8>……<wait=30><speed=13>残念です。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...and from the looks of that wound, <wait=20>first aid would be pointless.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I was only concerned with your survey and your analytical abilities...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...so I didn't intend to kill you.<br><wait=20><speed=8>...<wait=30><speed=13>how unfortunate.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ですが、ここはイシュグリア。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=魔神、魔獣ひしめくこの地に足を踏み入れた<wait=20><br>己の運命として受け入れて下さい。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=But this is Ishgria.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Please accept this as your fate, <wait=20>for setting foot into a land teeming with demons and demonic beasts.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara37_0:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara59_5:-50:-55:2:0.2,#
 *,type=PARAM,id=2,param=navi_chara59:-50:185:2:0.2,#
-*,type=PARAM,id=39,param=アイリス,#
+*,type=PARAM,id=39,param=Iris,#
 *,type=PARAM,id=36,param=0.1:2:6:6,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>グッ…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Grh...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>こん…<wait=20><speed=10>な…<wait=20><speed=9>ところ…<wait=20><speed=8>で……。<wait=20><br>これを……<wait=20><speed=7>届け…<wait=20><speed=6>な…<wait=20><speed=5>け……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I can't...<wait=20><speed=10>lose...<wait=20><speed=9>here...<wait=20><speed=8> <br>I must...<wait=20><speed=7>deliver...<wait=20><speed=6>this...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=36,param=0.1:3:10:10,#
 *,type=PARAM,id=8,param=0.3:255&40&40,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ウッ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Urgh...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=0.5,#
@@ -249,25 +249,25 @@
 *,type=PARAM,id=3,param=navi_chara59:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara37_0:-120:-30:2:0.5,#
-*,type=PARAM,id=39,param=モーラ,#
+*,type=PARAM,id=39,param=Mora,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=何ですか、これは？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>魔力を帯びた水晶…？<wait=20><br><speed=13>いえ、<wait=20>何かの記録機器のようですが…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=What is this?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>A crystal imbued with magic? <wait=20><speed=13>No, <wait=20>it appears to be some sort of recording device...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=36,param=0.1:3:8:8,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>……………！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Well...!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=どうやらあなたは、<wait=20>私が考えていた以上に<br>警戒すべき人物だったようですね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It seems that you were a much more dangerous person than I gave you credit for.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara37_0:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara59_5:-50:-55:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara59:-50:185:2:0.5,#
-*,type=PARAM,id=39,param=アイリス,#
+*,type=PARAM,id=39,param=Iris,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=34,param=bf251_se_whiteout.mp3,#
@@ -276,12 +276,12 @@
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1.5,#
 *,type=PARAM,id=2,param=navi_chara37_0:-120:-30:2:0.5,#
-*,type=PARAM,id=39,param=モーラ,#
+*,type=PARAM,id=39,param=Mora,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>事切れましたか…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>She's dead...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=記憶しておきましょう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=一時的にとはいえ、<wait=20>私よりも先にこの世界の<br>秘密に近づいた者がいたということを…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I must remember this.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=How, even if only briefly,<wait=20> someone came close to the mysteries of this world before I did...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -296,4 +296,3 @@
 *,type=PARAM,id=43,param=ゼブラ影2-2,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

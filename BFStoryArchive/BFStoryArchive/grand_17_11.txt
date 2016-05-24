@@ -93,35 +93,35 @@
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara62_4:-10:5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara62:-10:285:2:0.5,#
-*,type=PARAM,id=39,param=クランツ,#
+*,type=PARAM,id=39,param=Krantz,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=クッ……<wait=20><speed=14>何者だ？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Wha...? <wait=20><speed=14>Who are you?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara62_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara62:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53_0:-305:-50:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:2:0.5,#
-*,type=PARAM,id=39,param=カロン,#
+*,type=PARAM,id=39,param=Kalon,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>我が名は封魔導神カロン…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>異界より訪れ、<wait=20>このイシュグリアを<br>調査しているのは貴様らか…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>My name is Heresy Demon Kalon.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>So you are the group that has visited from another world to survey Ishgria.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara53_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara53:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara60_2:-160:20:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara60:-160:140:2:0.5,#
-*,type=PARAM,id=39,param=リベラ,#
+*,type=PARAM,id=39,param=Libera,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>新たな魔神……！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Another demon?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara60_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara60:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara53_0:-305:-50:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:2:0.5,#
-*,type=PARAM,id=39,param=カロン,#
+*,type=PARAM,id=39,param=Kalon,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>………<wait=30><speed=13>なるほど。<wait=20><br>今は取るに足らぬ要因かもしれぬ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だが、<wait=20>封印を脅かす可能性のあるものを、<wait=20><br>見逃すわけにはいかぬ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>I see. <wait=20>You may not be worth my time at present...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...but I cannot let anything with the potential to threaten the seal get away.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=34,param=bf110_zin_act_gatya011.mp3,#
@@ -137,35 +137,35 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara62_5:-10:5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara62:-10:285:2:0.5,#
-*,type=PARAM,id=39,param=クランツ,#
+*,type=PARAM,id=39,param=Krantz,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=36,param=0.1:2:6:6,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>クッ……<wait=30><speed=13>こいつは…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Grh... <wait=30><speed=13>He's...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara62_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara62:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara60_2:-160:20:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara60:-160:140:2:0.5,#
-*,type=PARAM,id=39,param=リベラ,#
+*,type=PARAM,id=39,param=Libera,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>……………。<wait=20><br><speed=13>只者ではないようね……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>I don't think...<wait=20><speed=13>he's a normal demon.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara60_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara60:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara62_5:-10:5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara62:-10:285:2:0.5,#
-*,type=PARAM,id=39,param=クランツ,#
+*,type=PARAM,id=39,param=Krantz,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……<wait=30><speed=13>リベラ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>Libera...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara62_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara62:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara60_2:-160:20:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara60:-160:140:2:0.5,#
-*,type=PARAM,id=39,param=リベラ,#
+*,type=PARAM,id=39,param=Libera,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>………<wait=30><speed=13>わかってるわ。<wait=20><br>クランツの考えていること、<wait=20>私も賛成よ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>...<wait=30><speed=13>I get it. <wait=20>I know what you're thinking, Krantz. Let's do it.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara60_2:2:0.5,#
@@ -173,180 +173,180 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara71_4:-120:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara71:-120:170:2:0.5,#
-*,type=PARAM,id=39,param=ミーファ,#
+*,type=PARAM,id=39,param=Mirfah,#
 *,type=PARAM,id=45,param=3,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>……お２人とも…<wait=20>何を？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>What are you doing?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara71_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara71:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara62_0:-10:5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara62:-10:285:2:0.5,#
-*,type=PARAM,id=39,param=クランツ,#
+*,type=PARAM,id=39,param=Krantz,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=33,param=bf036_map_vadan.mp3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ミーファ、<wait=30><br>今からこの報告書を君に託し、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=俺とリベラでこの魔神を抑える。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Mirfah, <wait=30>I am entrusting you with this report...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...while Libera and I hold off this demon.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だから、その間にランドールに戻り、<wait=20><br>グラデンス召喚老とオーン召喚老に渡すんだ,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Use this time to return to the Randall Empire, <wait=20>and give it to Summoners of Old Grahdens and Owen.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara62_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara62:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara71_4:-120:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara71:-120:170:2:0.5,#
-*,type=PARAM,id=39,param=ミーファ,#
+*,type=PARAM,id=39,param=Mirfah,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>な、<wait=20>何を言ってるんですか！<wait=20><br>できません、<wait=20>そんなこと！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Wh-<wait=20>What are you saying?! <wait=20>I can't do that!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara71_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara71:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara71_2:-120:10:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara71:-120:170:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=この魔神が強いなら、<wait=20><br><speed=11>俺たち３人で戦えば……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=If this is a strong demon, <wait=20><speed=11>the three of us should fight together...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara71_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara71:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara60_2:-160:20:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara60:-160:140:2:0.5,#
-*,type=PARAM,id=39,param=リベラ,#
+*,type=PARAM,id=39,param=Libera,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ミーファくん、<wait=20>私たちの使命は何？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Mirfah, <wait=20>what is our mission?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara60_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara60:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara71_4:-120:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara71:-120:170:2:0.5,#
-*,type=PARAM,id=39,param=ミーファ,#
+*,type=PARAM,id=39,param=Mirfah,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>それは……<wait=30><speed=12>このイシュグリアを調査し、<wait=20><br>その情報を召喚院に伝えることですが…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>It's...<wait=30><speed=12>to survey Ishgria, <wait=20>and bring back information on it to the Summoners' Hall...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara71_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara71:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara60_2:-160:20:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara60:-160:140:2:0.5,#
-*,type=PARAM,id=39,param=リベラ,#
+*,type=PARAM,id=39,param=Libera,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>その通りよ…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Exactly.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=そして、<wait=20><br>何よりも避けなければならないのは、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=私たちが全滅して、<wait=20>召喚院に情報を<br>届けられなくなってしまうこと。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=The one thing we need to avoid above all else...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...is the total elimination of our group, <wait=20>and the consequent failure to deliver this information to the Summoners' Hall.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara60_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara60:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara60_0:-160:20:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara60:-160:140:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=わかるわよね？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Understand?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara60_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara60:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara71_3:-120:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara71:-120:170:2:0.5,#
-*,type=PARAM,id=39,param=ミーファ,#
+*,type=PARAM,id=39,param=Mirfah,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>はい……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>Yes...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara71_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara71:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara62_0:-10:5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara62:-10:285:2:0.5,#
-*,type=PARAM,id=39,param=クランツ,#
+*,type=PARAM,id=39,param=Krantz,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=この報告書に書かれた情報は、<wait=20><br>先遣隊全員が命をかけて集めたものだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=All of us in the Recon Squad risked our lives to gather the information in this report.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara62_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara62:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara62_2:-10:5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara62:-10:285:1:0.5,#
 *,type=PARAM,id=36,param=0.1:6:6:6,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>絶対に届けなければならないものなんだ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>It absolutely has to make its way back home!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara62_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara62:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara62_5:-10:5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara62:-10:285:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>頼む、<wait=20>ミーファ。<wait=30><br>ここは任せてくれ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>そして、<wait=20><br>この報告書を召喚院に届けてくれ…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Please, <wait=20>Mirfah. <wait=30>Leave this to us.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>And please, <wait=20>get the report safely to the Summoners' Hall...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara62_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara62:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara71_5:-120:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara71:-120:170:2:0.5,#
-*,type=PARAM,id=39,param=ミーファ,#
+*,type=PARAM,id=39,param=Mirfah,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>……わかり……<wait=20>ました。<br>,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>Under...<wait=20>stood...<br>,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara71_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara71:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara71_3:-120:10:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara71:-120:170:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>…でも、<wait=20><speed=13>必ず戻ってきます。<wait=20><br>召喚院からの援軍を連れて。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>But, <wait=20><speed=13>I promise you I'll be back <wait=20>with reinforcements from the Summoners' Hall.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara71_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara71:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara71_2:-120:10:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara71:-120:170:1:0.5,#
 *,type=PARAM,id=36,param=0.1:2:4:4,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>ですから……！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>So, please...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara71_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara71:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara62_1:-10:5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara62:-10:285:2:0.5,#
-*,type=PARAM,id=39,param=クランツ,#
+*,type=PARAM,id=39,param=Krantz,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=うん、<wait=20>わかってる…。<wait=30><br>俺たちは死なない。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Yeah, <wait=20>I know... <wait=30>We won't die.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara62_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara62:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara60_0:-160:20:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara60:-160:140:2:0.5,#
-*,type=PARAM,id=39,param=リベラ,#
+*,type=PARAM,id=39,param=Libera,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=私たちはグリフさんたちと合流して、<wait=20><br>あなたが連れてくる援軍を待ってるわ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=We'll join up with Griff and the others, <wait=20>and wait for you to come with reinforcements.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara60_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara60:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara60_1:-160:20:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara60:-160:140:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ミーファくん、<wait=20>エルガイアに戻ったら<wait=20><br>みんなでパーティーをしましょう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ああ見えてカフカさんとか<wait=20><br>料理が上手なんだから♪,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Mirfah, <wait=20>let's all have a party when we get back to Elgaia.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Kafka may not look like it, <wait=20>but she's actually a really good cook!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara60_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara60:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara60_0:-160:20:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara60:-160:140:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……<wait=30><speed=13>だから、<wait=20>今は笑顔で別れましょう。<wait=20><br>大丈夫だよ。<wait=20>きっとまたみんなで……<wait=30>ね！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>So<wait=20> let's part ways with a smile for now. <wait=20>It'll be alright. <wait=20>We'll all see each other again!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara60_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara60:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara62_1:-10:5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara62:-10:285:2:0.5,#
-*,type=PARAM,id=39,param=クランツ,#
+*,type=PARAM,id=39,param=Krantz,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=俺はお前の強さを知っている。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=こんな俺でも少しは隊長らしくできたんだ。<wait=30><br>お前ならきっと立派な召喚師になれる。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I know how strong you are.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=If even someone like me can grow to become a decent leader, <wait=30>I'm sure you'll definitely grow to become an amazing Summoner.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara62_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara62:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara62_0:-10:5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara62:-10:285:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>だから……<wait=30><speed=13>生きろ。<wait=30><br>何が起きようが絶対にな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=これが隊長代理としての俺の最後の命令だ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>So...<wait=30><speed=13>survive. <wait=30>No matter what happens.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=This is my final order as your acting commander!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara62_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara62:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara71_5:-120:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara71:-120:170:2:0.5,#
-*,type=PARAM,id=39,param=ミーファ,#
+*,type=PARAM,id=39,param=Mirfah,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>クランツさん…<wait=30>リベラさん…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>Krantz... <wait=30>Libera...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara71_5:2:0.5,#
@@ -354,9 +354,9 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara53_0:-305:-50:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:2:0.5,#
-*,type=PARAM,id=39,param=カロン,#
+*,type=PARAM,id=39,param=Kalon,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=貴様ら誰１人として、逃さん…！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I won't let a single one of you escape!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=34,param=bf222_se_dark2.mp3,#
@@ -372,10 +372,10 @@
 *,type=PARAM,id=2,param=navi_chara62:-10:285:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=クランツ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>行け、<wait=20>ミーファ！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Krantz,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Go, Mirfah!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><size=19>カリス・クレイモア！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><size=19>Charis Claymore!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=34,param=bf225_se_buff.mp3,#
@@ -396,10 +396,10 @@
 *,type=PARAM,id=2,param=navi_chara60_2:-160:20:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara60:-160:140:2:0.5,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=39,param=リベラ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>頼んだわよ、ミーファくん！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Libera,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>We're counting on you, Mirfah!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><size=19>フォルティス・ブライト！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><size=19>Fortis Pride!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=34,param=bf212_se_tree1.mp3,#
@@ -417,8 +417,8 @@
 *,type=PARAM,id=36,param=0.1:3:8:8,#
 *,type=PARAM,id=2,param=navi_chara53_4:-305:-50:2:0.2,#
 *,type=PARAM,id=2,param=navi_chara53:-305:117:2:0.2,#
-*,type=PARAM,id=39,param=カロン,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=クッ……！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Kalon,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Urgh!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
@@ -427,8 +427,8 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara71_5:-120:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara71:-120:170:2:0.5,#
-*,type=PARAM,id=39,param=ミーファ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>クランツさん、<wait=20>リベラさん……<wait=20><br><speed=14>死なないでください！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Mirfah,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Krantz... <wait=20>Libera... <wait=20><speed=14>Please don't die!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara71_5:2:2,#
@@ -444,4 +444,3 @@
 *,type=PARAM,id=43,param=ゼブラ影2-2,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-
