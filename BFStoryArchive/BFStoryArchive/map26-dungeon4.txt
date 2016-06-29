@@ -62,10 +62,10 @@
 *,type=PARAM,id=2,param=navi_chara96_0:-44:15:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:2:0.5,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=39,param=アーク,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>これが悠久神殿……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Ark,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>The Eternal Temple...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ここにカルナ・マスタの魂が<br>封じられているのか……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=So this is where Karna Masta's soul is sealed...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara96_0:2:0.5,#
@@ -73,62 +73,62 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara73_8:10:0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara73:10:140:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>ねえ、アーク、<wait=20>感じてる？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>物凄く力強くて怖い気配が<wait=20><br>近付いてきてるの……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Hey, Ark, <wait=20>can you feel it?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>An incredibly strong, scary presence is closing in on us...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara73_8:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara73:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_0:-44:15:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ああ、<wait=20>わかっている。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=カルナ・マスタの真の力が,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=魂の封印が解ける気配を感じて<wait=20><br>ここに近付いてきているのだろう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Yes, <wait=20>I know.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It's most likely Karna Masta's true power...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It must have sensed the seal on his soul is about to break, <wait=20>and now it's coming toward us.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara96_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara96:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_4:-44:15:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>だが、俺はそれ以上に強く感じるんだ。<wait=30><br><speed=14>イリアの魂の力を！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>But I can sense something even more strongly...<wait=30><speed=14>the power of Ilia's soul!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara96_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara96:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_2:-44:15:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><rep_handlename>、<wait=20>ティリス、<wait=20><br>俺はカルナ・マスタの魂の封印を解く！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><rep_handlename>, <wait=20>Tilith, <wait=20>we're going to break the seal on Karna Masta's soul!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara96_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara96:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara73_0:10:0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara73:10:140:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=うん、<wait=20>大丈夫だよ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=私の<rep_handlename>は<wait=20><br>絶対にカルナ・マスタに負けたりしない！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Sure, <wait=20>no problem!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=There's no way my dearest <rep_handlename> will lose to Karna Masta!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara73_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara73:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_1:-44:15:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>フッ…<wait=20><speed=13>そうだったな……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Heh...<wait=20><speed=13>you have that right...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara96_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara96:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_2:-44:15:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>よし、行くぞ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>All right, here goes!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=45,param=5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>神託の剣ウィーゼル、<wait=20><br>断界の剣アーステリオ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>その力をもって今こそ<br>我が前の封印を斬り裂け！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Oracle Blade: Wiesel, <wait=20>Judgment Blade: Asterio!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>With your power I'll cut through the seal before me!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>我が名はアーク！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>巫女イリアを守護する<wait=20><br>悠久の騎士だ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>My name is Ark!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>I am the Eternal Knight, <wait=20>sworn to protect the Oracle Maiden Ilia!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara96_2:2:0.5,#
@@ -142,7 +142,7 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=36,param=0.2:8:15:8,#
 *,type=PARAM,id=34,param=bf214_se_tree3.mp3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8><size=20>ゴゴゴゴゴゴゴ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8><size=20>*Rumble* *rumble* *rumble...*,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=34,param=bf311_se_battle_attack.mp3,#
@@ -157,15 +157,15 @@
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara73_6:10:0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara73:10:140:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>うぅっ…<wait=20>なんて力なの……。<wait=20><br><speed=11>カルナ・マスタの魂と真の力が……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Whoa...<wait=20>what amazing strength... <wait=20><speed=11>So this is Karna Masta's soul and true power...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara73_6:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara73:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara73_3:10:0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara73:10:140:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>でも、<wait=20>その中に暖かい光が……。<wait=20><br><speed=13>これは…！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>But...<wait=20>I feel there's a warm light in the middle of it... <wait=20><speed=13>Is that...?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara73_3:2:0.5,#
@@ -173,13 +173,13 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara96_2:-44:15:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=36,param=0.1:4:8:8,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><size=18>来い！<br><speed=14>イリア！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><size=18>I'm here! <speed=14>Ilia!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=36,param=0.1:6:8:8,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><size=20>俺がお前の帰ってくる場所だ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><size=20>Come back to me!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
@@ -216,8 +216,8 @@
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara96_2:-44:15:2:0.2,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:2:0.2,#
-*,type=PARAM,id=39,param=アーク,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><size=20>イリア！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Ark,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><size=20>Ilia!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara96_2:2:0.5,#
@@ -225,23 +225,23 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara77_6:-65:15:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara77:-65:165:2:0.5,#
-*,type=PARAM,id=39,param=イリア,#
+*,type=PARAM,id=39,param=Ilia,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>アーク……<wait=30>ありがとう……。<wait=20><br>私…<wait=20>ずっと…<wait=20>ずっと……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Ark...<wait=30>thank you... <wait=20>I always...<wait=20>always...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara77_6:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara77:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_4:-44:15:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>イリア……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Ilia...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara96_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara96:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_1:-44:15:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>イリア、<wait=20>離れて少し休んでいてくれ。<wait=20><br>この戦いが終わったらゆっくり話そう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Ilia, <wait=20>stay back and rest. <wait=20>We'll talk properly when the battle is over.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara96_1:2:0.5,#
@@ -249,16 +249,16 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara77_0:-65:15:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara77:-65:165:2:0.5,#
-*,type=PARAM,id=39,param=イリア,#
+*,type=PARAM,id=39,param=Ilia,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>うん……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Yes...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara77_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara77:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara77_2:-65:15:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara77:-65:165:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>でも…<wait=20>その前に……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>アーク…<wait=20>あなたに私の力を……。<wait=20><br>神を封じる力を…<wait=30><speed=14>その剣に…！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>But first...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Ark...<wait=20>for you...<wait=20>for your sword...<wait=30><speed=14>my power to seal gods!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=34,param=bf311_se_battle_attack.mp3,#
@@ -277,21 +277,21 @@
 *,type=PARAM,id=2,param=navi_chara96:-44:135:1:0.5,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=アーク,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>この力は……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Ark,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>This power...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara96_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara96:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_1:-44:15:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>イリア…<wait=20>ありがとう……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>君はいつも俺を勇気付けてくれる。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Ilia...<wait=20>thank you...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I could always count on you to give me courage.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara96_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara96:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_0:-44:15:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ティリス、<wait=20>イリアを頼む！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Tilith, look after Ilia!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara96_0:2:0.5,#
@@ -299,30 +299,30 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara73_0:10:0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara73:10:140:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>うん、任せて！<wait=20><br>何があっても守り抜いてみせる！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Leave her to me! <wait=20>I'll keep her safe through whatever comes!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara73_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara73:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara73_2:10:0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara73:10:140:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>だから…<wait=30><speed=13>２人とも絶対に勝ってね！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>So please...<wait=30><speed=13>the both of you, make sure you win no matter what!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara73_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara73:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_1:-44:15:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=フッ、<wait=20>今の俺は何が来ようが<wait=20><br>負ける気がしない！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Heh, <wait=20>come what may, <wait=20>I don't think there's any way I could lose now!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara96_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara96:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_2:-44:15:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><rep_handlename>、<wait=20>行くぞ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>これがカルナ・マスタとの<wait=20><br>最後の戦いだ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Let's go, <rep_handlename>!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>This is the final battle with Karna Masta!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -335,4 +335,3 @@
 *,type=PARAM,id=43,param=BattleDungeon80194SealedShrineAddBack.sam,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

@@ -301,17 +301,17 @@ mapName = {
     },
     "26": {
         "dungeon": {
-            "1": "Ruins of Zera",
+            "1": "Zera's Ruins",
             "2": "Scorching City of Fevu",
-            "3": "Floating Castle of Mildran",
-            "4": "Holy Temple of Eternity",
+            "3": "Flying Castle Mildran",
+            "4": "Eternal Temple",
             "5": "",
             "6": "",
             "7": "",
             "8": ""
         },
         "special": "The Hermit's Resting Place",
-        "name": "(Japanese) Mildran",
+        "name": "Mildran",
         "order": 26
     },
     "27": {

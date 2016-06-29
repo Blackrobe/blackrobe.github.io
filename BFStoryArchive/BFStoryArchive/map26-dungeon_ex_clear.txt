@@ -59,41 +59,41 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara96_4:-44:15:2:1,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:2:1,#
-*,type=PARAM,id=39,param=アーク,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>クッ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Ark,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Grh...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11><rep_handlename><wait=20><br>やはりお前は強いな……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11><rep_handlename>, <wait=20>you are indeed strong...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara96_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara96:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_0:-44:15:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だが、<wait=20>おかげで何か吹っ切れた気がする。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=But I feel like you've helped me to overcome something.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara96_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara96:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_4:-44:15:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=俺はやはり弱い。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=When it comes right down to it, I am weak.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だから、<wait=20>大切な仲間を失い<br>多くの過ちを犯してきた。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It's why I lost my treasured comrades, <wait=20>and why I made so many mistakes.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=それでも俺は生き続けなければ<br>いけないんだな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=失った仲間たちの想いを受け止め<wait=20><br>犯した罪を背負い悩み苦しみながらも。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Even so, I must continue living.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I must struggle and suffer bearing the burden of my sins,<wait=20> and the thoughts of my fallen comrades.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=今の俺はイリアのために、<wait=20>それでも<br>生き続けなければならないのだから。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Despite that all that, for Ilia's sake,<wait=20> I must live on.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara96_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara96:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_0:-44:15:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=喜びも悲しみも後悔も<br>すべては日々の中にある。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=誰もが同じ苦しみの中で生きている。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Joy, sadness, and regret...<wait=20>my days will be filled with all of these.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=This kind of suffering is experienced by everyone.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=不幸なのは俺だけではない。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I am not the only one who is unhappy.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=45,param=1.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>だから俺は……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>That's why I'll...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara96_0:2:0.5,#
@@ -105,85 +105,85 @@
 *,type=PLAYWAIT,param=0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=33,param=br064_landall_pfver.mp3,#
-*,type=PARAM,id=39,param=イリア,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=アーク、<wait=20>やっと本当に<br>帰って来てくれたんだね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Ilia,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Ark, <wait=20>you finally, truly came back to me.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara77_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara77:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_3:-44:15:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=イリア……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Ilia...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara96_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara96:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara77_3:-65:15:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara77:-65:165:2:0.5,#
-*,type=PARAM,id=39,param=イリア,#
+*,type=PARAM,id=39,param=Ilia,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=アークが苦しんでいるのは<wait=20><br>ずっとわかってた。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=でも、<wait=20>私が声をかければかけるほど、<wait=20><br>あなたはきっと苦しむことになる。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I always knew you were suffering, Ark.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=But I knew that if I tried to make you talk about it,<wait=20> it would only make you suffer more.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>だから私は……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>So I...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara77_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara77:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_1:-44:15:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=すまなかった、イリア。<wait=20><br><speed=10>もう…<wait=30><speed=13>大丈夫だ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I'm sorry, Ilia. <br><wait=20><speed=10>It's...<wait=30><speed=13>it's all right now.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=これからは君のことだけを<wait=20><br>大切にし続けるよ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=今まで待たせ続けた分まで。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=From now on, <wait=20>I'll just focus on cherishing you.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Enough to make up for all the time I kept you waiting.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara96_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara96:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara77_0:-65:15:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara77:-65:165:2:0.5,#
-*,type=PARAM,id=39,param=イリア,#
+*,type=PARAM,id=39,param=Ilia,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>アーク、<wait=20>ありがとう……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Ark, <wait=20>thank you...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=でも、<wait=20>少しだけ悔しいな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I am just a tiny bit irritated, though.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara77_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara77:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara77_2:-65:15:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara77:-65:165:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=本当は私があなたの心を<br>救いたかったのに！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I wanted to be the one to save your soul!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara77_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara77:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_1:-44:15:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=フフッ、<wait=20>すまないな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Haha, <wait=20>sorry about that.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara96_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara96:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_0:-44:15:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<rep_handlename>、<wait=20><br>この結晶を受け取ってくれないか。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<rep_handlename>, <wait=20>please take these crystals.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=お前とティリスと別れた後、<wait=20><br>俺とイリアの手の中から現れたんだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=強い力を秘めているようだが<br>俺たちには必要の無い物だろう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=After we left you and Tilith, <wait=20>they appeared in Ilia's and my hands.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=They seem to hold great power, but we have no need of them.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=お前の役に立ててくれ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Please, use them as you see fit.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara96_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara96:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_1:-44:15:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<rep_handlename>、<wait=20><br>あらためて礼を言わせてくれ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=今、<wait=20>俺とイリアがこうしていられるのは<wait=20><br>お前がいたからこそだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=すべてを諦めかけた俺を<wait=20><br>前に進めてくれたお前が……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I can't thank you enough, <wait=20><rep_handlename>.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It's because of you that Ilia and I can live together as we do now.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=You pushed me forward<wait=20> when I had almost given up on everything.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11><rep_handlename>、<wait=20><br>ありがとう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11><rep_handlename>, <wait=20>thank you.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara96_1:2:0.5,#
@@ -191,40 +191,40 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara77_0:-65:15:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara77:-65:165:2:0.5,#
-*,type=PARAM,id=39,param=イリア,#
+*,type=PARAM,id=39,param=Ilia,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=私からもお礼を言わせて。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Let me thank you, as well.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara77_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara77:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara77_3:-65:15:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara77:-65:165:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=アークって、<wait=20>頑固なクセに落ち込みやすいし<wait=20><br>弱虫なクセに強がりで、<wait=20><speed=8>それから……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=For how stubborn he is, <wait=20>Ark gets depressed easily. <wait=20>And he acts tough despite being so pathetic, <wait=20><speed=8>and also...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=navi_chara77_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara77:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_3:-44:15:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:2:0.3,#
-*,type=PARAM,id=39,param=アーク,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>イリア、<wait=20>もう許してくれ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Ark,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Ilia, <wait=20>please, no more...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara96_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara96:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara77_0:-65:15:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara77:-65:165:2:0.5,#
-*,type=PARAM,id=39,param=イリア,#
+*,type=PARAM,id=39,param=Ilia,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=フフッ、<wait=20>でも本当は<br>凄く優しくて頼りになる。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Hehe, <wait=20>but the truth is, he's incredibly gentle and reliable.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=そんなアークが私を助けに来てくれた。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=And that's the Ark who came to my rescue.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=今、<wait=20>私たちが２人でいられて<wait=20><br>こうして幸せな時間を過ごせるのは,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=あなたのおかげです。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=The fact that we're able to spend time together now, <wait=20>and live this happily...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...is all thanks to you.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara77_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara77:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara77_1:-65:15:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara77:-65:165:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<rep_handlename>さん、<wait=20><br>本当にありがとうございました。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<rep_handlename>, <wait=20>thank you so very, very much for everything.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara77_1:2:0.5,#
@@ -232,19 +232,19 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara96_0:-44:15:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<rep_handlename>、<wait=20><br>お前が困った時はいつでも俺を呼んでくれ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=俺の命がある限り、<wait=20><br>必ずお前の下に駆けつける。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Call me any time you have a problem, <wait=20><rep_handlename>.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=So long as I live, <wait=20>I will rush to your aid no matter what.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>俺は…<wait=30><speed=13>いや、<wait=20>俺とイリアは<wait=20><br>お前への恩を決して忘れることはない。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>I...<wait=30><speed=13>no, <wait=20>Ilia and I will never forget the debt we owe you.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara96_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara96:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_1:-44:15:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ありがとう。<wait=20><br>女神に愛されし召喚師よ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=またいつか会えるその時を<wait=20><br>俺とイリアは楽しみにしているよ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Thank you, Summoner. <wait=20>It's not hard to see why the Goddess adores you so.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Ilia and I will both look forward to the day we meet again.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -257,4 +257,3 @@
 *,type=PARAM,id=43,param=BattleDungeon80193HermitageAddBack.sam,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=0,#
-

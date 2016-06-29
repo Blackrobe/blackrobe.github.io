@@ -27,75 +27,75 @@
 *,type=PLAYWAIT,param=2,#
 *,type=PARAM,id=2,param=navi_chara96_0:-44:15:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:2:0.5,#
-*,type=PARAM,id=39,param=アーク,#
+*,type=PARAM,id=39,param=Ark,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11><rep_handlename>…<wait=20>か……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Huh? <wait=20><rep_handlename>...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=どうした、<wait=20>こんな所に。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ティリスとともに<wait=20><br>旅に出たのではないのか？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=What are you doing here?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Didn't you leave on a journey with Tilith?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>俺か…？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Me?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara96_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara96:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_1:-44:15:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>フッ…<wait=30><speed=13>どうやら俺は未だに<wait=20><br>迷いを捨てられないらしい。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Well...<wait=30><speed=13>it seems that I cannot cast off my doubts even now.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara96_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara96:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_4:-44:15:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=お前たちのお陰で<wait=20><br>イリアを助け出せたというのに,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=その幸せを感じる度に<wait=20><br>俺が行った罪の重さを感じるんだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Even though I was able to rescue Ilia thanks to you two...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...for every moment that I feel happiness, <wait=20>I also feel the weight of my sins.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>本当に俺がこんなに幸せになっても<wait=20><br>いいのかと……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I wonder if I truly have the right to feel so happy...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara96_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara96:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_0:-44:15:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>あれだけの苦難を乗り越えたというのに…<wait=20><br>過去と決別したはずだというのに…,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Despite everything I have overcome...<wait=20>despite having laid my own past to rest...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>俺という存在は、<wait=20>どこまでいっても<br>覚悟が足りないらしい……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>...it still seems that, no matter how far I go,<wait=20> I still lack resolve.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara96_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara96:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_4:-44:15:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だが、<wait=20>そんな俺を見ても<wait=20><br>イリアは優しく微笑み続けてくれる。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=And yet, even so...<wait=20>Ilia still gives me her warm smile.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<rep_handlename>よ。<wait=20><br>俺はどうしたらいいと思う？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<rep_handlename>, <wait=20>what do you think I should do?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=45,param=3,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>俺は……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1.5,#
 *,type=PARAM,id=3,param=navi_chara96_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara96:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_1:-44:15:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=フッ、<wait=20>そうだったな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Heh, <wait=20>you're right.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=33,param=bf070_btl_ishuguria.mp3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=俺たちは言葉で語るよりも<wait=20><br>戦いで語り合う仲だったな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=お前と話しているとかつての<br>仲間を思い出すよ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=We've always communicated through battle,<wait=20> not through words, haven't we?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Talking with you reminds me of my past comrades.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara96_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara96:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_0:-44:15:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><rep_handlename>、<wait=20><br>俺と戦ってくれ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>俺の中でくすぶり続ける<br>光も闇もすべてぶつけさせてもらう！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>荒ぶる俺の魂のすべてを<wait=20><br>受け止めてくれ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><rep_handlename>, <wait=20>fight with me.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>I will throw everything I have at you, <wait=20>all of the light and darkness that smolders within me!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Stand against the full tempest of my soul!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara96_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara96:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96_2:-44:15:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara96:-44:135:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>行くぞ！<wait=20><br><rep_handlename>！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Let's go, <rep_handlename>!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -108,4 +108,3 @@
 *,type=PARAM,id=43,param=BattleDungeon80193HermitageBack.sam,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-
