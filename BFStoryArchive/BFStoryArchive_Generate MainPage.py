@@ -142,8 +142,17 @@ class StoryPage(object):
             self.setOrder(400080)
             self.setDirectory(pageName)
             self.setName("Tutorial - Colosseum")
+        elif not (pageName.find("guild") == -1):
+            if pageName == "guild_01":
+                self.setOrder(410001)
+                self.setDirectory(pageName)
+                self.setName("Tutorial - Introduction to Guilds I")
+            elif pageName == "guild_02":
+                self.setOrder(410002)
+                self.setDirectory(pageName)
+                self.setName("Tutorial - Introduction to Guilds II")            
         elif not (pageName.find("arena_tuto") == -1):
-            self.setOrder(400090)
+            self.setOrder(450000)
             self.setDirectory(pageName)
             self.setName("Tutorial - Arena")
         elif not (pageName.find("arena") == -1):

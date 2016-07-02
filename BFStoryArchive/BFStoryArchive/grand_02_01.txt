@@ -165,6 +165,7 @@
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Oh, <wait=20>also, <wait=20>I'll be here to support you at all times with anything you may need!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=chr8_ki:1:0.5,#
+*,type=PARAM,id=3,param=chr8_ki:1:0.5,#
 *,type=PARAM,id=2,param=chr8_fu:-30:20:1:0.5,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<rep_handlename>, thank you so much for taking on this mission. <wait=20>You'll be a big help.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Just between you and me, <wait=20>there aren't many Summoners out there...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#

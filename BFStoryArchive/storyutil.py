@@ -301,8 +301,8 @@ mapName = {
     },
     "26": {
         "dungeon": {
-            "1": "Zera's Ruins",
-            "2": "Scorching City of Fevu",
+            "1": "Ruined Capital Zera",
+            "2": "Ruined Capital Fuve",
             "3": "Flying Castle Mildran",
             "4": "Eternal Temple",
             "5": "",
@@ -310,7 +310,7 @@ mapName = {
             "7": "",
             "8": ""
         },
-        "special": "The Hermit's Resting Place",
+        "special": "Hermitage",
         "name": "Mildran",
         "order": 26
     },

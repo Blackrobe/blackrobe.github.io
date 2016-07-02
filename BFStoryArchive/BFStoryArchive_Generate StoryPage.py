@@ -8,6 +8,8 @@ currentTxt = ""
 playerName = "Hans"
 
 ignoredPortraitList = [
+    "giselle_base",
+    "guild_navi_chara1",
     "navi_chara29",
     "navi_chara39",
     "navi_chara40",
@@ -87,17 +89,28 @@ for currentTxt in currentTxtList:
 
             # DEBUG
             # ==========
+            if "grand_03_09" in currentTxt:
+                print line
+                print speakerFacePortraitStack
+                print
             # print line
             # ==========
 
-            # Searching for aliases
+
+            
+            # =============
+            # Begin reading
+            # =============
+
+
+            
+            # ID = 1: Alias
             if not (line.find("type=PARAM,id=1,") == -1):
                 aliasBegin = line.find("param=") + 6
                 aliasEnd = definitionBegin = line.find(":")
                 definitionEnd = line.find(",#")
                 alias[line[aliasBegin:aliasEnd]] = line[definitionBegin+1:definitionEnd]
-
-            # Begin extracting
+                
 
             # ID = 2: add (push) portrait to stack / add background image
             if not (line.find("type=PARAM,id=2,") == -1):
@@ -179,11 +192,12 @@ for currentTxt in currentTxtList:
                 aliasBegin = line.find("param=") + 6
                 aliasEnd = line.find(":")
                 if not (alias[line[aliasBegin:aliasEnd]].find("navi_chara") == -1) and not (line[aliasBegin:aliasEnd] in ignoredPortraitList):
-                    speakerFacePortraitStack.pop()
+                    if alias[line[aliasBegin:aliasEnd]] in speakerFacePortraitStack:
+                        speakerFacePortraitStack.remove(alias[line[aliasBegin:aliasEnd]])
                     if speakerFacePortraitStack == []:
                         speakerFacePortraitStack.append("blank.png")
 
-            # ID = 5: mark a line of dialogue text information
+            # ID = 15: mark a line of dialogue text information
             if not (line.find("type=PARAM,id=15,") == -1):
                 messageBegin = line.find("msg=") + 4
                 messageEnd = line.find(",#*,type=MSGWAIT")

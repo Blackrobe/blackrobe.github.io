@@ -128,6 +128,7 @@
 *,type=PARAM,id=3,param=chr8_ma:1:0.5,#
 *,type=PARAM,id=3,param=chr8_bi:1:0.5,#
 *,type=PARAM,id=3,param=chr8_ki:2:0.5,#
+*,type=PARAM,id=3,param=chr8_ki:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=36,param=0.2:8:15:13,#
