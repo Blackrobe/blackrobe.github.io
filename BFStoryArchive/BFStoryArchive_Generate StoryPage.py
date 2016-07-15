@@ -89,10 +89,10 @@ for currentTxt in currentTxtList:
 
             # DEBUG
             # ==========
-            if "grand_03_09" in currentTxt:
-                print line
-                print speakerFacePortraitStack
-                print
+            #if "grand_03_09" in currentTxt:
+            #    print line
+            #    print speakerFacePortraitStack
+            #    print
             # print line
             # ==========
 

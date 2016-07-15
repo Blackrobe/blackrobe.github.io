@@ -488,6 +488,9 @@ grandQuestName = {
     "17": {
         "name": "Entrusted Will"
     },
+    "18": {
+        "name": "(Japanese) Collaboration GQ with Eagle Talon/Takanotsume"
+    },
     "X1": {
         "name": "The Tinkerer's Deceit"
     },
