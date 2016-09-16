@@ -36,6 +36,7 @@ ignoredPortraitList = [
     "navi_chara76",
     "navi_chara77",
     "navi_chara96",
+    "navi_chara112",
     "navi_chara116",
     "navi_chara117",    
     ]

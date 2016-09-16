@@ -491,6 +491,9 @@ grandQuestName = {
     "18": {
         "name": "(Japanese) Collaboration GQ with Eagle Talon/Takanotsume"
     },
+    "19": {
+        "name": "(Japanese) Sera's Grand Quest"
+    },
     "X1": {
         "name": "The Tinkerer's Deceit"
     },
