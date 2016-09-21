@@ -483,7 +483,7 @@ grandQuestName = {
         "name": ""
     },
     "16": {
-        "name": ""
+        "name": "Collaboration GQ with Shin Megami Tensei"
     },
     "17": {
         "name": "Entrusted Will"
