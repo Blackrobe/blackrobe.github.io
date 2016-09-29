@@ -42,7 +42,11 @@ ignoredPortraitList = [
     "navi_chara104",
     "navi_chara105",
     "navi_chara106",
+    "navi_chara111",
     "navi_chara112",
+    "navi_chara113",
+    "navi_chara114",
+    "navi_chara115",
     "navi_chara116",
     "navi_chara117",    
     ]
