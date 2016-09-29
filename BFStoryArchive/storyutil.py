@@ -314,20 +314,20 @@ mapName = {
         "name": "Mildran",
         "order": 26
     },
-    "27": {
+    "101": {
         "dungeon": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": "",
-            "5": "",
-            "6": "",
-            "7": "",
-            "8": ""
+            "1": "Area 1",
+            "2": "Area 2",
+            "3": "Area 3",
+            "4": "Area 4",
+            "5": "Area 5",
+            "6": "Area 6",
+            "7": "Area 7",
+            "8": "Area 8"
         },
-        "special": "",
-        "name": "Something",
-        "order": 27
+        "special": "EX",
+        "name": "Bectas",
+        "order": 101
     },
     "3": {
         "dungeon": {

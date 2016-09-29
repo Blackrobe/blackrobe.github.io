@@ -12,6 +12,13 @@ class StoryPage(object):
     def __init__(self, pageName):
         if not (pageName[:3].find("map") == -1):
             mapNumber = pageName.split("-")[0][3:]
+
+
+            # ===============
+            # Classic Arc
+            # ===============
+
+            
             if (str(mapNumber) in [str(i) for i in range(0, 99)]):
                 if not (pageName.find("dungeon_ex") == -1):
                     if not (pageName.find("ex1_clear") == -1):
@@ -43,7 +50,6 @@ class StoryPage(object):
                     # Multiple scenes
                     # ===============
                     if len(pageName.split("-")) > 2:
-                        print "this one"
                         dungeonNumber = pageName.split("-")[1][7:]
                         sceneNumber = pageName.split("-")[2]
                         self.setOrder(int(mapNumber)*1000+int(dungeonNumber)*10+int(sceneNumber))
@@ -52,16 +58,80 @@ class StoryPage(object):
                     # ===============
                     # Single scene
                     # ===============
-                    else:
-                        print "That one", pageName
+                    else:                        
                         dungeonNumber = pageName.split("-")[1][7:]
                         self.setOrder(int(mapNumber)*1000+int(dungeonNumber)*10)
                         self.setDirectory(pageName)
                         self.setName("Chapter " + mapNumber + "-" + dungeonNumber + ": " + mapName[mapNumber]["name"] + " - " + mapName[mapNumber]["dungeon"][dungeonNumber])
             else:
-                self.setOrder(100000)
-                self.setDirectory(pageName)
-                self.setName(pageName)
+
+                
+                # ===============
+                # Summoner's Arc
+                # ===============
+
+                
+                if (str(mapNumber) in [str(i) for i in range(100, 200)]):
+                    if not (pageName.find("dungeon_ex") == -1):
+                        if not (pageName.find("ex1_clear") == -1):
+                            self.setOrder(int(mapNumber)*1000+993)
+                            self.setDirectory(pageName)
+                            self.setName("Summoner's Arc Chapter " + str(int(mapNumber) % 100) + " Special: " + mapName[mapNumber]["name"] + " - " + mapName[mapNumber]["special"] + " [ Ending 1 ]")
+                        elif not (pageName.find("ex2_clear") == -1):
+                            self.setOrder(int(mapNumber)*1000+994)
+                            self.setDirectory(pageName)
+                            self.setName("Summoner's Arc Chapter " + str(int(mapNumber) % 100) + " Special: " + mapName[mapNumber]["name"] + " - " + mapName[mapNumber]["special"] + " [ Ending 2 ]")
+                        elif not (pageName.find("ex_clear") == -1):
+                            self.setOrder(int(mapNumber)*1000+995)
+                            self.setDirectory(pageName)
+                            self.setName("Summoner's Arc Chapter " + str(int(mapNumber) % 100) + " Special: " + mapName[mapNumber]["name"] + " - " + mapName[mapNumber]["special"] + " [ Ending ]")
+                        else:
+                            self.setOrder(int(mapNumber)*1000+990)
+                            self.setDirectory(pageName)
+                            self.setName("Summoner's Arc Chapter " + str(int(mapNumber) % 100) + " Special: " + mapName[mapNumber]["name"] + " - " + mapName[mapNumber]["special"])
+                    elif not (pageName.find("open") == -1):
+                        if not (pageName.find("open1") == -1):
+                            self.setOrder(int(mapNumber)*1000)
+                            self.setDirectory(pageName)
+                            self.setName("Summoner's Arc Chapter " + str(int(mapNumber) % 100) + ": " + mapName[mapNumber]["name"] + " [ Opening 1 ]")
+                        elif not (pageName.find("open2") == -1):
+                            self.setOrder(int(mapNumber)*1000 + 1)
+                            self.setDirectory(pageName)
+                            self.setName("Summoner's Arc Chapter " + str(int(mapNumber) % 100) + ": " + mapName[mapNumber]["name"] + " [ Opening 2 ]")
+                        else:
+                            self.setOrder(int(mapNumber)*1000)
+                            self.setDirectory(pageName)
+                            self.setName("Summoner's Arc Chapter " + str(int(mapNumber) % 100) + ": " + mapName[mapNumber]["name"] + " [ Opening ]")
+                    elif not (pageName.find("ending") == -1):
+                        self.setOrder(int(mapNumber)*1000+980)
+                        self.setDirectory(pageName)
+                        self.setName("Summoner's Arc Chapter " + str(int(mapNumber) % 100) + ": " + mapName[mapNumber]["name"] + " [ Ending ]")
+                    else:
+                        # ===============
+                        # Multiple scenes
+                        # ===============
+                        if len(pageName.split("-")) > 2:
+                            
+                            dungeonNumber = pageName.split("-")[1][7:]
+                            sceneNumber = pageName.split("-")[2]
+                            print "this one: ", pageName, dungeonNumber, sceneNumber
+                            self.setOrder(int(mapNumber)*1000+int(dungeonNumber)*10+int(sceneNumber))
+                            self.setDirectory(pageName)
+                            self.setName("Summoner's Arc Chapter " + str(int(mapNumber) % 100) + "-" + dungeonNumber + ": " + mapName[mapNumber]["name"] + " - " + mapName[mapNumber]["dungeon"][dungeonNumber] + " Scene " + sceneNumber)
+                        # ===============
+                        # Single scene
+                        # ===============
+                        else:
+                            
+                            dungeonNumber = pageName.split("-")[1][7:]
+                            print "That one", pageName, dungeonNumber
+                            self.setOrder(int(mapNumber)*1000+int(dungeonNumber)*10)
+                            self.setDirectory(pageName)
+                            self.setName("Summoner's Arc Chapter " + str(int(mapNumber) % 100) + "-" + dungeonNumber + ": " + mapName[mapNumber]["name"] + " - " + mapName[mapNumber]["dungeon"][dungeonNumber])                        
+                else:
+                    self.setOrder(1000000)
+                    self.setDirectory(pageName)
+                    self.setName(pageName)
         elif not (pageName[:4].find("tuto") == -1):
             tutorialNumber = pageName[4:]
             self.setOrder(0 + int(tutorialNumber))
@@ -71,92 +141,92 @@ class StoryPage(object):
             grandQuestNumber = pageName[3]
             grandQuestID = pageName[2:4]
             if not (pageName[4:].find("OP") == -1):
-                self.setOrder(180000 + int(grandQuestNumber)*1000)
+                self.setOrder(380000 + int(grandQuestNumber)*1000)
                 self.setDirectory(pageName)
                 self.setName("Exclusive Grand Quest " + grandQuestNumber + ": " + grandQuestName[grandQuestID]["name"] + " [ Opening Scene ]")
             else:
                 grandQuestSceneNumber = pageName[-2:]
                 if grandQuestSceneNumber.isdigit():
-                    self.setOrder(180000 + int(grandQuestNumber)*1000 + int(grandQuestSceneNumber))
+                    self.setOrder(380000 + int(grandQuestNumber)*1000 + int(grandQuestSceneNumber))
                 else:
-                    self.setOrder(180000 + int(grandQuestNumber)*1000 + int(grandQuestSceneNumber[:-1]))
+                    self.setOrder(380000 + int(grandQuestNumber)*1000 + int(grandQuestSceneNumber[:-1]))
                 self.setDirectory(pageName)
                 self.setName("Exclusive Grand Quest " + grandQuestNumber + ": " + grandQuestName[grandQuestID]["name"] + " Scene " + grandQuestSceneNumber)
         elif not (pageName.find("grand") == -1):
             if pageName == "grand_op":
-                self.setOrder(100000)
+                self.setOrder(300000)
                 self.setDirectory(pageName)
                 self.setName("Grand Quest Introduction - Dawn of the Summoner")
             elif pageName == "grand_op2":
-                self.setOrder(100001)
+                self.setOrder(300001)
                 self.setDirectory(pageName)
                 self.setName("Grand Quest Introduction - Saga of Heroes")
             else:
                 grandQuestNumber = pageName.split("_")[1]
                 if not (pageName[9:].find("op") == -1):
-                    self.setOrder(100000 + int(grandQuestNumber)*1000)
+                    self.setOrder(300000 + int(grandQuestNumber)*1000)
                     self.setDirectory(pageName)
                     self.setName("Grand Quest " + grandQuestNumber + ": " + grandQuestName[str(int(grandQuestNumber))]["name"] + " -- Opening Scene")
                 else:
                     grandQuestSceneNumber = pageName[9:]
-                    self.setOrder(100000 + int(grandQuestNumber)*1000 + int(grandQuestSceneNumber))
+                    self.setOrder(300000 + int(grandQuestNumber)*1000 + int(grandQuestSceneNumber))
                     self.setDirectory(pageName)
                     self.setName("Grand Quest " + grandQuestNumber + ": " + grandQuestName[str(int(grandQuestNumber))]["name"] + " -- Scene " + pageName[9:])
         elif not (pageName.find("randall_tuto2") == -1):
-            self.setOrder(400010)
+            self.setOrder(600010)
             self.setDirectory(pageName)
             self.setName("Tutorial - Akras Administration Office")
         elif not (pageName.find("randall_tuto3") == -1):
-            self.setOrder(400020)
+            self.setOrder(600020)
             self.setDirectory(pageName)
             self.setName("Tutorial - Akras Survey Office ")
         elif not (pageName.find("randall_tuto4") == -1):
-            self.setOrder(400030)
+            self.setOrder(600030)
             self.setDirectory(pageName)
             self.setName("Tutorial - Summoners' Research Lab")
         elif not (pageName.find("hunter01") == -1):
-            self.setOrder(400040)
+            self.setOrder(600040)
             self.setDirectory(pageName)
             self.setName("Tutorial - Frontier Hunter")
         elif not (pageName.find("frontiergate_op") == -1):
-            self.setOrder(400050)
+            self.setOrder(600050)
             self.setDirectory(pageName)
             self.setName("Tutorial - Frontier Gate part 1")
         elif not (pageName.find("frontiergate_v2_op") == -1):
-            self.setOrder(400060)
+            self.setOrder(600060)
             self.setDirectory(pageName)
             self.setName("Tutorial - Frontier Gate part 2")
         elif not (pageName.find("syuurenjyo_tuto00") == -1):
-            self.setOrder(400070)
+            self.setOrder(600070)
             self.setDirectory(pageName)
             self.setName("Tutorial - Summoners' Training Ground")
         elif not (pageName.find("randall_library") == -1):
-            self.setOrder(400074)
+            self.setOrder(600074)
             self.setDirectory(pageName)
             self.setName("Tutorial - Library")
         elif not (pageName.find("randall_achievement") == -1):
-            self.setOrder(400078)
+            self.setOrder(600078)
             self.setDirectory(pageName)
             self.setName("Tutorial - Achievement Store")
         elif not (pageName.find("colosseum_tuto00") == -1):
-            self.setOrder(400080)
+            self.setOrder(600080)
             self.setDirectory(pageName)
             self.setName("Tutorial - Colosseum")
         elif not (pageName.find("guild") == -1):
             if pageName == "guild_01":
-                self.setOrder(410001)
+                self.setOrder(610001)
                 self.setDirectory(pageName)
                 self.setName("Tutorial - Introduction to Guilds I")
             elif pageName == "guild_02":
-                self.setOrder(410002)
+                self.setOrder(610002)
                 self.setDirectory(pageName)
                 self.setName("Tutorial - Introduction to Guilds II")            
         elif not (pageName.find("arena_tuto") == -1):
-            self.setOrder(450000)
+            self.setOrder(650000)
             self.setDirectory(pageName)
             self.setName("Tutorial - Arena")
         elif not (pageName.find("arena") == -1):
-            self.setOrder(500000 + int(pageName[5:])*10)
+            self.setOrder(800000 + int(pageName[5:])*10)
             self.setDirectory(pageName)
             self.setName("Arena - Rank " + arenaRankName[pageName[5:]])
         else:
@@ -221,6 +291,10 @@ if __name__ == '__main__':
             if (
                        (floor(currentPage.order/100000) == 0)
                     or (floor(currentPage.order/100000) == 1)
+                    or (floor(currentPage.order/100000) == 2)
+                    or (floor(currentPage.order/100000) == 3)
+                    or (floor(currentPage.order/100000) == 4)
+                    or (floor(currentPage.order/100000) == 5)
                 ) and (floor(currentPage.order/1000) - floor(currentMapOrder/1000) > 0):
                 print "Above!"
                 currentMapOrder = floor(currentPage.order/1000)*1000
