@@ -127,6 +127,23 @@ for currentTxt in currentTxtList:
             if not (line.find("type=PARAM,id=2,") == -1):
                 aliasBegin = line.find("param=") + 6
                 aliasEnd = line.find(":")                                
+
+                # Area Background
+                if not (alias[line[aliasBegin:aliasEnd]].find("area") == -1) and not (alias[line[aliasBegin:aliasEnd]].find(".jpg") == -1):
+                    outputLines.append("")                    
+                    outputLines.append("<div class=\"areaContainer\">")
+                    outputLines.append("<img class=\"areaFrame\" src=\""+dungeon_battle_collectionDirectory+"areaFrame.png\" />")
+                    outputLines.append("<img class=\"areaImage\" src=\""+dungeon_battle_collectionDirectory+alias[line[aliasBegin:aliasEnd]]+"\" />")
+                    outputLines.append("</div>")
+                    outputLines.append("")
+
+                # Area Plate
+                if not (alias[line[aliasBegin:aliasEnd]].find("area_plate") == -1):
+                    outputLines.append("")
+                    outputLines.append("<div class=\"areaPlateContainer\">")
+                    outputLines.append("<img class=\"areaPlateImage\" src=\""+dungeon_battle_collectionDirectory+alias[line[aliasBegin:aliasEnd]]+"\" />")
+                    outputLines.append("</div>")
+                    outputLines.append("")
                 
                 # Character portrait
                 if not (alias[line[aliasBegin:aliasEnd]].find("navi_chara") == -1) and not (line[aliasBegin:aliasEnd] in ignoredPortraitList):
@@ -190,12 +207,12 @@ for currentTxt in currentTxtList:
                     outputLines.append("")
                 # Background image - City of Randall
                 elif not (alias[line[aliasBegin:aliasEnd]].find("Randall") == -1):
-                    outputLines.append("")
-                    outputLines.append("<div class=\"dungeonBackgroundContainer\">")
-                    outputLines.append("<img class=\"dungeonFrame\" src=\""+dungeon_battle_collectionDirectory+"baseDungeonFrame.png\" />")
-                    outputLines.append("<img class=\"dungeonImage\" src=\""+dungeon_battle_collectionDirectory+"Randall.jpg\" />")
+                    outputLines.append("")                    
+                    outputLines.append("<div class=\"areaContainer\">")
+                    outputLines.append("<img class=\"areaFrame\" src=\""+dungeon_battle_collectionDirectory+"areaFrame.png\" />")
+                    outputLines.append("<img class=\"areaImage\" src=\""+dungeon_battle_collectionDirectory+"Randall.jpg\" />")
                     outputLines.append("</div>")
-                    outputLines.append("")
+                    outputLines.append("")                    
 
 
             # ID = 3: remove (pop) portrait from stack

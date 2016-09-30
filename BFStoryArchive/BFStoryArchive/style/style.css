@@ -151,3 +151,44 @@ a:hover, a:active {
 	z-index: 2;
 	transform: translate(-50%, 0);
 }
+
+.areaContainer {
+	position: relative;
+	margin: auto;
+	width: 640px;
+	height: 960px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;	
+}
+
+.areaPlateContainer {
+	position: relative;
+	margin: auto;
+	width: 640px;
+	height: 128px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;	
+}
+
+.areaFrame {
+	position: absolute;
+	left:50%;
+	z-index: 3;
+	transform: translate(-50%, 0);
+}
+
+.areaImage {
+	position: absolute;
+	left:50%;
+	z-index: 2;
+	transform: translate(-50%, 0);
+}
+
+.areaPlateImage {
+	position: absolute;
+	left:50%;
+	z-index: 2;
+	transform: translate(-50%, 0);
+}

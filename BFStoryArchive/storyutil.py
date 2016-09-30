@@ -319,13 +319,13 @@ mapName = {
             "1": "Iron District",
             "2": "Selza Arsenal",
             "3": "Demolished Site",
-            "4": "Area 4",
-            "5": "Area 5",
-            "6": "Area 6",
-            "7": "Area 7",
-            "8": "Area 8"
+            "4": "Tech City Mersas",
+            "5": "Information Tower",
+            "6": "Zoldas Mountains",
+            "7": "Elevated Station",
+            "8": ""
         },
-        "special": "EX",
+        "special": "Michele's Sepulcher",
         "name": "Bectas",
         "order": 101
     },
