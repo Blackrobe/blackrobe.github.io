@@ -73,10 +73,18 @@ class StoryPage(object):
                 
                 if (str(mapNumber) in [str(i) for i in range(100, 200)]):
                     if not (pageName.find("dungeon_ex") == -1):
-                        if not (pageName.find("ex1_clear") == -1):
-                            self.setOrder(int(mapNumber)*1000+993)
+                        if not (pageName.find("ex1_open") == -1):
+                            self.setOrder(int(mapNumber)*1000+991)
+                            self.setDirectory(pageName)
+                            self.setName("Summoner's Arc Chapter " + str(int(mapNumber) % 100) + " Special: " + mapName[mapNumber]["name"] + " - " + mapName[mapNumber]["special"] + " [ Opening 1 ]")
+                        elif not (pageName.find("ex1_clear") == -1):
+                            self.setOrder(int(mapNumber)*1000+992)
                             self.setDirectory(pageName)
                             self.setName("Summoner's Arc Chapter " + str(int(mapNumber) % 100) + " Special: " + mapName[mapNumber]["name"] + " - " + mapName[mapNumber]["special"] + " [ Ending 1 ]")
+                        elif not (pageName.find("ex2_open") == -1):
+                            self.setOrder(int(mapNumber)*1000+993)
+                            self.setDirectory(pageName)
+                            self.setName("Summoner's Arc Chapter " + str(int(mapNumber) % 100) + " Special: " + mapName[mapNumber]["name"] + " - " + mapName[mapNumber]["special"] + " [ Opening 2 ]")
                         elif not (pageName.find("ex2_clear") == -1):
                             self.setOrder(int(mapNumber)*1000+994)
                             self.setDirectory(pageName)
