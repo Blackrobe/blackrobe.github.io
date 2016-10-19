@@ -48,7 +48,10 @@ ignoredPortraitList = [
     "navi_chara114",
     "navi_chara115",
     "navi_chara116",
-    "navi_chara117",    
+    "navi_chara117",
+    "navi_chara80049",
+    "navi_chara80050",
+    "navi_chara80051",
     ]
 
 print "begin"
@@ -217,6 +220,8 @@ for currentTxt in currentTxtList:
 
             # ID = 3: remove (pop) portrait from stack
             if not (line.find("type=PARAM,id=3,") == -1):
+##                if not (currentTxt.find("raid_804_7") == -1):
+##                    print speakerFacePortraitStack
                 aliasBegin = line.find("param=") + 6
                 aliasEnd = line.find(":")
                 if not (alias[line[aliasBegin:aliasEnd]].find("navi_chara") == -1) and not (line[aliasBegin:aliasEnd] in ignoredPortraitList):
@@ -224,6 +229,8 @@ for currentTxt in currentTxtList:
                         speakerFacePortraitStack.remove(alias[line[aliasBegin:aliasEnd]])
                     if speakerFacePortraitStack == []:
                         speakerFacePortraitStack.append("blank.png")
+                if not (currentTxt.find("raid_804_7") == -1):
+                    print "Result:", speakerFacePortraitStack
 
             # ID = 15: mark a line of dialogue text information
             if not (line.find("type=PARAM,id=15,") == -1):
