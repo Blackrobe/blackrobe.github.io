@@ -260,11 +260,11 @@ if __name__ == '__main__':
 
     outputLines = []
 
-    outputLines += "<html>"
-    outputLines += "<head>"
-    outputLines += "<title>Brave Frontier Story Archive</title>"
-    outputLines += "<link rel=\"stylesheet\" type=\"text/css\" href=\"BFStoryArchive/style/style.css\">"
-    outputLines += "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">"
+    outputLines.append("<html>")
+    outputLines.append("<head>")
+    outputLines.append("<title>Brave Frontier Story Archive</title>")
+    outputLines.append("<link rel=\"stylesheet\" type=\"text/css\" href=\"BFStoryArchive/style/style.css\">")
+    outputLines.append("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">")
     outputLines.append("<script>")
     outputLines.append("(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){")
     outputLines.append("(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),")
@@ -275,10 +275,10 @@ if __name__ == '__main__':
     outputLines.append("ga('send', 'pageview');")
     outputLines.append("")
     outputLines.append("</script>")
-    outputLines += "</head>"
-    outputLines += "<body>"
-    outputLines += "<div id=\"greetingsText\">Your name is <b>Hans</b>. You are the talented summoner from the organization called Akras Summoners' Hall, located in your homeworld of Elgaia. Your first journey brings you into Grand Gaia, a world completely different from your origin...</div>"
-    outputLines += "<ul>"
+    outputLines.append("</head>")
+    outputLines.append("<body>")
+    outputLines.append("<div id=\"greetingsText\">Your name is <b>Hans</b>. You are the talented summoner from the organization called Akras Summoners' Hall, located in your homeworld of Elgaia. Your first journey brings you into Grand Gaia, a world completely different from your origin...</div>")
+    outputLines.append("<ul>")
 
     pageList = []
 
@@ -287,7 +287,7 @@ if __name__ == '__main__':
         pageName = pageDirectory[len(story_txtDirectory):]
         pageList.append(StoryPage(pageName))
 
-        #outputLines += "<li><a href=\"" + story_txtDirectory + pageDirectory[len(story_txtDirectory):] + ".html\">" + "" + "</a>"
+        #outputLines.append("<li><a href=\"" + story_txtDirectory + pageDirectory[len(story_txtDirectory):] + ".html\">" + "" + "</a>"
         #print "<li><a href=\"" + story_txtDirectory + pageDirectory[len(story_txtDirectory):] + ".html\">" + pageLabel + "</a>"
 
     currentOrder = 0
@@ -306,24 +306,24 @@ if __name__ == '__main__':
                 ) and (floor(currentPage.order/1000) - floor(currentMapOrder/1000) > 0):
                 print "Above!"
                 currentMapOrder = floor(currentPage.order/1000)*1000
-                outputLines += "<li class=\"listSeparator\">--------------------"
-                outputLines += "<li><a href=\"" + story_txtDirectory + currentPage.directory + ".html\">" + currentPage.name + "</a>"
+                outputLines.append("<li class=\"listSeparator\">--------------------")
+                outputLines.append("<li><a href=\"" + story_txtDirectory + currentPage.directory + ".html\">" + currentPage.name + "</a>")
             else:
-                outputLines += "<li><a href=\"" + story_txtDirectory + currentPage.directory + ".html\">" + currentPage.name + "</a>"
+                outputLines.append("<li><a href=\"" + story_txtDirectory + currentPage.directory + ".html\">" + currentPage.name + "</a>")
         else:
             currentOrder = currentPage.order
             currentMapOrder = floor(currentPage.order/1000)*1000
-            outputLines += "<li class=\"listSeparatorLarge\">===================="
-            outputLines += "<li><a href=\"" + story_txtDirectory + currentPage.directory + ".html\">" + currentPage.name + "</a>"
+            outputLines.append("<li class=\"listSeparatorLarge\">====================")
+            outputLines.append("<li><a href=\"" + story_txtDirectory + currentPage.directory + ".html\">" + currentPage.name + "</a>")
 
 
-    outputLines += "</ul>"
-    outputLines += "</body>"
-    outputLines += "</html>"
-    outputLines += ""
-    outputLines += ""
-    outputLines += ""
-    outputLines += "<!-- contact me at reddit /u/blackrobe199 -->"
+    outputLines.append("</ul>")
+    outputLines.append("</body>")
+    outputLines.append("</html>")
+    outputLines.append("")
+    outputLines.append("")
+    outputLines.append("")
+    outputLines.append("<!-- contact me at reddit /u/blackrobe199 -->")
 
     fileName = "index"
 
