@@ -41,7 +41,7 @@
 *,type=PARAM,id=3,param=gab_base:1:0.5,#
 *,type=PARAM,id=3,param=gab_norm:1:0.5,#
 *,type=PARAM,id=2,param=ad_base:-68:133:2:0.5,#
-*,type=PARAM,id=2,param=ad_surprise:-68:-34:2:0.5,#
+*,type=PARAM,id=2,param=ad_surprise:-68:-33:2:0.5,#
 *,type=PARAM,id=39,param=Adriesta,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I see them. But what are they ... Huh. ,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I've never seen demons fight one another like that. They usually work together towards the same goal.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
@@ -54,16 +54,16 @@
 *,type=PARAM,id=3,param=gab_base:1:0.5,#
 *,type=PARAM,id=3,param=gab_norm:1:0.5,#
 *,type=PARAM,id=2,param=ad_base:-68:133:2:0.5,#
-*,type=PARAM,id=2,param=ad_surprise:-68:-34:2:0.5,#
+*,type=PARAM,id=2,param=ad_surprise:-68:-33:2:0.5,#
 *,type=PARAM,id=39,param=Adriesta,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Yes. It seems so...unlike them. How strange.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=2,param=ad_happy:-68:-34:2:0.5,#
-*,type=PARAM,id=3,param=ad_surprise:1:0.5,#
+*,type=PARAM,id=2,param=ad_happy:-68:-33:2:0.25,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=We should take this chance! Follow me!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=ad_base:1:0.5,#
 *,type=PARAM,id=3,param=ad_happy:1:0.5,#
-*,type=PARAM,id=2,param=gab_base:-68:133:2:0.5,#
-*,type=PARAM,id=2,param=gab_norm:-68:-34:2:0.5,#
+*,type=PARAM,id=3,param=ad_surprise:1:0.5,#
+*,type=PARAM,id=2,param=gab_base:-84:130:2:0.5,#
+*,type=PARAM,id=2,param=gab_norm:-84:-2:2:0.5,#
 *,type=PARAM,id=39,param=Gabriela,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Clearly you haven't... There she goes.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Mm, I suppose I could use a nap. She'll be fine. ,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
@@ -72,33 +72,33 @@
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=2,#
 *,type=PARAM,id=2,param=ad_base:-68:133:2:0.5,#
-*,type=PARAM,id=2,param=ad_surprise:-68:-34:2:0.5,#
+*,type=PARAM,id=2,param=ad_surprise:-68:-33:2:0.5,#
 *,type=PARAM,id=39,param=Adriesta,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I'm back, and I've cleared...the road ahead.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=2,param=ad_angry:-68:-34:2:0.5,#
-*,type=PARAM,id=3,param=ad_surprise:1:0.5,#
+*,type=PARAM,id=2,param=ad_angry:-68:-33:2:0.25,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Why are you napping again?! Is this a thing you vampires do?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=ad_base:1:0.5,#
 *,type=PARAM,id=3,param=ad_angry:1:0.5,#
+*,type=PARAM,id=3,param=ad_surprise:1:0.5,#
 *,type=PARAM,id=2,param=gab_base:-84:130:2:0.5,#
 *,type=PARAM,id=2,param=gab_happy:-84:-2:2:0.5,#
 *,type=PARAM,id=39,param=Gabriela,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Mm, you should give it a try some time. You'd be much, much more agreeable to be with.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=2,param=gab_norm:-84:-2:2:0.5,#
-*,type=PARAM,id=3,param=gab_happy:1:0.5,#
+*,type=PARAM,id=2,param=gab_angry:-84:-2:2:0.25,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=As I was saying, you haven't seen demons without their guiding intelligences nearby. When those are out of the picture, they turn into savage beasts. As they just did.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=But then again, I shouldn't be surprised. You Inquisitors have never encountered rabid war-packs of demons, especially not outside a Death March. ,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=gab_base:1:0.5,#
-*,type=PARAM,id=3,param=gab_norm:1:0.5,#
+*,type=PARAM,id=3,param=gab_angry:1:0.5,#
+*,type=PARAM,id=3,param=gab_happy:1:0.5,#
 *,type=PARAM,id=2,param=ad_base:-68:133:2:0.5,#
-*,type=PARAM,id=2,param=ad_surprise:-68:-34:2:0.5,#
+*,type=PARAM,id=2,param=ad_surprise:-68:-33:2:0.5,#
 *,type=PARAM,id=39,param=Adriesta,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...as annoying as it is, I have to admit, you're right.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=2,param=ad_sad:-68:-34:2:0.5,#
-*,type=PARAM,id=3,param=ad_surprise:1:0.5,#
+*,type=PARAM,id=2,param=ad_sad:-68:-33:2:0.25,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It...feels so distant, when I think about it.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=ad_base:1:0.5,#
 *,type=PARAM,id=3,param=ad_sad:1:0.5,#
+*,type=PARAM,id=3,param=ad_surprise:1:0.5,#
 *,type=PARAM,id=2,param=gab_base:-84:130:2:0.5,#
 *,type=PARAM,id=2,param=gab_norm:-84:-2:2:0.5,#
 *,type=PARAM,id=39,param=Gabriela,#
@@ -107,7 +107,7 @@
 *,type=PARAM,id=3,param=gab_base:1:0.5,#
 *,type=PARAM,id=3,param=gab_norm:1:0.5,#
 *,type=PARAM,id=2,param=ad_base:-68:133:2:0.5,#
-*,type=PARAM,id=2,param=ad_angry:-68:-34:2:0.5,#
+*,type=PARAM,id=2,param=ad_angry:-68:-33:2:0.5,#
 *,type=PARAM,id=39,param=Adriesta,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=How do you know all of this?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=ad_base:1:0.5,#
@@ -119,7 +119,7 @@
 *,type=PARAM,id=3,param=gab_base:1:0.5,#
 *,type=PARAM,id=3,param=gab_norm:1:0.5,#
 *,type=PARAM,id=2,param=ad_base:-68:133:2:0.5,#
-*,type=PARAM,id=2,param=ad_surprise:-68:-34:2:0.5,#
+*,type=PARAM,id=2,param=ad_surprise:-68:-33:2:0.5,#
 *,type=PARAM,id=39,param=Adriesta,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=The Fuinsignum.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=ad_base:1:0.5,#
@@ -131,7 +131,7 @@
 *,type=PARAM,id=3,param=gab_base:1:0.5,#
 *,type=PARAM,id=3,param=gab_norm:1:0.5,#
 *,type=PARAM,id=2,param=ad_base:-68:133:2:0.5,#
-*,type=PARAM,id=2,param=ad_surprise:-68:-34:2:0.5,#
+*,type=PARAM,id=2,param=ad_surprise:-68:-33:2:0.5,#
 *,type=PARAM,id=39,param=Adriesta,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I did. And it feels like ...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=ad_base:1:0.5,#
@@ -140,12 +140,12 @@
 *,type=PARAM,id=2,param=gab_norm:-84:-2:2:0.5,#
 *,type=PARAM,id=39,param=Gabriela,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=A message, in a way. But come, we have a long way to go.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=3,param=gab_base:1:0.5,#
+*,type=PARAM,id=3,param=gab_norm:1:0.5,#
 *,type=PARAM,id=7,param=3:0&0&0,#
 *,type=STOP,id=-1,#
 *,type=
 *,type=PARAM,id=35,param=-1,#
 *,type=PARAM,id=40,param=-1,#
-*,type=PARAM,id=3,param=gab_base:1:0.5,#
-*,type=PARAM,id=3,param=gab_norm:1:0.5,#
 *,type=PARAM,id=3,param=bg1:1:0.5,#
 *,type=PARAM,id=41,param=2,#

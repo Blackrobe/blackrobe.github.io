@@ -7,6 +7,7 @@
 *,type=PARAM,id=6,param=/event/navi_chara80049_2.png,#
 *,type=PARAM,id=6,param=/event/navi_chara80049_3.png,#
 *,type=PARAM,id=6,param=/event/navi_chara80049_4.png,#
+*,type=PARAM,id=6,param=/event/navi_chara80049_5.png,#
 *,type=PARAM,id=6,param=/event/navi_chara80050.png,#
 *,type=PARAM,id=6,param=/event/navi_chara80050_0.png,#
 *,type=PARAM,id=6,param=/event/navi_chara80050_1.png,#
@@ -43,7 +44,7 @@
 *,type=PARAM,id=3,param=gab_base:1:0.5,#
 *,type=PARAM,id=3,param=gab_norm:1:0.5,#
 *,type=PARAM,id=2,param=ad_base:-68:133:2:0.5,#
-*,type=PARAM,id=2,param=ad_angry:-68:-34:2:0.5,#
+*,type=PARAM,id=2,param=ad_angry:-68:-33:2:0.5,#
 *,type=PARAM,id=39,param=Adriesta,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=And all you do is nap like a lazy cat under the sun! I could use a hand, you know.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=ad_base:1:0.5,#
@@ -55,7 +56,7 @@
 *,type=PARAM,id=3,param=gab_base:1:0.5,#
 *,type=PARAM,id=3,param=gab_happy:1:0.5,#
 *,type=PARAM,id=2,param=ad_base:-68:133:2:0.5,#
-*,type=PARAM,id=2,param=ad_surprise:-68:-34:2:0.5,#
+*,type=PARAM,id=2,param=ad_surprise:-68:-33:2:0.5,#
 *,type=PARAM,id=39,param=Adriesta,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Wait...what? You know the Sun?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=ad_base:1:0.5,#
@@ -64,17 +65,17 @@
 *,type=PARAM,id=2,param=gab_norm:-84:-2:2:0.5,#
 *,type=PARAM,id=39,param=Gabriela,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=If you didn't insist on rushing through life as if in a mad panic, you'd actually be surprised at the things you can learn.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=2,param=gab_happy:-84:-2:2:0.5,#
-*,type=PARAM,id=3,param=gab_norm:1:0.5,#
+*,type=PARAM,id=2,param=gab_happy:-84:-2:2:0.25,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=The sun is a wonderful lover, gentle yet passionate in turns. His jealousy, though... It can turn one into an afterthought in a heartbeat.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=gab_base:1:0.5,#
 *,type=PARAM,id=3,param=gab_happy:1:0.5,#
+*,type=PARAM,id=3,param=gab_norm:1:0.5,#
 *,type=PARAM,id=2,param=ad_base:-68:133:2:0.5,#
-*,type=PARAM,id=2,param=ad_hurt:-68:-34:2:0.5,#
+*,type=PARAM,id=2,param=ad_hurt:-68:-33:2:0.5,#
 *,type=PARAM,id=39,param=Adriesta,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=That sounds painful. I'll pass.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=That...sounds painful. I'll pass.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=ad_base:1:0.5,#
-*,type=PARAM,id=3,param=ad_surprise:1:0.5,#
+*,type=PARAM,id=3,param=ad_hurt:1:0.5,#
 *,type=PARAM,id=2,param=gab_base:-84:130:2:0.5,#
 *,type=PARAM,id=2,param=gab_happy:-84:-2:2:0.5,#
 *,type=PARAM,id=39,param=Gabriela,#
@@ -82,7 +83,7 @@
 *,type=PARAM,id=3,param=gab_base:1:0.5,#
 *,type=PARAM,id=3,param=gab_happy:1:0.5,#
 *,type=PARAM,id=2,param=ad_base:-68:133:2:0.5,#
-*,type=PARAM,id=2,param=ad_surprise:-68:-34:2:0.5,#
+*,type=PARAM,id=2,param=ad_surprise:-68:-33:2:0.5,#
 *,type=PARAM,id=39,param=Adriesta,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=You know what, never mind. The pulses of energy...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=ad_base:1:0.5,#
@@ -94,7 +95,7 @@
 *,type=PARAM,id=3,param=gab_base:1:0.5,#
 *,type=PARAM,id=3,param=gab_norm:1:0.5,#
 *,type=PARAM,id=2,param=ad_base:-68:133:2:0.5,#
-*,type=PARAM,id=2,param=ad_surprise:-68:-34:2:0.5,#
+*,type=PARAM,id=2,param=ad_surprise:-68:-33:2:0.5,#
 *,type=PARAM,id=39,param=Adriesta,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=That's...a lot of demons.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=ad_base:1:0.5,#
@@ -106,7 +107,7 @@
 *,type=PARAM,id=3,param=gab_base:1:0.5,#
 *,type=PARAM,id=3,param=gab_norm:1:0.5,#
 *,type=PARAM,id=2,param=ad_base:-68:133:2:0.5,#
-*,type=PARAM,id=2,param=ad_sad:-68:-34:2:0.5,#
+*,type=PARAM,id=2,param=ad_sad:-68:-33:2:0.5,#
 *,type=PARAM,id=39,param=Adriesta,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Ugh. Good thing I haven't eaten anything. I thought I'd seen every kind of demon that existed. <wait=5>How do those abominations even breathe?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=ad_base:1:0.5,#
@@ -118,13 +119,13 @@
 *,type=PARAM,id=3,param=gab_base:1:0.5,#
 *,type=PARAM,id=3,param=gab_norm:1:0.5,#
 *,type=PARAM,id=2,param=ad_base:-68:133:2:0.5,#
-*,type=PARAM,id=2,param=ad_surprise:-68:-34:2:0.5,#
+*,type=PARAM,id=2,param=ad_surprise:-68:-33:2:0.5,#
 *,type=PARAM,id=39,param=Adriesta,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<wait=5>...he? ,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=That <wait=5>man over there? <wait=5>And is that a wolf by his side? <wait=5>How could it live here?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Do you know him? <wait=10>Because he's looking our way...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=ad_base:1:0.5,#
-*,type=PARAM,id=3,param=ad_sad:1:0.5,#
+*,type=PARAM,id=3,param=ad_surprise:1:0.5,#
 *,type=PARAM,id=2,param=gab_base:-84:130:2:0.5,#
 *,type=PARAM,id=2,param=gab_sad:-84:-2:2:0.5,#
 *,type=PARAM,id=39,param=Gabriela,#
@@ -132,24 +133,24 @@
 *,type=PARAM,id=3,param=gab_base:1:0.5,#
 *,type=PARAM,id=3,param=gab_sad:1:0.5,#
 *,type=PARAM,id=2,param=ad_base:-68:133:2:0.5,#
-*,type=PARAM,id=2,param=ad_surprise:-68:-34:2:0.5,#
+*,type=PARAM,id=2,param=ad_surprise:-68:-33:2:0.5,#
 *,type=PARAM,id=39,param=Adriesta,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I...don't see that at all. He certainly looks primed for a fight.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=ad_base:1:0.5,#
-*,type=PARAM,id=3,param=ad_sad:1:0.5,#
+*,type=PARAM,id=3,param=ad_surprise:1:0.5,#
 *,type=PARAM,id=2,param=gab_base:-84:130:2:0.5,#
 *,type=PARAM,id=2,param=gab_sad:-84:-2:2:0.5,#
 *,type=PARAM,id=39,param=Gabriela,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Like many things in this world, Inquisitor, appearances can be quite deceiving. Especially to those without the sight.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=gab_norm:-84:-2:2:0.5,#
-*,type=PARAM,id=3,param=gab_sad:1:0.5,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Come. <wait=5>We shouldn't keep our host waiting.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=3,param=gab_base:1:0.5,#
+*,type=PARAM,id=3,param=gab_norm:1:0.5,#
+*,type=PARAM,id=3,param=gab_sad:1:0.5,#
 *,type=PARAM,id=7,param=3:0&0&0,#
 *,type=STOP,id=-1,#
 *,type=
 *,type=PARAM,id=35,param=-1,#
 *,type=PARAM,id=40,param=-1,#
-*,type=PARAM,id=3,param=gab_base:1:0.5,#
-*,type=PARAM,id=3,param=gab_norm:1:0.5,#
 *,type=PARAM,id=3,param=bg1:1:0.5,#
 *,type=PARAM,id=41,param=2,#

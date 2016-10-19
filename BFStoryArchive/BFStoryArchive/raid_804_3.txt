@@ -41,7 +41,7 @@
 *,type=PARAM,id=3,param=gab_base:1:0.5,#
 *,type=PARAM,id=3,param=gab_norm:1:0.5,#
 *,type=PARAM,id=2,param=ad_base:-68:133:2:0.5,#
-*,type=PARAM,id=2,param=ad_angry:-68:-34:2:0.5,#
+*,type=PARAM,id=2,param=ad_angry:-68:-33:2:0.5,#
 *,type=PARAM,id=39,param=Adriesta,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I'm aware of that! It hasn't finished answering my question.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=ad_base:1:0.5,#
@@ -53,7 +53,7 @@
 *,type=PARAM,id=3,param=gab_base:1:0.5,#
 *,type=PARAM,id=3,param=gab_norm:1:0.5,#
 *,type=PARAM,id=2,param=ad_base:-68:133:2:0.5,#
-*,type=PARAM,id=2,param=ad_angry:-68:-34:2:0.5,#
+*,type=PARAM,id=2,param=ad_angry:-68:-33:2:0.5,#
 *,type=PARAM,id=39,param=Adriesta,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=What is it to you?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=ad_base:1:0.5,#
@@ -65,7 +65,7 @@
 *,type=PARAM,id=3,param=gab_base:1:0.5,#
 *,type=PARAM,id=3,param=gab_norm:1:0.5,#
 *,type=PARAM,id=2,param=ad_base:-68:133:2:0.5,#
-*,type=PARAM,id=2,param=ad_sad:-68:-34:2:0.5,#
+*,type=PARAM,id=2,param=ad_sad:-68:-33:2:0.5,#
 *,type=PARAM,id=39,param=Adriesta,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I'm just...looking for answers. I need to know something.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=ad_base:1:0.5,#
@@ -78,7 +78,7 @@
 *,type=PARAM,id=3,param=gab_base:1:0.5,#
 *,type=PARAM,id=3,param=gab_norm:1:0.5,#
 *,type=PARAM,id=2,param=ad_base:-68:133:2:0.5,#
-*,type=PARAM,id=2,param=ad_surprise:-68:-34:2:0.5,#
+*,type=PARAM,id=2,param=ad_surprise:-68:-33:2:0.5,#
 *,type=PARAM,id=39,param=Adriesta,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=You've fought demons like this before, then?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=ad_base:1:0.5,#
@@ -91,7 +91,7 @@
 *,type=PARAM,id=3,param=gab_base:1:0.5,#
 *,type=PARAM,id=3,param=gab_angry:1:0.5,#
 *,type=PARAM,id=2,param=ad_base:-68:133:2:0.5,#
-*,type=PARAM,id=2,param=ad_surprise:-68:-34:2:0.5,#
+*,type=PARAM,id=2,param=ad_surprise:-68:-33:2:0.5,#
 *,type=PARAM,id=39,param=Adriesta,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=The Raug overlords? I've heard of them, back in the Academy, but haven't actually met one. Most of the demons I expunged were in small cells, cultists and lackeys for the most part.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=ad_base:1:0.5,#
@@ -104,7 +104,7 @@
 *,type=PARAM,id=3,param=gab_base:1:0.5,#
 *,type=PARAM,id=3,param=gab_norm:1:0.5,#
 *,type=PARAM,id=2,param=ad_base:-68:133:2:0.5,#
-*,type=PARAM,id=2,param=ad_surprise:-68:-34:2:0.5,#
+*,type=PARAM,id=2,param=ad_surprise:-68:-33:2:0.5,#
 *,type=PARAM,id=39,param=Adriesta,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I see. If that's what you think, then...I'll yield to your experience. As for what I'm doing, I'll exercise more care in getting my answers.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=ad_base:1:0.5,#
@@ -116,7 +116,7 @@
 *,type=PARAM,id=3,param=gab_base:1:0.5,#
 *,type=PARAM,id=3,param=gab_norm:1:0.5,#
 *,type=PARAM,id=2,param=ad_base:-68:133:2:0.5,#
-*,type=PARAM,id=2,param=ad_surprise:-68:-34:2:0.5,#
+*,type=PARAM,id=2,param=ad_surprise:-68:-33:2:0.5,#
 *,type=PARAM,id=39,param=Adriesta,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I can see that. <wait=5>We should go.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=7,param=3:0&0&0,#
