@@ -329,6 +329,6 @@ if __name__ == '__main__':
 
     with codecs.open(fileName + ".html", 'w+', encoding='utf8') as f:
         for outputLine in outputLines:
-            f.write(outputLine)
+            f.write(outputLine + "\n")
 
     print "Process finished"
