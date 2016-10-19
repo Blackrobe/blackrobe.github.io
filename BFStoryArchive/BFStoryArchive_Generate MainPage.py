@@ -304,17 +304,17 @@ if __name__ == '__main__':
                     or (floor(currentPage.order/100000) == 4)
                     or (floor(currentPage.order/100000) == 5)
                 ) and (floor(currentPage.order/1000) - floor(currentMapOrder/1000) > 0):
-                print "Above!"
+                
                 currentMapOrder = floor(currentPage.order/1000)*1000
-                outputLines.append("<li class=\"listSeparator\">--------------------")
-                outputLines.append("<li><a href=\"" + story_txtDirectory + currentPage.directory + ".html\">" + currentPage.name + "</a>")
+                outputLines.append("    <li class=\"listSeparator\">--------------------")
+                outputLines.append("        <li><a href=\"" + story_txtDirectory + currentPage.directory + ".html\">" + currentPage.name + "</a>")
             else:
-                outputLines.append("<li><a href=\"" + story_txtDirectory + currentPage.directory + ".html\">" + currentPage.name + "</a>")
+                outputLines.append("        <li><a href=\"" + story_txtDirectory + currentPage.directory + ".html\">" + currentPage.name + "</a>")
         else:
             currentOrder = currentPage.order
             currentMapOrder = floor(currentPage.order/1000)*1000
             outputLines.append("<li class=\"listSeparatorLarge\">====================")
-            outputLines.append("<li><a href=\"" + story_txtDirectory + currentPage.directory + ".html\">" + currentPage.name + "</a>")
+            outputLines.append("        <li><a href=\"" + story_txtDirectory + currentPage.directory + ".html\">" + currentPage.name + "</a>")
 
 
     outputLines.append("</ul>")
