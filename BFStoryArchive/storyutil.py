@@ -509,6 +509,9 @@ grandQuestName = {
     "19": {
         "name": "(Japanese) Sera's Grand Quest"
     },
+    "20": {
+        "name": "(Japanese) Heroes of Elgaia's Grand Quest"
+    },
     "X1": {
         "name": "The Tinkerer's Deceit"
     },
