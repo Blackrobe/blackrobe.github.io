@@ -341,7 +341,7 @@ mapName = {
             "8": "Area 8"
         },
         "special": "EX",
-        "name": "(Japanese) Vilanciel",
+        "name": "Vilanciel",
         "order": 102
     },    
     "3": {

@@ -26,15 +26,15 @@
 *,type=PARAM,id=8,param=2:255&0&0,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1.5,#
-*,type=PARAM,id=39,param=封神狼,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>見事だ………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Divine Wolf,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Impressive...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>今の我の力は……<wait=20>完全ではない。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>My power now...<wait=20>is not at its peak.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>だが、人の身でそれだけの力は……<wait=20><br>称賛に値する……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>But to wield such power as a human...<wait=20>is commendable...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>お前がどこまで行き着くのか……<wait=20><br>楽しみにして……,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>我は再びこの世界を守護する役に……<wait=20><br>就くことにしよう……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I look forward to seeing...<wait=20>your ultimate fate...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I shall return to my role...<wait=20>as protector of this world...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=1.5,#
 *,type=PARAM,id=8,param=0.5:255&255&255,#
@@ -61,4 +61,3 @@
 *,type=PARAM,id=43,param=BattleDungeon81019BackObjSky.sam,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=1,#
-

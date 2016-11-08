@@ -194,8 +194,8 @@
 *,type=PARAM,id=3,param=navi_chara50:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara50_5:-55:8:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara50:-55:131:2:0.5,#
-*,type=PARAM,id=39,param=レダ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>ウッ……<wait=20><speed=14>この感覚は……！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Reda,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Urgh...<wait=20><speed=14>this sensation is...!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
@@ -210,30 +210,30 @@
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1.5,#
 *,type=PARAM,id=2,param=navi_chara107:25:50:2:0.5,#
-*,type=PARAM,id=39,param=ＲＥＰＴＯ－ＭＴＸ,#
+*,type=PARAM,id=39,param=REPTO-MTX,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>ポポ……<wait=20>ピピ……<wait=20>ジポ！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Beep-beep... <wait=20>Whirr... <wait=20>Boop!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara107:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara108:160:0:2:0.5,#
-*,type=PARAM,id=39,param=ＳＣＯＵＴ－Ｆ０３,#
+*,type=PARAM,id=39,param=SCOUT-F03,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>ベクタスノトキト、オナジハンノウガ、<wait=20><br>フタリニ、オコッタゾ！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>An identical reaction to the time on Bectas has occurred in both of you!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara108:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara97_0:20:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>ってことは、<wait=20><br>２人とも召喚の力が戻ったんだね！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>That means...<wait=20>you guys got some of your summoning power back!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara97_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara97:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara50_1:-55:8:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara50:-55:131:2:0.5,#
-*,type=PARAM,id=39,param=レダ,#
+*,type=PARAM,id=39,param=Reda,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……<wait=30><speed=13>そうみたい。<wait=20><br>まあ、やっぱり完全ではないけどね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>It...<wait=30><speed=13>seems like we have. <wait=20>Well, it's still not fully recovered, as expected.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara50_1:2:0.5,#
@@ -263,31 +263,31 @@
 *,type=PARAM,id=2,param=navi_chara118_0:-150:-50:2:1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=39,param=封神狼,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Divine Wolf,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara118_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara114_4:20:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara114:20:152:2:0.5,#
-*,type=PARAM,id=39,param=ルチアナ,#
+*,type=PARAM,id=39,param=Luciana,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>神狼………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>The Mystical Wolf...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara114_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara114:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara118_0:-150:-50:2:0.5,#
-*,type=PARAM,id=39,param=封神狼,#
+*,type=PARAM,id=39,param=Divine Wolf,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>我は………<wait=30>そうか………<wait=20><br>かの力に……<wait=20>支配されていたのだな……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I was... <br><wait=30>I see now... <wait=20>I was ruled...<wait=20>by that power, then...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara118_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara113_6:-60:5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara113:-60:135:2:0.5,#
-*,type=PARAM,id=39,param=リアナ,#
+*,type=PARAM,id=39,param=Liana,#
 *,type=PLAYWAIT,param=1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=33,param=bf040_landawl.mp3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>神狼様が……<wait=30><speed=14>もとの状態に……！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>The Mystical Wolf...<wait=30><speed=14>it returned to normal!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara113_6:2:0.5,#
@@ -295,97 +295,97 @@
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara118_0:-150:-50:2:0.5,#
-*,type=PARAM,id=39,param=封神狼,#
+*,type=PARAM,id=39,param=Divine Wolf,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>召喚の力を行使する者どもよ……。<wait=20><br>多くは……<wait=20>語らん。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>本来ならば……<wait=20>貴様らと我は……<wait=20><br>敵対する存在なのだ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Wielders of the power of summoning...<wait=20>I cannot...<wait=20>tell you much.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Under normal circumstances...<wait=20>you and I...<wait=20>would be enemies...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara118_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara97_3:20:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>え…？<wait=20><br>敵対って………？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Huh? <wait=20>Enemies?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara97_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara97:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara118_0:-150:-50:2:0.5,#
-*,type=PARAM,id=39,param=封神狼,#
+*,type=PARAM,id=39,param=Divine Wolf,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>……<wait=30>だが……<wait=20>教えておいて……<wait=20>やろう……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>But...<wait=30>I will...<wait=20>tell you this...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>我ら封神儀を……<wait=20>召喚の柱として……<wait=20><br>復活させるつもりならば……<wait=20>急ぐことだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>You must hurry...<wait=20>if you intend...<wait=20>to resurrect the sealed gods...<wait=20>as the pillars of summoning.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>我らを汚染した力は……<wait=20><br>もうすぐ……<wait=20>すべての世界を飲み込む……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>The power that contaminated us...<wait=20>will soon...<wait=20>consume all the worlds...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>そうなれば……<wait=20>どのような存在も……<wait=20><br>滅びの道より……<wait=30>逃れる術はない。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>If it does...<wait=20>nothing that exists...<wait=20>will be able to avoid...<wait=30>annihilation.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara118_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara50_4:-55:8:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara50:-55:131:2:0.3,#
-*,type=PARAM,id=39,param=レダ,#
+*,type=PARAM,id=39,param=Reda,#
 *,type=PARAM,id=36,param=0.1:3:4:4,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>ちょ、<wait=20>ちょっと待って！<wait=30><br><speed=13>汚染って……？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>H-<wait=20>Hey, wait! <wait=30><speed=13>Contaminated?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=あなた方を暴走させた力ってこと…？<wait=20><br><speed=11>それって一体……！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Do you mean by the power that made you go berserk? <wait=20><speed=11>What was that power?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara50_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara50:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara118_0:-150:-50:2:0.5,#
-*,type=PARAM,id=39,param=封神狼,#
+*,type=PARAM,id=39,param=Divine Wolf,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>本来……<wait=20>我らは……<wait=20>それを封じるため……<wait=20><br>喚び出された……<wait=20>大いなる……<wait=30>大神皇に。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>It is what we were...<wait=20>originally...<wait=20>called to...<wait=20>seal by...<wait=20>the great...<wait=30>Holy Emperor.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=navi_chara118_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara97_3:20:10:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:2:0.3,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PARAM,id=36,param=0.1:3:4:4,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>大神皇……！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>The Holy Emperor?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara97_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara97:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara118_0:-150:-50:2:0.5,#
-*,type=PARAM,id=39,param=封神狼,#
+*,type=PARAM,id=39,param=Divine Wolf,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>さらばだ……<wait=20>召喚の術を使う者どもよ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Goodbye...<wait=20>wielders of summoning.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>貴様らが……<wait=20>その力を解放していくのなら…<wait=20><br>再びまみえることも……<wait=20>あろう……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>If you...<wait=20>proceed to unleash that power...<wait=20>we shall meet...<wait=20>again...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara118_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara113_1:-60:5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara113:-60:135:2:0.5,#
-*,type=PARAM,id=39,param=リアナ,#
+*,type=PARAM,id=39,param=Liana,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>神狼様……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>The Mystical Wolf...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara113_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara113:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara118_0:-150:-50:2:0.5,#
-*,type=PARAM,id=39,param=封神狼,#
+*,type=PARAM,id=39,param=Divine Wolf,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>人の子よ……<wait=20>覚醒には至らなかったが……<wait=20><br>お前の呼びかけ……<wait=20>我の元に……<wait=20>届いていた,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Child...<wait=20>it did not awaken me...<wait=20>but your call...<wait=20>did reach...<wait=20>me.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara118_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara113_4:-60:5:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara113:-60:135:2:0.3,#
-*,type=PARAM,id=39,param=リアナ,#
+*,type=PARAM,id=39,param=Liana,#
 *,type=PARAM,id=36,param=0.1:2:4:4,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>え……！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>What?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara113_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara113:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara118_0:-150:-50:2:0.5,#
-*,type=PARAM,id=39,param=封神狼,#
+*,type=PARAM,id=39,param=Divine Wolf,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>それ故に……<wait=20>お前たちを……<wait=20><br>危険に……<wait=20>晒してしまった……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Because of that...<wait=20>I placed...<wait=20>all of you...<wait=20>in danger...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=1.5,#
 *,type=PARAM,id=8,param=0.5:255&255&255,#
@@ -407,25 +407,25 @@
 *,type=PLAYWAIT,param=1.5,#
 *,type=PARAM,id=2,param=navi_chara113_1:-60:5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara113:-60:135:2:0.5,#
-*,type=PARAM,id=39,param=リアナ,#
+*,type=PARAM,id=39,param=Liana,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>神狼様……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>The Mystical Wolf...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara113_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara113:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara97_0:20:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>よかったね、<wait=20>リアナ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Liana, <wait=20>I'm so happy for you!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=navi_chara97_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara97:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara113_6:-60:5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara113:-60:135:2:0.5,#
-*,type=PARAM,id=39,param=リアナ,#
+*,type=PARAM,id=39,param=Liana,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=36,param=0.1:2:4:4,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>はい…！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Thank you!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
@@ -434,37 +434,37 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara50_0:-55:8:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara50:-55:131:2:0.5,#
-*,type=PARAM,id=39,param=レダ,#
+*,type=PARAM,id=39,param=Reda,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=私たちの方も、<wait=20><br>いろいろわかって来たわね……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=And we've gained a much better understanding of things, as well...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=封神儀は大神皇に喚び出された存在。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=現在は、<wait=20>本来封じるべきものに<wait=20><br>汚染されて暴走している……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=The sealed gods are beings that were called by the Holy Emperor.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Currently, <wait=20>they're contaminated by the power they were originally meant to seal, <wait=20>and are running rampant...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=そして封神儀を汚染した力は、<wait=20><br><speed=11>すべてを飲み込もうとしている……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=And the power that contaminated the sealed gods...<wait=20><speed=11>is trying to devour everything.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara50_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara50:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara97_3:20:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=そういえば、<br>神狼が暴走していた時、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=まったく別の意識が乗っ取っていた<br>ようにも感じたけど……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Now that you mention it, when the Mystical Wolf was going berserk...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...it felt like it was possessed by an entirely different consciousness...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara97_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara97:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara50_3:-55:8:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara50:-55:131:2:0.5,#
-*,type=PARAM,id=39,param=レダ,#
+*,type=PARAM,id=39,param=Reda,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>たしかにね……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>It definitely did...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara50_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara50:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara50_5:-55:8:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara50:-55:131:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>やれやれ……<wait=30><speed=13>こんな報告したら、<wait=20><br>召喚老はどんな顔をするかしらね…？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Wonderful... <br><wait=30><speed=13>I wonder how the Summoners of Old will look at me when I report this?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara50_5:2:0.5,#
@@ -473,125 +473,125 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara114_3:20:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara114:20:152:2:0.5,#
-*,type=PARAM,id=39,param=ルチアナ,#
+*,type=PARAM,id=39,param=Luciana,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>………<wait=30><speed=13>女神ティリス、<wait=20><br><speed=11>一応……<wait=30><speed=13>お礼は言っておくわ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>Uh...<br><wait=30><speed=13>Goddess Tilith, <wait=20><speed=11>I guess...<wait=30><speed=13>I owe you my thanks.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara114_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara114:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara97_3:20:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……<wait=30><speed=13>え、<wait=20>お礼？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>Huh? <wait=30><speed=13>You do?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara97_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara97:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara114_0:20:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara114:20:152:2:0.5,#
-*,type=PARAM,id=39,param=ルチアナ,#
+*,type=PARAM,id=39,param=Luciana,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>私たちを……<wait=30><speed=13>守ってくれてありがとう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Thank you...<wait=30><speed=13>for keeping us safe.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara114_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara114:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara114_5:20:-5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara114:20:152:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>それと……<wait=30><speed=13>最初に会った時、<br>突き飛ばしたのは………<wait=30>悪かったわ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>And also...<wait=30><speed=13>I'm sorry that I shoved you when we first met.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara114_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara114:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara114_3:20:-5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara114:20:152:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>ごめんなさい……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I am so sorry...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara114_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara114:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara97_1:20:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>なーんだ、<wait=30><speed=14>そんなことか～。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Oh, <wait=30><speed=14>no need to worry about little things like that!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara97_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara97:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara114_3:20:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara114:20:152:2:0.5,#
-*,type=PARAM,id=39,param=ルチアナ,#
+*,type=PARAM,id=39,param=Luciana,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>そんなことって……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Little things...?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara114_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara114:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara97_0:20:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>だって、<wait=20>友達を守ったり、<wait=20><br>傷を治したりするのは、<wait=20>当然のことだよ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>After all, <wait=20>it's only natural to protect your friends and heal them when they're hurt!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara97_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara97:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara114_4:20:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara114:20:152:2:0.5,#
-*,type=PARAM,id=39,param=ルチアナ,#
+*,type=PARAM,id=39,param=Luciana,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara114_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara114:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara97_8:20:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>何か私、<wait=20>おかしなこと言ったかな？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Did I say something weird?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara97_8:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara97:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara114_0:20:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara114:20:152:2:0.5,#
-*,type=PARAM,id=39,param=ルチアナ,#
+*,type=PARAM,id=39,param=Luciana,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=レダ、<wait=20>あなたたちの世界って、<wait=20><br>ティリスみたいな神が沢山いるの？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Reda, <wait=20>are there a lot of gods like Tilith in your world?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara114_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara114:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara50_5:-55:8:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara50:-55:131:2:0.5,#
-*,type=PARAM,id=39,param=レダ,#
+*,type=PARAM,id=39,param=Reda,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>そうね……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Well...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=今、神々と接点を持っている人間は<br>少ないから、<wait=20>なんとも言えないわ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I can't really say, <wait=20>since there aren't a lot of humans that have contact with the gods, anymore...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara50_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara50:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara50_0:-55:8:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara50:-55:131:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ただ、<wait=20>過去も含めて私の知ってる限りだと、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>人間に味方する神、<wait=20>敵対する神は……<wait=30><br><speed=13>まあ半々ってところね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=But based on what I know and what I've heard about the past...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>...I'd say that the split between gods who side with humanity and gods that oppose humanity...<wait=30><speed=13>is about fifty-fifty.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara50_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara50:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara50_1:-55:8:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara50:-55:131:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ま、<wait=20>神だからといって、<wait=20><br>一様には言えないってことね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=You can't lump them all in together just because they're all gods.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara50_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara50:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara114_0:20:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara114:20:152:2:0.5,#
-*,type=PARAM,id=39,param=ルチアナ,#
+*,type=PARAM,id=39,param=Luciana,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>そう……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>I see...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara114_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara114:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara114_6:20:-5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara114:20:152:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>もし彼女……<wait=30><speed=13>ティリスみたいな神が<br>ほかにもいるのなら、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=いつか、<wait=20>あなたたちの世界にも<br>行ってみたいものね……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>But if there are other gods like her...<wait=30><speed=13>I mean, like Tilith...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...then<wait=20> I want to visit your world someday...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=45,param=3,#
 *,type=PARAM,id=7,param=3:0&0&0,#
@@ -611,113 +611,113 @@
 *,type=PARAM,id=33,param=bf050_raid02_fld.mp3,#
 *,type=PARAM,id=2,param=navi_chara29_1:-320:-22:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara29:-320:138:2:0.5,#
-*,type=PARAM,id=39,param=カル,#
+*,type=PARAM,id=39,param=Karl,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=それじゃあ、<wait=20>そろそろ行くよ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=All right, <wait=20>it's time to go.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara29_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara29:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara29_0:-320:-22:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara29:-320:138:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=もっとゆっくりしていたかったけど、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=グラデンスの爺さんからの連絡だと<wait=20><br>そうもしてられないようだからな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I wanted to take it easy here for a bit longer, but...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...the message from old man Grahdens made it seem like I don't have time for that.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara29_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara29:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara56_0:-275:-150:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara56:-275:100:2:0.5,#
-*,type=PARAM,id=39,param=バリュオン,#
+*,type=PARAM,id=39,param=Barion,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara56_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara56:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara29_6:-320:-22:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara29:-320:138:2:0.5,#
-*,type=PARAM,id=39,param=カル,#
+*,type=PARAM,id=39,param=Karl,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=相変わらず何も言ってくれないんだな……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Nothing to say as usual, I see...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara29_6:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara29:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara56_5:-275:-150:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara56:-275:100:2:0.5,#
-*,type=PARAM,id=39,param=バリュオン,#
+*,type=PARAM,id=39,param=Barion,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>………<wait=30><speed=13>何度も言ってるはずだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>...<wait=30><speed=13>I have said this many times.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ここはイシュグリア。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=俺と対等に話したければ、<wait=20><br>相応の力を見せるのだな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=This is Ishgria.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=If you wish to speak to me as an equal, <wait=20>then show me power equal to my own.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara56_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara56:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara29_0:-320:-22:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara29:-320:138:2:0.5,#
-*,type=PARAM,id=39,param=カル,#
+*,type=PARAM,id=39,param=Karl,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……<wait=30><speed=11>母さんの話とか聞きたかったんだがな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>...<wait=30><speed=11>I wanted to ask about my mother, though.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara29_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara29:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara56_0:-275:-150:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara56:-275:100:2:0.5,#
-*,type=PARAM,id=39,param=バリュオン,#
+*,type=PARAM,id=39,param=Barion,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……<wait=30><speed=11>マリエラのことか。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>Ah...<wait=30><speed=11>Mariela.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara56_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara56:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara29_3:-320:-22:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara29:-320:138:2:0.5,#
-*,type=PARAM,id=39,param=カル,#
+*,type=PARAM,id=39,param=Karl,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>マリエラ……<wait=30><speed=13>というのか、<wait=20>母さんの名前は？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Mariela...<wait=30><speed=13>was that my mother's name?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara29_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara29:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara56_0:-275:-150:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara56:-275:100:2:0.5,#
-*,type=PARAM,id=39,param=バリュオン,#
+*,type=PARAM,id=39,param=Barion,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara56_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara56:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara29_0:-320:-22:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara29:-320:138:2:0.5,#
-*,type=PARAM,id=39,param=カル,#
+*,type=PARAM,id=39,param=Karl,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>それ以上聞きたければ、<wait=20><br>もっと強くなれ……<wait=30><speed=13>ということか。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>If you want to ask more, <wait=20>get stronger...<wait=30><speed=13>yeah, I get the message.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara29_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara29:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara56_0:-275:-150:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara56:-275:100:2:0.5,#
-*,type=PARAM,id=39,param=バリュオン,#
+*,type=PARAM,id=39,param=Barion,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>フン……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Hmph...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara56_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara56:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara29_0:-320:-22:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara29:-320:138:2:0.5,#
-*,type=PARAM,id=39,param=カル,#
+*,type=PARAM,id=39,param=Karl,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>分かったよ……。<wait=20><br><speed=13>俺は強くなって戻ってくる。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Fine...<br><wait=20><speed=13>I'll get stronger and come back.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara29_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara29:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara29_1:-320:-22:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara29:-320:138:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=その時は母さんの話、<wait=20><br>もっと聞かせてくれよな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=And you'll tell me more about my mother when I do.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara29_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara29:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara56_0:-275:-150:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara56:-275:100:2:0.5,#
-*,type=PARAM,id=39,param=バリュオン,#
+*,type=PARAM,id=39,param=Barion,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=2:0&0&0,#
 *,type=STOP,id=-1,#
@@ -736,14 +736,14 @@
 *,type=PARAM,id=36,param=0.1:8:10:10,#
 *,type=PARAM,id=8,param=1:255&40&40,#
 *,type=PARAM,id=2,param=navi_chara30_6:100:-25:1:0.5,#
-*,type=PARAM,id=39,param=セリア,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>グッ………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Seria,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Argh...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara30_6:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_2:100:-25:1:0.5,#
 *,type=PARAM,id=36,param=0.1:3:10:10,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>ハアッ……！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Hyahh!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara30_2:2:0.5,#
@@ -756,32 +756,32 @@
 *,type=PARAM,id=2,param=navi_chara15_0:-20:-20:2:2,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=オーン,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Owen,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>フン……<wait=30><br><speed=13>ギリギリ及第点といったところだな……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Hmph... <wait=30><speed=13>I suppose that'll be good enough to pass. Barely.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara15_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_6:100:-25:2:0.5,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>ありがとう……<wait=30><speed=11>ございました。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Thank you...<wait=30><speed=11>very much.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara30_6:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_0:100:-25:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>これで、ようやくアイツのもとへ……！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Now I can finally set out after him!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara30_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_2:100:-25:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=見せてあげるわ、<wait=20><rep_handlename>。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=あんたがティリスと海で遊んでいる間、<wait=20><br>私はどれだけ腕を上げたかを！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I'll show you, <wait=20><rep_handlename>.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I'll show you how much I've learned while you were off playing on the beach with Tilith!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara30_2:2:2,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1.5,#
-*,type=PARAM,id=39,param=？？？,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=相変わらず容赦ないシゴキだったわね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=???,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Your training is as merciless as ever, I see.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara111_0:30:-5:2:2,#
@@ -792,35 +792,35 @@
 *,type=PARAM,id=3,param=navi_chara111:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara15_0:-20:-20:2:0.5,#
-*,type=PARAM,id=39,param=オーン,#
+*,type=PARAM,id=39,param=Owen,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>………<wait=30><speed=13>先ほどから見ていたのは、<wait=20>お前か。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>So...<wait=30><speed=13>you're the one who was watching earlier.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=アイツから言い出したことだ。<wait=20><br><speed=11>修行の仕上げをしてくれとな……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It was her idea. <wait=20><speed=11>She asked me to complete her training...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=大方、<wait=20>グラデンスからの<br>連絡を受けてのことだろうがな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=She was most likely inspired by a message from Grahdens, though.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara15_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara111_0:30:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara111:30:130:2:0.5,#
-*,type=PARAM,id=39,param=？？？,#
+*,type=PARAM,id=39,param=???,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=あの子も必死なのさ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=That girl is desperate, too.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=自分の事を認めさせたい相手がいるって<wait=20><br>言ってたからね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=She mentioned someone she wanted to win respect from.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara111_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara111:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara111_1:30:-5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara111:30:130:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ま、<wait=20>若い時の私もそうだったけどね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Well, <wait=20>I can remember being like that when I was young, too.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara111_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara111:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara15_0:-20:-20:2:0.5,#
-*,type=PARAM,id=39,param=オーン,#
+*,type=PARAM,id=39,param=Owen,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>フン………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Hmph...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=45,param=3,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
@@ -846,4 +846,3 @@
 *,type=PARAM,id=43,param=UnlockingSummonFrame2Add,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=0,#
-

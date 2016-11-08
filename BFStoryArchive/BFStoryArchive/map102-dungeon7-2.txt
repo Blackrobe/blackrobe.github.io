@@ -97,8 +97,8 @@
 *,type=PARAM,id=36,param=0.1:3:6:6,#
 *,type=PARAM,id=2,param=navi_chara106_2:95:15:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara106:95:221:2:0.3,#
-*,type=PARAM,id=39,param=メル,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>…………！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Mel,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>...!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
@@ -106,9 +106,9 @@
 *,type=PARAM,id=3,param=navi_chara106:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=？？？,#
+*,type=PARAM,id=39,param=???,#
 *,type=PARAM,id=45,param=2.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=そこまでです。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=That's enough.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara105_0:0:0:2:2,#
@@ -117,10 +117,10 @@
 *,type=PLAYWAIT,param=1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=33,param=bf097_abell.mp3,#
-*,type=PARAM,id=39,param=ギャレット,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=用は済みました。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Garrett,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Our business here is done.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>さすがは封神儀……<wait=30><speed=13>私としたことが、<wait=20><br>３時間２１分６秒もかかってしまいましたよ,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>As expected of a sealed god... <wait=30><speed=13>Even for me, <wait=20>it took 3 hours, 21 minutes, and 6 seconds.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara105_0:2:0.5,#
@@ -128,26 +128,26 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara50_4:-55:8:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara50:-55:131:2:0.3,#
-*,type=PARAM,id=39,param=レダ,#
+*,type=PARAM,id=39,param=Reda,#
 *,type=PARAM,id=36,param=0.1:6:4:4,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>やはりあなたたちは、アベル機関！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>I knew it, you're with the Abel Faction!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara50_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara50:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara97_3:20:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=え、<wait=20>アベル機関って、<wait=20><br>あのベルツが所属している組織の？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Huh? <wait=20>The Abel Faction? <wait=20>You mean like the group Bertz belongs to?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara97_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara97:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara50_2:-55:8:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara50:-55:131:2:0.5,#
-*,type=PARAM,id=39,param=レダ,#
+*,type=PARAM,id=39,param=Reda,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ええ、<wait=20><speed=11>しかもあの制服は……<wait=30><br><speed=14>組織の中でも長官直属の精鋭の証！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Yes, <wait=20><speed=11>and those uniforms...<wait=30><speed=14>they're the mark of elites who serve directly under the director!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara50_2:2:0.5,#
@@ -155,25 +155,25 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara105_3:0:0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara105:0:185:2:0.5,#
-*,type=PARAM,id=39,param=ギャレット,#
+*,type=PARAM,id=39,param=Garrett,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>………<wait=30><speed=13>我々に対して、<br>無駄に知識を持っている者がいるようですね,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>Well...<wait=30><speed=13>it seems someone here has an unnecessary level of knowledge regarding our group.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara105_3:2:0.5,#
 *,type=PARAM,id=3,param=navi_chara105:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara105_0:0:0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara105:0:185:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ですが、まあいいでしょう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=But, no matter...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=行きますよ、<wait=20>メル。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Mel, <wait=20>we're leaving.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara105_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara105:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara106_0:95:15:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara106:95:221:2:0.5,#
-*,type=PARAM,id=39,param=メル,#
+*,type=PARAM,id=39,param=Mel,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara106_0:2:0.5,#
@@ -181,9 +181,9 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara50_2:-55:8:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara50:-55:131:2:0.3,#
-*,type=PARAM,id=39,param=レダ,#
+*,type=PARAM,id=39,param=Reda,#
 *,type=PARAM,id=36,param=0.1:6:6:6,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>ま、<wait=20>待ちなさい！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>S-<wait=20>Stop!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara50_2:2:0.5,#
@@ -191,9 +191,9 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara106_2:95:15:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara106:95:221:2:0.3,#
-*,type=PARAM,id=39,param=メル,#
+*,type=PARAM,id=39,param=Mel,#
 *,type=PARAM,id=36,param=0.1:2:6:6,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=15>！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=15>...!!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=34,param=bf210_se_water2.mp3,#
 *,type=PARAM,id=36,param=0.1:3:10:10,#
@@ -207,8 +207,8 @@
 *,type=PARAM,id=8,param=2:255&255&255,#
 *,type=PARAM,id=2,param=navi_chara50_5:-55:8:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara50:-55:131:1:0.5,#
-*,type=PARAM,id=39,param=レダ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>クッ………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Reda,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Grh...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=navi_chara50_5:2:0.3,#
@@ -227,25 +227,25 @@
 *,type=PLAYWAIT,param=2,#
 *,type=PARAM,id=2,param=navi_chara50_5:-55:8:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara50:-55:131:2:0.5,#
-*,type=PARAM,id=39,param=レダ,#
+*,type=PARAM,id=39,param=Reda,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>やはりこの世界にもアベル機関が……！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>So the Abel Faction is on this world, too!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara50_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara50:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara97_7:20:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=あの片眼鏡のオジサンの方、<wait=20><br>封神儀がどうとか言ってたけど……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=That old guy with the monocle said something about the sealed god...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara97_7:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara97:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara50_2:-55:8:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara50:-55:131:2:0.5,#
-*,type=PARAM,id=39,param=レダ,#
+*,type=PARAM,id=39,param=Reda,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……<wait=30><speed=14>先を急ぎましょ！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>...<wait=30><speed=14>we have to hurry!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -257,4 +257,3 @@
 *,type=PARAM,id=43,param=BattleDungeon81016AddSnowFlare.sam,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

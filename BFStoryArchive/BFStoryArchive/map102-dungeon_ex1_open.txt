@@ -27,33 +27,33 @@
 *,type=PLAYWAIT,param=2,#
 *,type=PARAM,id=2,param=navi_chara115_0:60:55:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara115:60:171:2:0.5,#
-*,type=PARAM,id=39,param=ネーレ,#
+*,type=PARAM,id=39,param=Nere,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>フォ……<wait=30><speed=13>どうやら来たようじゃな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Phew...<br><wait=30><speed=13>It seems you made it.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=こんなところにお主を呼び出したのは、<wait=20><br>ちとお願いしたいことがあってのう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I've called you here because there's a small favor I wish to ask of you.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=この先にある魔獣が封印されておるのだが、<wait=20><br>それを倒して欲しいのじゃ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=There's a demonic beast sealed just past here, <wait=20>and I want you to slay it.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara115_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara115:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara115_3:60:55:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara115:60:171:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=まあ、<wait=20>このまま放っておいても<wait=20><br>害はないのじゃが、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=何かの拍子で封印が<br>破れることもありうるからの……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Really, <wait=20>there's no harm in leaving it as it is...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...but it's possible that something could break the seal at some point.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara115_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara115:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara115_0:60:55:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara115:60:171:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=むろん、<wait=20>タダとは言わん。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=心配せんでも、<wait=20><br>報酬はちゃんと用意してあるわい。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Of course, <wait=20>I won't ask you to do it for free.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=No need to worry, <wait=20>I've readied a proper reward for you.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara115_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara115:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara115_1:60:55:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara115:60:171:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ふむ……<wait=30>そうか、<wait=20>引き受けてくれるか。<wait=20><br><speed=11>では、よろしく頼むぞ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Hmm...<br><wait=30>I see, <wait=20>so you'll do it. <wait=20><speed=11>Then, I shall leave it to you...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -65,4 +65,3 @@
 *,type=PARAM,id=43,param=BattleDungeon81018AddFlare.sam,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-
