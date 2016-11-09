@@ -77,7 +77,7 @@
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=36,param=0.2:8:8:8,#
 *,type=PARAM,id=34,param=bf214_se_tree3.mp3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<size=20><speed=10>グゴオオオオォォォォォ…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<size=20><speed=10>*Rrrrooooaaaaarrr...*,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=45,param=2.5,#
@@ -103,8 +103,8 @@
 *,type=PARAM,id=2,param=navi_chara8_1:-30:20:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=リム,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=さっすが、先輩！<wait=20><br>今回もお見事です～♪,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Lin,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Great work, <rep_handlename>! <wait=20>Yet another job well done!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara8_1:2:0.5,#
@@ -113,19 +113,19 @@
 *,type=PARAM,id=2,param=navi_chara13_6:-30:20:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=エリーゼ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>ハァ……<wait=20>ハァ……。<wait=20><br><speed=14>リムちゃん、<wait=20>大丈夫だった！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Elise,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>*Pant...* <wait=20>*gasp...* <br><wait=20><speed=14>Lin, <wait=20>are you all right?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara13_6:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara8_0:-30:20:2:0.5,#
-*,type=PARAM,id=39,param=リム,#
+*,type=PARAM,id=39,param=Lin,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=はい、<wait=20>私も先輩も大丈夫です。<wait=20><speed=11><br>あとセラちゃんも…,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Yes, <wait=20><rep_handlename> and I are both fine. <wait=20><speed=11>Sera is, too...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=45,param=2,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara8_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara8_5:-30:20:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara8_5:1:0.5,#
 *,type=STOP,id=-1,#
@@ -133,333 +133,333 @@
 *,type=PARAM,id=2,param=navi_chara112:150:229:2:0.5,#
 *,type=PARAM,id=33,param=bf020_map_nightwood.mp3,#
 *,type=PARAM,id=44,param=3,#
-*,type=PARAM,id=39,param=セラ,#
+*,type=PARAM,id=39,param=Sera,#
 *,type=PARAM,id=36,param=0.1:3:5:5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ブラン、<wait=20>大丈夫！？<wait=20><br>目を開けて、<wait=20>ブラン！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Bran, <wait=20>are you all right?! <wait=20>Bran, <wait=20>wake up!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>ブラン、<wait=20>お願い……<wait=20><speed=11><br>あなたがいなくなったら、<wait=20><speed=8>私……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>Please, <wait=20>Bran... <br><wait=20><speed=11>If I lose you, <wait=20><speed=8>I'll...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara112_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara112:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara8_5:-30:20:2:0.5,#
-*,type=PARAM,id=39,param=リム,#
+*,type=PARAM,id=39,param=Lin,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>この子がブラン…！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>This little guy is Bran?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara8_5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara8_4:-30:20:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>……ということは、<wait=20>今までの話は……,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>But then, <wait=20>that means everything we thought we knew before...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara8_4:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara13_4:-30:20:2:0.5,#
-*,type=PARAM,id=39,param=エリーゼ,#
+*,type=PARAM,id=39,param=Elise,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=セラさん、<wait=20>私に任せてください。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Sera, <wait=20>leave this to me.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara13_4:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112_5:150:18:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara112:150:229:2:0.5,#
-*,type=PARAM,id=39,param=セラ,#
+*,type=PARAM,id=39,param=Sera,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=あ、<wait=20><speed=11>エリーゼさん……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Oh, <wait=20><speed=11>Elise...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara112_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara112:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara13_4:-30:20:2:0.5,#
-*,type=PARAM,id=39,param=エリーゼ,#
+*,type=PARAM,id=39,param=Elise,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=36,param=0.1:1:3:3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=36,param=0.1:1:3:3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=36,param=0.1:3:5:5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………、<wait=30>フゥー……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>...<wait=30>phew...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara13_4:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara110_0:55:110:2:0.5,#
-*,type=PARAM,id=39,param=ブラン,#
+*,type=PARAM,id=39,param=Bran,#
 *,type=PARAM,id=36,param=0.1:2:3:3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>……<wait=30>ミュー…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>...<wait=30>mew...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara110_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara13_1:-30:20:2:0.5,#
-*,type=PARAM,id=39,param=エリーゼ,#
+*,type=PARAM,id=39,param=Elise,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=緊急処置を施しました。<wait=20><br>とりあえずは大丈夫だと思います。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I've given him first aid. <wait=20>I think he'll be okay for now.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara13_1:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112_5:150:18:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara112:150:229:2:0.5,#
-*,type=PARAM,id=39,param=セラ,#
+*,type=PARAM,id=39,param=Sera,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>エリーゼさん…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>Elise...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara112_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara112:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112_4:150:18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112:150:229:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>ありがとうございます…。<wait=20><br>よかった、<wait=20>ブラン…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>Thank you so much... <br><wait=20>Oh Bran, <wait=20>I'm so glad...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara112_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara112:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara110_0:55:110:2:0.5,#
-*,type=PARAM,id=39,param=ブラン,#
+*,type=PARAM,id=39,param=Bran,#
 *,type=PARAM,id=36,param=0.2:2:3:3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>ミュー…<wait=20>ミュー…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>Mew... <wait=20>Mew...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara110_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara13_2:-30:20:2:0.5,#
-*,type=PARAM,id=39,param=エリーゼ,#
+*,type=PARAM,id=39,param=Elise,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ふふっ、<wait=20>この辺りでは見かけない<br>可愛らしい動物ですね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=セラさんがここで飼っているんですか？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Hehe, <wait=20>he's so cute, I've never seen an animal like this around here before.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Were you keeping it as a pet?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara13_2:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112_4:150:18:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara112:150:229:2:0.5,#
-*,type=PARAM,id=39,param=セラ,#
+*,type=PARAM,id=39,param=Sera,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>この子は……,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>This little guy...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>この子は……、<wait=20>魔物なんです。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>This little guy...<wait=20>is a monster.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara112_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara112:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara13_6:-30:20:2:0.3,#
-*,type=PARAM,id=39,param=エリーゼ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=えっ！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Elise,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Huh?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara13_6:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112_4:150:18:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara112:150:229:2:0.5,#
-*,type=PARAM,id=39,param=セラ,#
+*,type=PARAM,id=39,param=Sera,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>２週間前、<wait=20>仕事のミスで落ち込んだ私は<wait=20><br>１人になりたくて、ここに来ました。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I first came here two weeks ago, <wait=20>when I was feeling down about screwing up at work and wanted to be alone.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>その時、この子が…<wait=20><speed=13>ブランが慰めるように<br>私に寄り添ってくれたんです。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>When I did, this little cutie...<wait=20><speed=13>Bran, came up to me, to try to comfort me.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara112_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara112:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112_1:150:18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112:150:229:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=最初は迷惑だと思っていましたが、<wait=20><speed=11><br>いつの間にか愛着がわき始めて…,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I thought he was annoying at first, <wait=20><speed=11>but eventually I started to grow attached to him.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=そして、<wait=20>いつしか私はこの場所でブランに<br>会うことが楽しみになったんです。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=And at some point, <wait=20>I started to look forward to meeting Bran here.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara112_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara112:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112_4:150:18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112:150:229:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>でも、<wait=20>ブランは魔物…。<wait=20><speed=13><br>おそらく、ルスの系統だと思います。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=稀少生物らしく<wait=20>、図書館の本にも<br>載っていませんでしたが…,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=白い綿毛のルスには、<wait=20>人に害をなす成分が<br>多分に含まれてると風の噂で聞きました。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>But Bran is a monster... <br><wait=20><speed=13>I think he's probably a type of elemental monster.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Apparently he's a rare creature...<wait=20>his type isn't even in the books in the library...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...but I've heard that monsters with white fur like this have a lot of something in them that's harmful to humans.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だから、<wait=20>人気のないこの場所で<br>会うことにしていたんです。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=So I decided to meet him out here, <wait=20>in a place where no one ever comes.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara112_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara112:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara13_5:-30:20:2:0.5,#
-*,type=PARAM,id=39,param=エリーゼ,#
+*,type=PARAM,id=39,param=Elise,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>そうだったんですね……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>So that's what you were doing...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=でも、この子は怪我をしているし、<wait=20><speed=11><br>なるべく早く看てもらわないと……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=But the little guy is injured, <wait=20><speed=11>so we need to get him taken care of as soon as we can.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara13_5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112_4:150:18:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara112:150:229:2:0.5,#
-*,type=PARAM,id=39,param=セラ,#
+*,type=PARAM,id=39,param=Sera,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>…そうですね、<wait=20>でもどうしたら…,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>You're right. <wait=20>But how...?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara112_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara112:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara110_0:55:110:2:0.5,#
-*,type=PARAM,id=39,param=ブラン,#
+*,type=PARAM,id=39,param=Bran,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=36,param=0.1:2:6:4,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>ミュー…<wait=20>ミュー…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>Mew... <wait=20>Mew...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara110_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara13_6:-30:20:2:0.5,#
-*,type=PARAM,id=39,param=エリーゼ,#
+*,type=PARAM,id=39,param=Elise,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>あっ、<wait=20>私の本が…,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Oh, <wait=20>my book...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara13_6:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara13_4:-30:20:1:0.5,#
-*,type=PARAM,id=39,param=エリーゼ,#
+*,type=PARAM,id=39,param=Elise,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>本……<wait=20><br><speed=13>そう言えば、<wait=20>私の本に……,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ちょっと待ってください！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>Speaking of the library, <wait=20><speed=13>that reminds me, <wait=20>my book has...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Hold on a second!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>やっぱり……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>セラさん、<wait=20>この子は魔物とは違います！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ルスの亜種ではありますが、<wait=20>この子は人体に<br>影響を与えない生物です。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>I knew it...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Sera, <wait=20>this little guy isn't a bad monster!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=He is a subspecies of elemental monster, <wait=20>but this type doesn't have any negative impact on human health.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>ほら、<wait=20>このページを見てください！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Here, <wait=20>look at this page!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara13_4:2:0.5,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara112_0:150:18:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara112:150:229:2:0.5,#
-*,type=PARAM,id=39,param=セラ,#
+*,type=PARAM,id=39,param=Sera,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>確かに……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>You're right...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=それでは、<wait=20>私の取り越し苦労だったと<br>いうわけですね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=That means I did all that worrying for nothing!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara112_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara112:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112_1:150:18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112:150:229:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=でも、<wait=20>もうこれで堂々と召喚院の中に<br>持ち込むことができます…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=But now I can bring him into the Summoners' Hall without having to worry!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara112_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara112:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara13_1:-30:20:2:0.5,#
-*,type=PARAM,id=39,param=エリーゼ,#
+*,type=PARAM,id=39,param=Elise,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=よかったですね、<wait=20><speed=9>セラさん…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I'm so happy for you, Sera...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara13_1:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara13_2:-30:20:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>いえ、<wait=20>セラちゃん…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>...I mean that...<wait=20>as a friend.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=45,param=3,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara13_2:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112_3:150:18:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara112:150:229:2:0.5,#
-*,type=PARAM,id=39,param=セラ,#
+*,type=PARAM,id=39,param=Sera,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>あ……、<wait=20>はい……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>Um... <wait=20>Thank you...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara112_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara112:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara8_1:-30:20:2:0.5,#
 *,type=PARAM,id=33,param=bf032_town.mp3,#
 *,type=PARAM,id=44,param=3,#
-*,type=PARAM,id=39,param=リム,#
+*,type=PARAM,id=39,param=Lin,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=いや～、<wait=20>セラちゃんの悩みが解決して<br>良かったです！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だったら、<wait=20>初めからこんな風にコソコソと<br>付け回さなくてもよかったですね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Yay! <wait=20>I'm so glad that we resolved the issue that was worrying Sera!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=If we had known about this, <wait=20>we never would have had to follow you around in secret like we did.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara8_1:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112_2:150:18:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara112:150:229:2:0.3,#
-*,type=PARAM,id=39,param=セラ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>…そういえば、<wait=20>あなた達、なんでコソコソと<wait=20><br>私の後を付け回っていたんですか？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Sera,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Speaking of which, <wait=20>just why were you guys secretly following me around?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara112_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara112:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara8_5:-30:20:2:0.5,#
-*,type=PARAM,id=39,param=リム,#
+*,type=PARAM,id=39,param=Lin,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>あっ……！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Uhh...!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara8_5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara8_4:-30:20:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=そ、<wait=20>それは、<wait=20><speed=11>セラちゃんの様子がいつもと<br>違ってたから…,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=私もエリーゼさんも友達として<wait=20><speed=11><br>心配になって…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=W-<wait=20>Well, <wait=20><speed=11>you weren't your usual self, and...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...as your friends, <wait=20><speed=11>Elise and I were worried...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara8_4:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112_0:150:18:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara112:150:229:2:0.5,#
-*,type=PARAM,id=39,param=セラ,#
+*,type=PARAM,id=39,param=Sera,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>友達……,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>As my...friends?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara112_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara112:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112_3:150:18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112:150:229:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara112_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara112:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112_0:150:18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112:150:229:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=…それはストーカーって言うんですよ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=あまりにもしつこい場合は、<wait=20><br>被害者の申し立てにより、<wait=20><speed=10>加害者を…,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...pretty sure the word you're looking for is "stalkers"!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=And if stalkers are too persistent, you know, <wait=20>the victim can file charges, <wait=20><speed=10>and the perpetrators...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara112_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara112:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara8_4:-30:20:2:0.5,#
-*,type=PARAM,id=39,param=リム,#
+*,type=PARAM,id=39,param=Lin,#
 *,type=PARAM,id=36,param=0.1:10:7:7,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=あ～、<wait=20>もうごめんなさい～！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Ahhh! <wait=20>I'm sorry, already!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara8_4:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112_1:150:18:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara112:150:229:2:0.5,#
-*,type=PARAM,id=39,param=セラ,#
+*,type=PARAM,id=39,param=Sera,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=フフッ♪,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Hehe!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara112_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara112:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara110_0:55:110:2:0.5,#
-*,type=PARAM,id=39,param=ブラン,#
+*,type=PARAM,id=39,param=Bran,#
 *,type=PARAM,id=36,param=0.2:2:4:4,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ミュー<wait=20>ミュー♪,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Mew! <wait=20>Mew!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara110_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara13_1:-30:20:2:0.5,#
-*,type=PARAM,id=39,param=エリーゼ,#
+*,type=PARAM,id=39,param=Elise,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=大丈夫ですよ、<wait=20>リムちゃん！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=私たちは、<wait=20>セラちゃんの隠された<br>乙女な一面をしっかり握っていますから♪,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It's all right, Lin!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=After all that, <wait=20>we finally have a good idea of Sera's hidden girly side!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara13_1:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112_3:150:18:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara112:150:229:2:0.5,#
-*,type=PARAM,id=39,param=セラ,#
+*,type=PARAM,id=39,param=Sera,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>…もう、<wait=20><speed=14>エリーゼさん！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>Not you too, Elise!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara112_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara112:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara110_0:55:110:2:0.5,#
-*,type=PARAM,id=39,param=ブラン,#
+*,type=PARAM,id=39,param=Bran,#
 *,type=PARAM,id=36,param=0.2:2:4:4,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ミュー<wait=20>ミュー♪,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Mew! <wait=20>Mew!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara110_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara8_1:-30:20:2:0.5,#
-*,type=PARAM,id=39,param=リム,#
+*,type=PARAM,id=39,param=Lin,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=よし、<wait=20>じゃあみんなで帰りましょうか！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Okay, <wait=20>let's head home!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara8_1:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara8_0:-30:20:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=先輩もお疲れ様でした！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=今回もご迷惑おかけしちゃいましたが、<wait=20><br>やっぱり頼もしかったです！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Good work today, <rep_handlename>!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I owe you yet another favor for today, <wait=20>but it was good to have you with us, as usual!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara8_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara8_1:-30:20:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=また、何か事件があったら<wait=20><br>お手伝い、よろしくお願いしますね♪,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I hope you can help out again the next time we have an incident like this!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -470,4 +470,3 @@
 *,type=PARAM,id=43,param=BattleDungeon80111RainAddFront,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

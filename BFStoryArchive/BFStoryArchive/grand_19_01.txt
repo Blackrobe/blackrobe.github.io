@@ -51,29 +51,29 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara112_0:150:18:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara112:150:229:2:0.5,#
-*,type=PARAM,id=39,param=セラ,#
+*,type=PARAM,id=39,param=Sera,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>フゥー……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>Phew...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=さっきの反応、<wait=20><br>リムさんに怪しまれたかしら…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I didn't mean to react like that...<wait=20>I wonder if I made Lin suspicious...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara112_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara112:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112_4:150:18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112:150:229:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>でも、<wait=20>変に説明して、<wait=20><br>後からあらぬ噂が立てられても…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>But rather than trying to come up with an excuse, <wait=20>and having bizarre rumors pop up later...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara112_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara112:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112_0:150:18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112:150:229:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara112_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara112:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112_3:150:18:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara112:150:229:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>うん、<wait=20>大丈夫…、<wait=20><br>これは私たちだけの秘密だもの…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Yeah, <wait=20>it'll be fine...<wait=20> It's still a secret between the two of us...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara112_3:2:1.5,#
@@ -83,56 +83,56 @@
 *,type=PARAM,id=2,param=navi_chara13_6:-30:20:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=エリーゼ,#
+*,type=PARAM,id=39,param=Elise,#
 *,type=PARAM,id=36,param=0.1:5:7:7,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>セラさんのあんな乙女な一面、<wait=20><br>私、初めて見ましたよ！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>This is the first time I've ever seen Sera's girly side!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>これは、ひょっとしたらひょっとして、<wait=20><speed=11><br>本当に恋なのかも…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>There's a real, genuine chance...<wait=20><speed=11>that she might actually be in love.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara13_6:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara8_1:-30:20:2:0.5,#
-*,type=PARAM,id=39,param=リム,#
+*,type=PARAM,id=39,param=Lin,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ほらほら～、<wait=20><br>私の言ったとおりだったでしょう？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=See? See? <wait=20>It's just like I said, right?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara8_1:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara13_6:-30:20:2:0.5,#
-*,type=PARAM,id=39,param=エリーゼ,#
+*,type=PARAM,id=39,param=Elise,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>確かに…。<wait=20><speed=13><br>リムちゃん、<wait=20>疑ってごめんね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Yeah...<wait=20><speed=13>I'm sorry for doubting you, <wait=20>Lin.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara13_6:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara8_1:-30:20:2:0.5,#
-*,type=PARAM,id=39,param=リム,#
+*,type=PARAM,id=39,param=Lin,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=フフッ、<wait=20>いいんですよ～。<wait=20><br>分かってもらえれば！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Hehe, <wait=20>don't worry about it. <wait=20>As long as you realize the error of your ways!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara8_1:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara13_5:-30:20:2:0.5,#
-*,type=PARAM,id=39,param=エリーゼ,#
+*,type=PARAM,id=39,param=Elise,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<size=12>でも、まさか、<wait=20><speed=11><br>あのセラさんに先を越されるなんて…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<size=12>But it seems so inconceivable... <wait=20><speed=11>I mean, Sera, of all people, finding someone before I do...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara13_5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara8_1:-30:20:2:0.5,#
-*,type=PARAM,id=39,param=リム,#
+*,type=PARAM,id=39,param=Lin,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=いや～、それにしても、<wait=20>セラちゃんの<br>お相手って、どんな人なんでしょうねぇ？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Okay... <wait=20>But anyway, <wait=20>what kind of person could Sera's lover be?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara8_1:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara13_6:-30:20:2:0.5,#
-*,type=PARAM,id=39,param=エリーゼ,#
+*,type=PARAM,id=39,param=Elise,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=えっ、<wait=20><speed=11>どんな人って？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Huh? <wait=20><speed=11>What kind of person?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara13_6:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara8_1:-30:20:2:0.5,#
-*,type=PARAM,id=39,param=リム,#
+*,type=PARAM,id=39,param=Lin,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=きっと、<wait=20>セラちゃんを優しく包み込んで<br>くれる紳士な方だと思うんですよ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It must be some dashing gentleman who embraces her lovingly.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=例えば、<wait=20>今日みたいに<br>デートにちょっと遅れたとしても…,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=For example, <wait=20>even on days like this when she's a bit late for their dates...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=45,param=2,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=7,param=1:0&0&0,#
@@ -148,45 +148,45 @@
 *,type=PARAM,id=33,param=bf020_map_nightwood.mp3,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara8_3:80:20:2:0.5,#
-*,type=PARAM,id=39,param=リム？,#
+*,type=PARAM,id=39,param=Lin?,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=今日は来るのが遅かったな。<wait=20><br>何かあったのか？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=You're late today. <wait=20>Did you run into trouble?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara8_3:2:0.3,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara8_4:-20:20:2:0.5,#
-*,type=PARAM,id=39,param=リム？,#
+*,type=PARAM,id=39,param=Lin?,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ごめんなさい、<wait=20>あなたのことを考えていたら<wait=20><speed=11><br>仕事が長引いてしまって…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I'm sorry, <wait=20><speed=11>I was so distracted thinking of you that I just couldn't finish my work on time...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara8_4:2:0.3,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara8_3:80:20:2:0.5,#
-*,type=PARAM,id=39,param=リム？,#
+*,type=PARAM,id=39,param=Lin?,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>…そうか、<wait=20>ならいいんだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>I see. <wait=20>That's fine.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara8_3:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara8_2:80:20:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>セラに何かあったら俺は…。<wait=20><br>これ以上、<wait=20>心配かけないでくれよ…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>If something had happened to you, Sera... <wait=20>Please, <wait=20>don't make me worry more than I already do.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara8_2:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara8_4:-20:20:2:0.5,#
-*,type=PARAM,id=39,param=リム？,#
+*,type=PARAM,id=39,param=Lin?,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=5,param=navi_chara8_4:40:20:1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>あなた…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>Oh, darling...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara8_4:2:0.3,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara8_3:80:20:2:0.5,#
-*,type=PARAM,id=39,param=リム？,#
+*,type=PARAM,id=39,param=Lin?,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=5,param=navi_chara8_3:20:20:1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>すまない…。<wait=20><br>今は、<wait=20>しばらく抱きしめさせてくれ…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I'm sorry... <wait=20>Just for a moment, <wait=20>let me hold you like this...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara8_3:2:1,#
 *,type=PARAM,id=45,param=2,#
@@ -202,24 +202,24 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=33,param=bf032_town.mp3,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=リム,#
+*,type=PARAM,id=39,param=Lin,#
 *,type=PARAM,id=36,param=0.1:12:8:8,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>キャーーー♪<wait=20><br>心身ともに包み込まれますねぇ♪,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Eeeek! <wait=20>And then he embraces her, body and soul!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara8_1:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara13_6:-30:20:2:0.5,#
-*,type=PARAM,id=39,param=エリーゼ,#
+*,type=PARAM,id=39,param=Elise,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>……えーっと、<wait=20><speed=11>リムちゃん？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>Um...<br><wait=20><speed=11>Lin?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara13_6:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara8_1:-30:20:2:0.5,#
-*,type=PARAM,id=39,param=リム,#
+*,type=PARAM,id=39,param=Lin,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=いやいや～、<wait=20>案外オラオラ系でセラちゃんを<br>困らせる殿方かもしれませんねぇ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Okay, maybe not! <wait=20>He could instead be a surprising tough-guy type who drives her crazy.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=45,param=2,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=7,param=1:0&0&0,#
@@ -235,39 +235,39 @@
 *,type=PARAM,id=33,param=bf020_map_nightwood.mp3,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara8_2:80:20:2:0.5,#
-*,type=PARAM,id=39,param=リム？,#
+*,type=PARAM,id=39,param=Lin?,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>おい、<wait=20>遅かったじゃないか！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Hey girl, <wait=20>you're late!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara8_2:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara8_4:-20:20:2:0.5,#
-*,type=PARAM,id=39,param=リム？,#
+*,type=PARAM,id=39,param=Lin?,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ごめんなさい、<wait=20>あなたのことを考えていたら<wait=20><speed=11><br>仕事が長引いてしまって…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I'm sorry. <wait=20><speed=11>I was so distracted thinking of you that I just couldn't finish my work on time...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara8_4:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara8_2:80:20:2:0.5,#
-*,type=PARAM,id=39,param=リム？,#
+*,type=PARAM,id=39,param=Lin?,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>それはいけないな…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Well, we can't have that...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara8_2:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara8_3:80:20:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=そんな困った子猫ちゃんは、<wait=20><speed=14><br>少しオシオキしてやらないとなぁ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=A bad little kitty like you, <wait=20><speed=14>needs to be punished!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara8_3:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara8_4:-20:20:2:0.5,#
-*,type=PARAM,id=39,param=リム？,#
+*,type=PARAM,id=39,param=Lin?,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=5,param=navi_chara8_4:40:20:1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>えっ……？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>Punished?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara8_4:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara8_2:80:20:2:0.5,#
-*,type=PARAM,id=39,param=リム？,#
+*,type=PARAM,id=39,param=Lin?,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=5,param=navi_chara8_2:20:20:1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ハハハッ、<wait=20><speed=14>そんなに俺のこと考えてるなら<wait=20><br>今夜は俺だけに夢中にさせてやるよ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Ha! Ha! Ha! <wait=20><speed=14>If you think about me so much already, <wait=20>you'll love it when I make sure I'm all you can think about tonight!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara8_2:2:1,#
 *,type=PARAM,id=45,param=2,#
@@ -283,33 +283,33 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=33,param=bf032_town.mp3,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=リム,#
+*,type=PARAM,id=39,param=Lin,#
 *,type=PARAM,id=36,param=0.1:12:8:8,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>キャーーー♪<wait=20><br>明日の仕事が全然手に付かなくなります！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Eeeeeeeek! <wait=20>She won't be able to do any work at all tomorrow!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara8_1:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara8_0:-30:20:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>ハァ～…。<wait=20><speed=13><br>大人の恋っていいですねぇ♪,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>*Sigh...*<br><wait=20><speed=13>Isn't love just wonderful?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara8_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara8_5:-30:20:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>……って、<wait=20><speed=14>あれ？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>...<wait=20><speed=14>huh?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=36,param=0.1:5:6:6,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>先輩とエリーゼさんは！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Where did <rep_handlename> and Elise go?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara8_5:2:1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=39,param=エリーゼ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ほら、<wait=20>リムちゃーん！<wait=20><br>早くしないとセラさんを見失いますよ～！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Elise,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=C'mon, <wait=20>Lin! <wait=20>We'll lose sight of Sera if we don't keep moving!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara8_5:-30:20:2:0.3,#
-*,type=PARAM,id=39,param=リム,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=あーーーっ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>もう、置いていかないでくださーい！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Lin,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Hey, wait up!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Don't leave me behind!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -321,4 +321,3 @@
 *,type=PARAM,id=43,param=BattleDungeon50300LensFlearAddFront,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-
