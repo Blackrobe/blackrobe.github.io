@@ -343,6 +343,21 @@ mapName = {
         "special": "EX",
         "name": "Vilanciel",
         "order": 102
+    },
+    "103": {
+        "dungeon": {
+            "1": "Area 1",
+            "2": "Area 2",
+            "3": "Area 3",
+            "4": "Area 4",
+            "5": "Area 5",
+            "6": "Area 6",
+            "7": "Area 7",
+            "8": "Area 8"
+        },
+        "special": "EX",
+        "name": "Ohbanahara",
+        "order": 103
     },    
     "3": {
         "dungeon": {
