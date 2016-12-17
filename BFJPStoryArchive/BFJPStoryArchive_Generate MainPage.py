@@ -277,7 +277,7 @@ if __name__ == '__main__':
     outputLines.append("</script>")
     outputLines.append("</head>")
     outputLines.append("<body>")
-    outputLines.append("<div id=\"greetingsText\">Your name is <b>Hans</b>. You are the talented summoner from the organization called Akras Summoners' Hall, located in your homeworld of Elgaia. Your first journey brings you into Grand Gaia, a world completely different from your origin...</div>")
+    outputLines.append("<div id=\"greetingsText\">Your name is <b>Shou-chan</b>. You are the talented Japanese-speaking summoner from the organization called Akras Summoners' Hall, located in your homeworld of Elgaia. Your first journey brings you into Grand Gaia, a world completely different from your origin...</div>")
     outputLines.append("<ul>")
 
     pageList = []
