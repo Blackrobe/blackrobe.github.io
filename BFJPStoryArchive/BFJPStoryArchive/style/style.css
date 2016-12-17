@@ -1,0 +1,194 @@
+a:link {
+	color: blue;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.listSeparator {
+	padding: 10px 0px;
+}
+
+.listSeparatorLarge {
+	padding: 20px 0px;
+}
+
+a:visited {
+	color: purple;
+    text-decoration: underline;
+}
+
+a:hover, a:active {
+	color: #F00;
+    text-decoration: underline;
+}
+
+.dialogueContainer {
+	position: relative;
+	clear: both;
+	left: 50%;
+	transform: translate(-50%, 0);
+	width: 500px;
+	height: 150px;
+}
+
+.facePortrait {
+	position: relative;
+	float: left;
+	width: 150px;
+	height: 150px;
+}
+
+.facePortraitFrame {
+	position: absolute;
+	width:150px;
+	height:150px;
+	z-index:2;
+}
+
+.facePortraitImg {
+	position: absolute;
+	width:125px;
+	height:125px;
+	left: 12px;
+	top: 12px;
+	z-index:1;
+}
+
+.speakerName {	
+	padding: 10px 20px;
+	display: block;	
+	font-family: "Garamond", "Georgia", "serif";
+	font-size: 24px;
+}
+
+.speakerMessage {
+	padding: 0px 20px;
+	display: block;	
+	width: 460px;
+	font-family: "Arial", "serif";
+	font-size: 14px;
+}
+
+.deityDialogueContainer {
+	position: relative;
+	text-align: center;
+	height: auto;
+	width: 640px;
+	margin: auto;
+}
+
+.deityPortrait {
+	position: relative;
+	margin:auto;
+	text-align: center;
+	width:348px;
+	height: 150px;
+}
+
+.deityPortraitFrame {
+	position: absolute;
+	left: 0px;	
+	z-index:5;
+}
+
+.deityPortraitImgBack {
+	position: absolute;	
+	top: 28px;
+	left: 7px;	
+	width: 335px;
+	height: 87px;	
+	z-index:3;
+}
+
+.deityPortraitImg {
+	position: absolute;
+	top: 28px;
+	left: 130px;	
+	margin: auto;
+	width: 88px;
+	height: 88px;	
+	overflow: hidden;
+	z-index:4;
+}
+
+.deityMessage {
+	text-align: center;
+	width:100%;
+	display: block;
+}
+
+.dialogueSeparator {
+	position: relative;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.dungeonBackgroundContainer {
+	position: relative;
+	margin: auto;
+	width: 640px;
+	height: 450px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;	
+}
+
+.dungeonFrame {
+	position: absolute;
+	left:50%;
+	z-index: 3;
+	transform: translate(-50%, 0);
+}
+
+.dungeonImage {
+	position: absolute;
+	left:50%;
+	z-index: 2;
+	transform: translate(-50%, 0);
+}
+
+.areaContainer {
+	position: relative;
+	margin: auto;
+	width: 640px;
+	height: 960px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;	
+}
+
+.areaPlateContainer {
+	position: relative;
+	margin: auto;
+	width: 640px;
+	height: 128px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	text-align: center;	
+}
+
+.areaFrame {
+	position: absolute;
+	left:50%;
+	z-index: 3;
+	transform: translate(-50%, 0);
+}
+
+.areaImage {
+	position: absolute;
+	left:50%;
+	z-index: 2;
+	transform: translate(-50%, 0);
+}
+
+.areaPlateImage {
+	position: absolute;
+	left:50%;
+	z-index: 2;
+	transform: translate(-50%, 0);
+}
