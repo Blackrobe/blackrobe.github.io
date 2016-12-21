@@ -1,0 +1,87 @@
+﻿*,type=PARAM,id=35,param=-1,#
+*,type=PARAM,id=6,param=/Dungeon/dungeon_battle_80068.jpg,#
+*,type=PARAM,id=6,param=/event/navi_chara80054.png,#
+*,type=PARAM,id=6,param=/event/navi_chara80054_0.png,#
+*,type=PARAM,id=6,param=/event/navi_chara80054_1.png,#
+*,type=PARAM,id=6,param=/event/navi_chara80054_2.png,#
+*,type=PARAM,id=6,param=/event/navi_chara80054_3.png,#
+*,type=PARAM,id=6,param=/event/navi_chara80055.png,#
+*,type=PARAM,id=6,param=/event/navi_chara80055_0.png,#
+*,type=PARAM,id=6,param=/event/navi_chara80055_1.png,#
+*,type=PARAM,id=6,param=/event/navi_chara80055_2.png,#
+*,type=PARAM,id=6,param=/event/navi_chara80055_3.png,#
+*,type=PARAM,id=6,param=/sound/bf034_map_ignia.mp3,#
+*,type=STOP,id=-1,#
+*,type=PARAM,id=26,param=1,#
+*,type=PARAM,id=1,param=ts_base:navi_chara80054.png,#
+*,type=PARAM,id=1,param=ts_norm:navi_chara80054_0.png,#
+*,type=PARAM,id=1,param=ts_happy:navi_chara80054_1.png,#
+*,type=PARAM,id=1,param=ts_angry:navi_chara80054_2.png,#
+*,type=PARAM,id=1,param=ts_sad:navi_chara80054_3.png,#
+*,type=PARAM,id=1,param=elf_base:navi_chara80055.png,#
+*,type=PARAM,id=1,param=elf_norm:navi_chara80055_0.png,#
+*,type=PARAM,id=1,param=elf_happy:navi_chara80055_1.png,#
+*,type=PARAM,id=1,param=elf_angry:navi_chara80055_2.png,#
+*,type=PARAM,id=1,param=elf_sad:navi_chara80055_3.png,#
+*,type=PARAM,id=1,param=bg1:dungeon_battle_80068.jpg,#
+*,type=PARAM,id=2,param=bg1:0:0:1:0,#
+*,type=PARAM,id=8,param=2:0&0&0,#
+*,type=PARAM,id=33,param=bf034_map_ignia.mp3,#
+*,type=PARAM,id=44,param=4,#
+*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=1,#
+*,type=PARAM,id=2,param=ts_base:25:127:2:0.5,#
+*,type=PARAM,id=2,param=ts_norm:25:-74:2:0.5,#
+*,type=PARAM,id=39,param=Haido,#
+*,type=PLAYWAIT,param=0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=M..merry Chris...tmas...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Merry Christ...mas, and...a happy...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Oh. Everyone is asleep.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=So much rubble. So many broken things. Maybe they already finished celebrating?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Who am I? I am...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=A singer! Of songs. For who?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=0.5,#
+*,type=PARAM,id=2,param=ts_happy:25:-74:2:0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Nick! I am a gift of appreciation for Nick!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Thank you for the hi- Still asleep.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=They are not breathing.  Maybe...it's really deep?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=But where is Nick? Maybe he left early?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I have to go find him! Off on an adventure I go!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Later! Don't stay up!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=7,param=2:0&0&0,#
+*,type=PLAYWAIT,param=3,#
+*,type=PARAM,id=40,param=-1,#
+*,type=PARAM,id=3,param=ts_base:1:0.5,#
+*,type=PARAM,id=3,param=ts_norm:1:0.5,#
+*,type=PARAM,id=3,param=ts_happy:1:0.5,#
+*,type=PARAM,id=2,param=elf_base:-10:140:2:0.5,#
+*,type=PARAM,id=2,param=elf_norm:-10:-14:2:0.5,#
+*,type=PARAM,id=39,param=Silvie,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Aaaaaaaaah! Aaaaaaah!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=2,param=elf_sad:-10:-14:2:0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Oh gods! Everyone is dead!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=No no no ... please ... someone, anyone...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Nick! Nick! Anyone?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=N...nobody is waking up ...is this really happening?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=2,param=elf_angry:-10:-14:2:0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Wh..what would Nick do?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=2,param=elf_sad:-10:-14:2:0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Not here...he must be searching for answers too!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I have to find him!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=2,param=elf_angry:-10:-14:2:0.5,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Of course! These tracks! They must have been left by those that attacked.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Lightning, strike true, and spark this winter's pyre!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I will see justice done, I swear! Till then, wherever you are, wish me well!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=And...goodbye.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=7,param=1.5:0&0&0,#
+*,type=PARAM,id=3,param=bg1:1:0.5,#
+*,type=PARAM,id=3,param=elf_base:1:0.5,#
+*,type=PARAM,id=3,param=elf_norm:1:0.5,#
+*,type=PARAM,id=3,param=elf_sad:1:0.5,#
+*,type=PARAM,id=3,param=elf_angry:1:0.5,#
+*,type=PARAM,id=40,param=-1,#
+*,type=PARAM,id=45,param=2,#
+*,type=PARAM,id=35,param=-1,#
+*,type=PARAM,id=30,param=-1,#
+*,type=PARAM,id=41,param=2,#

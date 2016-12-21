@@ -316,8 +316,18 @@ class StoryPage(object):
             self.setName("Arena - Rank " + arenaRankName[pageName[5:]])
 
         # ==============
-        #     OTHERS    
+        #     VORTEX    
         # ==============
+
+        elif not (pageName.find("xmas") == -1):
+            sceneNumber = pageName.split("_")[1]            
+            self.setOrder(1200000 + int(sceneNumber))
+            self.setDirectory(pageName)
+            self.setName("2016 Christmas Special Mission Scene " + sceneNumber)
+
+        # ==============
+        #     OTHERS    
+        # ==============        
         
         else:
             self.setOrder(5000000)
