@@ -180,6 +180,11 @@ class StoryPage(object):
                     self.setOrder(300000 + int(grandQuestNumber)*1000 + int(grandQuestSceneNumber))
                     self.setDirectory(pageName)
                     self.setName("Grand Quest " + grandQuestNumber + ": " + grandQuestName[str(int(grandQuestNumber))]["name"] + " -- Scene " + pageName[9:])
+
+        # =============
+        #   TUTORIALS  
+        # =============
+        
         elif not (pageName.find("randall_tuto2") == -1):
             self.setOrder(600010)
             self.setDirectory(pageName)
@@ -220,25 +225,102 @@ class StoryPage(object):
             self.setOrder(600080)
             self.setDirectory(pageName)
             self.setName("Tutorial - Colosseum")
+        elif not (pageName.find("guild_tut") == -1):
+            if pageName == "guild_tut_01":
+                self.setOrder(610003)
+                self.setDirectory(pageName)
+                self.setName("Tutorial - Guild Raid part 1")
+            elif pageName == "guild_tut_02":
+                self.setOrder(610004)
+                self.setDirectory(pageName)
+                self.setName("Tutorial - Guild Raid part 2")
+            elif pageName == "guild_tut_03":
+                self.setOrder(610005)
+                self.setDirectory(pageName)
+                self.setName("Tutorial - Guild Raid part 3")
         elif not (pageName.find("guild") == -1):
             if pageName == "guild_01":
                 self.setOrder(610001)
                 self.setDirectory(pageName)
-                self.setName("Tutorial - Introduction to Guilds I")
+                self.setName("Tutorial - Introduction to Guilds part 1")
             elif pageName == "guild_02":
                 self.setOrder(610002)
                 self.setDirectory(pageName)
-                self.setName("Tutorial - Introduction to Guilds II")            
+                self.setName("Tutorial - Introduction to Guilds part 2")
         elif not (pageName.find("arena_tuto") == -1):
             self.setOrder(650000)
             self.setDirectory(pageName)
             self.setName("Tutorial - Arena")
+
+        # ============
+        #     RAID    
+        # ============
+            
+        elif not (pageName.find("raid") == -1):
+            if not (pageName.find("raid_op") == -1):
+                self.setOrder(800000)
+                self.setDirectory(pageName)
+                self.setName("Raid - Opening Scene")
+            elif (len(pageName.split("_")) > 3):
+                if not (pageName.find("802") == -1):
+                    raidNumber = pageName.split("_")[1]
+                    raidSceneNumber = pageName.split("_")[2]
+                    self.setOrder(800000 + int(raidNumber)*100 + int(raidSceneNumber))
+                    self.setDirectory(pageName)
+                    self.setName("Raid - World of Eneroth: Scene 1 and 2")
+                else:
+                    raidClass = pageName.split("_")[1]
+                    raidScene = pageName.split("_")[2]
+                    raidSceneIndicator = pageName.split("_")[3]
+                    self.setOrder(800000 + int(raidClass)*100 + int(raidScene)*10 + int(raidSceneIndicator))
+                    self.setDirectory(pageName)
+                    if (int(raidSceneIndicator) == 1):
+                        self.setName("Raid Class " + raidClass + " Scene " + raidScene + " Opening")
+                    elif (int(raidSceneIndicator) == 2):
+                        self.setName("Raid Class " + raidClass + " Scene " + raidScene + " Ending")
+                    else:
+                        self.setName("Raid Class " + raidClass + " Scene " + raidScene)
+            else:
+                if not (pageName.find("802") == -1):
+                    raidNumber = pageName.split("_")[1]
+                    raidSceneNumber = pageName.split("_")[2]
+                    self.setOrder(800000 + int(raidNumber)*100 + int(raidSceneNumber))
+                    self.setDirectory(pageName)
+                    self.setName("Raid - World of Eneroth: Scene " + raidSceneNumber)
+                elif not (pageName.find("803") == -1):
+                    raidNumber = pageName.split("_")[1]
+                    raidSceneNumber = pageName.split("_")[2]
+                    self.setOrder(800000 + int(raidNumber)*100 + int(raidSceneNumber))
+                    self.setDirectory(pageName)
+                    self.setName("Raid - Baldemar wasteland: Scene " + raidSceneNumber)
+                elif not (pageName.find("804") == -1):
+                    raidNumber = pageName.split("_")[1]
+                    raidSceneNumber = pageName.split("_")[2]
+                    self.setOrder(800000 + int(raidNumber)*100 + int(raidSceneNumber))
+                    self.setDirectory(pageName)
+                    self.setName("Raid - Lords of Fuindor: Scene " + raidSceneNumber)
+                else:
+                    raidClass = pageName.split("_")[1]
+                    raidScene = pageName.split("_")[2]                    
+                    self.setOrder(800000 + int(raidClass)*100 + int(raidScene)*10)
+                    self.setDirectory(pageName)
+                    self.setName("Raid Class " + raidClass + " Scene " + raidScene)
+
+        # =============
+        #     ARENA    
+        # =============
+        
         elif not (pageName.find("arena") == -1):
-            self.setOrder(800000 + int(pageName[5:])*10)
+            self.setOrder(1000000 + int(pageName[5:])*10)
             self.setDirectory(pageName)
             self.setName("Arena - Rank " + arenaRankName[pageName[5:]])
+
+        # ==============
+        #     OTHERS    
+        # ==============
+        
         else:
-            self.setOrder(1100000)
+            self.setOrder(5000000)
             self.setDirectory(pageName)
             self.setName(pageName)
 
