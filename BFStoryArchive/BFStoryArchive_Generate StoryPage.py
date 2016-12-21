@@ -1,5 +1,7 @@
 # coding: utf-8
 
+from storyutil import full_ills
+
 navi_chara_collectionDirectory = "navi_chara_collection/"
 dungeon_battle_collectionDirectory = "dungeon_battle_collection/"
 story_txtDirectory = "BFStoryArchive/"
@@ -103,10 +105,11 @@ for currentTxt in currentTxtList:
     outputLines.append("</script>")
     outputLines.append("</head>")
     outputLines.append("<body>")
-    
+
     with codecs.open(currentTxt,'r',encoding='utf8') as f:
 
         alias = {}
+        full_illsStack = ["blank",]
         speakerFacePortraitStack = []
         speakerFacePortraitStack.append("blank.png")
         speakerName = ""
@@ -234,17 +237,13 @@ for currentTxt in currentTxtList:
 
             # ID = 3: remove (pop) portrait from stack
             if not (line.find("type=PARAM,id=3,") == -1):
-##                if not (currentTxt.find("raid_804_7") == -1):
-##                    print speakerFacePortraitStack
                 aliasBegin = line.find("param=") + 6
                 aliasEnd = line.find(":")
                 if not (alias[line[aliasBegin:aliasEnd]].find("navi_chara") == -1) and not (line[aliasBegin:aliasEnd] in ignoredPortraitList):
                     if alias[line[aliasBegin:aliasEnd]] in speakerFacePortraitStack:
                         speakerFacePortraitStack.remove(alias[line[aliasBegin:aliasEnd]])
                     if speakerFacePortraitStack == []:
-                        speakerFacePortraitStack.append("blank.png")
-                if not (currentTxt.find("raid_804_7") == -1):
-                    print "Result:", speakerFacePortraitStack
+                        speakerFacePortraitStack.append("blank.png")                
 
             # ID = 15: mark a line of dialogue text information
             if not (line.find("type=PARAM,id=15,") == -1):
@@ -287,8 +286,19 @@ for currentTxt in currentTxtList:
                 outputLines.append("<div class=\"facePortrait\">")
                 outputLines.append("<img class=\"facePortraitFrame\" src=\"navi_chara_collection/characterFrame.png\" />")
                 outputLines.append("<img class=\"facePortraitImg\" src=\"" + navi_chara_collectionDirectory + speakerFacePortraitStack[len(speakerFacePortraitStack)-1] + "\" />")                
-                outputLines.append("</div>")
-                outputLines.append("<div class=\"speakerName\">" + speakerName + "</div>")
+                outputLines.append("</div>")                
+                if speakerFacePortraitStack[len(speakerFacePortraitStack)-1].find("blank") == -1:                    
+                    full_illsImage = speakerFacePortraitStack[len(speakerFacePortraitStack)-1][:-4].split("_")[0] + "_" + speakerFacePortraitStack[len(speakerFacePortraitStack)-1][:-4].split("_")[1]                    
+                else:
+                    full_illsImage = "ills_not_available"
+                if not full_illsImage in full_illsStack:
+                    full_illsStack.append(full_illsImage)
+                    if full_illsImage in full_ills:                        
+                        outputLines.append("<div class=\"speakerName\"><a href=\""+ full_ills[full_illsImage] +"\">" + speakerName + "</a></div>")
+                    else:                        
+                        outputLines.append("<div class=\"speakerName\">" + speakerName + "</div>")
+                else:                    
+                    outputLines.append("<div class=\"speakerName\">" + speakerName + "</div>")
                 outputLines.append("<div class=\"speakerMessage\">" + message + "</div>")
                 outputLines.append("</div>")
                 outputLines.append("<br>")                

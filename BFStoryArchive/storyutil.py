@@ -535,7 +535,43 @@ grandQuestName = {
     },
 }
 
+full_ills = {
+
+    #=======================
+    # BRAVE FRONTIER GLOBAL 
+    #=======================
+    
+    "navi_chara80016_0": "http://i.imgur.com/Yxn3pn3.png",
+    "navi_chara80025_0": "http://i.imgur.com/8iQ29zE.png",
+    "navi_chara80032": "http://i.imgur.com/mLQbLwX.png",
+    "navi_chara80033": "http://i.imgur.com/X8CwkqD.png",
+    "navi_chara80034": "http://i.imgur.com/5MOoHGo.png",
+    "navi_chara80035": "http://i.imgur.com/x35aR1z.png",
+    "navi_chara80036": "http://i.imgur.com/Vq7WojX.png",
+    "navi_chara80037": "http://i.imgur.com/vbFlxUG.png",
+    "navi_chara80038": "http://i.imgur.com/ZLwSPY7.png",
+    "navi_chara80039": "http://i.imgur.com/BxvlKWa.png",
+    "navi_chara80040": "http://i.imgur.com/WyJStne.png",
+    "navi_chara80041": "http://i.imgur.com/4uoeaL0.png",
+    "navi_chara80042": "http://i.imgur.com/Czl78Co.png",
+    "navi_chara80043": "http://i.imgur.com/JmQCk6L.png",
+    "navi_chara80046": "http://i.imgur.com/KWME5yf.png",
+    "navi_chara80047": "http://i.imgur.com/pm6hOA7.png",
+    "navi_chara80048": "http://i.imgur.com/prhxMuS.png",
+    "navi_chara80049": "http://i.imgur.com/EeVM9vL.png",
+    "navi_chara80050": "http://i.imgur.com/KX54a6c.png",
+    "navi_chara80051": "http://i.imgur.com/tsb940i.png",
+    "navi_chara80052": "http://i.imgur.com/YS9rVWE.png",
+    "navi_chara80053": "http://i.imgur.com/xWaszjH.png",
+    "navi_chara80054": "http://i.imgur.com/OC1bgm1.png",
+    "navi_chara80055": "http://i.imgur.com/J3drt4x.png"
+    
+    }
+    
+
 if __name__ == '__main__':
+
+    print "navi_chara80047" in full_ills
 
     '''
     import json
