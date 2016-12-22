@@ -436,6 +436,7 @@
 *,type=PARAM,id=3,param=wezra_base:2:1,#
 *,type=PARAM,id=3,param=wezra_5:2:1,#
 *,type=PLAYWAIT,param=1,#
+*,type=PARAM,id=39,param=Avani,#
 *,type=PARAM,id=2,param=avani_base:-6:138:2:0.5,#
 *,type=PARAM,id=2,param=avani_3:-6:-38:2:0.5,#
 *,type=PLAYWAIT,param=0.5,#
