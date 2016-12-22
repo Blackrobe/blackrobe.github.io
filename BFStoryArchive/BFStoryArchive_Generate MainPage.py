@@ -76,19 +76,19 @@ class StoryPage(object):
                         if not (pageName.find("ex1_open") == -1):
                             self.setOrder(int(mapNumber)*1000+991)
                             self.setDirectory(pageName)
-                            self.setName("Summoner's Arc Chapter " + str(int(mapNumber) % 100) + " Special: " + mapName[mapNumber]["name"] + " - " + mapName[mapNumber]["special"] + " [ Opening 1 ]")
+                            self.setName("Summoner's Arc Chapter " + str(int(mapNumber) % 100) + " Special: " + mapName[mapNumber]["name"] + " - " + mapName[mapNumber]["special1"] + " [ Opening ]")
                         elif not (pageName.find("ex1_clear") == -1):
                             self.setOrder(int(mapNumber)*1000+992)
                             self.setDirectory(pageName)
-                            self.setName("Summoner's Arc Chapter " + str(int(mapNumber) % 100) + " Special: " + mapName[mapNumber]["name"] + " - " + mapName[mapNumber]["special"] + " [ Ending 1 ]")
+                            self.setName("Summoner's Arc Chapter " + str(int(mapNumber) % 100) + " Special: " + mapName[mapNumber]["name"] + " - " + mapName[mapNumber]["special1"] + " [ Ending ]")
                         elif not (pageName.find("ex2_open") == -1):
                             self.setOrder(int(mapNumber)*1000+993)
                             self.setDirectory(pageName)
-                            self.setName("Summoner's Arc Chapter " + str(int(mapNumber) % 100) + " Special: " + mapName[mapNumber]["name"] + " - " + mapName[mapNumber]["special"] + " [ Opening 2 ]")
+                            self.setName("Summoner's Arc Chapter " + str(int(mapNumber) % 100) + " Special: " + mapName[mapNumber]["name"] + " - " + mapName[mapNumber]["special2"] + " [ Opening ]")
                         elif not (pageName.find("ex2_clear") == -1):
                             self.setOrder(int(mapNumber)*1000+994)
                             self.setDirectory(pageName)
-                            self.setName("Summoner's Arc Chapter " + str(int(mapNumber) % 100) + " Special: " + mapName[mapNumber]["name"] + " - " + mapName[mapNumber]["special"] + " [ Ending 2 ]")
+                            self.setName("Summoner's Arc Chapter " + str(int(mapNumber) % 100) + " Special: " + mapName[mapNumber]["name"] + " - " + mapName[mapNumber]["special2"] + " [ Ending ]")
                         elif not (pageName.find("ex_clear") == -1):
                             self.setOrder(int(mapNumber)*1000+995)
                             self.setDirectory(pageName)

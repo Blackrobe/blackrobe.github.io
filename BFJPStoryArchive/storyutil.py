@@ -325,21 +325,25 @@ mapName = {
             "7": "Elevated Station",
             "8": ""
         },
+        "special1": "EX1",
+        "special2": "EX2",
         "special": "Michele's Sepulcher",
         "name": "Bectas",
         "order": 101
     },
     "102": {
         "dungeon": {
-            "1": "Area 1",
-            "2": "Area 2",
-            "3": "Area 3",
-            "4": "Area 4",
-            "5": "Area 5",
-            "6": "Area 6",
-            "7": "Area 7",
-            "8": "Area 8"
+            "1": "Bariura Lake Castle",
+            "2": "Castle Road",
+            "3": "Snowstorm Woods",
+            "4": "Raujis Lake",
+            "5": "Mirage Snowfields",
+            "6": "Subzero Road",
+            "7": "Gallum Ice Ridge",
+            "8": "Mystical Wolf's Lair"
         },
+        "special1": "Divine Beast's Prison",
+        "special2": "Merciful Glory ",
         "special": "EX",
         "name": "Vilanciel",
         "order": 102
@@ -355,6 +359,8 @@ mapName = {
             "7": "Area 7",
             "8": "Area 8"
         },
+        "special1": "EX1",
+        "special2": "EX2",
         "special": "EX",
         "name": "Ohbanahara",
         "order": 103

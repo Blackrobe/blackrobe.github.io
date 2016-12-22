@@ -40,7 +40,7 @@
 *,type=PARAM,id=6,param=/event/navi_chara119_0.png,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=26,param=1,#
-*,type=PARAM,id=1,param=bg1:dungeon_battle_81014.jpg,#
+*,type=PARAM,id=1,param=bg1:dungeon_battle_81015.jpg,#
 *,type=PARAM,id=1,param=navi_chara50_0:navi_chara50_0.png,#
 *,type=PARAM,id=1,param=navi_chara50:navi_chara50.png,#
 *,type=PARAM,id=1,param=navi_chara50_1:navi_chara50_1.png,#
