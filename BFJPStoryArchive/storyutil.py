@@ -1,31 +1,31 @@
 arenaRankName = {
-    "01": "Novice (Japanese)",
+    "01": "Novice",
     "02": "Contender",
-    "03": "Duelist (Japanese)",
-    "04": "Berserker (Japanese)",
-    "05": "Sage (Japanese)",
-    "06": "Guardian (Japanese)",
-    "07": "Titan (Japanese)",
-    "08": "General (Japanese)",
-    "09": "Master (Japanese)",
-    "10": "Archfiend (Japanese)",
-    "11": "Ascended (Japanese)",
-    "12": "Celestial (Japanese)",
-    "13": "Apollo (Japanese)",
-    "14": "Phanes (Japanese)",
-    "15": "Eurynomos (Japanese)",
-    "16": "Emperor (Japanese)",
-    "17": "Suppressor (Japanese)",
-    "18": "Beam (Japanese)",
-    "19": "Barrager (Japanese)",
-    "20": "Heavenly Judge (Japanese)",
-    "21": "Gleaming God (Japanese)",
-    "22": "Slumber God (Japanese)",
-    "23": "Original God (Japanese)",
-    "24": "Darkstalker (Japanese)",
-    "25": "Ouranos (Japanese)",
-    "26": "Phoebus (Japanese)",
-    "27": "Athena (Japanese)"
+    "03": "Duelist",
+    "04": "Berserker",
+    "05": "Sage",
+    "06": "Guardian",
+    "07": "Titan",
+    "08": "General",
+    "09": "Master",
+    "10": "Archfiend",
+    "11": "Ascended",
+    "12": "Celestial",
+    "13": "Apollo",
+    "14": "Phanes",
+    "15": "Eurynomos",
+    "16": "Emperor",
+    "17": "Suppressor",
+    "18": "Beam",
+    "19": "Barrager",
+    "20": "Heavenly Judge",
+    "21": "Gleaming God",
+    "22": "Slumber God",
+    "23": "Original God",
+    "24": "Darkstalker",
+    "25": "Ouranos",
+    "26": "Phoebus",
+    "27": "Athena"
 }
 
 mapName = {
@@ -468,74 +468,223 @@ mapName = {
 
 grandQuestName = {
     "1": {
-        "name": "(Japanese) Demonic Agitation"
+        "name": "Demonic Agitation"
     },
     "2": {
-        "name": "(Japanese) Proud Soldier's Feast"
+        "name": "Proud Soldier's Feast"
     },
     "3": {
-        "name": "(Japanese) Cobalt Spirit's Waking"
+        "name": "Cobalt Spirit's Waking"
     },
     "4": {
-        "name": "(Japanese) The Crimson God's Cry"
+        "name": "The Crimson God's Cry"
     },
     "5": {
-        "name": "(Japanese) The Old Dawn General"
+        "name": "The Old Dawn General"
     },
     "6": {
-        "name": "(Japanese) Lin's Long Day"
+        "name": "Lin's Long Day"
     },
     "7": {
-        "name": "(Japanese) Virtual Garden"
+        "name": "Virtual Garden"
     },
     "8": {
-        "name": "(Japanese) Warped Reflection"
+        "name": "Warped Reflection"
     },
     "9": {
-        "name": "(Japanese) Gathering Hope"
+        "name": "Gathering Hope"
     },
     "10": {
-        "name": "(Japanese) Four Heroes of Palmyna"
+        "name": "Four Heroes of Palmyna"
     },
     "11": {
-        "name": "(Japanese) Ten-Winged Tormentor"
+        "name": "Ten-Winged Tormentor"
     },
     "12": {
         "name": ""
     },
     "13": {
-        "name": "(Japanese) Hopes and Regrets"
+        "name": "Hopes and Regrets"
     },
     "14": {
-        "name": "(Japanese) The Correct Path"
+        "name": "The Correct Path"
     },
     "15": {
         "name": ""
     },
     "16": {
-        "name": "(Japanese) Collaboration GQ with Shin Megami Tensei"
+        "name": "Collaboration GQ with Shin Megami Tensei"
     },
     "17": {
-        "name": "(Japanese) Entrusted Will"
+        "name": "Entrusted Will"
     },
     "18": {
         "name": "(Japanese) Collaboration GQ with Eagle Talon/Takanotsume"
     },
     "19": {
-        "name": "(Japanese) Sera's Grand Quest"
+        "name": "Sera's Grand Quest"
     },
     "20": {
         "name": "(Japanese) Heroes of Elgaia's Grand Quest"
     },
     "X1": {
-        "name": "(Japanese) The Tinkerer's Deceit"
+        "name": "The Tinkerer's Deceit"
     },
     "X2": {
-        "name": "(Japanese) Rih'alnase -- Genesis"
+        "name": "Rih'alnase -- Genesis"
     },
 }
 
+full_ills = {
+
+    #======================
+    # BRAVE FRONTIER JAPAN 
+    #======================
+
+    "navi_chara1": "http://i.imgur.com/CXKkw3X.png",
+    "navi_chara2": "http://i.imgur.com/h4yd8uW.png",
+    "navi_chara3": "http://i.imgur.com/SjueK8c.png",
+    "navi_chara4": "http://i.imgur.com/OVgKa0l.png",
+    "navi_chara5": "http://i.imgur.com/PZWh1tF.png",
+    "navi_chara6": "http://i.imgur.com/zsLacF6.png",
+    "navi_chara7": "http://i.imgur.com/SleuAHd.png",
+    "navi_chara8": "http://i.imgur.com/lZXxURz.png",
+    "navi_chara9": "http://i.imgur.com/GGYLlQ1.png",
+    "navi_chara10": "http://i.imgur.com/finJi4d.png",
+    "navi_chara11": "http://i.imgur.com/m5pCMgJ.png",
+    "navi_chara12": "http://i.imgur.com/qt2TqxA.png",
+    "navi_chara13": "http://i.imgur.com/8fowV0h.png",
+    "navi_chara14": "http://i.imgur.com/GbFQykt.png",
+    "navi_chara15": "http://i.imgur.com/Bc1c1qB.png",
+    "navi_chara16": "http://i.imgur.com/Ui3lhIr.png",
+    "navi_chara18": "http://i.imgur.com/Eue5HpB.png",
+    "navi_chara19": "http://i.imgur.com/fePmOnx.png",
+    "navi_chara20": "http://i.imgur.com/vEFHO89.png",
+    "navi_chara21": "http://i.imgur.com/myzBDkZ.png",
+    "navi_chara22": "http://i.imgur.com/8UJ3xI2.png",
+    "navi_chara23": "http://i.imgur.com/vKOpxJ4.png",
+    "navi_chara24": "http://i.imgur.com/ODe8xzK.png",
+    "navi_chara26": "http://i.imgur.com/dvcia8Y.png",
+    "navi_chara27": "http://i.imgur.com/QEwhDCb.png",
+    "navi_chara28": "http://i.imgur.com/YTUavY0.png",    
+    "navi_chara29": "http://i.imgur.com/0TwgoWJ.png",
+    "navi_chara30": "http://i.imgur.com/3iXVCZU.png",
+    "navi_chara32": "http://i.imgur.com/MnHOIYr.png",
+    "navi_chara33": "http://i.imgur.com/Ccdhw6O.png",
+    "navi_chara34": "http://i.imgur.com/kg5fWlL.png",
+    "navi_chara35": "http://i.imgur.com/O2c4BKw.png",
+    "navi_chara36": "http://i.imgur.com/ZRLG1mS.png",
+    "navi_chara37": "http://i.imgur.com/ynEfJPK.png",
+    "navi_chara38": "http://i.imgur.com/E7dwgLC.png",
+    "navi_chara39": "http://i.imgur.com/ijt4dmH.png",
+    "navi_chara40": "http://i.imgur.com/oJuzJMw.png",
+    "navi_chara41": "http://i.imgur.com/ZCG3Eqd.png",
+    "navi_chara42": "http://i.imgur.com/hqMPpmp.png",
+    "navi_chara43": "http://i.imgur.com/iuJ31LX.png",
+    "navi_chara44": "http://i.imgur.com/hWHolPc.png",
+    "navi_chara45": "http://i.imgur.com/4J949uh.png",
+    "navi_chara46": "http://i.imgur.com/e5zv4hc.png",
+    "navi_chara47": "http://i.imgur.com/zOdDW2c.png",
+    "navi_chara48": "http://i.imgur.com/SMeXcKY.png",
+    "navi_chara50": "http://i.imgur.com/kBZfBP7.png",
+    "navi_chara51": "http://i.imgur.com/L9KARyy.png",
+    "navi_chara52": "http://i.imgur.com/OOjc9af.png",
+    "navi_chara53": "http://i.imgur.com/oud5IW3.png",
+    "navi_chara54": "http://i.imgur.com/rI8Y37X.png",
+    "navi_chara55": "http://i.imgur.com/IaON2es.png",
+    "navi_chara56": "http://i.imgur.com/jk8ekPr.png",
+    "navi_chara57": "http://i.imgur.com/kDHOGqs.png",    
+    "navi_chara58": "http://i.imgur.com/nIrPmAc.png",
+    "navi_chara59": "http://i.imgur.com/U8JsJws.png",
+    "navi_chara60": "http://i.imgur.com/qIbREwG.png",
+    "navi_chara61": "http://i.imgur.com/C9jp4vx.png",
+    "navi_chara62": "http://i.imgur.com/itYJ6fj.png",
+    "navi_chara63": "http://i.imgur.com/BgWhwYc.png",
+    "navi_chara64": "http://i.imgur.com/vL8Dsga.png",
+    "navi_chara65": "http://i.imgur.com/6YOb8XU.png",
+    "navi_chara66": "http://i.imgur.com/LbXT56Q.png",
+    "navi_chara67": "http://i.imgur.com/oA9D5dJ.png",
+    "navi_chara68": "http://i.imgur.com/BCtLv0k.png",
+    "navi_chara69": "http://i.imgur.com/O6vlM9e.png",
+    "navi_chara70": "http://i.imgur.com/viPFq3O.png",
+    "navi_chara71": "http://i.imgur.com/ZkExuYV.png",
+    "navi_chara73": "http://i.imgur.com/qds7fgW.png",
+    "navi_chara74": "http://i.imgur.com/1RbHCse.png",
+    "navi_chara75": "http://i.imgur.com/x8fo5nu.png",
+    "navi_chara76": "http://i.imgur.com/SP2DGDe.png",
+    "navi_chara77": "http://i.imgur.com/0TEwyPJ.png",
+    "navi_chara78": "http://i.imgur.com/f9eZbMZ.png",
+    "navi_chara79": "http://i.imgur.com/iCmkgX9.png",
+    "navi_chara80": "http://i.imgur.com/5G3z2Ca.png",
+    "navi_chara81": "http://i.imgur.com/LtqrCpV.png",
+    "navi_chara82": "http://i.imgur.com/MNJ6onV.png",
+    "navi_chara83": "http://i.imgur.com/cY2V1a9.png",
+    "navi_chara84": "http://i.imgur.com/yBwwFMW.png",
+    "navi_chara85": "http://i.imgur.com/icHbdWD.png",
+    "navi_chara87": "http://i.imgur.com/lpNc8u2.png",
+    "navi_chara96": "http://i.imgur.com/qCflqmZ.png",
+    "navi_chara97": "http://i.imgur.com/0ETuoqY.png",
+    "navi_chara100": "http://i.imgur.com/52aFCdJ.png",
+    "navi_chara101": "http://i.imgur.com/n4pWkPV.png",
+    "navi_chara102": "http://i.imgur.com/74lX1pW.png",
+    "navi_chara103": "http://i.imgur.com/ZmLZnmu.png",
+    "navi_chara104": "http://i.imgur.com/xJPeKpR.png",
+    "navi_chara105": "http://i.imgur.com/bE1ouRw.png",
+    "navi_chara106": "http://i.imgur.com/pstdRvJ.png",
+    "navi_chara107": "http://i.imgur.com/vTteKcl.png",
+    "navi_chara108": "http://i.imgur.com/lvrwqT9.png",
+    "navi_chara109": "http://i.imgur.com/oikmX9W.png",
+    "navi_chara110": "http://i.imgur.com/4zJqN7F.png",
+    "navi_chara111": "http://i.imgur.com/66x9v0I.png",
+    "navi_chara112": "http://i.imgur.com/HTgpr2E.png",
+    "navi_chara113": "http://i.imgur.com/oROJqA5.png",
+    "navi_chara114": "http://i.imgur.com/KdxgRwB.png",
+    "navi_chara115": "http://i.imgur.com/BRzd8hE.png",
+    "navi_chara116": "http://i.imgur.com/pDCgvC9.png",
+    "navi_chara117": "http://i.imgur.com/hoaZRus.png",
+    "navi_chara118": "http://i.imgur.com/mH1dT8m.png",
+    "navi_chara119": "http://i.imgur.com/2rKwdqU.png",
+    "navi_chara120": "http://i.imgur.com/dJ3HmvV.png",
+    "navi_chara121": "http://i.imgur.com/5DaFbm4.png",
+    "navi_chara122": "http://i.imgur.com/rqjtwf5.png",
+    "navi_chara123": "http://i.imgur.com/gBQNDpg.png",
+    "navi_chara124": "http://i.imgur.com/781DNor.png",
+
+    #=======================
+    # BRAVE FRONTIER GLOBAL 
+    #=======================
+    
+    "navi_chara80016": "http://i.imgur.com/Yxn3pn3.png",
+    "navi_chara80025": "http://i.imgur.com/8iQ29zE.png",
+    "navi_chara80032": "http://i.imgur.com/mLQbLwX.png",
+    "navi_chara80033": "http://i.imgur.com/X8CwkqD.png",
+    "navi_chara80034": "http://i.imgur.com/5MOoHGo.png",
+    "navi_chara80035": "http://i.imgur.com/x35aR1z.png",
+    "navi_chara80036": "http://i.imgur.com/Vq7WojX.png",
+    "navi_chara80037": "http://i.imgur.com/vbFlxUG.png",
+    "navi_chara80038": "http://i.imgur.com/ZLwSPY7.png",
+    "navi_chara80039": "http://i.imgur.com/BxvlKWa.png",
+    "navi_chara80040": "http://i.imgur.com/WyJStne.png",
+    "navi_chara80041": "http://i.imgur.com/4uoeaL0.png",
+    "navi_chara80042": "http://i.imgur.com/Czl78Co.png",
+    "navi_chara80043": "http://i.imgur.com/JmQCk6L.png",
+    "navi_chara80046": "http://i.imgur.com/KWME5yf.png",
+    "navi_chara80047": "http://i.imgur.com/pm6hOA7.png",
+    "navi_chara80048": "http://i.imgur.com/prhxMuS.png",
+    "navi_chara80049": "http://i.imgur.com/EeVM9vL.png",
+    "navi_chara80050": "http://i.imgur.com/KX54a6c.png",
+    "navi_chara80051": "http://i.imgur.com/tsb940i.png",
+    "navi_chara80052": "http://i.imgur.com/YS9rVWE.png",
+    "navi_chara80053": "http://i.imgur.com/xWaszjH.png",
+    "navi_chara80054": "http://i.imgur.com/OC1bgm1.png",
+    "navi_chara80055": "http://i.imgur.com/J3drt4x.png"
+    
+    }
+    
+
 if __name__ == '__main__':
+
+    print "navi_chara80047" in full_ills
 
     '''
     import json

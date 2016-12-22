@@ -1,5 +1,7 @@
 # coding: utf-8
 
+from storyutil import full_ills
+
 navi_chara_collectionDirectory = "../../BFStoryArchive/BFStoryArchive/navi_chara_collection/"
 dungeon_battle_collectionDirectory = "../../BFStoryArchive/BFStoryArchive/dungeon_battle_collection/"
 story_txtDirectory = "BFJPStoryArchive/"
@@ -107,6 +109,7 @@ for currentTxt in currentTxtList:
     with codecs.open(currentTxt,'r',encoding='utf8') as f:
 
         alias = {}
+        full_illsStack = ["blank",]
         speakerFacePortraitStack = []
         speakerFacePortraitStack.append("blank.png")
         speakerName = ""
@@ -288,7 +291,18 @@ for currentTxt in currentTxtList:
                 outputLines.append("<img class=\"facePortraitFrame\" src=\""+navi_chara_collectionDirectory+"characterFrame.png\" />")
                 outputLines.append("<img class=\"facePortraitImg\" src=\"" + navi_chara_collectionDirectory + speakerFacePortraitStack[len(speakerFacePortraitStack)-1] + "\" />")                
                 outputLines.append("</div>")
-                outputLines.append("<div class=\"speakerName\">" + speakerName + "</div>")
+                if speakerFacePortraitStack[len(speakerFacePortraitStack)-1].find("blank") == -1:                    
+                    full_illsImage = speakerFacePortraitStack[len(speakerFacePortraitStack)-1][:-4].split("_")[0] + "_" + speakerFacePortraitStack[len(speakerFacePortraitStack)-1][:-4].split("_")[1]                    
+                else:
+                    full_illsImage = "ills_not_available"
+                if not full_illsImage in full_illsStack:
+                    full_illsStack.append(full_illsImage)
+                    if full_illsImage in full_ills:                        
+                        outputLines.append("<div class=\"speakerName\"><a href=\""+ full_ills[full_illsImage] +"\">" + speakerName + "</a></div>")
+                    else:                        
+                        outputLines.append("<div class=\"speakerName\">" + speakerName + "</div>")
+                else:                    
+                    outputLines.append("<div class=\"speakerName\">" + speakerName + "</div>")
                 outputLines.append("<div class=\"speakerMessage\">" + message + "</div>")
                 outputLines.append("</div>")
                 outputLines.append("<br>")                
