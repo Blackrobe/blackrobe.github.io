@@ -352,7 +352,7 @@ if __name__ == '__main__':
 
     outputLines = []
 
-    outputLines.append("<html>")
+    outputLines.append("<!DOCTYPE html>")
     outputLines.append("<head>")
     outputLines.append("<title>Brave Frontier Story Archive</title>")
     outputLines.append("<link rel=\"stylesheet\" type=\"text/css\" href=\"BFStoryArchive/style/style.css\">")
