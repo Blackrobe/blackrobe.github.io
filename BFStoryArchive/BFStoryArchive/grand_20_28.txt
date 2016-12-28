@@ -35,10 +35,10 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara85_2:-100:-70:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara85:-100:317:2:0.5,#
-*,type=PARAM,id=39,param=ドルク,#
+*,type=PARAM,id=39,param=Dolk,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=36,param=0.2:2:8:8,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=フンッ……！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Urgh!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara85_2:2:0.5,#
@@ -64,51 +64,51 @@
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara23_0:-180:-50:2:0.3,#
-*,type=PARAM,id=39,param=グレアム,#
+*,type=PARAM,id=39,param=Graham,#
 *,type=PARAM,id=36,param=0.1:3:8:8,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>………！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>...?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>予想以上にやりますねぇ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>You're better than I imagined...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>フム……<wait=30><br><speed=13>ここは１つ、<wait=20>退かせてもらいましょうか。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Hm. <wait=30><speed=13>I believe it's time for a strategic retreat.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=進んで強い者と戦うのは、<wait=20><br>私の趣味じゃありませんしね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=それにグランガイアには<wait=20><br>まだたくさんの人がいます。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=弱い者をいたぶる楽しみは、<wait=20><br>そちらで満喫しましょう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Volunteering for fights with strong foes isn't really my style.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=And there are still plenty of people left for me in Grand Gaia.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=There I can torment the weak as much as I want.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara23_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara85_0:-100:-70:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara85:-100:317:2:0.5,#
-*,type=PARAM,id=39,param=ドルク,#
+*,type=PARAM,id=39,param=Dolk,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>貴様……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>You monster...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara85_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara85:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara23_0:-180:-50:2:0.5,#
-*,type=PARAM,id=39,param=グレアム,#
+*,type=PARAM,id=39,param=Graham,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=あ、<wait=20>そうそう。<wait=20><br>私が誘導してきた神軍ですが、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=先行部隊が今頃、力なき民衆たちのもとに<wait=20><br>向かっているはずです。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Oh, I almost forgot. <wait=20>The God Army troops I led here...?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=The vanguard should be headed for those helpless civilians of yours, <wait=20>right about now.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=navi_chara23_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara85_2:-100:-70:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara85:-100:317:2:0.3,#
-*,type=PARAM,id=39,param=ドルク,#
+*,type=PARAM,id=39,param=Dolk,#
 *,type=PARAM,id=36,param=0.1:2:6:6,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>何……！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>What?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara85_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara85:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara23_0:-180:-50:2:0.5,#
-*,type=PARAM,id=39,param=グレアム,#
+*,type=PARAM,id=39,param=Graham,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=今からあなたが行って、<wait=20><br><speed=12>間に合いますかねぇ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=If you head that way now, <wait=20><speed=12>you might make it in time.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=まぁ、<wait=20>大切な人がそこにいるのであれば、<wait=20><br>向かうことをお勧めします。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Anyway, <wait=20>you really should make an effort.<wait=20> That is, if you care at all about any of them.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>クックックックッ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Hehehehe...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
@@ -125,21 +125,21 @@
 *,type=PLAYWAIT,param=1.5,#
 *,type=PARAM,id=2,param=navi_chara85_0:-100:-70:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara85:-100:317:2:0.5,#
-*,type=PARAM,id=39,param=ドルク,#
+*,type=PARAM,id=39,param=Dolk,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>……気味の悪いヤツだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>What a creep.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara85_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara85:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara85_4:-100:-70:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara85:-100:317:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=アイツの話、<wait=20><speed=12>嘘かもしれんが……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=That might have been a pack of lies, <speed=12>but...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara85_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara85:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara85_5:-100:-70:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara85:-100:317:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>民衆を見捨てられん……<wait=20><br><speed=12>急いで向かうか……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>...I can't turn my back on the people. <wait=20><speed=12>I have to hurry back to the group.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -152,4 +152,3 @@
 *,type=PARAM,id=43,param=BattleDungeon10200MagmaLightAddBack,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

@@ -29,9 +29,9 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara83_2:-180:-5:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara83:-180:141:2:0.3,#
-*,type=PARAM,id=39,param=エル,#
+*,type=PARAM,id=39,param=Eru,#
 *,type=PARAM,id=36,param=0.1:2:8:8,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>ハァッ……！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Hyah!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=34,param=bf223_se_dark3.mp3,#
@@ -55,14 +55,14 @@
 *,type=PARAM,id=2,param=navi_chara83:-180:141:2:1.5,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=エル,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>これで……<wait=20>全部か……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Eru,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Was that...<wait=20>all of them?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara83_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara83:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara83_1:-180:-5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara83:-180:141:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=……どうやら民衆への被害は、<wait=20><br>最小限に食い止められたようだな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It looks like I kept the civilian casualties to a bare minimum.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara83_1:2:0.5,#
@@ -85,23 +85,23 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara83_4:-180:-5:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara83:-180:141:2:0.3,#
-*,type=PARAM,id=39,param=エル,#
+*,type=PARAM,id=39,param=Eru,#
 *,type=PARAM,id=36,param=0.1:2:4:4,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>ムッ……<wait=20>この震動は……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Huh? <wait=20>These tremors...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara83_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara83:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara83_0:-180:-5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara83:-180:141:1:0.5,#
-*,type=PARAM,id=39,param=エル,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=向こうでも誰かが戦っているらしいな……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Eru,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Someone is fighting over there...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=アイツであれば放っておくまい。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=He would never just ignore it.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=どんな状況でも他人を見捨てない<wait=20><speed=11><br>アイツならばな……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=If it were him, <wait=20><speed=11>he would never turn his back on anyone, no matter the situation.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -114,4 +114,3 @@
 *,type=PARAM,id=43,param=BattleDungeon10100WindAddBack,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

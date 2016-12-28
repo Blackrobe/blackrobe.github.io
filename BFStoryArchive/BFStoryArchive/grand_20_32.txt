@@ -53,20 +53,20 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=33,param=bf013_map_wood.mp3,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=39,param=アヴァン,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……<wait=30><speed=8>静かに……<wait=20>なったな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Avant,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>It's...<wait=30><speed=8>quiet now.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>ヤツらはそろそろ……<wait=20>行った頃か……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I'm sure...they must have made it by now...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara87_3:2:0.5,#
 *,type=PARAM,id=3,param=navi_chara87:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=？？？,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>……あぁ……<wait=20>そうだな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=???,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Yeah, <wait=20>you're right.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>俺たちの為すべきことも……<wait=30><br><speed=10>終わったはずだ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>We've finished what we had to do.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1:0&0&0,#
@@ -93,39 +93,39 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara87_0:-240:-45:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara87:-240:113:2:0.5,#
-*,type=PARAM,id=39,param=アヴァン,#
+*,type=PARAM,id=39,param=Avant,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>貴様は……,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>You're...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>フッ……<wait=30><speed=11>そうか……。<wait=20><br><speed=12>お前も俺と同じというわけか……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Heh...<wait=30><speed=11>I see. <wait=20><speed=12>So you're the same as me.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara87_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara87:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara85_1:-100:-70:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara85:-100:317:2:0.5,#
-*,type=PARAM,id=39,param=ドルク,#
+*,type=PARAM,id=39,param=Dolk,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>俺はアイツに未来を託した……。<wait=20><br>何も……<wait=20>思い残すことはない……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I entrusted the future to him. <wait=20>I have no regrets.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara85_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara85:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara87_3:-240:-45:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara87:-240:113:2:0.5,#
-*,type=PARAM,id=39,param=アヴァン,#
+*,type=PARAM,id=39,param=Avant,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>俺たちがここで果てること……,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>それが……<wait=20><speed=11>最後の仕事っていうわけだ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Our deaths here...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>...<wait=20><speed=11>are our final tasks.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara87_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara87:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara85_3:-100:-70:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara85:-100:317:2:0.5,#
-*,type=PARAM,id=39,param=ドルク,#
+*,type=PARAM,id=39,param=Dolk,#
 *,type=PARAM,id=45,param=3,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>ちょうど良い……。<wait=20><br><speed=11>俺たちを看取る客も来たようだ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>And just in time...<wait=20><speed=11>it appears we have a visitor who wants to take care of us.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara85_3:2:0.5,#
 *,type=PARAM,id=3,param=navi_chara85:2:0.5,#
@@ -138,26 +138,26 @@
 *,type=PARAM,id=7,param=1:90&60&140,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=8,param=2:90&60&140,#
-*,type=PARAM,id=39,param=魔獣,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8><size=20>グワアアアアアァァァァ…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Demon,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8><size=20>*Graaaaaarrrrgh...*,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara87_0:-240:-45:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara87:-240:113:2:0.5,#
-*,type=PARAM,id=39,param=アヴァン,#
+*,type=PARAM,id=39,param=Avant,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>フッ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Hmph...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ならば、<wait=20>最期は派手に決めてやるか。<wait=20><br><speed=12>俺たちの最後の戦いをな……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Then we might as well make this a grand spectacle. <wait=20><speed=12>It will be our final battle, after all.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara87_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara87:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara85_1:-100:-70:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara85:-100:317:2:0.5,#
-*,type=PARAM,id=39,param=ドルク,#
+*,type=PARAM,id=39,param=Dolk,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>ああ、<wait=20>悔いの残らない……<wait=20><br><speed=11>死に場所にしてやろう……！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>Yeah, <wait=20>let's make this a place...<wait=20><speed=11>where we can die without regrets!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -170,4 +170,3 @@
 *,type=PARAM,id=43,param=BattleDungeon40300AnimalBack,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

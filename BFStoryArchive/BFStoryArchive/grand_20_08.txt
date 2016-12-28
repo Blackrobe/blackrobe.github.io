@@ -43,9 +43,9 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara79_2:18:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara79:18:170:2:0.5,#
-*,type=PARAM,id=39,param=ライン,#
+*,type=PARAM,id=39,param=Rhein,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>これで………<wait=30><speed=14>終わりだ！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>This...<wait=30><speed=14>should take care of things!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara79_2:2:0.5,#
 *,type=PARAM,id=3,param=navi_chara79:2:0.5,#
@@ -80,9 +80,9 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara79_0:18:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara79:18:170:2:0.5,#
-*,type=PARAM,id=39,param=ライン,#
+*,type=PARAM,id=39,param=Rhein,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=この辺一帯の神軍は、<wait=20><br><speed=12>どうやら殲滅できたようだな……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Looks like I was able to eliminate all the God Army forces near here, <wait=20><speed=12>somehow...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara79_0:2:0.5,#
@@ -90,14 +90,14 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=45,param=3,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=？？？,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=フッ、<wait=20>見事な腕前だな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=???,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Heh, <wait=20>such impressive skill.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara79_4:18:-5:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara79:18:170:2:0.3,#
-*,type=PARAM,id=39,param=ライン,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>…………！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Rhein,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Huh?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara79_4:2:0.5,#
@@ -110,93 +110,93 @@
 *,type=PARAM,id=2,param=navi_chara87:-240:113:2:2,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=アヴァン,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ここにいた敵は、<wait=20>すべてお前が倒したのか？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Avant,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Did you defeat all of the enemies that were here?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara87_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara87:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara79_4:18:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara79:18:170:2:0.5,#
-*,type=PARAM,id=39,param=ライン,#
+*,type=PARAM,id=39,param=Rhein,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>あ、<wait=20>ああ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>Uh, <wait=20>yeah...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>あんたは一体……？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Who are you...?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara79_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara79:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara87_0:-240:-45:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara87:-240:113:2:0.5,#
-*,type=PARAM,id=39,param=アヴァン,#
+*,type=PARAM,id=39,param=Avant,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>俺はアヴァン……<wait=20><speed=13>ただの戦士だ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>I am Avant, <wait=20><speed=13>a simple warrior.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=人々を救うため、<wait=20><br>民衆を導く者たちがいると聞き、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=その者たちを<wait=20><br><speed=12>手助けするためやって来た……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Hearing that there was a group leading the common people to safety, <wait=20>in order to save humanity...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...I have come here, <wait=20><speed=12>seeking to aid them.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=お前たちなんだろ？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=That would be your group, wouldn't it?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara87_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara87:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara79_0:18:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara79:18:170:2:0.5,#
-*,type=PARAM,id=39,param=ライン,#
+*,type=PARAM,id=39,param=Rhein,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ああ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Yeah.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara79_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara79:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara79_1:18:-5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara79:18:170:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=俺たちに協力してくれるのか？<wait=20><br>ならば、<wait=10><speed=11>一緒に……！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=You'll help us? <wait=10><speed=11>Then come with me!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara79_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara79:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara87_0:-240:-45:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara87:-240:113:2:0.5,#
-*,type=PARAM,id=39,param=アヴァン,#
+*,type=PARAM,id=39,param=Avant,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……<wait=30><speed=12>やめておこう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>I...<wait=30><speed=12>think I'll pass.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=navi_chara87_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara87:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara79_4:18:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara79:18:170:2:0.5,#
-*,type=PARAM,id=39,param=ライン,#
+*,type=PARAM,id=39,param=Rhein,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>え…？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Huh?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara79_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara79:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara87_3:-240:-45:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara87:-240:113:2:0.5,#
-*,type=PARAM,id=39,param=アヴァン,#
+*,type=PARAM,id=39,param=Avant,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>俺は戦うしか能がない人間だ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=しかも、<wait=20><speed=12>本当に守りたかった者を……<wait=30><br><speed=11>守れなかった……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>My only skill is in combat.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=And <wait=20><speed=12>I failed... <wait=30><speed=11>I failed those I truly sought to protect.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=俺みたいな者は、<wait=20>お前のような者たちに<br><speed=12>同行する資格は……<wait=30>ない。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Someone like me <wait=20><speed=12>has no right to accompany a group like yours.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara87_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara87:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara79_0:18:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara79:18:170:2:0.5,#
-*,type=PARAM,id=39,param=ライン,#
+*,type=PARAM,id=39,param=Rhein,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>資格……？<wait=20><br><speed=12>一体……<wait=20><speed=11>何を……？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>No right? <wait=20><speed=12>Wait, <wait=20><speed=11>what do you mean?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara79_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara79:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara87_0:-240:-45:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara87:-240:113:2:0.5,#
-*,type=PARAM,id=39,param=アヴァン,#
+*,type=PARAM,id=39,param=Avant,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>……すまない。<wait=20><br><speed=13>変なことを言ってしまったな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>お前が気にするようなことじゃないさ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I'm sorry. <wait=20><speed=13>I know I must sound insane.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>It's nothing you need to worry about, though.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=この地域の神軍は、<wait=20>俺に任せておけ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だからお前は、<wait=20><br><speed=11>民衆の……<wait=20><speed=13>仲間のもとに戻れ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Leave the God Army forces in this region to me.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=So you can...<wait=20><speed=11>go back to the people, <wait=20><speed=13>and to your comrades.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=お前のような奴は、<wait=20>進んで戦うよりも、<wait=20><br><speed=12>誰かを守って戦う方が合っている……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>Fighting to protect someone suits a man like you<wait=20> much better than just fighting to get ahead.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara87_0:2:2,#
@@ -206,16 +206,16 @@
 *,type=PLAYWAIT,param=1.5,#
 *,type=PARAM,id=2,param=navi_chara79_3:18:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara79:18:170:2:0.5,#
-*,type=PARAM,id=39,param=ライン,#
+*,type=PARAM,id=39,param=Rhein,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>あの男……<wait=30><speed=13>炎のような闘志の中に、<wait=20><br><speed=12>哀しみのようなものがあった……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>おそらく、<wait=20>俺などには想像もできない<wait=20><br>重荷を背負って生きているのだろう……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>That man... <wait=30><speed=13>I sensed something like grief in him, <wait=20><speed=12>buried within his burning will to fight.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I can't begin to imagine what sort of burden he must be living with...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara79_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara79:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara79_0:18:-5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara79:18:170:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>任務に戻ろう……。<wait=30><br>俺にはまだ<wait=20><speed=11>守るべき者がいるのだからな……,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>I'll get back to my mission. <wait=20><speed=11>I still have people I must keep safe.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -227,4 +227,3 @@
 *,type=PARAM,id=43,param=BattleDungeon10400LightAddBack,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

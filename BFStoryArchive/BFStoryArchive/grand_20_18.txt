@@ -31,18 +31,18 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara87_0:-240:-45:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara87:-240:113:2:0.5,#
-*,type=PARAM,id=39,param=アヴァン,#
+*,type=PARAM,id=39,param=Avant,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>…………！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Huh?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>神軍が仕掛けた罠か……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ならば、<wait=20>この近くで戦いが起きていたと<br><speed=12>考えるのが筋だろう……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>A trap laid by the God Army?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Then it would be logical to assume that there's a battle nearby...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara87_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara87:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara87_5:-240:-45:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara87:-240:113:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=このようなところで<wait=20><br><speed=12>時間を取られる訳にはいかないのだが……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I can't waste time in a place like this, <wait=20><speed=12>but...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -54,4 +54,3 @@
 *,type=PARAM,id=43,param=BattleDungeon10300CrystalTwinkleAddBack,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

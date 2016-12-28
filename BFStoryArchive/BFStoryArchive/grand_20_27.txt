@@ -32,19 +32,19 @@
 *,type=PARAM,id=2,param=navi_chara85:-100:317:2:2,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=ドルク,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=こんなところに人間の軍勢が……？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Dolk,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=A human army, here?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>そうか……<wait=20><br><speed=13>お前たちも俺と同じように,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=新天地を目指す民衆を守るため、<wait=20><br>戦っているのだな………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I see. <wait=20><speed=13>Just like me...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...you were fighting to protect the civilians headed for the promised land.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara85_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara85:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara85_1:-100:-70:1:2,#
 *,type=PARAM,id=2,param=navi_chara85:-100:317:1:2,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>フッ……<wait=30><speed=13>目的が同じならば、<wait=20><br>ともに戦わぬ理由はない。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Heh. <wait=30><speed=13>If our goals are the same, <wait=20>then there is no reason for me not to fight beside you.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ちょうどよく神軍も現れたようだしな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=And the God Army seems to have arrived right on time, as well.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara85_1:2:0.5,#
@@ -56,16 +56,16 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara85_0:-100:-70:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara85:-100:317:2:0.5,#
-*,type=PARAM,id=39,param=ドルク,#
+*,type=PARAM,id=39,param=Dolk,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ヴェーダ剣術とゼルバーンの名をアイツに<br>託した今、<wait=20><speed=12>俺にできるのは……,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Having entrusted the art of La Veda fencing and the name Zelban to him, <wait=20><speed=12>now all I can do is...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara85_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara85:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara85_2:-100:-70:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara85:-100:317:1:0.5,#
 *,type=PARAM,id=36,param=0.1:4:8:8,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>全力でこいつらを蹴散らすことのみ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>...crush these enemies with everything I have!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=45,param=3,#
@@ -101,14 +101,14 @@
 *,type=PARAM,id=2,param=navi_chara23_0:-180:-50:2:1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=グレアム,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……<wait=20><speed=13>おやおや。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=神軍の誘導も済んだので、<wait=20>高みの見物を<br><speed=12>決め込もうと思っていたのですが……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Graham,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8><wait=20><speed=13>My, my.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I was just going to keep an eye on everything from above, <wait=20><speed=12>since I'm finished with leading the God Army here...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=このような場所に<wait=20><br><speed=12>あんな方がおられては困りますね……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...but letting someone like that muck about will only cause trouble for me later.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=これ以上活躍されては、<wait=20><br>私の楽しみが削がれてしまいます。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=仕方ありません、<wait=30>少々面倒ですが、<wait=20><br><speed=11>眠ってもらいましょうかね……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=If he keeps on like this, <wait=20>it'll ruin my fun.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I have no choice. <wait=30>It's a bit of a bother, <wait=20><speed=11>but I'll have to put him to sleep.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -123,4 +123,3 @@
 *,type=PARAM,id=43,param=ゼブラ影2-2,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

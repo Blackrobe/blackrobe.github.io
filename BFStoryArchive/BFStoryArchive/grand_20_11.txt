@@ -33,13 +33,13 @@
 *,type=PARAM,id=2,param=navi_chara87:-240:113:2:2,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=アヴァン,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=最初に神軍ではなく、<wait=20><speed=11><br>人間側の軍勢と出会うとはな……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Avant,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I never imagined I would encounter human forces before running into the God Army.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>なるほど……。<wait=20><speed=13><br>この時期にここにいるということは、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=俺と同じく、<wait=20>逃亡する民衆たちを<wait=20><br>助けようと集まった者たちか……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I see. <wait=20><speed=13>For them to be here, now...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...then they must have gathered to protect the fleeing people, <wait=20>just as I did.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=目的が同じならばちょうど良い。<wait=20><br>お前たちに加勢してやろう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Perfect. We have a common goal. <wait=20>I will join your forces.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=45,param=3,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
@@ -47,8 +47,8 @@
 *,type=PARAM,id=3,param=navi_chara87:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=39,param=不気味な声,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>ほう……<wait=20><speed=13><br>このようなところに人間の軍がいるとはな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Eerie Voice,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Well, well... <wait=20><speed=13>I did not expect to find a whole human army here.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=34,param=bf303_se_magic.mp3,#
@@ -66,42 +66,42 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara87_0:-240:-45:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara87:-240:113:2:0.5,#
-*,type=PARAM,id=39,param=アヴァン,#
+*,type=PARAM,id=39,param=Avant,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……<wait=30><speed=13>お前は、味方ではなさそうだな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>You...<wait=30><speed=13>don't seem like an ally.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara87_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara87:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara19_0:-30:10:2:0.5,#
-*,type=PARAM,id=39,param=ザーグ,#
+*,type=PARAM,id=39,param=Zurg,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=我は真神アフラ・ディリス様が<br>神徒<wait=20>ザーグ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I am Zurg, <wait=20>disciple to the great Beast God, Afla Dilith.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ついでだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=力なき人間どもを虐殺する前に、<wait=20><br>まずは貴様らを血祭りにあげてやろう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Oh, and by the way...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...I am also the one who is going to drench the ground with your blood, <wait=20>before I go and slaughter those helpless humans.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara19_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara87_0:-240:-45:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara87:-240:113:2:0.5,#
-*,type=PARAM,id=39,param=アヴァン,#
+*,type=PARAM,id=39,param=Avant,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>……なるほど。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=お前を倒せば、<wait=20>民衆の脅威を<br>１つ減らすことができるというわけか。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I see.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=If I defeat you, <wait=20>that's one less threat to the civilians.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara87_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara87:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara19_0:-30:10:2:0.5,#
-*,type=PARAM,id=39,param=ザーグ,#
+*,type=PARAM,id=39,param=Zurg,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>我と戦うつもりなのか……？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>You intend to face me?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>愚かな……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Fool...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=いいだろう。<wait=20><br>神に逆らいし愚行は許されることはない。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Very well, then. <wait=20>Your foolish defiance of the gods cannot be tolerated.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara19_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara19_1:-30:10:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=神意を理解できぬ哀れな存在として、<wait=20><br>ここで滅びよ……！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=You will die here, <wait=20>nothing more than a pathetic mortal who cannot comprehend the will of the gods!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -115,4 +115,3 @@
 *,type=PARAM,id=43,param=ゼブラ影2-2,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

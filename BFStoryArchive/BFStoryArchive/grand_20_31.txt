@@ -91,10 +91,10 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara81_2:-70:-110:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara81:-70:109:2:0.5,#
-*,type=PARAM,id=39,param=ルカナ,#
+*,type=PARAM,id=39,param=Lucana,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=36,param=0.1:4:8:8,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><size=19>リベレイション！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><size=19>Liberation!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=navi_chara81_2:2:0.5,#
@@ -113,17 +113,17 @@
 *,type=PARAM,id=36,param=0.1:5:12:12,#
 *,type=PARAM,id=34,param=bf240_se_paralysis.mp3,#
 *,type=PARAM,id=8,param=0.5:255&255&0,#
-*,type=PARAM,id=39,param=魔獣,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><size=21>グワアアアァァァァァ…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Demon,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><size=21>*Graaaaaarrrrghhh...*,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara78_2:-30:-25:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:2:0.5,#
-*,type=PARAM,id=39,param=リード,#
+*,type=PARAM,id=39,param=Reed,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=36,param=0.1:4:8:8,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><size=19>リベラシオン・サーガ！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><size=19>Liberation Saga!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=36,param=0.2:3:10:10,#
@@ -156,45 +156,45 @@
 *,type=PARAM,id=8,param=2:255&0&0,#
 *,type=PARAM,id=3,param=navi_chara81_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara81:1:0.5,#
-*,type=PARAM,id=39,param=魔獣,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8><size=21>ガアアアアァァァァ…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Demon,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8><size=21>*Graaarrrrgh...*,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=36,param=0.2:9:12:12,#
 *,type=PARAM,id=34,param=bf214_se_tree3.mp3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10><size=20>ゴゴゴゴゴゴゴ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10><size=20>*Rumble* *rumble* *rumble...*,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1.5,#
 *,type=PARAM,id=2,param=navi_chara78_5:-30:-25:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:2:0.5,#
-*,type=PARAM,id=39,param=リード,#
+*,type=PARAM,id=39,param=Reed,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>なんとか撃退できたな……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Looks like we drove it off...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara78_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara81_1:-70:-110:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara81:-70:109:2:0.5,#
-*,type=PARAM,id=39,param=ルカナ,#
+*,type=PARAM,id=39,param=Lucana,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=うん、<wait=20>人々への被害も、<wait=20><br>ほとんど出なかったみたい。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Yes, <wait=20>and it seems like there were only a few casualties.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara81_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara81:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78_2:-30:-25:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:2:0.5,#
-*,type=PARAM,id=39,param=リード,#
+*,type=PARAM,id=39,param=Reed,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>よし、<wait=20>神軍が押し寄せて来る前に、<wait=20><br>民衆の移動を早めるぞ！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Okay, <wait=20>now we hurry and finish the evacuation before the God Army gets here!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara78_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara81_0:-70:-110:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara81:-70:109:2:0.5,#
-*,type=PARAM,id=39,param=ルカナ,#
+*,type=PARAM,id=39,param=Lucana,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>ええ！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Yes!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=45,param=3,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=2:0&0&0,#
@@ -207,158 +207,158 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara78_0:-30:-25:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:2:0.5,#
-*,type=PARAM,id=39,param=リード,#
+*,type=PARAM,id=39,param=Reed,#
 *,type=PLAYWAIT,param=1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=33,param=bf056_map_whitetower.mp3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……<wait=30><speed=13>これで全員だな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>And...<wait=30><speed=13>that's everyone.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara78_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara81_0:-70:-110:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara81:-70:109:2:0.5,#
-*,type=PARAM,id=39,param=ルカナ,#
+*,type=PARAM,id=39,param=Lucana,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……<wait=20>うん。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>Yeah.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara81_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara81:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78_0:-30:-25:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:2:0.5,#
-*,type=PARAM,id=39,param=リード,#
+*,type=PARAM,id=39,param=Reed,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>後はオレたちだけだ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>We're all that's left, now.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara78_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78_3:-30:-25:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>結局……<wait=20>みんなは戻ってこなかった……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>In the end, <wait=20>nobody came back to us.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara78_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara81_3:-70:-110:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara81:-70:109:2:0.5,#
-*,type=PARAM,id=39,param=ルカナ,#
+*,type=PARAM,id=39,param=Lucana,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>うん……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>I know...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara81_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara81:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78_3:-30:-25:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:2:0.5,#
-*,type=PARAM,id=39,param=リード,#
+*,type=PARAM,id=39,param=Reed,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>いつ神軍がやって来るかもわからない。<wait=20><br>オレたちはもう行くしかないんだよな……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>There's no telling when the God Army will get here. <wait=20>We have to go now, too...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara78_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara81_5:-70:-110:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara81:-70:109:2:0.5,#
-*,type=PARAM,id=39,param=ルカナ,#
+*,type=PARAM,id=39,param=Lucana,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara81_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara81:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78_3:-30:-25:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:2:0.5,#
-*,type=PARAM,id=39,param=リード,#
+*,type=PARAM,id=39,param=Reed,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>ルカナ……<wait=20>ごめん……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Lucana... <wait=20>I'm sorry.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara78_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara81_4:-70:-110:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara81:-70:109:2:0.5,#
-*,type=PARAM,id=39,param=ルカナ,#
+*,type=PARAM,id=39,param=Lucana,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>えっ……？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>Huh?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara81_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara81:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78_5:-30:-25:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:2:0.5,#
-*,type=PARAM,id=39,param=リード,#
+*,type=PARAM,id=39,param=Reed,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>オレは……<wait=30><speed=11><br>大事なものを守れなかった……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>It's my fault... <wait=30><speed=11>I failed to protect so many who were important.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara78_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78_3:-30:-25:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>民衆のために命を懸けて<wait=20><br>作戦を遂行させてくれたアーネル、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>旅の途中、<wait=20>斥候として何度も危機を<br>回避させてくれたライン、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>オレたちが危ない時、<wait=20><br>いつも現れて救ってくれたナグネス、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>そして……<wait=20><speed=11>俺に自分の命を懸けて、<wait=20><br>民衆の未来を託してくれたエル……,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Like Aneil, <wait=20>who risked his life for the people and saw the strategy through to the end...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>...and Rhein, <wait=20>who led us around danger time and again as our scout on the journey...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>...Nevsky, <wait=20>who always showed up and saved us when we were in danger...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>...and Eru, <wait=20><speed=11>who bet his life on me, <wait=20>and entrusted the people's future to my hands.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara78_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78_5:-30:-25:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>大切な仲間たちを……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>I failed our dear friends...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara78_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara81_5:-70:-110:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara81:-70:109:2:0.5,#
-*,type=PARAM,id=39,param=ルカナ,#
+*,type=PARAM,id=39,param=Lucana,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara81_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara81:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78_3:-30:-25:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:2:0.5,#
-*,type=PARAM,id=39,param=リード,#
+*,type=PARAM,id=39,param=Reed,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>誰１人欠けることなく……<wait=30><br><speed=13>そう言ったのはオレなのに……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>I said we weren't leaving a single man or woman behind...<wait=30><speed=13>and yet...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=36,param=0.1:5:10:10,#
 *,type=PARAM,id=3,param=navi_chara78_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78_2:-30:-25:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>結局、守ることができなかった……！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>...in the end, I still couldn't keep them safe!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara78_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78_5:-30:-25:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>新天地に行っても……<wait=20><br>この先、<wait=20>どんな顔をすればいいのか……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Even if I go to the promised land, <wait=20><wait=20>how am I supposed to face anyone?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara78_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara81_3:-70:-110:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara81:-70:109:2:0.5,#
-*,type=PARAM,id=39,param=ルカナ,#
+*,type=PARAM,id=39,param=Lucana,#
 *,type=PARAM,id=45,param=3,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>リード……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Reed...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara81_3:2:0.5,#
 *,type=PARAM,id=3,param=navi_chara81:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=39,param=？？？,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>弱音を吐くなんて、<wait=20>お前らしくもない。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=???,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>It's not like you to talk like that.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara78_4:-30:-25:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:2:0.3,#
-*,type=PARAM,id=39,param=リード,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=…………！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Reed,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Huh?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara78_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara81_4:-70:-110:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara81:-70:109:2:0.3,#
-*,type=PARAM,id=39,param=ルカナ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Lucana,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara81_4:2:0.5,#
@@ -376,18 +376,18 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara78_4:-30:-25:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:2:0.3,#
-*,type=PARAM,id=39,param=リード,#
+*,type=PARAM,id=39,param=Reed,#
 *,type=PARAM,id=36,param=0.1:2:6:6,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>エ、<wait=20>エル！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>E-<wait=20>Eru!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara78_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara83_1:-180:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara83:-180:141:2:0.5,#
-*,type=PARAM,id=39,param=エル,#
+*,type=PARAM,id=39,param=Eru,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=おっと、<wait=20>俺だけじゃないぜ？<wait=20><br>周りをよく見てみろよ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Now, now, <wait=20>it's not just me. <wait=20>Look around.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara83_1:2:0.5,#
@@ -416,177 +416,177 @@
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara78_4:-30:-25:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:2:0.3,#
-*,type=PARAM,id=39,param=リード,#
+*,type=PARAM,id=39,param=Reed,#
 *,type=PARAM,id=36,param=0.2:2:6:6,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>お前たち……！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>You guys...!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara78_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara79_1:18:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara79:18:170:2:0.5,#
-*,type=PARAM,id=39,param=ライン,#
+*,type=PARAM,id=39,param=Rhein,#
 *,type=PLAYWAIT,param=1,#
 *,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>……フッ、<wait=20><speed=13>必ず戻ると言ったろう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Hmph, <wait=20><speed=13>I said I'd be back, didn't I?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=トルティア武芸院で磨いたこの力を<wait=20><br>なめてもらっては困るな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It bothers me when you underestimate the power of the Toltya Dojo.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara79_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara79:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara80_6:-150:20:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara80:-150:217:2:0.5,#
-*,type=PARAM,id=39,param=アーネル,#
+*,type=PARAM,id=39,param=Aneil,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=僕はリードが民衆を<br>約束の地へ導くと信じていたよ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I believed that you would get the people to the promised land, Reed.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara80_6:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara80:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara80_1:-150:20:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara80:-150:217:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だからこそ、<wait=20><br>安心してここに来ることができたんだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=And it was that confidence that brought me here.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara80_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara80:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara82_0:-200:-60:2:0.5,#
-*,type=PARAM,id=39,param=ナグネス,#
+*,type=PARAM,id=39,param=Nevsky,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=私もこうなることを信じておりました。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I also believed the situation would unfold as it did.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ですが、<wait=20>私たちが不在時に負担をかけて<br>しまったようで……<wait=20><speed=11>申し訳ありません。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=However, <wait=20>it does seem that we have strained you with our absence. <wait=20><speed=11>I apologize for that.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara82_0:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara83_0:-180:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara83:-180:141:2:0.5,#
-*,type=PARAM,id=39,param=エル,#
+*,type=PARAM,id=39,param=Eru,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=これで再集結ってわけだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=And now we're reunited.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だから、お前たち２人だけじゃない。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=So it's not just you two now.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara83_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara83:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara83_1:-180:-5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara83:-180:141:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>……これからもな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>And it won't be from now on, either.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara83_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara83:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78_1:-30:-25:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:2:0.5,#
-*,type=PARAM,id=39,param=リード,#
+*,type=PARAM,id=39,param=Reed,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>エル……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Eru...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara78_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78_5:-30:-25:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=36,param=0.1:3:4:4,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>み、<wait=20>みんな……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>E-<wait=20>Everyone...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara78_5:1:0.3,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.3,#
 *,type=PARAM,id=2,param=navi_chara81_4:-70:-110:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara81:-70:109:2:0.5,#
-*,type=PARAM,id=39,param=ルカナ,#
+*,type=PARAM,id=39,param=Lucana,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=リード……？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Reed?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara81_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara81:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara80_4:-150:20:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara80:-150:217:2:0.5,#
-*,type=PARAM,id=39,param=アーネル,#
+*,type=PARAM,id=39,param=Aneil,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=36,param=0.1:2:4:4,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>ちょ、<wait=20>ちょっとリード！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>H-<wait=20>Hey, Reed!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>急に泣かないでよ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Don't start crying out of nowhere on us!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara80_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara80:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78_5:-30:-25:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:2:0.5,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=39,param=リード,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>泣いてないさ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Reed,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I'm not crying.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>無事に辿り着けたことに……<wait=20><br><speed=13>いまさら感動したんだ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>It just hit me...<wait=20><speed=13>how we all made it here alive.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara78_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara79_1:18:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara79:18:170:2:0.5,#
-*,type=PARAM,id=39,param=ライン,#
+*,type=PARAM,id=39,param=Rhein,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>……お前にしては、<wait=20><br>随分と強引な言い訳だな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>You're not fooling us, Reed.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara79_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara79:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara83_1:-180:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara83:-180:141:2:0.5,#
-*,type=PARAM,id=39,param=エル,#
+*,type=PARAM,id=39,param=Eru,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>……フッ、<wait=20><speed=13>素直じゃないヤツめ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Heh, <wait=20><speed=13>you can be honest.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara83_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara83:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara81_1:-70:-110:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara81:-70:109:2:0.5,#
-*,type=PARAM,id=39,param=ルカナ,#
+*,type=PARAM,id=39,param=Lucana,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=フフッ……<wait=30><speed=9>リードったら……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Hehe... <wait=30><speed=9>Oh, Reed.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara81_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara81:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara81_0:-70:-110:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara81:-70:109:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>でも良かった……<wait=20><speed=10>本当に……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Still, I'm so glad. <wait=20><speed=10>So very glad...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>新天地……<wait=30><speed=13>何があるかわからないけど、<wait=20><br>私たちがみんな一緒なら、<wait=20>きっと大丈夫ね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>We may not know what awaits us in the promised land, <wait=30><speed=13>but I'm sure we'll be able to handle it together.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara81_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara81:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78_1:-30:-25:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:2:0.5,#
-*,type=PARAM,id=39,param=リード,#
+*,type=PARAM,id=39,param=Reed,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ああ、<wait=20>その通りだ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Yeah, <wait=20>you got that right!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara78_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara83_1:-180:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara83:-180:141:2:0.5,#
-*,type=PARAM,id=39,param=エル,#
+*,type=PARAM,id=39,param=Eru,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>まったくお前は……。<wait=20><br><speed=13>立ち直りが早い奴だ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Reed, you're weird. <wait=20><speed=13>It's not normal to cheer up that quickly.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=先ほどまでは、<wait=20><br>目に涙を浮かべていたというのに……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Just a second ago, <wait=20>you were sobbing your eyes out.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara83_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara83:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78_4:-30:-25:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:2:0.5,#
-*,type=PARAM,id=39,param=リード,#
+*,type=PARAM,id=39,param=Reed,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=36,param=0.1:2:4:4,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=エ、<wait=20>エル！<wait=20><br>そのことは言うなよな！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Sh-<wait=20>Shut up, Eru!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara78_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara81_1:-70:-110:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara81:-70:109:2:0.5,#
-*,type=PARAM,id=39,param=ルカナ,#
+*,type=PARAM,id=39,param=Lucana,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>フフッ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Hehe...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara81_1:2:0.5,#
@@ -594,175 +594,175 @@
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara82_0:-200:-60:2:0.5,#
-*,type=PARAM,id=39,param=ナグネス,#
+*,type=PARAM,id=39,param=Nevsky,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=45,param=4,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=アーネル……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=私たちを助けてくれた、<wait=20><speed=11>あの方を……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Aneil...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=That man...<wait=20><speed=11>the one who helped us...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara82_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara80_0:-150:20:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara80:-150:217:2:0.5,#
-*,type=PARAM,id=39,param=アーネル,#
+*,type=PARAM,id=39,param=Aneil,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=うん、<wait=20>わかってる……。<wait=20><br><speed=11>僕も同じことを思ってた……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Yeah, <wait=20>I know. <wait=20><speed=11>I was thinking the same thing.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara80_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara80:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara81_4:-70:-110:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara81:-70:109:2:0.5,#
-*,type=PARAM,id=39,param=ルカナ,#
+*,type=PARAM,id=39,param=Lucana,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=どうしたの、<wait=20>２人とも？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=What are you talking about?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara81_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara81:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara80_2:-150:20:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara80:-150:217:2:0.5,#
-*,type=PARAM,id=39,param=アーネル,#
+*,type=PARAM,id=39,param=Aneil,#
 *,type=PLAYWAIT,param=1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=33,param=bf041_map_jewrel.mp3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>リード……<wait=30><br><speed=13>いや、<wait=20>みんなにお願いがあるんだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Reed, I... <wait=30><speed=13>No, everyone, <wait=20>I need to ask for a favor.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara80_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara80:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78_4:-30:-25:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:2:0.5,#
-*,type=PARAM,id=39,param=リード,#
+*,type=PARAM,id=39,param=Reed,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ん、<wait=20>お願い……？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=A favor?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara78_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara80_0:-150:20:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara80:-150:217:2:0.5,#
-*,type=PARAM,id=39,param=アーネル,#
+*,type=PARAM,id=39,param=Aneil,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=うん、<wait=20>実は僕たちが窮地に陥った時に、<wait=20><br>助けてくれた人がいたんだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Yes. <wait=20>The truth is, <wait=20>we got into trouble, and there was someone who saved us.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=その人は今も、<wait=20><speed=11><br>神軍と戦っているかもしれない……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Even now, <wait=20><speed=11>there's a chance that he's still fighting the God Army.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara80_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara80:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara80_3:-150:20:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara80:-150:217:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>もう時間がないのは分かっている……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I know we're out of time.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>でも……<wait=20><speed=13>できればその人のことも<br>救ってあげたいんだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>But...<wait=20><speed=13>I want to save him too, if I can.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara80_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara80:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara82_0:-200:-60:2:0.5,#
-*,type=PARAM,id=39,param=ナグネス,#
+*,type=PARAM,id=39,param=Nevsky,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=その方はとてつもない強さを持ちながら、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>自ら死に向かって<wait=20><br>歩んでいるように感じられました……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Our rescuer had unimaginable power...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>...but<wait=20> seemed as though he was marching toward his own death.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>おそらく、<wait=20><br>進んでここに来ることはないかと……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I doubt that he would come here on his own.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara82_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78_3:-30:-25:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:2:0.5,#
-*,type=PARAM,id=39,param=リード,#
+*,type=PARAM,id=39,param=Reed,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>そんな人が……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>So that's the kind of person we're dealing with...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara78_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara79_0:18:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara79:18:170:2:0.5,#
-*,type=PARAM,id=39,param=ライン,#
+*,type=PARAM,id=39,param=Rhein,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=俺もある男に助けられた。<wait=20><speed=11><br>炎のような闘志をまとったヤツに……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=A man saved me, too. <wait=20><speed=11>His warrior spirit burned like a flame.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara79_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara79:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara80_4:-150:20:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara80:-150:217:2:0.5,#
-*,type=PARAM,id=39,param=アーネル,#
+*,type=PARAM,id=39,param=Aneil,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ラインさんも……！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=You too, Rhein?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara80_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara80:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara79_3:18:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara79:18:170:2:0.5,#
-*,type=PARAM,id=39,param=ライン,#
+*,type=PARAM,id=39,param=Rhein,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>あの男は深い悲しみを抱えていた……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>He had a deep sadness within him...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara79_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara79:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara79_0:18:-5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara79:18:170:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>おそらくは、<wait=20><br>２人を助けた者と同一人物だろう……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I think he was probably the same man who saved you two.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara79_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara79:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara83_0:-180:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara83:-180:141:2:0.5,#
-*,type=PARAM,id=39,param=エル,#
+*,type=PARAM,id=39,param=Eru,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>俺はある老剣士に救われた……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>An old swordsman saved me...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=生きているなら、<br><wait=20>まだ役目は終わっていない。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=He scolded me,<wait=20> saying my work wasn't done...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara83_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara83:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara83_3:-180:-5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara83:-180:141:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>……そう叱られたよ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>...not if I was still alive.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara83_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara83:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara83_5:-180:-5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara83:-180:141:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>生きていればいいが……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I hope he survived, but...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara83_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara83:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78_3:-30:-25:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:2:0.5,#
-*,type=PARAM,id=39,param=リード,#
+*,type=PARAM,id=39,param=Reed,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>そうか……<wait=30><speed=13>オレとルカナは、<br>お前たち４人に救われたと思っていた。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>I see... <wait=30><speed=13>Lucana and I thought it was the four of you who saved us all...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara78_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78_5:-30:-25:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だが、そうじゃない。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>もっと多くの者に支えられて、<wait=20><br>旅を続けていたんだな……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=But that wasn't the case.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Actually, <wait=20>there were even more people who supported us and allowed us to continue on our journey.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara78_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara81_2:-70:-110:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara81:-70:109:2:0.5,#
-*,type=PARAM,id=39,param=ルカナ,#
+*,type=PARAM,id=39,param=Lucana,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=リード……！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Reed...!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara81_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara81:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78_1:-30:-25:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:2:0.5,#
-*,type=PARAM,id=39,param=リード,#
+*,type=PARAM,id=39,param=Reed,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=分かっている。<wait=20><br>もちろん助けに行くさ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I know. <wait=20>Of course we're going to go to their aid!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara78_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78_0:-30:-25:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=誰一人欠けることなく全員を助けたい……,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I'm not leaving a single man or woman behind...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara78_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara78:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78_2:-30:-25:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara78:-30:170:1:0.5,#
 *,type=PARAM,id=36,param=0.1:4:4:4,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>その思いは変わってないからな！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Nothing will ever change my mind!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
@@ -776,4 +776,3 @@
 *,type=PARAM,id=43,param=BattleDungeon10100WindAddBack,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

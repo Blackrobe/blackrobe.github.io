@@ -43,16 +43,16 @@
 *,type=PARAM,id=3,param=navi_chara83:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara83_5:-180:-5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara83:-180:141:1:0.5,#
-*,type=PARAM,id=39,param=エル,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>クソッ……<wait=20><speed=13><br>やはり俺たちは狙われているようだな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=これほどの敵の数、<wait=20><br>いつ湧いてきたんだ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Eru,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Argh... <wait=20><speed=13>So they really are after us.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=How did so many of them get here without our noticing?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara83_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara83:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara83_2:-180:-5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara83:-180:141:1:0.5,#
 *,type=PARAM,id=36,param=0.1:6:8:8,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><size=19>ファントムエリミネイター！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><size=19>Phantom Eliminator!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=34,param=bf223_se_dark3.mp3,#
@@ -73,15 +73,15 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara83_0:-180:-5:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara83:-180:141:2:0.3,#
-*,type=PARAM,id=39,param=エル,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だが、<wait=20>いくら押し寄せようとも、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>民衆には……<wait=30><speed=14>バリウラの民には、<wait=20><br>指一本触れさせん！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Eru,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=No matter how many of you come at me...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>...<wait=30><speed=14>I'm not letting you lay a finger on anyone...<wait=20>not one of the people of Bariura!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara83_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara83:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara83_2:-180:-5:1:0.3,#
 *,type=PARAM,id=2,param=navi_chara83:-180:141:1:0.3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=民衆が……<wait=30><speed=14>バリウラの民が逃げる時間は、<wait=20><br>絶対に俺が作ってみせる……！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I'll make sure they have enough time to escape <wait=30><speed=14>and be free!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -94,4 +94,3 @@
 *,type=PARAM,id=43,param=BattleDungeon10100WindAddBack,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

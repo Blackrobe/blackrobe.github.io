@@ -27,13 +27,13 @@
 *,type=PARAM,id=2,param=navi_chara87:-240:113:2:2,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=アヴァン,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=最初に神軍ではなく、<wait=20><speed=11><br>人間側の軍勢と出会うとはな……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Avant,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I never imagined I would encounter human forces before running into the God Army.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>なるほど……。<wait=20><speed=13><br>この時期にここにいるということは、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=俺と同じく、<wait=20>逃亡する民衆たちを<wait=20><br>助けようと集まった者たちか……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I see. <wait=20><speed=13>For them to be here, now...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...they must have gathered to protect the fleeing people, <wait=20>just as I did.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=目的が同じならばちょうど良い。<wait=20><br>お前たちに加勢してやろう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Perfect. We have a common goal. <wait=20>I will join your forces.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=45,param=3,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
@@ -43,23 +43,23 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=36,param=0.2:9:12:12,#
 *,type=PARAM,id=34,param=bf214_se_tree3.mp3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8><size=21>ドドドドドドドド…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8><size=21>*Rumble* *rumble* *rumble...*,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=33,param=bf006_btl_boss.mp3,#
 *,type=PARAM,id=2,param=navi_chara87_0:-240:-45:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara87:-240:113:2:0.5,#
-*,type=PARAM,id=39,param=アヴァン,#
+*,type=PARAM,id=39,param=Avant,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=どうやら神軍がやって来たようだな……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It would appear the God Army has arrived.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara87_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara87:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara87_2:-240:-45:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara87:-240:113:1:0.5,#
 *,type=PARAM,id=36,param=0.1:3:8:8,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>迎え撃つぞ！<wait=20><br>１人たりとも民衆のもとへ向かわせるな！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Let's meet them head-on! <wait=20>Don't let a single one get through to the people!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
@@ -72,4 +72,3 @@
 *,type=PARAM,id=43,param=BattleDungeon10400LightAddBack,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

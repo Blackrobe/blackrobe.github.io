@@ -531,7 +531,7 @@ grandQuestName = {
         "name": "Sera's Grand Quest"
     },
     "20": {
-        "name": "(Japanese) Heroes of Elgaia's Grand Quest"
+        "name": "Those Who Lead"
     },
     "X1": {
         "name": "The Tinkerer's Deceit"

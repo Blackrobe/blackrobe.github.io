@@ -38,9 +38,9 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara79_5:18:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara79:18:170:2:0.5,#
-*,type=PARAM,id=39,param=ライン,#
+*,type=PARAM,id=39,param=Rhein,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>ハァ……<wait=20>ハァ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>*Gasp...* <wait=20>*pant...*,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara79_5:2:0.5,#
 *,type=PARAM,id=3,param=navi_chara79:2:0.5,#
@@ -54,8 +54,8 @@
 *,type=PARAM,id=2,param=navi_chara19_0:-30:10:1:0.5,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=ザーグ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>クッ……<wait=30><br><speed=12>この<speed=13>死にぞこないが……！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Zurg,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=9>Argh... <wait=30><speed=12>Why <speed=13>won't you die?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara19_0:2:0.5,#
@@ -75,8 +75,8 @@
 *,type=PARAM,id=8,param=0.3:255&40&40,#
 *,type=PARAM,id=2,param=navi_chara79_5:18:-5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara79:18:170:1:0.5,#
-*,type=PARAM,id=39,param=ライン,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=グハッ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Rhein,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Gragh...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
@@ -84,44 +84,44 @@
 *,type=PARAM,id=3,param=navi_chara79:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara19_0:-30:10:2:0.5,#
-*,type=PARAM,id=39,param=ザーグ,#
+*,type=PARAM,id=39,param=Zurg,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=人の身でありながら、<wait=20><br>よく戦ったと褒めてやろう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=褒美として、<wait=20><br><speed=11>貴様に絶望をくれてやる……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I must compliment you on fighting so well with a mere mortal body.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=As a reward, <wait=20><speed=11>I offer you despair.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=貴様は、<wait=20>ここにいる軍勢を倒し、<wait=20><br>我らの奇襲を防いだつもりなのだろう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だが、<wait=20>それは大きな思い違いというものだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=You probably think by defeating my troops here that you've saved your friends.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=However, <wait=20>you are deeply mistaken.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=貴様らを奇襲すべく軍勢は、<wait=20><br>この先で別に控えている。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Other forces lie in wait past here, <wait=20>set to ambush your group.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara19_0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara19_1:-30:10:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>どちらにしろ、<wait=20><br>貴様たち人間は、<wait=20><speed=11>これで終わりよ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>One way or another, <wait=20><speed=11>this is the end for humanity.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara19_1:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara79_5:18:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara79:18:170:2:0.5,#
-*,type=PARAM,id=39,param=ライン,#
+*,type=PARAM,id=39,param=Rhein,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara79_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara79:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara19_0:-30:10:2:0.5,#
-*,type=PARAM,id=39,param=ザーグ,#
+*,type=PARAM,id=39,param=Zurg,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=話す気力もないか……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Lost the will to speak, I see.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=フン、<wait=20><speed=12>死にぞこないに用はない…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Hmph, <wait=20><speed=12>I have no business with half-dead things like you.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>ここでの戦いは我らの勝利に決した……！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ならば、<wait=20>我はほかの場所で<wait=20><br><speed=11>人間どもを狩るとするか……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>I claim this a victory for the God Army!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=On that note,<wait=20><speed=11> I may as well hunt more humans elsewhere...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara19_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara19_1:-30:10:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>クックックッ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Hehehe...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=45,param=3,#
 *,type=PLAYWAIT,param=1,#
@@ -137,20 +137,20 @@
 *,type=PLAYWAIT,param=2,#
 *,type=PARAM,id=2,param=navi_chara79_5:18:-5:2:2,#
 *,type=PARAM,id=2,param=navi_chara79:18:170:2:2,#
-*,type=PARAM,id=39,param=ライン,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>………<wait=20><speed=9>クッ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Rhein,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8><wait=20><speed=9>Argh...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=33,param=bf061_narasta.mp3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>戦いは……<wait=20><br>決してなど……<wait=30>いない！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>そして……<wait=20><br>俺は……<wait=30><speed=13>絶望などしていない……！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>This battle...<wait=20>isn't...<wait=30>over!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>My situation...<wait=30><speed=13>isn't hopeless!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara79_5:1:2,#
 *,type=PARAM,id=3,param=navi_chara79:1:2,#
 *,type=PARAM,id=2,param=navi_chara79_2:18:-5:1:2,#
 *,type=PARAM,id=2,param=navi_chara79:18:170:1:2,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>俺が最後にすべきことは……！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>There's still one last thing I must do!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara79_2:2:2,#
@@ -183,8 +183,8 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara79_3:18:-5:2:1,#
 *,type=PARAM,id=2,param=navi_chara79:18:170:2:1,#
-*,type=PARAM,id=39,param=ライン,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>ハァ……<wait=20>ハァ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Rhein,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>*Gasp...* <wait=20>*pant...*,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=36,param=0.1:8:10:10,#
 *,type=PARAM,id=8,param=1:255&40&40,#
@@ -192,37 +192,37 @@
 *,type=PARAM,id=3,param=navi_chara79:1:2,#
 *,type=PARAM,id=2,param=navi_chara79_5:18:-5:1:2,#
 *,type=PARAM,id=2,param=navi_chara79:18:170:1:2,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>グハッ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>Gragh...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara79_5:1:2,#
 *,type=PARAM,id=3,param=navi_chara79:1:2,#
 *,type=PARAM,id=2,param=navi_chara79_3:18:-5:1:2,#
 *,type=PARAM,id=2,param=navi_chara79:18:170:1:2,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>これで……<wait=20>この場所での神軍は……<wait=20><br>すべて……<wait=20>殲滅……<wait=20>した……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>That...<wait=20>takes care of...<wait=20>the God Army here...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=36,param=0.1:2:8:8,#
 *,type=PARAM,id=3,param=navi_chara79_3:1:2,#
 *,type=PARAM,id=3,param=navi_chara79:1:2,#
 *,type=PARAM,id=2,param=navi_chara79_5:18:-5:1:2,#
 *,type=PARAM,id=2,param=navi_chara79:18:170:1:2,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ウッ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Urgh...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>みんなが…<wait=20>救われた…<wait=30><br><speed=10>俺は……<wait=20>それ…<wait=20>だけで……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Everyone's saved. <wait=30><speed=10>And for me, <wait=20>that's enough...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara79_5:1:2,#
 *,type=PARAM,id=3,param=navi_chara79:1:2,#
 *,type=PARAM,id=2,param=navi_chara79_3:18:-5:1:2,#
 *,type=PARAM,id=2,param=navi_chara79:18:170:1:2,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>リード…<wait=20>頼むぞ……。<wait=30><br><speed=10>お前が…<wait=20>未来を……<wait=20>切り…<wait=20>拓くんだ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Reed, <wait=20>I'm counting on you. <wait=30><speed=10>Show them the way to the future...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara79_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara79:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara79_1:18:-5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara79:18:170:1:0.5,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>この…<wait=20>力…<wait=30>最後に…<wait=20>正しき…<wait=20>ことに…<wait=20><br>使え…<wait=20>て……<wait=20><speed=8>よかっ……<wait=20>た…。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>I'm glad I got to use this power...<wait=20><speed=8>for good...<wait=30>in the end...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=34,param=bf245_se_death_boss.mp3,#
@@ -237,4 +237,3 @@
 *,type=PARAM,id=43,param=BattleDungeon102100LightAddBack,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

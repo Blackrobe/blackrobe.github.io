@@ -32,19 +32,19 @@
 *,type=PARAM,id=2,param=navi_chara85:-100:317:2:2,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=ドルク,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=こんなところに人間の軍勢が……？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Dolk,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=A human army, here?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>そうか……<wait=20><br><speed=13>お前たちも俺と同じように,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=新天地を目指す民衆を守るため、<wait=20><br>戦っているのだな………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I see. <wait=20><speed=13>Just like me...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...you were fighting to protect the civilians headed for the promised land.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara85_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara85:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara85_1:-100:-70:1:2,#
 *,type=PARAM,id=2,param=navi_chara85:-100:317:1:2,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>フッ……<wait=30><speed=13>目的が同じならば、<wait=20><br>ともに戦わぬ理由はない。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Heh. <wait=30><speed=13>If our goals are the same, <wait=20>then there is no reason for me not to fight beside you.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ちょうどよく神軍も現れたようだしな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=And the God Army seems to have arrived right on time as well.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara85_1:2:0.5,#
@@ -56,25 +56,25 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara85_0:-100:-70:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara85:-100:317:2:0.5,#
-*,type=PARAM,id=39,param=ドルク,#
+*,type=PARAM,id=39,param=Dolk,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ヴェーダ剣術とゼルバーンの名をアイツに<br>託した今、<wait=20><speed=12>俺にできるのは……,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Having entrusted the art of La Veda fencing and the name Zelban to him, <wait=20><speed=12>now all I can do is...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>全力でこいつらを蹴散らすことのみ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>...crush these enemies with everything I have!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=45,param=3,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara85_0:2:0.5,#
 *,type=PARAM,id=3,param=navi_chara85:2:0.5,#
 *,type=STOP,id=-1,#
-*,type=PARAM,id=39,param=不気味な声,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>さすがは伝説の老剣士……<wait=30><br><speed=13>勇ましいことですねえ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Eerie Voice,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>As expected of the legendary swordsman... <wait=30><speed=13>How gallant.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara85_2:-100:-70:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara85:-100:317:2:0.3,#
-*,type=PARAM,id=39,param=ドルク,#
+*,type=PARAM,id=39,param=Dolk,#
 *,type=PARAM,id=36,param=0.1:3:8:8,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>誰だ……！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Who are you?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
@@ -90,42 +90,42 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=33,param=bf027_map_god.mp3,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=グレアム,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=お初にお目にかかります。<wait=20><br>私は、<wait=20>魔神グレアムと申します。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Graham,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It is a pleasure to meet you. <wait=20>I am the demon, Graham.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara23_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara85_0:-100:-70:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara85:-100:317:2:0.5,#
-*,type=PARAM,id=39,param=ドルク,#
+*,type=PARAM,id=39,param=Dolk,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=貴様……<wait=30>神軍か！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=You're with the God Army?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara85_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara85:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara23_0:-180:-50:2:0.5,#
-*,type=PARAM,id=39,param=グレアム,#
+*,type=PARAM,id=39,param=Graham,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=神軍の一員かと言えば、<wait=20><br><speed=11>私はちょっと違うんですが……,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=If you mean, am I a member of the God Army, <wait=20><speed=11>then no, not quite.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=まあ、<wait=20>あなた方にとっては、<wait=20><br>そう思ってもらって差し支えありません。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Although, <wait=20>it doesn't bother me if you choose to think of me as such.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara23_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara85_2:-100:-70:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara85:-100:317:2:0.5,#
-*,type=PARAM,id=39,param=ドルク,#
+*,type=PARAM,id=39,param=Dolk,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>神軍ならば……<wait=30><speed=14>倒すのみ！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>If you're with the God Army, <wait=30><speed=14>then I have to defeat you!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara85_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara85:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara23_0:-180:-50:2:0.5,#
-*,type=PARAM,id=39,param=グレアム,#
+*,type=PARAM,id=39,param=Graham,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>おお、怖い！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Ohh, scary!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=怖いですから、<wait=20>ここはまず私が誘導してきた<br>神軍の方々に頑張って貰いましょうかね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=You're so frightening that I'll have to put the God Army troops I led here to work <wait=20>while I build up my courage.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>クックックックッ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Hehehehe...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -137,4 +137,3 @@
 *,type=PARAM,id=43,param=BattleDungeon10200FireAddFront,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-
