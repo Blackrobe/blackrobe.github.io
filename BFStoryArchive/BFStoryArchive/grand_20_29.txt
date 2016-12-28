@@ -239,6 +239,7 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=36,param=0.1:18:15:10,#
 *,type=PARAM,id=34,param=bf215_se_thunder1.mp3,#
+*,type=PARAM,id=3,param=navi_chara78_1:2:0.5,#
 *,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8><size=21>*Graaaaaarrrrgh...*,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=STOP,id=-1,#
