@@ -266,7 +266,7 @@ if __name__ == '__main__':
     outputLines.append("<title>Brave Frontier Story Archive</title>")
     outputLines.append("<link rel=\"stylesheet\" type=\"text/css\" href=\"BFJPStoryArchive/style/style.css\">")
     outputLines.append("<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\">")
-    outputLines.append("<meta name=\"description\" content=\"An archive of most of the story told inside the Japanese mobile RPG Brave Frontier are here.\">
+    outputLines.append("<meta name=\"description\" content=\"An archive of most of the story told inside the Japanese mobile RPG Brave Frontier are here.\">")
     outputLines.append("<script>")
     outputLines.append("(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){")
     outputLines.append("(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),")
