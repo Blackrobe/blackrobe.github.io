@@ -533,6 +533,9 @@ grandQuestName = {
     "20": {
         "name": "(Japanese) Heroes of Elgaia's Grand Quest"
     },
+    "21": {
+        "name": "(Japanese) Bariura Empire Grand Quest"
+    },
     "X1": {
         "name": "The Tinkerer's Deceit"
     },
@@ -628,8 +631,17 @@ full_ills = {
     "navi_chara84": "http://i.imgur.com/yBwwFMW.png",
     "navi_chara85": "http://i.imgur.com/icHbdWD.png",
     "navi_chara87": "http://i.imgur.com/lpNc8u2.png",
+    "navi_chara89": "http://i.imgur.com/K1aAaDu.png",
+    "navi_chara90": "http://i.imgur.com/UGpvlMj.png",
+    "navi_chara91": "http://i.imgur.com/SgYSVSz.png",
+    "navi_chara92": "http://i.imgur.com/Rqc7cV3.png",
+    "navi_chara93": "http://i.imgur.com/3i9FkKa.png",
+    "navi_chara94": "http://i.imgur.com/BR66Vtb.png",
+    "navi_chara95": "http://i.imgur.com/7DC2TRK.png",
     "navi_chara96": "http://i.imgur.com/qCflqmZ.png",
     "navi_chara97": "http://i.imgur.com/0ETuoqY.png",
+    "navi_chara98": "http://i.imgur.com/v0zDdhS.png",
+    "navi_chara99": "http://i.imgur.com/U8KPN1A.png",
     "navi_chara100": "http://i.imgur.com/52aFCdJ.png",
     "navi_chara101": "http://i.imgur.com/n4pWkPV.png",
     "navi_chara102": "http://i.imgur.com/74lX1pW.png",
@@ -655,6 +667,7 @@ full_ills = {
     "navi_chara122": "http://i.imgur.com/rqjtwf5.png",
     "navi_chara123": "http://i.imgur.com/gBQNDpg.png",
     "navi_chara124": "http://i.imgur.com/781DNor.png",
+    "navi_chara127": "http://i.imgur.com/9U6NRpx.png",
 
     #=======================
     # BRAVE FRONTIER GLOBAL 
