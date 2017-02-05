@@ -507,7 +507,7 @@ grandQuestName = {
         "name": "Ten-Winged Tormentor"
     },
     "12": {
-        "name": ""
+        "name": "Collaboration GQ with Chain Chronicles"
     },
     "13": {
         "name": "Hopes and Regrets"
@@ -693,7 +693,26 @@ full_ills = {
     "navi_chara80052": "http://i.imgur.com/YS9rVWE.png",
     "navi_chara80053": "http://i.imgur.com/xWaszjH.png",
     "navi_chara80054": "http://i.imgur.com/OC1bgm1.png",
-    "navi_chara80055": "http://i.imgur.com/J3drt4x.png"
+    "navi_chara80055": "http://i.imgur.com/J3drt4x.png",
+
+    #===========================
+    # COLLABORATIONS AND OTHERS 
+    #===========================
+
+    "navi_chara_tm01": "http://i.imgur.com/C6Rk4DY.png",
+    "navi_chara_tm02": "http://i.imgur.com/1FpSckh.png",
+    "navi_chara_tm03": "http://i.imgur.com/wVwclpW.png",
+    "navi_chara_cc01": "http://i.imgur.com/Vjya869.png",
+    "navi_chara_cc02": "http://i.imgur.com/B2skyWn.png",
+    "navi_chara_cc06": "http://i.imgur.com/1UmNNpx.png",
+    "navi_chara_cc07": "http://i.imgur.com/S3YVKzH.png",
+    "navi_chara_cc08": "http://i.imgur.com/bM6NkFq.png",    
+    "navi_chara_mt01": "http://i.imgur.com/KH9QOWU.png",
+    "navi_chara_mt02": "http://i.imgur.com/BnclFHK.png",
+    "navi_chara_mt03": "http://i.imgur.com/bnCTVKZ.png",
+    "navi_chara_mt04": "http://i.imgur.com/RkdMbaI.png",
+    "navi_chara_mt05": "http://i.imgur.com/rZhliPw.png",
+    "navi_chara_mt06": "http://i.imgur.com/Tf2HoL6.png"
     
     }
     

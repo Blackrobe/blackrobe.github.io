@@ -301,7 +301,9 @@ for currentTxt in currentTxtList:
                 outputLines.append("<img class=\"facePortraitImg\" src=\"" + navi_chara_collectionDirectory + speakerFacePortraitStack[len(speakerFacePortraitStack)-1] + "\" />")                
                 outputLines.append("</div>")
                 if speakerFacePortraitStack[len(speakerFacePortraitStack)-1].find("blank") == -1:                    
-                    full_illsImage = speakerFacePortraitStack[len(speakerFacePortraitStack)-1][:-4].split("_")[0] + "_" + speakerFacePortraitStack[len(speakerFacePortraitStack)-1][:-4].split("_")[1]                    
+                    full_illsImage = speakerFacePortraitStack[len(speakerFacePortraitStack)-1][:-4].split("_")[0] + "_" + speakerFacePortraitStack[len(speakerFacePortraitStack)-1][:-4].split("_")[1]
+                    if speakerFacePortraitStack[len(speakerFacePortraitStack)-1].find("navi_chara_cc") != -1 or speakerFacePortraitStack[len(speakerFacePortraitStack)-1].find("navi_chara_mt") != -1 or speakerFacePortraitStack[len(speakerFacePortraitStack)-1].find("navi_chara_tm") != -1:
+                        full_illsImage += "_" + speakerFacePortraitStack[len(speakerFacePortraitStack)-1][:-4].split("_")[2]                    
                 else:
                     full_illsImage = "ills_not_available"
                 if not full_illsImage in full_illsStack:
