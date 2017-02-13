@@ -61,11 +61,11 @@
 *,type=PARAM,id=2,param=navi_chara28_0:-80:-10:2:1.5,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=ルジーナ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=今の異界での状況を知りつつ、<wait=20><br>呑気に図書館で読書とは、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Lugina,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=You must be a pretty important guy to be sitting in the library reading, without a care at all...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=navi_chara28_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara28_3:-80:-10:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=結構な御身分だな、<wait=20>ウォーロンさんよ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...considering the state of the world, Warlon.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1:0&0&0,#
 *,type=STOP,id=-1,#
@@ -88,118 +88,118 @@
 *,type=PARAM,id=8,param=1:0&0&0,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=39,param=ウォーロン,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Warlon,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=第二十三魔神討伐隊……<wait=20><br>“スカイガーデン”隊長、ルジーナか……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Lugina, <wait=20>commander of the 23rd Demon Slayers Division, the Sky Guardians.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=いや、<wait=20>今は対異界調査対策室の室長だったか,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=グラデンスやオーンなどではなく、<wait=20><br>まさかお前が、私を尋ねてくるとはな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=No, wait, <wait=20>you're the secretary of the Otherworldly Investigations Office now, aren't you?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I'm shocked that you were the one to come visit me, <wait=20>instead of Grahdens or Owen.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara103_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara103:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara28_3:-80:-10:2:0.5,#
-*,type=PARAM,id=39,param=ルジーナ,#
+*,type=PARAM,id=39,param=Lugina,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=その顔だと、<wait=20>俺が来ることは予想外でも、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=誰かしら尋ねてくることは<br>予期してたみたいだな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=You sound pretty sure someone would come to see you...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...even if you're surprised that it's me.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara28_3:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara28_0:-80:-10:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=なら、<wait=20>俺が聞きたいことは<br>分かってるはずだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Which means that you already know what I'm here to ask.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara28_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara103_3:-77:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara103:-77:137:2:0.5,#
-*,type=PARAM,id=39,param=ウォーロン,#
+*,type=PARAM,id=39,param=Warlon,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>アベル機関の動向か……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>What the Abel Faction is up to...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara103_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara103:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara28_0:-80:-10:2:0.5,#
-*,type=PARAM,id=39,param=ルジーナ,#
+*,type=PARAM,id=39,param=Lugina,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=連邦に太いパイプを持つ<wait=20><br>アンタなら知ってるはずだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=奴らの目的をな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=You've got strong ties to the Federation. <wait=20>You have to know something.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Something about what they're after, for example...?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara28_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara103_0:-77:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara103:-77:137:2:0.5,#
-*,type=PARAM,id=39,param=ウォーロン,#
+*,type=PARAM,id=39,param=Warlon,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara103_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara103:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara28_0:-80:-10:2:0.5,#
-*,type=PARAM,id=39,param=ルジーナ,#
+*,type=PARAM,id=39,param=Lugina,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>封神儀に関して、<wait=20>奴らの狙いが<br>俺たちとは違う……<wait=30><speed=13>というのは分かっている,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>They're not after what we are when it comes to the sealed gods. <wait=30><speed=13>I know that much.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だが、<wait=20>奴らとて召喚の力を失うことや、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=この世界の崩壊を<br>望んでいるわけじゃねーだろう……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=But I doubt that they want to...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...lose the power of summoning or see this world collapse.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara28_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara28_5:-80:-10:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=特にベルツの奴なんかは、<wait=20>自殺願望を<br>持ってるようなタマじゃねーしな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=That idiot Bertz and his faction don't seem like they're particularly suicidal.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara28_5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara103_3:-77:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara103:-77:137:2:0.5,#
-*,type=PARAM,id=39,param=ウォーロン,#
+*,type=PARAM,id=39,param=Warlon,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>連邦の上級外交官……<wait=20><br>“クローザー”のベルツか……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Bertz, or "Klauser," <wait=20>a high-ranking diplomat in the Federation...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=あの者はアベル機関に所属してはいるものの<wait=20><br>連邦政府から遣わされている立場。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=その思惑はアベル機関……<wait=20>ラナスのそれとは<wait=20><br>また別なところにあるようだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=He belongs to the Abel Faction, <wait=20>and he's working on assignments for the Federation's government.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=He doesn't seem to agree with the Abel Faction entirely, <wait=20>or rather, he doesn't agree with Rahnas.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara103_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara103:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara103_0:-77:-5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara103:-77:137:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ラナスらも当然それに気づいておるから、<wait=20><br>互いに信頼関係はないも同然。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Of course, Rahnas is aware of that as well, <wait=20>so trust between them is essentially nonexistent.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara103_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara103:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara28_0:-80:-10:2:0.5,#
-*,type=PARAM,id=39,param=ルジーナ,#
+*,type=PARAM,id=39,param=Lugina,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>…………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara28_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara103_0:-77:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara103:-77:137:2:0.5,#
-*,type=PARAM,id=39,param=ウォーロン,#
+*,type=PARAM,id=39,param=Warlon,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=お前の感じている通り、<wait=20>ラナスの狙いは<br>我々とは違う。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>おそらくは……<wait=30><speed=13>逆のものだ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Just as you suspect, <wait=20>Rahnas does not share our objectives.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>In all likelihood...<wait=30><speed=13>his goals are the opposite of our own.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara103_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara103:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara28_0:-80:-10:2:0.5,#
-*,type=PARAM,id=39,param=ルジーナ,#
+*,type=PARAM,id=39,param=Lugina,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>逆……？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>The opposite?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>汚染された封神儀をそのままにしておく<wait=30><br><speed=13>……ということか？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>He wants to leave the corrupted sealed gods as they are? <wait=30><speed=13>Is that what you mean?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara28_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara103_3:-77:-5:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara103:-77:137:2:0.5,#
-*,type=PARAM,id=39,param=ウォーロン,#
+*,type=PARAM,id=39,param=Warlon,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=具体的にどう動くつもりなのかまでは、<wait=20><br><speed=11>まだわからん……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I don't know exactly what they mean to do, <wait=20><speed=11>I'm still uncertain.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>奴らが何を知り得ていて、<wait=20><br>どういう切り札を持っているかもな……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>And I don't know what they're aware of, <wait=20>or what sorts of trump cards they're holding, either.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara103_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara103:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara28_5:-80:-10:2:0.5,#
-*,type=PARAM,id=39,param=ルジーナ,#
+*,type=PARAM,id=39,param=Lugina,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>チッ……<wait=30><speed=13>仕方ねぇ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=やっぱりあいつに会って、<wait=20><br>腹を割って話すしかないってことか……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Tsch. <wait=30><speed=13>Fine, then.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Looks like I'll just have to meet with him and have a frank discussion, <wait=20>just as I expected.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=45,param=3,#
 *,type=PARAM,id=7,param=2:0&0&0,#
@@ -222,57 +222,57 @@
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=3,#
 *,type=PARAM,id=2,param=navi_chara30_2:100:-25:2:0.3,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PARAM,id=36,param=0.1:4:6:6,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>遅いわよ、<rep_handlename>！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><rep_handlename>! You're late!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara30_2:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_1:100:-25:1:0.3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>フフ……<wait=30><speed=13>どうやら、私がいきなり現れたんで<wait=20><br>驚いているみたいね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Hehe, <wait=30><speed=13>surprised to see me without any advanced notice?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara30_1:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_0:100:-25:1:0.3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=封神儀の調査に加わるよう、<wait=20><br>グラデンス様から要請があったのよ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ティリスの支援が、アンタだけじゃ<wait=20><br>あまりに頼りないからってね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Grahdens asked me to join in the investigation of the sealed gods.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=He said he didn't feel like you were sufficient as backup for Tilith on your own.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ちなみに、<wait=20>カルもこことは違う世界の調査に<br>行ってるみたいよ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=By the way, <wait=20>Karl is apparently off surveying some other world at the moment.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara30_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_3:100:-25:1:0.3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=で、<wait=20><speed=10>この世界だけど……<wait=30><speed=13>どうやら私たちとは<br>大きく異なる文化形態のところみたいね……,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Anyway, <wait=20><speed=10>it seems like we're dealing with a culture very different than our own in this world.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ええと、<wait=20>リムによると、<wait=20><br><speed=10>「凰刃那原」<wait=30><speed=13>という名前の世界らしいわ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>おうばなはら、<wait=30><speed=13>と読むのかしら。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Let's see...<wait=20>according to Lin, <wait=20><speed=10>this world is called, uh...<speed=13>"Ohbanahara.",#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Oh, wait...I think it's actually pronounced <speed=13>"oh-bah-nah-hah-rah.",#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara30_3:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_0:100:-25:1:0.3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=こういった世界を、<br>２つも巡って来たってことは、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=どうやらアンタも<br>それなりに苦労していたみたいね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Considering that you've visited two worlds like this already...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...it seems like you've been pretty busy without me.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara30_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_5:100:-25:1:0.3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>てっきり、<br>海で遊んでいただけかと思っていたわ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>And I was sure you'd just be lounging around on a beach somewhere...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara30_5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_0:100:-25:1:0.3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=そういやアンタは、<wait=20>イシュグリアまで<br>召喚術に頼った戦い方をしていたわよね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Come to think of it, though, <wait=20>you always did rely on summoning exclusively for combat up until Ishgria, right?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=navi_chara30_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_1:100:-25:1:0.3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=なんだったら、<wait=20>私が直々に戦い方を<br>指導してあげてもいいわよ♪,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=If you need help, <wait=20>I'll be happy to give you a personal lesson on combat!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara30_1:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_0:100:-25:1:0.3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=さて、<wait=20>冗談はこれくらいにして、<wait=20><br>さっさと行くわよ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=All right, <wait=20>joking aside, <wait=20>let's get going!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara30_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_5:100:-25:1:0.3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=どこにって、<wait=20><br>ティリスのところに決まってるでしょ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=この先で待ってるのよ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Where to? <wait=20>To where Tilith is waiting, of course.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=She's just up ahead.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara30_5:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_2:100:-25:1:0.3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>グズグズしてないで、<wait=20>さっさと来なさい！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Don't whine, <wait=20>just get moving!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
@@ -282,4 +282,3 @@
 *,type=PARAM,id=3,param=bg2:1:0.5,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=1,#
-

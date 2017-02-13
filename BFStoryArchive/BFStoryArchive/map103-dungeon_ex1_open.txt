@@ -16,40 +16,40 @@
 *,type=PARAM,id=8,param=2:0&0&0,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=2,#
-*,type=PARAM,id=39,param=妙な笛の音,#
+*,type=PARAM,id=39,param=Mysterious Flute,#
 *,type=PARAM,id=34,param=bf211_se_water3.mp3,#
 *,type=PARAM,id=36,param=0.2:6:4:10,#
 *,type=PARAM,id=2,param=navi_chara122_0:-60:-95:2:2,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<size=18><speed=8>ブォオオオオオオ～～……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<size=18><speed=8>*Low note...*,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=39,param=ミョウケイ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<rep_handlename>よ、<wait=20><br>このような場所に呼び出して、すまんな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Myoukei,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<rep_handlename>, <wait=20>I'm sorry to call you out to a place like this.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara122_0:2:0.5,#
 *,type=PLAYWAIT,param=0.3,#
 *,type=PARAM,id=2,param=navi_chara121_0:-60:-95:2:0.5,#
 *,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ワシは普段より己の欲を律するため、<wait=20><br>鍛錬を行っておる……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=まあ一応、<wait=20>僧だからな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I train constantly, <wait=20>to control my personal vices.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I am a monk, after all.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……<wait=30><speed=13>だが、どうやらまだ修行が足りんらしい,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=おぬしの戦いを見ていて、<wait=20><br>つい思ってしまったのだよ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>And yet, <wait=30><speed=13>it seems I haven't trained enough.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I couldn't help but realize that when I saw you fight.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>ワシの技が、<wait=20>おぬしにどこまで通じるのか？<wait=20><speed=12>……とな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>It made me wonder, <wait=20><speed=12>how well would my techniques work on you?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=お手合わせ願えぬだろうか？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Could I ask you to fight a round with me?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=36,param=0.1:2:4:4,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=む……<wait=30>ワシがどのような技を使うのか<br>気になるか？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Hm? <wait=30>You're curious what sorts of techniques I'll use?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=なに、お主の“しょうかんじゅつ”と<br>比べれば、<wait=20>大した事のないものよ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Oh, don't worry. <wait=20>They're nothing next to your "summoning" technique.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>それでは………<wait=20><speed=14><br>元朧流忍軍頭領ミョウケイ、<wait=20>参るぞ！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>Now then... <wait=20><speed=14>Prepare to face Myoukei, <wait=20>former general of the Oboro School Shinobi!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=34,param=bf212_se_tree1.mp3,#
@@ -75,4 +75,3 @@
 *,type=PARAM,id=43,param=BattleDungeon81028AddSky.sam,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

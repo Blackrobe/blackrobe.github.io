@@ -78,44 +78,44 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara97_3:20:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>ここが凰刃那原の街……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>So this is a town in Ohbanahara...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=建物の形とかは、<wait=20>グランガイアや<br>エルガイアとは随分違うみたいだね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=The buildings look and feel totally different from what we have in Elgaia and Grand Gaia.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara97_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara97:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_0:100:-25:2:0.5,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ええ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=本当なら、<wait=20><br>ゆっくり見物でもしたいところだけど……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Yeah...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Honestly, <wait=20>I wish we had time to stop and do some sightseeing, but...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=navi_chara30_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara97_2:20:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=分かってる。<wait=20><br><speed=14>まずはスズネを救い出さなきゃ！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I know. <wait=20><speed=14>But first we have to rescue Suzune!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara97_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara97:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara101_2:55:-2:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara101:55:170:2:0.5,#
-*,type=PARAM,id=39,param=サクノシン,#
+*,type=PARAM,id=39,param=Sakunoshin,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=城はこっちです。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=The palace is this way.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=45,param=2.5,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>この大橋を越えれば……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Once we cross this large bridge...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara101_2:2:0.5,#
 *,type=PARAM,id=3,param=navi_chara101:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=？？？,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=待っていたよ。<wait=20>アンタたち。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=???,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I've been waiting for you.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1:0&0&0,#
@@ -142,96 +142,96 @@
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara101_2:55:-2:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara101:55:170:2:0.3,#
-*,type=PARAM,id=39,param=サクノシン,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>お前は確かゲンバの部下の……！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Sakunoshin,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>You're that woman who serves Genba!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara101_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara101:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_2:100:-25:2:0.3,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PARAM,id=36,param=0.1:2:4:4,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>…………！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>...!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>この殺気……<wait=20><speed=13><br>只者じゃないわね……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>This air of malice... <wait=20><speed=13>She's no ordinary soldier.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara30_2:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara120_0:-155:0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara120:-155:193:2:0.5,#
-*,type=PARAM,id=39,param=ラカ,#
+*,type=PARAM,id=39,param=Raka,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>フフッ……<wait=30><speed=13>あたしはラカ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ゲンバ様に仕えている剣士<wait=20><br>ってところかしらね……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Hehe, <wait=30><speed=13>I'm Raka.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I suppose you could call me a swordswoman who serves Lord Genba.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara120_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara120:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara101_2:55:-2:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara101:55:170:2:0.5,#
-*,type=PARAM,id=39,param=サクノシン,#
+*,type=PARAM,id=39,param=Sakunoshin,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>おのれ、<wait=20>姫を助け出そうとする我々を<wait=20><br>始末しに現れたか！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Vile woman, <wait=20>you mean to slay us and put a stop to our efforts to rescue the princess?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara101_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara101:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara120_0:-155:0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara120:-155:193:2:0.5,#
-*,type=PARAM,id=39,param=ラカ,#
+*,type=PARAM,id=39,param=Raka,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=そんな野暮な真似はしないわよ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Oh, no, nothing so crude as that.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara120_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara120:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara120_6:-155:0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara120:-155:193:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=というか、<wait=20>あんな小娘のことなんて、<wait=20><br>どうだっていいのさ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Or rather, <wait=20>I could care less about those little girls.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara120_6:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara120:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara97_3:20:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>え……？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Wha?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara97_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara97:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara120_6:-155:0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara120:-155:193:2:0.5,#
-*,type=PARAM,id=39,param=ラカ,#
+*,type=PARAM,id=39,param=Raka,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=あたしが興味あるのは、<wait=20><br>そこのアンタだよ、<wait=20><rep_handlename>。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=You're the one I'm interested in, <wait=20><rep_handlename>.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=アンタは封神儀を探すため、<wait=20><br>この世界にやって来たんだろ？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=You came to this world to search for the sealed god, <wait=20>didn't you?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=navi_chara120_6:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara120:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara97_3:20:10:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:2:0.3,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PARAM,id=36,param=0.1:3:6:6,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>…………！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>...!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara97_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara97:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_2:100:-25:2:0.5,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>アンタ……<wait=20><speed=13><br>なんでそんなことを知ってるの……？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>How...<wait=20><speed=13>do you know that?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara30_2:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara120_0:-155:0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara120:-155:193:2:0.5,#
-*,type=PARAM,id=39,param=ラカ,#
+*,type=PARAM,id=39,param=Raka,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>フフ……<wait=20><speed=13>なんでだろうねえ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Hehe, <wait=20><speed=13>indeed, how could I?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara120_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara120:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara120_1:-155:0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara120:-155:193:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=知りたかったら、聞いてみなよ。<wait=20><speed=11><br>アンタたちの剣を使ってね……！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=If you want to know...<wait=20><speed=11>ask me with your swords!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -243,4 +243,3 @@
 *,type=PARAM,id=43,param=BattleDungeon81024JyoukamachiBack.sam,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

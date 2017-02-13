@@ -108,75 +108,75 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara100_3:30:-25:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara100:30:141:2:0.5,#
-*,type=PARAM,id=39,param=スズネ,#
+*,type=PARAM,id=39,param=Suzune,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……………。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara100_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara100:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara102_0:-140:-35:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara102:-140:124:2:0.5,#
-*,type=PARAM,id=39,param=ゲンバ,#
+*,type=PARAM,id=39,param=Genba,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=では、<wait=20>領主の座を正式に儂に譲るという<br>誓書を書く気はない……<wait=30>ということか？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=So, <wait=20>you have no intention of writing a statement in which you formally cede the throne to me. <wait=30>Is that correct?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara102_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara102:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara100_0:30:-25:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara100:30:141:2:0.5,#
-*,type=PARAM,id=39,param=スズネ,#
+*,type=PARAM,id=39,param=Suzune,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>はい……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Yes.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara100_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara100:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara100_3:30:-25:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara100:30:141:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>私は領主として未熟で、<wait=20><br>至らないところも多いかと思います。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>天武党についても、<wait=20>あなたの意見に対し、<wait=20><br>何の詮議もしようとしなかった私の罪です。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>I am an inexperienced ruler, <wait=20>and I know I have many flaws.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>I was also wrong to dismiss your views on the Tenmu-do without proper consideration.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara100_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara100:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara100_2:30:-25:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara100:30:141:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>ですが……<wait=20><br><speed=13>あの戦場の跡を見た後では、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=今のあなたにこの国を<wait=20><br>任せることができるとは思えません！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Even so, <wait=20><speed=13>having seen the aftermath on the battlefields you leave in your wake...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...I cannot allow you to rule this nation!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara100_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara100:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara102_0:-140:-35:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara102:-140:124:2:0.5,#
-*,type=PARAM,id=39,param=ゲンバ,#
+*,type=PARAM,id=39,param=Genba,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>………<wait=30><speed=13>ならば、仕方ない。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=命までは取らん。<wait=30><br>が、<wait=20>しばらくの間は幽閉させてもらおう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>Then...<wait=30><speed=13>you leave me no choice.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I will not take your life. <wait=30>However, <wait=20>I will have you imprisoned.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara102_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara102:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara100_3:30:-25:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara100:30:141:2:0.5,#
-*,type=PARAM,id=39,param=スズネ,#
+*,type=PARAM,id=39,param=Suzune,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>……<wait=30><speed=13>ゲンバ。<wait=20>何があなたを<br>そこまで変えてしまったのですか？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>Genba. <wait=30><speed=13>What happened? <wait=20>What's happened that changed you so much?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>天武党の件があったとしても、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>以前のあなたは、<wait=20><br>謀反を起こすような人ではなかったはず……,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>Even given the conflict with the Tenmu-do...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>...you were never the type of man to lead a coup and usurp the throne.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara100_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara100:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara102_0:-140:-35:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara102:-140:124:2:0.5,#
-*,type=PARAM,id=39,param=ゲンバ,#
+*,type=PARAM,id=39,param=Genba,#
 *,type=PARAM,id=45,param=4,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>それは……,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>That's...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara102_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara102:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara102_5:-140:-35:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara102:-140:124:1:0.5,#
 *,type=PARAM,id=36,param=0.1:3:6:6,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>グッ………！<wait=20><br><speed=11>ググググッ……！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Ngh! <wait=20><speed=11>Ngggrrrggghhh!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=0.5,#
@@ -192,8 +192,8 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara100_4:30:-25:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara100:30:141:2:0.3,#
-*,type=PARAM,id=39,param=スズネ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>ゲ、<wait=20>ゲンバ……！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Suzune,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>G-<wait=20>Genba?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara100_4:2:0.5,#
 *,type=PARAM,id=3,param=navi_chara100:2:0.5,#
@@ -210,25 +210,25 @@
 *,type=PARAM,id=2,param=navi_chara102:-140:124:2:3,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=ゲンバ,#
+*,type=PARAM,id=39,param=Genba,#
 *,type=PARAM,id=36,param=0.1:2:6:6,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>クッ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=8>Ngh...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara102_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara102:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara100_4:30:-25:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara100:30:141:2:0.5,#
-*,type=PARAM,id=39,param=スズネ,#
+*,type=PARAM,id=39,param=Suzune,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>ゲンバ……<wait=30>今のは一体……？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Genba, <wait=30>what just happened?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara100_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara100:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara102_2:-140:-35:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara102:-140:124:2:0.3,#
-*,type=PARAM,id=39,param=ゲンバ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=なんでもない……！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Genba,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Nothing!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara102_2:2:0.5,#
@@ -236,8 +236,8 @@
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=36,param=0.2:4:10:10,#
-*,type=PARAM,id=39,param=？？？,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10><size=21>スズネーー！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=???,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10><size=21>Suzune!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara97_2:20:10:2:1.5,#
@@ -245,120 +245,120 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=33,param=bf088_btl_anotherboss.mp3,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=ティリス,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>助けに来るの、<wait=20>遅れてごめんね！！<wait=20><br>城内が広くて、ちょっと迷っちゃった！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Tilith,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>I'm sorry we took so long to rescue you! <wait=20>The palace is so big that we got kind of lost!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=navi_chara97_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara97:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_2:100:-25:2:0.5,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>もう大丈夫よ！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>You're safe now!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara30_2:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara100_4:30:-25:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara100:30:141:2:0.5,#
-*,type=PARAM,id=39,param=スズネ,#
+*,type=PARAM,id=39,param=Suzune,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=皆様……！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Everyone!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara100_4:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara100:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara102_2:-140:-35:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara102:-140:124:2:0.5,#
-*,type=PARAM,id=39,param=ゲンバ,#
+*,type=PARAM,id=39,param=Genba,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>ふん……<wait=20><speed=13>やはり現れたか。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Hmph. <wait=20><speed=13>I should have known you'd make it this far.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara102_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara102:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara101_2:55:-2:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara101:55:170:2:0.5,#
-*,type=PARAM,id=39,param=サクノシン,#
+*,type=PARAM,id=39,param=Sakunoshin,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>おのれ、ゲンバ！<wait=20><br>貴様の好きにはさせんぞ！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Enough, Genba! <wait=20>I won't let you get away with this!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=navi_chara101_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara101:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara97_2:20:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>そうだよ！<wait=20><br>スズネは返してもらうんだからね！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Neither will I! <wait=20>We're taking Suzune back!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara97_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara97:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara102_1:-140:-35:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara102:-140:124:2:0.5,#
-*,type=PARAM,id=39,param=ゲンバ,#
+*,type=PARAM,id=39,param=Genba,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=忠義あふれる家臣どもで、<wait=20><br>羨ましいですぞ、<wait=20>姫。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Ahh, <wait=20>how I envy your loyal retainers, <wait=20>Princess.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara102_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara102:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara100_3:30:-25:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara100:30:141:2:0.5,#
-*,type=PARAM,id=39,param=スズネ,#
+*,type=PARAM,id=39,param=Suzune,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>そんな……<wait=30><br><speed=13>私などのために……！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>You all came here, <wait=30><speed=13>for me?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara100_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara100:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara102_0:-140:-35:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara102:-140:124:2:0.5,#
-*,type=PARAM,id=39,param=ゲンバ,#
+*,type=PARAM,id=39,param=Genba,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ちょうどよい。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=スズネ姫よ、<wait=20>これからこの者どもを<br>血祭りに上げてやることにしよう。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=This is perfect.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Princess Suzune, <wait=20>I will now make a bloodbath of these intruders.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=navi_chara102_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara102:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara102_1:-140:-35:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara102:-140:124:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=それを見ても、<wait=20>お前はまだ<br>気丈に振る舞っていられるかな……？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I wonder, <wait=20>will you still be so obstinate after you have seen their demise?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara102_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara102:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara100_2:30:-25:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara100:30:141:2:0.3,#
-*,type=PARAM,id=39,param=スズネ,#
+*,type=PARAM,id=39,param=Suzune,#
 *,type=PARAM,id=36,param=0.1:3:4:4,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>や、<wait=20>やめて下さい……！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>P-<wait=20>Please, don't!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara100_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara100:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_0:100:-25:2:0.5,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=心配しなくていいわよ、<wait=20>スズネ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=私たちだって、<wait=20>わざわざやられに来た<br>わけじゃないんだから！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Don't worry, <wait=20>Suzune.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=We didn't come all this way just to die!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=navi_chara30_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara97_2:20:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>そうだよ！<wait=20><br>私たちがすぐに助けてあげるからね！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Exactly! <wait=20>We'll get you out of here in no time!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara97_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara97:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_0:100:-25:2:0.5,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ゲンバ、<wait=20>ついでにアンタが封神儀で<br>企んでいたこと、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=そして知ってることなんかを、<wait=20><br>一切合切、全部話してもらうわよ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=And Genba, <wait=20>you can bet we're going to get every single detail...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...about what you know, and what you've been planning with the sealed god!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara30_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara102_0:-140:-35:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara102:-140:124:2:0.5,#
-*,type=PARAM,id=39,param=ゲンバ,#
+*,type=PARAM,id=39,param=Genba,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>“ふうしんぎ”……？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>The "sealed god?",#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara102_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara102:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara102_2:-140:-35:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara102:-140:124:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=フン……<wait=20><br>何を訳が分からんことを！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Hmph. <wait=20>What nonsense is that?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara102_2:2:0.5,#
 *,type=PARAM,id=3,param=navi_chara102:2:0.5,#
@@ -371,39 +371,39 @@
 *,type=PARAM,id=2,param=navi_chara123:25:212:2:1.5,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=カゲヌイ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>殿！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Kagenui,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>My lord!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara123_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara123:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara102_0:-140:-35:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara102:-140:124:2:0.5,#
-*,type=PARAM,id=39,param=ゲンバ,#
+*,type=PARAM,id=39,param=Genba,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=カゲか……<wait=30>ちょうどよい。<wait=20><br>此奴らを一掃する手伝いをせよ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Kage? <wait=30>Excellent timing. <wait=20>Help me eliminate these fools!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara102_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara102:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara123_0:25:-10:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara123:25:212:2:0.3,#
-*,type=PARAM,id=39,param=カゲヌイ,#
+*,type=PARAM,id=39,param=Kagenui,#
 *,type=PARAM,id=36,param=0.1:3:4:4,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>ハッ！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Yes, sir!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=これまでの失態……<wait=20><speed=14>この場にて<br>死力を尽くして戦い、<wait=20>贖わせて頂きます！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I will fight to the end here, <wait=20><speed=14>and absolve myself of my past failures!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara123_0:2:0.5,#
 *,type=PARAM,id=3,param=navi_chara123:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara30_6:100:-25:2:0.5,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=……厄介な奴が来たわね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Now this makes the fight more complicated.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara30_6:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_2:100:-25:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>でも、ここで退くわけにはいかない！<wait=20><br><rep_handlename>、<wait=20>行くわよ！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Still, there's no going back now! <wait=20><rep_handlename>, let's go!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -415,4 +415,3 @@
 *,type=PARAM,id=43,param=BattleDungeon81026AddFlare.sam,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

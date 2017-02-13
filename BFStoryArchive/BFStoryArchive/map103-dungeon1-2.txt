@@ -72,8 +72,8 @@
 *,type=PARAM,id=8,param=1:0&0&0,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=気品のある女性,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>ハッ……<wait=30>ハッ……！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Elegant Lady,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>*Gasp* <wait=30>*pant!*,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara100_2:2:0.5,#
@@ -83,19 +83,19 @@
 *,type=PARAM,id=34,param=bf248_se_skillhold.mp3,#
 *,type=PARAM,id=8,param=2:0&35&90,#
 *,type=PARAM,id=36,param=0.2:7:10:10,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>ザッ…ザッ…ザッ……！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>*Fwip* *fwip* *fwip!*,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara100_5:30:-25:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara100:30:141:2:0.3,#
-*,type=PARAM,id=39,param=気品のある女性,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>クッ……<wait=20><speed=13>逃げることはできませんか。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Elegant Lady,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>Argh...<wait=20><speed=13>I can't escape.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara100_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara100:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara100_2:30:-25:1:0.3,#
 *,type=PARAM,id=2,param=navi_chara100:30:141:1:0.3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>あなた方、<wait=20>どこの手の者です！？<wait=20><br><speed=11>私への狼藉……<wait=30><speed=14>許しませんよ！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>You there, <wait=20>who do you serve?! <wait=20><speed=11>Violence against my person <speed=14>will not be permitted!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara100_2:2:0.5,#
@@ -109,14 +109,14 @@
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara100_5:30:-25:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara100:30:141:2:0.3,#
-*,type=PARAM,id=39,param=気品のある女性,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=問答無用というわけですか……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Elegant Lady,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=So it seems talking is useless.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara100_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara100:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara100_2:30:-25:1:0.3,#
 *,type=PARAM,id=2,param=navi_chara100:30:141:1:0.3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>しかし、<wait=20><br>私もここで捕らわれるわけには……！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>However, <wait=20>I can't let myself be captured here!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=34,param=bf203_se_shot1.mp3,#
@@ -136,9 +136,9 @@
 *,type=PARAM,id=8,param=0.3:255&40&40,#
 *,type=PARAM,id=2,param=navi_chara100_5:30:-25:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara100:30:141:2:0.3,#
-*,type=PARAM,id=39,param=気品のある女性,#
+*,type=PARAM,id=39,param=Elegant Lady,#
 *,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>クッ……！<wait=20><br><speed=13>このままでは……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Urk! <wait=20><speed=13>At this rate...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara100_5:2:0.5,#
@@ -156,22 +156,22 @@
 *,type=PARAM,id=34,param=bf210_se_water2.mp3,#
 *,type=PARAM,id=8,param=0.5:230&15&40,#
 *,type=PARAM,id=36,param=0.1:3:8:8,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>カキィッーーン！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>*Wham!*,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=navi_chara30_2:100:-25:2:1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=33,param=bf088_btl_anotherboss.mp3,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=39,param=セリア,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>大丈夫！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Seria,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Are you alright?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara30_2:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara100_4:30:-25:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara100:30:141:2:0.5,#
-*,type=PARAM,id=39,param=気品のある女性,#
+*,type=PARAM,id=39,param=Elegant Lady,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>えっ……！<wait=20><br><speed=11>あなた方は……？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Oh! <wait=20><speed=11>Who are you?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara100_4:2:0.5,#
@@ -179,10 +179,10 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara97_2:20:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=私たち、<wait=20>ここから少し離れたところに<br>いたんだけど、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=何か争うような音が聞こえたから、<wait=20><br>急いで駆けつけたの。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Well, <wait=20>we were nearby...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...and hurried over here when we heard what sounded like fighting.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara97_2:2:0.5,#
@@ -190,8 +190,8 @@
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara30_2:100:-25:2:0.3,#
-*,type=PARAM,id=39,param=セリア,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>アンタたち、<wait=20>女１人を大勢で襲うなんて、<wait=20><br>恥ずかしくないの……！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Seria,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Aren't you wimps ashamed that it takes a group of you to attack one woman?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara30_2:2:0.5,#
@@ -208,22 +208,22 @@
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara30_0:100:-25:2:0.5,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=39,param=セリア,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=なるほど、<wait=20>やろうってのね……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Seria,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Oh, <wait=20>so you want to fight...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara30_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara97_2:20:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><rep_handlename>、<wait=20>セリア！<wait=20><br>事情は後で聞くとして、<wait=20>まずはこの場を…！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14><rep_handlename>, <wait=20>Seria! <wait=20>We'll ask questions later, <wait=20>but first we need to secure the area!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara97_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara97:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_2:100:-25:2:0.5,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>わかってる！<wait=20><br>行くわよ、<rep_handlename>！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>I know that! <wait=20>Here we go, <rep_handlename>!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -235,4 +235,3 @@
 *,type=PARAM,id=43,param=BattleDungeon81020AddShinekomorebi.sam,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

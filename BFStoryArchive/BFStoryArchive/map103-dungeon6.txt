@@ -92,39 +92,39 @@
 *,type=PLAYWAIT,param=2,#
 *,type=PARAM,id=2,param=navi_chara101_0:55:-2:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara101:55:170:2:0.5,#
-*,type=PARAM,id=39,param=サクノシン,#
+*,type=PARAM,id=39,param=Sakunoshin,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>ここからは城の敷地内……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>From this point on, we're within the palace grounds.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=さすがに敵の警備も<br>厳重になっているはずです。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=The enemy's defenses will definitely be more secure after this.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara101_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara101:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara101_2:55:-2:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara101:55:170:1:0.5,#
 *,type=PARAM,id=36,param=0.1:2:5:5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>皆様方、<wait=20>これまで以上の警戒を<br>お願い致しますぞ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Everyone, <wait=20>make sure you stay alert even more so from here on!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara101_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara101:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_0:100:-25:2:0.5,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=言われるまでもないわね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=You don't have to tell me that.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara30_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara97_7:20:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>わかったよ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Got it!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1.5,#
 *,type=PARAM,id=3,param=navi_chara97_7:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara97:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara97_3:20:10:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ん？<wait=20>どうしたの<rep_handlename>。<wait=20><speed=11><br>いきなり立ち止まったりして……？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Huh? <wait=20>What's wrong, <rep_handlename>? <wait=20><speed=11>Why'd you stop?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara97_3:2:0.5,#
@@ -136,7 +136,7 @@
 *,type=PARAM,id=34,param=bf237_se_sickness.mp3,#
 *,type=PARAM,id=36,param=0.1:3:20:13,#
 *,type=PARAM,id=8,param=1:255&255&255,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<size=20>カキィィィーーーン！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<size=20>*Clang!*,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=STOP,id=-1,#
@@ -150,23 +150,23 @@
 *,type=PLAYWAIT,param=1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=33,param=bf015_map_wilds.mp3,#
-*,type=PARAM,id=39,param=カゲヌイ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>俺の奇襲を防ぐとは……<wait=30><speed=13>さすがだな。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Kagenui,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Most impressive, <wait=30><speed=13>blocking my surprise attack like that...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara123_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara123:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_2:100:-25:2:0.3,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PARAM,id=36,param=0.1:3:6:6,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>アンタは……！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>You!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara30_2:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara123_0:25:-10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara123:25:212:2:0.5,#
-*,type=PARAM,id=39,param=カゲヌイ,#
+*,type=PARAM,id=39,param=Kagenui,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=スズネ姫を救うため、<br>やって来たのだろうが、<wait=20>そうはいかぬ！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I assume you've come to rescue Princess Suzune, <wait=20>but you will fail!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara123_0:2:0.5,#
@@ -176,31 +176,31 @@
 *,type=PARAM,id=34,param=bf248_se_skillhold.mp3,#
 *,type=PARAM,id=8,param=2:0&35&90,#
 *,type=PARAM,id=36,param=0.2:7:10:10,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>ザッ…ザッ…ザッ……！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>*Fwip* *fwip!*,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara97_2:20:10:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:2:0.3,#
-*,type=PARAM,id=39,param=ティリス,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>どんどん敵が集まってくるよ！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Tilith,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>We're completely surrounded by enemies!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara97_2:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara97:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara123_0:25:-10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara123:25:212:2:0.5,#
-*,type=PARAM,id=39,param=カゲヌイ,#
+*,type=PARAM,id=39,param=Kagenui,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=主君を救うため、<wait=20>あえて敵の渦中に<br>飛び込むその心意気……,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>敵ながら賞賛に値する。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=You have the spirit to leap right into the enemy's territory to save your mistress.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I must admit, you have earned my respect.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara123_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara123:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara123_2:25:-10:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara123:25:212:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=だが、<wait=20>俺などに城の警備を任せて下さった<br>ゲンバ様の御恩に報いるため……,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=However, <wait=20>if I am to repay Lord Genba for honoring me with a position in charge of palace security...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=36,param=0.1:4:6:6,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>これ以上、貴様らを進ませはせん！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>...I cannot let you go any farther!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
@@ -213,4 +213,3 @@
 *,type=PARAM,id=43,param=BattleDungeon81025.sam,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=2,#
-

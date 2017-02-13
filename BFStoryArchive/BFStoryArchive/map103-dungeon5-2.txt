@@ -99,58 +99,58 @@
 *,type=PLAYWAIT,param=0.3,#
 *,type=PARAM,id=36,param=0.1:3:8:8,#
 *,type=PARAM,id=8,param=0.3:255&40&40,#
-*,type=PARAM,id=39,param=ラカ,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>グッ……！！,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Raka,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>Urgh!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara120_5:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara120:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara120_1:-155:0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara120:-155:193:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>この一撃、<wait=30>さすがだねえ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=これまで２つの封神儀を元に戻してきたのは<wait=20>伊達じゃないってわけかい。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Quite impressive.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=It would seem you have already restored two sealed gods to their original state.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara120_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara120:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara97_3:20:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>え！<wait=20>そんなことまで知っているの……！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>What?! <wait=20>You know about that, too?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara97_3:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara97:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara120_6:-155:0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara120:-155:193:2:0.5,#
-*,type=PARAM,id=39,param=ラカ,#
+*,type=PARAM,id=39,param=Raka,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>ウフフ……<wait=20><br><speed=13>驚いたかい、<wait=20>女神様。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Hehehe! <wait=20><speed=13>Are you surprised, <wait=20>Goddess?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara120_6:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara120:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara120_0:-155:0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara120:-155:193:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=でもまあ、<wait=20>今はこれぐらいで<br>退かせてもらおうかね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=But anyway, <wait=20>perhaps I should bow out for now.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=navi_chara120_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara120:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara120_1:-155:0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara120:-155:193:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=このままやってたら、<wait=20><br>すぐ殺したくなっちゃうしねぇ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I'd want to kill you right away if we were to continue fighting now.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara120_1:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara120:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_2:100:-25:2:0.5,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>封神儀のことを知っているアンタを、<wait=20><br>私たちが逃がすと思ってるの！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=14>You know about the sealed god, <wait=20>and you think we'll let you get away?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=45,param=3,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara30_2:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara120_6:-155:0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara120:-155:193:2:0.5,#
-*,type=PARAM,id=39,param=ラカ,#
+*,type=PARAM,id=39,param=Raka,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>焦らない焦らない……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Oh, don't be so hasty.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=34,param=bf507_se_revival.mp3,#
@@ -175,9 +175,9 @@
 *,type=PARAM,id=36,param=0.2:4:6:6,#
 *,type=PARAM,id=8,param=1:160&20&20,#
 *,type=PARAM,id=2,param=navi_chara30_6:100:-25:2:0.3,#
-*,type=PARAM,id=39,param=セリア,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>クッ……<wait=30>何、<wait=20>これは……！？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>いきなり……<wait=30>身体が重くなって……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Seria,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Argh! <wait=30>What is this?!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>All of a sudden...<wait=30>I feel so tired...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara30_6:2:0.5,#
@@ -187,8 +187,8 @@
 *,type=PARAM,id=8,param=1:160&20&20,#
 *,type=PARAM,id=2,param=navi_chara97_6:20:10:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:2:0.3,#
-*,type=PARAM,id=39,param=ティリス,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>わ、<wait=20>私も……<wait=20><br>う、<wait=20>動けない……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Tilith,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>M-<wait=20>Me too... <wait=20>I-<wait=20>I can't move!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara97_6:2:0.5,#
@@ -199,8 +199,8 @@
 *,type=PARAM,id=8,param=1:160&20&20,#
 *,type=PARAM,id=2,param=navi_chara101_4:55:-2:2:0.3,#
 *,type=PARAM,id=2,param=navi_chara101:55:170:2:0.3,#
-*,type=PARAM,id=39,param=サクノシン,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>……………？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Sakunoshin,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>...?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara101_4:2:0.5,#
@@ -209,58 +209,58 @@
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=2,param=navi_chara120_0:-155:0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara120:-155:193:2:0.5,#
-*,type=PARAM,id=39,param=ラカ,#
+*,type=PARAM,id=39,param=Raka,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>フフフ……<wait=30><speed=13>仕切り直させてもらうよ。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Hehehe! <wait=30><speed=13>I'll pull out for now.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=3,param=navi_chara120_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara120:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara120_6:-155:0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara120:-155:193:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>ただまあ、<wait=20>そうだねえ……,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=あたしと遊んでくれたお礼として、<wait=20><br>ちょっと手がかりぐらいはやろうかね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>Before I go, <wait=20>I will say one thing.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=A hint, <wait=20>to thank you for the delightful time we spent together.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara120_6:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara120:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_6:100:-25:2:0.5,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=て、<wait=20>手がかりですって……？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=A-<wait=20>A hint?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara30_6:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara120_6:-155:0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara120:-155:193:2:0.5,#
-*,type=PARAM,id=39,param=ラカ,#
+*,type=PARAM,id=39,param=Raka,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=そう、“手がかり”さ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Yes, a hint.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara120_6:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara120:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara120_0:-155:0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara120:-155:193:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=アンタ方が探しているもの……<wait=30><br><speed=11>それはすぐ近くにあるよ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=The thing you're searching for? <wait=30><speed=11>It's very close at hand.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara120_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara120:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara97_6:20:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>それってどういう……？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>What does that mean?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara97_6:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara97:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara120_0:-155:0:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara120:-155:193:2:0.5,#
-*,type=PARAM,id=39,param=ラカ,#
+*,type=PARAM,id=39,param=Raka,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=おっと、<wait=20>教えるのはここまで。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Now, now, <wait=20>that's all you're getting from me now.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara120_0:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara120:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara120_6:-155:0:1:0.3,#
 *,type=PARAM,id=2,param=navi_chara120:-155:193:1:0.3,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=どうせ城まで来るんだろ？<wait=20><br><speed=12>あたしはそこで待っててやるよ。<wait=20><speed=11>フフフ……,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=You're coming to the palace anyway, aren't you? <wait=20><speed=12>I'll be waiting for you there. <wait=20><speed=11>Hehehe!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=45,param=3,#
 *,type=PLAYWAIT,param=1,#
@@ -278,44 +278,44 @@
 *,type=PARAM,id=44,param=3,#
 *,type=PARAM,id=2,param=navi_chara97_6:20:10:2:1,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:2:1,#
-*,type=PARAM,id=39,param=ティリス,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>ハァ……<wait=30>ハァ……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=39,param=Tilith,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=10>*Gasp...* <wait=30>*pant...*,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>ようやく<br>身体が動くようになったけど……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>I can finally move again.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=40,param=-1,#
 *,type=PARAM,id=3,param=navi_chara97_6:2:0.5,#
 *,type=PARAM,id=3,param=navi_chara97:2:0.5,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=navi_chara30_6:100:-25:2:0.5,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>あのラカっていう女剣士、<wait=20><br>それなりの腕だとは思っていたけど、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>剣術だけじゃなく、<wait=20><br>あんな術も使えるなんて……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>That swordswoman, Raka. <wait=20>I thought she was fairly skilled with a sword already...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=12>...but then she used that weird technique too.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara30_6:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara97_7:20:10:2:0.5,#
 *,type=PARAM,id=2,param=navi_chara97:20:149:2:0.5,#
-*,type=PARAM,id=39,param=ティリス,#
+*,type=PARAM,id=39,param=Tilith,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=しかも、あの人、<wait=20>封神儀のことどころか、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=私たちのこれまでの行動も、<br>知っているみたいだったけど……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=And on top of that, <wait=20>she didn't just know about the sealed god here...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...she seemed to know about everything we've done so far.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara97_7:1:0.5,#
 *,type=PARAM,id=3,param=navi_chara97:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_0:100:-25:2:0.5,#
-*,type=PARAM,id=39,param=セリア,#
+*,type=PARAM,id=39,param=Seria,#
 *,type=PLAYWAIT,param=1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=封神儀のことは、スズネを助け出し、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ゲンバの一件を片付けた後で……<wait=30><br>って、考えてたんだけど、,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>思わぬところで繋がっていたわね……。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=I thought we could...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...put off the sealed god issue until after we had dealt with Genba, but...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>...now it seems there's some sort of strange connection between the two.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
 *,type=PARAM,id=3,param=navi_chara30_0:1:0.5,#
 *,type=PARAM,id=2,param=navi_chara30_6:100:-25:1:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=あの女剣士が知っているってことは,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=当然、その主であるゲンバも、<wait=20><br>封神儀について知ってるってことよね。,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=If that swordswoman knows about the sealed god...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=...then that means her master, Genba, must know too.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>一体、狙いは何なのかしら……？,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<speed=11>What could they be after?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=7,param=1.5:0&0&0,#
 *,type=STOP,id=-1,#
@@ -326,4 +326,3 @@
 *,type=PARAM,id=43,param=BattleDungeon81024JyoukamachiBack.sam,#
 *,type=PARAM,id=30,param=-1,#
 *,type=PARAM,id=41,param=1,#
-
