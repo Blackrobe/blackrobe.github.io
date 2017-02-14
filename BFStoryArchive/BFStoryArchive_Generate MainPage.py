@@ -319,11 +319,17 @@ class StoryPage(object):
         #     VORTEX    
         # ==============
 
-        elif not (pageName.find("xmas") == -1):
+        elif not (pageName.find("xmas2016") == -1):
             sceneNumber = pageName.split("_")[1]            
             self.setOrder(1200000 + int(sceneNumber))
             self.setDirectory(pageName)
             self.setName("2016 Christmas Special Mission Scene " + sceneNumber)
+
+        elif not (pageName.find("Vday2017") == -1):
+            sceneNumber = pageName.split("_")[1]            
+            self.setOrder(1200010 + int(sceneNumber))
+            self.setDirectory(pageName)
+            self.setName("2017 Valentine Special Mission Scene " + sceneNumber)
 
         # ==============
         #     OTHERS    

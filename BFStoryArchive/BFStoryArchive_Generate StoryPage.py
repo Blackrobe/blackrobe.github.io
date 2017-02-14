@@ -68,6 +68,10 @@ ignoredPortraitList = [
     "navi_chara80049",
     "navi_chara80050",
     "navi_chara80051",
+    "fi_base",
+    "fa_base",
+    "fe_base",
+    
     ]
 
 print "begin"

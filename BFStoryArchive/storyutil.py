@@ -670,7 +670,7 @@ full_ills = {
     # BRAVE FRONTIER GLOBAL 
     #=======================
     
-    "navi_chara80016": "http://i.imgur.com/Yxn3pn3.png",
+    "navi_chara80016": "http://i.imgur.com/Yxn3pn3.png",    
     "navi_chara80025": "http://i.imgur.com/8iQ29zE.png",
     "navi_chara80032": "http://i.imgur.com/mLQbLwX.png",
     "navi_chara80033": "http://i.imgur.com/X8CwkqD.png",
@@ -694,6 +694,10 @@ full_ills = {
     "navi_chara80053": "http://i.imgur.com/xWaszjH.png",
     "navi_chara80054": "http://i.imgur.com/OC1bgm1.png",
     "navi_chara80055": "http://i.imgur.com/J3drt4x.png",
+    "navi_chara80060": "http://i.imgur.com/2muX1zc.png",
+    "navi_chara80061": "http://i.imgur.com/kiDrEhA.png",
+    "navi_chara80062": "http://i.imgur.com/7YzOeqC.png",
+    "navi_chara80063": "http://i.imgur.com/vT3yiDy.png",
 
     #===========================
     # COLLABORATIONS AND OTHERS 
