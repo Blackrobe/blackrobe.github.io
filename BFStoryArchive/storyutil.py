@@ -350,17 +350,17 @@ mapName = {
     },
     "103": {
         "dungeon": {
-            "1": "Area 1",
-            "2": "Area 2",
-            "3": "Area 3",
-            "4": "Area 4",
-            "5": "Area 5",
-            "6": "Area 6",
-            "7": "Area 7",
-            "8": "Area 8"
+            "1": "Bluesun Grove Path",
+            "2": "Prosperity Fields",
+            "3": "Calamity Plains",
+            "4": "Defensive Checkpoint",
+            "5": "Grand Bridge",
+            "6": "Skyblock Walls",
+            "7": "Thousand-Mat Hall",
+            "8": "Phoenix Tower"
         },
-        "special1": "EX1",
-        "special2": "EX2",
+        "special1": "Abandoned Temple",
+        "special2": "Fields of Despair",
         "special": "EX",
         "name": "Ohbanahara",
         "order": 103
