@@ -359,8 +359,8 @@ mapName = {
             "7": "Thousand-Mat Hall",
             "8": "Phoenix Tower"
         },
-        "special1": "Abandoned Temple",
-        "special2": "Fields of Despair",
+        "special1": "Fields of Despair",
+        "special2": "Abandoned Temple",
         "special": "EX",
         "name": "Ohbanahara",
         "order": 103
@@ -694,6 +694,10 @@ full_ills = {
     "navi_chara80053": "http://i.imgur.com/xWaszjH.png",
     "navi_chara80054": "http://i.imgur.com/OC1bgm1.png",
     "navi_chara80055": "http://i.imgur.com/J3drt4x.png",
+    "navi_chara80056": "http://i.imgur.com/XrszfWa.png",
+    "navi_chara80057": "http://i.imgur.com/pm5D6rA.png",
+    "navi_chara80058": "http://i.imgur.com/LDyK3I8.png",
+    "navi_chara80059": "http://i.imgur.com/VWf5dmR.png",
     "navi_chara80060": "http://i.imgur.com/2muX1zc.png",
     "navi_chara80061": "http://i.imgur.com/kiDrEhA.png",
     "navi_chara80062": "http://i.imgur.com/7YzOeqC.png",

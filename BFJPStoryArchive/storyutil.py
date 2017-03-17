@@ -359,8 +359,8 @@ mapName = {
             "7": "Thousand-Mat Hall",
             "8": "Phoenix Tower"
         },
-        "special1": "Abandoned Temple",
-        "special2": "Fields of Despair",
+        "special1": "Fields of Despair",
+        "special2": "Abandoned Temple",
         "special": "EX",
         "name": "Ohbanahara",
         "order": 103
