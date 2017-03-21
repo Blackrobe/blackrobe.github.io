@@ -304,7 +304,7 @@ class StoryPage(object):
                     raidSceneNumber = pageName.split("_")[2]
                     self.setOrder(800000 + int(raidNumber)*100 + int(raidSceneNumber))
                     self.setDirectory(pageName)
-                    self.setName("Raid - Lords of Fuindor NEXT: Scene " + raidSceneNumber)
+                    self.setName("Raid - Maw of Madness: Scene " + raidSceneNumber)
                 else:
                     raidClass = pageName.split("_")[1]
                     raidScene = pageName.split("_")[2]                    
