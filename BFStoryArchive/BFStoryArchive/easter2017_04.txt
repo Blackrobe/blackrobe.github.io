@@ -1,0 +1,186 @@
+﻿*,type=PARAM,id=23,param=-1,#
+*,type=PARAM,id=6,param=/dungeon/dungeon_battle_81019.jpg,#
+*,type=PARAM,id=6,param=/event/navi_chara80064.png,#
+*,type=PARAM,id=6,param=/event/navi_chara80064_0.png,#
+*,type=PARAM,id=6,param=/event/navi_chara80064_1.png,#
+*,type=PARAM,id=6,param=/event/navi_chara80064_2.png,#
+*,type=PARAM,id=6,param=/event/navi_chara80064_3.png,#
+*,type=PARAM,id=6,param=/event/navi_chara80064_4.png,#
+*,type=PARAM,id=6,param=/event/navi_chara80064_5.png,#
+*,type=PARAM,id=6,param=/event/navi_chara80065.png,#
+*,type=PARAM,id=6,param=/event/navi_chara80065_0.png,#
+*,type=PARAM,id=6,param=/event/navi_chara80065_1.png,#
+*,type=PARAM,id=6,param=/event/navi_chara80065_2.png,#
+*,type=PARAM,id=6,param=/event/navi_chara80065_3.png,#
+*,type=PARAM,id=6,param=/event/navi_chara80065_4.png,#
+*,type=PARAM,id=6,param=/event/navi_chara80065_5.png,#
+*,type=PARAM,id=6,param=/sound/bf034_map_ignia.mp3,#
+*,type=STOP,id=-1,#
+*,type=PARAM,id=26,param=1,#
+*,type=PARAM,id=1,param=car_base:navi_chara80064.png,#
+*,type=PARAM,id=1,param=car_norm:navi_chara80064_0.png,#
+*,type=PARAM,id=1,param=car_happy:navi_chara80064_1.png,#
+*,type=PARAM,id=1,param=car_angry:navi_chara80064_2.png,#
+*,type=PARAM,id=1,param=car_scar:navi_chara80064_3.png,#
+*,type=PARAM,id=1,param=car_shock:navi_chara80064_4.png,#
+*,type=PARAM,id=1,param=car_hurt:navi_chara80064_5.png,#
+*,type=PARAM,id=1,param=cot_base:navi_chara80065.png,#
+*,type=PARAM,id=1,param=cot_norm:navi_chara80065_0.png,#
+*,type=PARAM,id=1,param=cot_happy:navi_chara80065_1.png,#
+*,type=PARAM,id=1,param=cot_angry:navi_chara80065_2.png,#
+*,type=PARAM,id=1,param=cot_sad:navi_chara80065_3.png,#
+*,type=PARAM,id=1,param=cot_shock:navi_chara80065_4.png,#
+*,type=PARAM,id=1,param=cot_hurt:navi_chara80065_5.png,#
+*,type=PARAM,id=1,param=bg1:dungeon_battle_81019.jpg,#
+*,type=PARAM,id=2,param=bg1:0:0:1:0,#
+*,type=PARAM,id=8,param=2:0&0&0,#
+*,type=PARAM,id=33,param=bf034_map_ignia.mp3,#
+*,type=
+*,type=STOP,id=-1,#
+*,type=PLAYWAIT,param=1,#
+*,type=PARAM,id=2,param=cot_base:136:3:2:1,#
+*,type=PARAM,id=2,param=cot_sad:136:110:2:1,#
+*,type=PARAM,id=39,param=Cotton,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=MISSION: FAILURE. CAUSE: UNABLE TO FULFILL RETRIEVAL OF RAINBOW EGGS.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=3,param=cot_base:1:0.5,#
+*,type=PARAM,id=3,param=cot_sad:1:0.5,#
+*,type=PARAM,id=2,param=car_base:-178:145:2:1,#
+*,type=PARAM,id=2,param=car_angry:-178:-42:2:1,#
+*,type=PARAM,id=39,param=Carrol,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=See? Being rude gets you nowhere. If you had asked nicely, I would have shared these with you!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=3,param=car_base:1:0.5,#
+*,type=PARAM,id=3,param=car_angry:1:0.5,#
+*,type=PARAM,id=2,param=cot_base:136:3:2:1,#
+*,type=PARAM,id=2,param=cot_shock:136:110:2:1,#
+*,type=PARAM,id=39,param=Cotton,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=SHARED...?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=2,param=cot_hurt:136:110:2:1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=DOES<wait=3> NOT<wait=3> COMPUTE.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=3,param=cot_base:1:0.5,#
+*,type=PARAM,id=3,param=cot_shock:1:0.5,#
+*,type=PARAM,id=3,param=cot_hurt:1:0.5,#
+*,type=PARAM,id=2,param=car_base:-178:145:2:1,#
+*,type=PARAM,id=2,param=car_shock:-178:-42:2:1,#
+*,type=PARAM,id=39,param=Carrol,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=You really don't know what that means? Well, sit here with us and I'll teach you all about it!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=2,param=car_happy:-178:-42:2:1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=We can have some snacks and drinks too!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=3,param=car_base:1:0.5,#
+*,type=PARAM,id=3,param=car_shock:1:0.5,#
+*,type=PARAM,id=3,param=car_happy:1:0.5,#
+*,type=PARAM,id=2,param=cot_base:136:3:2:1,#
+*,type=PARAM,id=2,param=cot_hurt:136:110:2:1,#
+*,type=PARAM,id=39,param=Cotton,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=POWER LEVEL CRITICAL. UNABLE TO...<br>,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=2,param=cot_shock:136:110:2:1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=C-caRroT?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=3,param=cot_base:1:0.5,#
+*,type=PARAM,id=3,param=cot_hurt:1:0.5,#
+*,type=PARAM,id=3,param=cot_shock:1:0.5,#
+*,type=PARAM,id=2,param=car_base:-178:145:2:1,#
+*,type=PARAM,id=2,param=car_happy:-178:-42:2:1,#
+*,type=PARAM,id=39,param=Carrol,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Bianco! That's awfully nice of you! That's how sharing is done!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=That makes it super easy!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=3,param=car_base:1:0.5,#
+*,type=PARAM,id=3,param=car_happy:1:0.5,#
+*,type=PARAM,id=2,param=cot_base:136:3:2:1,#
+*,type=PARAM,id=2,param=cot_norm:136:110:2:1,#
+*,type=PARAM,id=39,param=Cotton,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=CARROT COMPATIBILITY: UNKNOWN...<br>CONSUMPTION COULD PROVE TOXIC.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=3,param=cot_base:1:0.5,#
+*,type=PARAM,id=3,param=cot_norm:1:0.5,#
+*,type=PARAM,id=2,param=car_base:-178:145:2:1,#
+*,type=PARAM,id=2,param=car_norm:-178:-42:2:1,#
+*,type=PARAM,id=39,param=Carrol,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Don't be silly! You're still a rabbit, after all!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=2,param=car_happy:-178:-42:2:1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg= You should be just fine!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=3,param=car_base:1:0.5,#
+*,type=PARAM,id=3,param=car_norm:1:0.5,#
+*,type=PARAM,id=3,param=car_happy:1:0.5,#
+*,type=PARAM,id=2,param=cot_base:136:3:2:1,#
+*,type=PARAM,id=2,param=cot_norm:136:110:2:1,#
+*,type=PARAM,id=39,param=Cotton,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=UNDERSTOOD. COMMENCING EMERGENCY REFUELING WITH CARROT...<br>......,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=2,param=cot_shock:136:110:2:1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=.........!!!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=3,param=cot_base:1:0.5,#
+*,type=PARAM,id=3,param=cot_norm:1:0.5,#
+*,type=PARAM,id=3,param=cot_shock:1:0.5,#
+*,type=PARAM,id=2,param=car_base:-178:145:2:1,#
+*,type=PARAM,id=2,param=car_happy:-178:-42:2:1,#
+*,type=PARAM,id=39,param=Carrol,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=See?! I told you you'd be fine! Isn't it tasty?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=3,param=car_base:1:0.5,#
+*,type=PARAM,id=3,param=car_happy:1:0.5,#
+*,type=PARAM,id=2,param=cot_base:136:3:2:1,#
+*,type=PARAM,id=2,param=cot_norm:136:110:2:1,#
+*,type=PARAM,id=39,param=Cotton,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=RefuELinG coMplete. ChaNgeS to Core PrograMMing prOceSSing...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=3,param=cot_base:1:0.5,#
+*,type=PARAM,id=3,param=cot_norm:1:0.5,#
+*,type=PARAM,id=2,param=car_base:-178:145:2:1,#
+*,type=PARAM,id=2,param=car_happy:-178:-42:2:1,#
+*,type=PARAM,id=39,param=Carrol,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Oh! That sounds exciting, right Bianco?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=2,param=car_norm:-178:-42:2:1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Hmmm, I think we can add a ribbon to your arm here...,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=3,param=car_base:1:0.5,#
+*,type=PARAM,id=3,param=car_happy:1:0.5,#
+*,type=PARAM,id=3,param=car_norm:1:0.5,#
+*,type=PARAM,id=2,param=cot_base:136:3:2:1,#
+*,type=PARAM,id=2,param=cot_happy:136:110:2:1,#
+*,type=PARAM,id=39,param=Cotton,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Bzzt! ChaNgeS coMpletE! My neW oBjecTives: LeaRn "SHARING!", undErsTanD "ADVENTURE!", HavE "FUN!",#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=3,param=cot_base:1:0.5,#
+*,type=PARAM,id=3,param=cot_happy:1:0.5,#
+*,type=PARAM,id=2,param=car_base:-178:145:2:1,#
+*,type=PARAM,id=2,param=car_happy:-178:-42:2:1,#
+*,type=PARAM,id=39,param=Carrol,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Yay! Isn't that wonderful, Bianco?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=3,param=car_base:1:0.5,#
+*,type=PARAM,id=3,param=car_happy:1:0.5,#
+*,type=PARAM,id=2,param=cot_base:136:3:2:1,#
+*,type=PARAM,id=2,param=cot_norm:136:110:2:1,#
+*,type=PARAM,id=39,param=Cotton,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=ConCluSion: I wiLL reMaiN in GrAnd GaiA to geT RainBow Eggs aNd Carrots!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=3,param=cot_base:1:0.5,#
+*,type=PARAM,id=3,param=cot_norm:1:0.5,#
+*,type=PARAM,id=2,param=car_base:-178:145:2:1,#
+*,type=PARAM,id=2,param=car_happy:-178:-42:2:1,#
+*,type=PARAM,id=39,param=Carrol,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=That's the spirit! Now, let's start by practicing your manners! "May I please...",#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=3,param=car_base:1:0.5,#
+*,type=PARAM,id=3,param=car_happy:1:0.5,#
+*,type=PARAM,id=2,param=cot_base:136:3:2:1,#
+*,type=PARAM,id=2,param=cot_norm:136:110:2:1,#
+*,type=PARAM,id=39,param=Cotton,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=May I haVe a Carrot, p-pLeaSe?,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=3,param=cot_base:1:0.5,#
+*,type=PARAM,id=3,param=cot_norm:1:0.5,#
+*,type=PARAM,id=2,param=car_base:-178:145:2:1,#
+*,type=PARAM,id=2,param=car_happy:-178:-42:2:1,#
+*,type=PARAM,id=39,param=Carrol,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Why sure! Here you are! And once you receive something, you should always say "thank you" in return.,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=3,param=car_base:1:0.5,#
+*,type=PARAM,id=3,param=car_happy:1:0.5,#
+*,type=PARAM,id=2,param=cot_base:136:3:2:1,#
+*,type=PARAM,id=2,param=cot_happy:136:110:2:1,#
+*,type=PARAM,id=39,param=Cotton,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Yaay! ThAnk YoU!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=3,param=cot_base:1:0.5,#
+*,type=PARAM,id=3,param=cot_happy:1:0.5,#
+*,type=PARAM,id=2,param=car_base:-178:145:2:1,#
+*,type=PARAM,id=2,param=car_happy:-178:-42:2:1,#
+*,type=PARAM,id=39,param=Carrol,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=We're going to have fun, you and I! Right, Bianco? Our adventures await!,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=3,param=car_base:1:0.5,#
+*,type=PARAM,id=3,param=car_happy:1:0.5,#
+*,type=PARAM,id=7,param=1.5:0&0&0,#
+*,type=PARAM,id=40,param=-1,#
+*,type=PARAM,id=3,param=bg1:1:0.5,#
+*,type=STOP,id=-1,#
+*,type=
+*,type=PARAM,id=35,param=-1,#
+*,type=PARAM,id=41,param=2,#

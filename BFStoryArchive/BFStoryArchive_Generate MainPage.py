@@ -337,6 +337,12 @@ class StoryPage(object):
             self.setDirectory(pageName)
             self.setName("2017 Valentine Special Mission Scene " + sceneNumber)
 
+        elif not (pageName.find("easter2017") == -1):
+            sceneNumber = pageName.split("_")[1]            
+            self.setOrder(1200020 + int(sceneNumber))
+            self.setDirectory(pageName)
+            self.setName("2017 Easter Special Mission Scene " + sceneNumber)
+
         # ==============
         #     OTHERS    
         # ==============        

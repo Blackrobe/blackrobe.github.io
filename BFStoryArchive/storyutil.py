@@ -702,6 +702,9 @@ full_ills = {
     "navi_chara80061": "http://i.imgur.com/kiDrEhA.png",
     "navi_chara80062": "http://i.imgur.com/7YzOeqC.png",
     "navi_chara80063": "http://i.imgur.com/vT3yiDy.png",
+    "navi_chara80064": "http://i.imgur.com/NahdD7W.png",
+    "navi_chara80065": "http://i.imgur.com/yR3UDqf.png",
+    "navi_chara80066": "http://i.imgur.com/xMYAI0v.png",
 
     #===========================
     # COLLABORATIONS AND OTHERS 
