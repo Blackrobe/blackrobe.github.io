@@ -534,7 +534,7 @@ grandQuestName = {
         "name": "Those Who Lead"
     },
     "21": {
-        "name": "Imperial Savior (Bariura GQ)"
+        "name": "The End of an Empire"
     },
     "X1": {
         "name": "The Tinkerer's Deceit"
