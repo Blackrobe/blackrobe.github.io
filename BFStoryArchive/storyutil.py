@@ -533,6 +533,9 @@ grandQuestName = {
     "20": {
         "name": "Those Who Lead"
     },
+    "21": {
+        "name": "Imperial Savior (Bariura GQ)"
+    },
     "X1": {
         "name": "The Tinkerer's Deceit"
     },
@@ -665,6 +668,10 @@ full_ills = {
     "navi_chara123": "http://i.imgur.com/gBQNDpg.png",
     "navi_chara124": "http://i.imgur.com/781DNor.png",
     "navi_chara127": "http://i.imgur.com/9U6NRpx.png",
+    "navi_chara129": "http://i.imgur.com/bDMGx35.png",
+    "navi_chara130": "http://i.imgur.com/Mhv9xBS.png",
+    "navi_chara131": "http://i.imgur.com/MUUBbcv.png",
+    "navi_chara132": "http://i.imgur.com/gCuQT3Z.png",
 
     #=======================
     # BRAVE FRONTIER GLOBAL 
