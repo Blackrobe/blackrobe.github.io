@@ -365,6 +365,23 @@ mapName = {
         "name": "Ohbanahara",
         "order": 103
     },    
+    "104": {
+        "dungeon": {
+            "1": "Area 1",
+            "2": "Area 2",
+            "3": "Area 3",
+            "4": "Area 4",
+            "5": "Area 5",
+            "6": "Area 6",
+            "7": "Area 7",
+            "8": "Area 8"
+        },
+        "special1": "EX1",
+        "special2": "EX2",
+        "special": "EX",
+        "name": "Rokkzalm",
+        "order": 104
+    },  
     "3": {
         "dungeon": {
             "1": "Volcano Eldent",
@@ -672,6 +689,12 @@ full_ills = {
     "navi_chara130": "http://i.imgur.com/Mhv9xBS.png",
     "navi_chara131": "http://i.imgur.com/MUUBbcv.png",
     "navi_chara132": "http://i.imgur.com/gCuQT3Z.png",
+    "navi_chara134": "http://i.imgur.com/RyIcYLt.png",
+    "navi_chara135": "http://i.imgur.com/x9uDaNe.png",
+    "navi_chara136": "http://i.imgur.com/zk8rtRR.png",
+    "navi_chara137": "http://i.imgur.com/F3gyA14.jpg",
+    "navi_chara138": "http://i.imgur.com/xHPz8A0.png",
+    "navi_chara140": "http://i.imgur.com/n8xwQoe.png",
 
     #=======================
     # BRAVE FRONTIER GLOBAL 

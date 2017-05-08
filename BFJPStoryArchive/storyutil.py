@@ -381,7 +381,24 @@ mapName = {
         "special": "EX",
         "name": "Rokkzalm",
         "order": 104
-    },   
+    },
+    "105": {
+        "dungeon": {
+            "1": "Area 1",
+            "2": "Area 2",
+            "3": "Area 3",
+            "4": "Area 4",
+            "5": "Area 5",
+            "6": "Area 6",
+            "7": "Area 7",
+            "8": "Area 8"
+        },
+        "special1": "EX1",
+        "special2": "EX2",
+        "special": "EX",
+        "name": "Valdroar",
+        "order": 105
+    },  
     "3": {
         "dungeon": {
             "1": "Volcano Eldent",
@@ -548,10 +565,10 @@ grandQuestName = {
         "name": "Sera's Grand Quest"
     },
     "20": {
-        "name": "Heroes of Elgaia's Grand Quest"
+        "name": "Those Who Lead"
     },
     "21": {
-        "name": "Bariura Empire Grand Quest"
+        "name": "The End of an Empire"
     },
     "X1": {
         "name": "The Tinkerer's Deceit"
@@ -689,6 +706,12 @@ full_ills = {
     "navi_chara130": "http://i.imgur.com/Mhv9xBS.png",
     "navi_chara131": "http://i.imgur.com/MUUBbcv.png",
     "navi_chara132": "http://i.imgur.com/gCuQT3Z.png",
+    "navi_chara134": "http://i.imgur.com/RyIcYLt.png",
+    "navi_chara135": "http://i.imgur.com/x9uDaNe.png",
+    "navi_chara136": "http://i.imgur.com/zk8rtRR.png",
+    "navi_chara137": "http://i.imgur.com/F3gyA14.jpg",
+    "navi_chara138": "http://i.imgur.com/xHPz8A0.png",
+    "navi_chara140": "http://i.imgur.com/n8xwQoe.png",
 
     #=======================
     # BRAVE FRONTIER GLOBAL 
@@ -718,7 +741,18 @@ full_ills = {
     "navi_chara80053": "http://i.imgur.com/xWaszjH.png",
     "navi_chara80054": "http://i.imgur.com/OC1bgm1.png",
     "navi_chara80055": "http://i.imgur.com/J3drt4x.png",
-
+    "navi_chara80056": "http://i.imgur.com/XrszfWa.png",
+    "navi_chara80057": "http://i.imgur.com/pm5D6rA.png",
+    "navi_chara80058": "http://i.imgur.com/LDyK3I8.png",
+    "navi_chara80059": "http://i.imgur.com/VWf5dmR.png",
+    "navi_chara80060": "http://i.imgur.com/2muX1zc.png",
+    "navi_chara80061": "http://i.imgur.com/kiDrEhA.png",
+    "navi_chara80062": "http://i.imgur.com/7YzOeqC.png",
+    "navi_chara80063": "http://i.imgur.com/vT3yiDy.png",
+    "navi_chara80064": "http://i.imgur.com/NahdD7W.png",
+    "navi_chara80065": "http://i.imgur.com/yR3UDqf.png",
+    "navi_chara80066": "http://i.imgur.com/xMYAI0v.png",
+    
     #===========================
     # COLLABORATIONS AND OTHERS 
     #===========================
