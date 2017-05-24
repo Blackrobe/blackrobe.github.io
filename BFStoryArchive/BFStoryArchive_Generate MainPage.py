@@ -157,7 +157,7 @@ class StoryPage(object):
                 if grandQuestSceneNumber.isdigit():
                     self.setOrder(380000 + int(grandQuestNumber)*1000 + int(grandQuestSceneNumber))
                 else:
-                    self.setOrder(380000 + int(grandQuestNumber)*1000 + int(grandQuestSceneNumber[:-1]))
+                    self.setOrder(380000 + int(grandQuestNumber)*1000 + int(ord(grandQuestSceneNumber[:-1])))
                 self.setDirectory(pageName)
                 self.setName("Exclusive Grand Quest " + grandQuestNumber + ": " + grandQuestName[grandQuestID]["name"] + " Scene " + grandQuestSceneNumber)
         elif not (pageName.find("grand") == -1):
