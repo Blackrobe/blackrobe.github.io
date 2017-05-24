@@ -292,17 +292,17 @@
 *,type=PLAYWAIT,param=1,#
 *,type=PARAM,id=2,param=ilm:-22:-112:2:0.5,#
 *,type=PARAM,id=39,param=Ilm,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=La duono de la eterneco, mi devas peti mian pagon. <Half of eternity, I must ask for my payment.>,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=La duono de la eterneco, mi devas peti mian pagon. (Half of eternity, I must ask for my payment.),#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=ilm:1:0.5,#
 *,type=PARAM,id=2,param=gab_base:-84:130:2:0.5,#
 *,type=PARAM,id=2,param=gab_norm:-84:-2:2:0.5,#
 *,type=PARAM,id=39,param=Gabriela,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Tre bone, walker de mondoj. Ni estas solaj. Via demando? <Very well, walker of worlds. We are alone. Your question?>,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Tre bone, walker de mondoj. Ni estas solaj. Via demando? (Very well, walker of worlds. We are alone. Your question?),#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=gab_base:1:0.5,#
 *,type=PARAM,id=3,param=gab_norm:1:0.5,#
 *,type=PARAM,id=2,param=ilm:-22:-112:2:0.5,#
 *,type=PARAM,id=39,param=Ilm,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=La ligo inter vi kaj Adriesta estas pli profunda ol vi implici. <The bond between you and Adriesta is deeper than you imply.>,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=La ligo inter vi kaj Adriesta estas pli profunda ol vi implici. (The bond between you and Adriesta is deeper than you imply.),#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=ilm:1:0.5,#
 *,type=PARAM,id=2,param=gab_base:-84:130:2:0.5,#
 *,type=PARAM,id=2,param=gab_angry:-84:-2:2:0.5,#
@@ -315,29 +315,29 @@
 *,type=PARAM,id=3,param=gab_sad:1:0.5,#
 *,type=PARAM,id=2,param=ilm:-22:-112:2:0.5,#
 *,type=PARAM,id=39,param=Ilm,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<wait=10>Mia prezo estas mia prezo. <My price is my price.>,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=<wait=10>Mia prezo estas mia prezo. (My price is my price.),#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=ilm:1:0.5,#
 *,type=PARAM,id=2,param=gab_base:-84:130:2:0.5,#
 *,type=PARAM,id=2,param=gab_sad:-84:-2:2:0.5,#
 *,type=PARAM,id=39,param=Gabriela,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Ŝi havas ... libere donis al mi sian vivon. <She has...freely given me her life.>,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Ŝi havas ... libere donis al mi sian vivon. (She has...freely given me her life.),#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=gab_happy:-84:-2:2:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Kaj ... Mi sentis ŝian potencon. Kion ŝi povas esti, en miaj manoj. <And...I felt her power. What she can be, in my hands.>,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Kaj ŝia koro. Ŝiaj nudaj animo. Estas bela ... Mi neniam pensis ke mi vidis ion similan. <And her heart. Her naked soul. It is a beautiful thing...I never thought I would see anything like it.>,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Kaj ... Mi sentis ŝian potencon. Kion ŝi povas esti, en miaj manoj. (And...I felt her power. What she can be, in my hands.),#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Kaj ŝia koro. Ŝiaj nudaj animo. Estas bela ... Mi neniam pensis ke mi vidis ion similan. (And her heart. Her naked soul. It is a beautiful thing...I never thought I would see anything like it.),#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=gab_base:1:0.5,#
 *,type=PARAM,id=3,param=gab_sad:1:0.5,#
 *,type=PARAM,id=3,param=gab_happy:1:0.5,#
 *,type=PARAM,id=2,param=ilm:-22:-112:2:0.5,#
 *,type=PARAM,id=39,param=Ilm,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Kion vi timas? <What do you fear?>,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Kion vi timas? (What do you fear?),#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=ilm:1:0.5,#
 *,type=PARAM,id=2,param=gab_base:-84:130:2:0.5,#
 *,type=PARAM,id=2,param=gab_sad:-84:-2:2:0.5,#
 *,type=PARAM,id=39,param=Gabriela,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Tio ... Mi-mi ne povas lasi iri de la plej bela Mi vidis en mia vivo, kiam la tempo venos. <That...I-I can't be able to let go of the most beautiful thing I have seen in my life when the time comes.>,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Tion mi ne faros. <That I won't.>,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Tio ... Mi-mi ne povas lasi iri de la plej bela Mi vidis en mia vivo, kiam la tempo venos. (That...I-I can't be able to let go of the most beautiful thing I have seen in my life when the time comes.),#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Tion mi ne faros. (That I won't.),#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=2,param=gab_angry:-84:-2:2:0.5,#
-*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Ne diru tion, Ilm. Mi neniam pardonos vin se vi faras. Neniam! <Don't say it, Ilm. I will never forgive you if you do. Never!>,#*,type=MSGWAIT,#*,type=STOP,id=-1,#
+*,type=PARAM,id=15,param=0,#*,type=MSGDRAW,msg=Ne diru tion, Ilm. Mi neniam pardonos vin se vi faras. Neniam! (Don't say it, Ilm. I will never forgive you if you do. Never!),#*,type=MSGWAIT,#*,type=STOP,id=-1,#
 *,type=PARAM,id=3,param=gab_base:1:0.5,#
 *,type=PARAM,id=3,param=gab_sad:1:0.5,#
 *,type=PARAM,id=3,param=gab_angry:1:0.5,#

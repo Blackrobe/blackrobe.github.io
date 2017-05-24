@@ -557,10 +557,10 @@ grandQuestName = {
         "name": "The Tinkerer's Deceit"
     },
     "X2": {
-        "name": "Rih'alnase -- Genesis"
+        "name": "Eneroth: Genesis"
     },
     "X3": {
-        "name": "Fuinsignum Grand Quest"
+        "name": "Crossing the Abyss"
     },
 }
 
