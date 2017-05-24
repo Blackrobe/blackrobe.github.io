@@ -559,6 +559,9 @@ grandQuestName = {
     "X2": {
         "name": "Rih'alnase -- Genesis"
     },
+    "X3": {
+        "name": "Fuinsignum Grand Quest"
+    },
 }
 
 full_ills = {
@@ -735,6 +738,9 @@ full_ills = {
     "navi_chara80064": "http://i.imgur.com/NahdD7W.png",
     "navi_chara80065": "http://i.imgur.com/yR3UDqf.png",
     "navi_chara80066": "http://i.imgur.com/xMYAI0v.png",
+    "navi_chara80067": "http://i.imgur.com/eZ53BxQ.png",
+    "navi_chara80068": "http://i.imgur.com/aVsSfgp.png",
+    "navi_chara80069": "http://i.imgur.com/H9GdWBW.png",
 
     #===========================
     # COLLABORATIONS AND OTHERS 
