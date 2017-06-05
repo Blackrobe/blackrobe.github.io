@@ -381,6 +381,23 @@ mapName = {
         "special": "EX",
         "name": "Rokkzalm",
         "order": 104
+    },
+    "105": {
+        "dungeon": {
+            "1": "Area 1",
+            "2": "Area 2",
+            "3": "Area 3",
+            "4": "Area 4",
+            "5": "Area 5",
+            "6": "Area 6",
+            "7": "Area 7",
+            "8": "Area 8"
+        },
+        "special1": "EX1",
+        "special2": "EX2",
+        "special": "EX",
+        "name": "Valdroar",
+        "order": 105
     },  
     "3": {
         "dungeon": {
