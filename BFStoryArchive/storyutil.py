@@ -398,7 +398,24 @@ mapName = {
         "special": "EX",
         "name": "Valdroar",
         "order": 105
-    },  
+    },
+    "106": {
+        "dungeon": {
+            "1": "Area 1",
+            "2": "Area 2",
+            "3": "Area 3",
+            "4": "Area 4",
+            "5": "Area 5",
+            "6": "Area 6",
+            "7": "Area 7",
+            "8": "Area 8"
+        },
+        "special1": "EX1",
+        "special2": "EX2",
+        "special": "EX",
+        "name": "FINALE - St. Creek",
+        "order": 106
+    },   
     "3": {
         "dungeon": {
             "1": "Volcano Eldent",
@@ -715,6 +732,7 @@ full_ills = {
     "navi_chara137": "http://i.imgur.com/F3gyA14.jpg",
     "navi_chara138": "http://i.imgur.com/xHPz8A0.png",
     "navi_chara140": "http://i.imgur.com/n8xwQoe.png",
+    "navi_chara142": "http://i.imgur.com/1LlVKdQ.png",
 
     #=======================
     # BRAVE FRONTIER GLOBAL 
