@@ -367,31 +367,31 @@ mapName = {
     },
     "104": {
         "dungeon": {
-            "1": "Area 1",
-            "2": "Area 2",
-            "3": "Area 3",
-            "4": "Area 4",
-            "5": "Area 5",
-            "6": "Area 6",
-            "7": "Area 7",
+            "1": "Vista Plateau",
+            "2": "Ancient Cave",
+            "3": "Ankash Ruins",
+            "4": "Flowing Waterfall",
+            "5": "Hollow Ravine",
+            "6": "Divine Helm",
+            "7": "Armor Hall",
             "8": "Area 8"
         },
         "special1": "EX1",
         "special2": "EX2",
-        "special": "EX",
+        "special": "Demolished Tomb",
         "name": "Rokkzalm",
         "order": 104
     },
     "105": {
         "dungeon": {
-            "1": "Area 1",
-            "2": "Area 2",
-            "3": "Area 3",
-            "4": "Area 4",
-            "5": "Area 5",
-            "6": "Area 6",
-            "7": "Area 7",
-            "8": "Area 8"
+            "1": "Hill of Falling Stars",
+            "2": "Dragon's Flame Tomb",
+            "3": "Thunder Gem Mountain",
+            "4": "Moonlit Mirror Lake",
+            "5": "Deep Divine Forest",
+            "6": "Kahral Temple Ruins",
+            "7": "Guiding Star Cave",
+            "8": "Dragon's Chambers"
         },
         "special1": "EX1",
         "special2": "EX2",
