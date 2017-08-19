@@ -50,7 +50,7 @@
 *,type=PLAYWAIT,param=1,#
 *,type=STOP,id=-1,#
 *,type=PARAM,id=45,param=9,#
-*,type=PARAM,id=16,param=6,#*,type=MSGDRAW,msg=<anchor=center><br><br><br><br><color=000000><speed=8><size=15>Speak my name...<wait=50><br><speed=5>My name<speed=2>is...,#
+*,type=PARAM,id=16,param=6,#*,type=MSGDRAW,msg=<anchor=center><br><br><br><br><color=000000><speed=8><size=15>Speak my name...<wait=50><br><speed=5>My name<speed=2> is...,#
 *,type=PLAYWAIT,param=10,#
 *,type=PARAM,id=7,param=1:255&255&255,#
 *,type=STOP,id=-1,#
