@@ -795,7 +795,7 @@ full_ills = {
 
 if __name__ == '__main__':
 
-    print "navi_chara80047" in full_ills
+    print("navi_chara80047" in full_ills)
 
     '''
     import json
