@@ -122,7 +122,7 @@ class StoryPage(object):
                             
                             dungeonNumber = pageName.split("-")[1][7:]
                             sceneNumber = pageName.split("-")[2]
-                            print "this one: ", pageName, dungeonNumber, sceneNumber
+                            print("this one: ", pageName, dungeonNumber, sceneNumber)
                             self.setOrder(int(mapNumber)*1000+int(dungeonNumber)*10+int(sceneNumber))
                             self.setDirectory(pageName)
                             self.setName("Summoner's Arc Chapter " + str(int(mapNumber) % 100) + "-" + dungeonNumber + ": " + mapName[mapNumber]["name"] + " - " + mapName[mapNumber]["dungeon"][dungeonNumber] + " Scene " + sceneNumber + " (Japanese)")
@@ -132,7 +132,7 @@ class StoryPage(object):
                         else:
                             
                             dungeonNumber = pageName.split("-")[1][7:]
-                            print "That one", pageName, dungeonNumber
+                            print("That one", pageName, dungeonNumber)
                             self.setOrder(int(mapNumber)*1000+int(dungeonNumber)*10)
                             self.setDirectory(pageName)
                             self.setName("Summoner's Arc Chapter " + str(int(mapNumber) % 100) + "-" + dungeonNumber + ": " + mapName[mapNumber]["name"] + " - " + mapName[mapNumber]["dungeon"][dungeonNumber] + " (Japanese)")                        
@@ -296,7 +296,7 @@ if __name__ == '__main__':
     currentMapOrder = 0
 
     for currentPage in sorted(pageList, key=lambda StoryPage: StoryPage.order):
-        print currentPage.order, currentMapOrder, currentPage.name
+        print(currentPage.order, currentMapOrder, currentPage.name)
         if (currentPage.order - currentOrder < 100000):
             if (
                        (floor(currentPage.order/100000) == 0)
@@ -333,4 +333,4 @@ if __name__ == '__main__':
         for outputLine in outputLines:
             f.write(outputLine + "\n")
 
-    print "Process finished"
+    print("Process finished")

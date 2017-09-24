@@ -86,7 +86,7 @@ ignoredPortraitList = [
     
     ]
 
-print "begin"
+print("begin")
     
 import glob, os
 import codecs
@@ -98,7 +98,7 @@ for file in glob.glob(story_txtDirectory + "*.txt"):
 
 for currentTxt in currentTxtList:
 
-    print currentTxt
+    print(currentTxt)
 
     outputLines = []
 

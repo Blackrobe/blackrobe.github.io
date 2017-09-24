@@ -82,7 +82,7 @@ ignoredPortraitList = [
     "navi_chara80051",
     ]
 
-print "begin"
+print("begin")
     
 import glob, os
 import codecs
@@ -94,7 +94,7 @@ for file in glob.glob(story_txtDirectory + "*.txt"):
 
 for currentTxt in currentTxtList:
 
-    print currentTxt
+    print(currentTxt)
 
     outputLines = []
 
@@ -259,7 +259,7 @@ for currentTxt in currentTxtList:
                     if speakerFacePortraitStack == []:
                         speakerFacePortraitStack.append("blank.png")
                 if not (currentTxt.find("raid_804_7") == -1):
-                    print "Result:", speakerFacePortraitStack
+                    print("Result:", speakerFacePortraitStack)
 
             # ID = 15: mark a line of dialogue text information
             if not (line.find("type=PARAM,id=15,") == -1):

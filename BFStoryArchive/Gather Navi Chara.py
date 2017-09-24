@@ -1,26 +1,34 @@
-import urllib
+import urllib.request, urllib.parse, urllib.error
 import glob, os
 from threading import Thread
 from time import sleep
+from utilities import write_to_log, checkAvailability
 
 threadList = []
 fileList = []
 
-def checkAvailability(fetched):
-    return "NoSuchKey" in fetched or "Not Found"  in fetched or "Request Timeout" in fetched or "Gateway Timeout" in fetched
+foundFilesCount = 0
 
-def gatherNaviChara(filename):    
-    f = urllib.urlopen("http://v2.cdn.android.brave.a-lim.jp/event/" + filename)
-    fetched = f.read()
-    f.close()
+def gatherNaviChara(filename):
+
+    try:
+        f = urllib.request.urlopen("http://v2.cdn.android.brave.a-lim.jp/event/" + filename)
+        fetched = f.read()
+        f.close()   
     
-    if checkAvailability(fetched):
-        print filename, "not found"
-    else:
-        print filename
+        print(filename)
         f = open ("result/" + filename, "wb")
         f.write(fetched)
         f.close()
+
+        global foundFilesCount
+        foundFilesCount += 1
+
+        write_to_log("BFJP Navi Chara", "Found " + filename + "\n")
+        
+    except urllib.error.URLError:    
+        print("File not found : ", filename)
+    
 
 
 ############################################################
@@ -35,7 +43,7 @@ if __name__ == "__main__":
     for filename in glob.glob("result/" + "*.png"):        
         alreadyExistFiles.append(filename[7:])
     
-    for i in range(1, 150):
+    for i in range(1, 200):
 
         s = "navi_chara%d.png" % (i,)
 
@@ -58,4 +66,5 @@ if __name__ == "__main__":
     
     for threadIndividual in threadList:
         threadIndividual.join()
-
+    
+    write_to_log("BFJP Navi Chara", "Found " + str(foundFilesCount) + " new files, " + str(len(alreadyExistFiles)) + " already exist files\n")
