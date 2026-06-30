@@ -640,10 +640,18 @@ SEED_TOKENS = {
 }
 
 
-def resolve_and_copy_icons(mod_dir, tree, icons_dir):
-    """Resolve each actor's icon sprite from the sequences YAML and copy the
-    ones that are a single on-disk PNG into icons_dir. Sets node['png'] to the
-    copied filename when available. Returns (copied, total)."""
+def icon_basename(actor_id):
+    """Canonical PNG filename for an actor (matches the engine exporter)."""
+    return re.sub(r"[^a-z0-9._-]+", "_", actor_id.lower()) + ".png"
+
+
+def resolve_and_copy_icons(mod_dir, tree, icons_dir, cameo_dir=None):
+    """Populate icons_dir with a cameo PNG per actor and set node['png'].
+
+    Priority per actor: (1) an engine-exported cameo `<canonical>.png` in
+    cameo_dir (full coverage incl. SHP cameos), else (2) a single on-disk PNG
+    cameo resolved from the Sequences YAML. icons_dir is rebuilt each run so it
+    never accumulates stale art. Returns (from_engine, from_png, total)."""
     import shutil
 
     seq_rs = RuleSet()
@@ -669,40 +677,59 @@ def resolve_and_copy_icons(mod_dir, tree, icons_dir):
             defaults = img.child("Defaults")
             if defaults is not None:
                 fname = defaults.child_value("Filename")
-        start = seq.child_value("Start")
-        return fname, start
+        return fname, seq.child_value("Start")
 
+    # Rebuild icons_dir from scratch.
+    if os.path.isdir(icons_dir):
+        for fn in os.listdir(icons_dir):
+            if fn.lower().endswith(".png"):
+                os.remove(os.path.join(icons_dir, fn))
     os.makedirs(icons_dir, exist_ok=True)
-    copied = total = 0
-    seen = {}
+
+    from_engine = from_png = total = 0
+    png_seen = {}
     for th in tree["themes"]:
         for fa in th["factions"]:
             for n in fa["nodes"]:
                 total += 1
+                out_name = icon_basename(n["id"])
+                dst = os.path.join(icons_dir, out_name)
+
+                # (1) engine-exported cameo (covers SHP + sheet cameos).
+                if cameo_dir:
+                    eng = os.path.join(cameo_dir, out_name)
+                    if os.path.isfile(eng):
+                        if not os.path.exists(dst):
+                            try:
+                                shutil.copyfile(eng, dst)
+                            except OSError:
+                                pass
+                        n["png"] = out_name
+                        from_engine += 1
+                        continue
+
+                # (2) single-frame PNG cameo straight from the mod assets.
                 fname, start = icon_filename(n.get("seqImage", ""), n.get("iconSeq", "icon"))
                 if not fname:
                     continue
                 fname = fname.strip()
-                # Only single-frame PNG cameos can be copied as-is (no crop).
-                if not fname.lower().endswith(".png"):
+                if not fname.lower().endswith(".png") or start not in (None, "0"):
                     continue
-                if start not in (None, "0"):
-                    continue
-                src = file_index.get(fname.lower())
-                if not src:
-                    continue
-                out_name = n["id"].lower().replace("/", "_").replace("\\", "_") + ".png"
-                if fname.lower() not in seen:
+                key = fname.lower()
+                if key not in png_seen:
+                    src = file_index.get(key)
+                    if not src:
+                        continue
                     try:
-                        shutil.copyfile(src, os.path.join(icons_dir, out_name))
-                        seen[fname.lower()] = out_name
+                        shutil.copyfile(src, dst)
+                        png_seen[key] = out_name
                     except OSError:
                         continue
+                    n["png"] = out_name
                 else:
-                    out_name = seen[fname.lower()]
-                n["png"] = out_name
-                copied += 1
-    return copied, total
+                    n["png"] = png_seen[key]
+                from_png += 1
+    return from_engine, from_png, total
 
 
 def propagate_factions(theme, theme_ids, actors):
@@ -952,6 +979,12 @@ def main():
         default=os.path.join(repo_root, "cameo-units", "icons"),
         help="copy resolved PNG cameos here",
     )
+    ap.add_argument(
+        "--cameo-dir",
+        default=os.path.join(here, ".cache", "cameos"),
+        help="engine-exported cameo PNGs (from OpenRA.Utility --export-cameos); "
+             "full-coverage source, preferred over on-disk PNG cameos",
+    )
     ap.add_argument("--no-icons", action="store_true", help="skip icon resolution/copy")
     ap.add_argument("--debug", action="store_true")
     args = ap.parse_args()
@@ -1013,8 +1046,10 @@ def main():
     tree["source"] = source
 
     if not args.no_icons:
-        copied, total = resolve_and_copy_icons(mod_dir, tree, args.icons_out)
-        print(f"icons: copied {copied}/{total} PNG cameos -> {args.icons_out}")
+        cameo_dir = args.cameo_dir if os.path.isdir(args.cameo_dir) else None
+        eng, png, total = resolve_and_copy_icons(mod_dir, tree, args.icons_out, cameo_dir)
+        src = "engine+png" if cameo_dir else "png-only"
+        print(f"icons ({src}): {eng} engine + {png} png = {eng + png}/{total} -> {args.icons_out}")
 
     # Graph dataset (techtree): drop the heavier per-node fields it doesn't use.
     graph = json.loads(json.dumps(tree))

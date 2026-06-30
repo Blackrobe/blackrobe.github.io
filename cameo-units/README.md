@@ -11,10 +11,10 @@ Regenerate from upstream with `..\cameo-techtree\update.cmd`, which rewrites
 
 ## Icon coverage
 
-Cameos that ship as a single on-disk PNG (~half the roster) are shown as real
-art. Units whose cameo is an SHP (or a multi-frame PNG sheet) currently show a
-flat queue-coloured tile — rendering those needs the engine, which is the
-planned next step (a one-pass `--export-cameos` utility command).
+~100% (2150+/2152). Cameos are rendered straight from the mod sprites (SHP and
+PNG alike) by the engine utility command `--export-cameos` (see
+[`../cameo-techtree/README.md`](../cameo-techtree/README.md#regenerating-cameo-icons)).
+Units without an icon sequence fall back to a flat queue-coloured tile.
 
 ## Files
 

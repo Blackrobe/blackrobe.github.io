@@ -38,6 +38,28 @@ Options (passed through to `tools/extract.py`):
 | `--repo <git-url>` | parse a different fork |
 | `--out <file>` | write somewhere other than `data/techtree.json` |
 
+### Regenerating cameo icons
+
+The cameo PNGs in `cameo-units/icons/` are rendered from the mod sprites by an
+OpenRA utility command, `--export-cameos` (source kept for reference at
+`tools/engine/ExportCameosCommand.cs`; it lives in `OpenRA.Mods.Cameo/` in the
+Cameo-mod repo and must be compiled into the mod — `./make all`). It renders
+every buildable actor's icon sequence — SHP and PNG alike — to a single PNG, so
+this is what gives ~100% coverage instead of the ~half that ship as loose PNGs.
+
+Run it once into the extractor's cache, then regenerate:
+
+```cmd
+update-icons.cmd          :: runs OpenRA.Utility --export-cameos into tools\.cache\cameos
+update.cmd                :: extract.py then prefers those cameos
+```
+
+`extract.py` auto-uses `tools\.cache\cameos\` when present (override with
+`--cameo-dir`); without it, it falls back to copying the loose on-disk PNG
+cameos only. The icons folder is rebuilt each run, so stale art is dropped.
+
+### Publishing
+
 Requires Python 3 and `git` on PATH. After regenerating:
 
 ```cmd
