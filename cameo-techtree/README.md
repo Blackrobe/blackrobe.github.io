@@ -19,8 +19,15 @@ update.cmd
 ```
 
 That shallow-clones `cameo-mod/Cameo-mod@master` (sparse: `mods/cameo` only)
-into `tools/.cache/`, parses the active rules, and rewrites
-`data/techtree.json`. Re-runs reuse the cache (fetch + reset).
+into `tools/.cache/`, parses the active rules, and rewrites **both** datasets:
+
+* `cameo-techtree/data/techtree.json` — the graph view (this folder).
+* `cameo-units/data/units.json` + `cameo-units/icons/*.png` — the
+  [roster view](../cameo-units/) (cameo icons + cost/HP/armour/weapon stats).
+
+Re-runs reuse the cache (fetch + reset). Add `--no-icons` to skip copying
+cameos. The extractor follows the upstream content-pack `Include` structure, so
+it keeps working as themes migrate to per-faction wrapper packs.
 
 Options (passed through to `tools/extract.py`):
 

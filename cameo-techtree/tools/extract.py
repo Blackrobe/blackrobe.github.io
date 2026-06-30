@@ -227,24 +227,29 @@ def resolve_pkg_path(ref, mod_dir):
     return os.path.join(mod_dir, ref)
 
 
-def faction_from_path(path, mod_dir):
-    """Infer (theme, faction) from a ContentPacks path; else (None, None)."""
-    norm = os.path.normpath(path)
-    parts = norm.split(os.sep)
-    if "ContentPacks" in parts:
-        i = parts.index("ContentPacks")
-        theme = parts[i + 1] if i + 1 < len(parts) else None
-        faction = parts[i + 2] if i + 2 < len(parts) else None
-        return theme, faction
-    return None, None
+def theme_faction_from_contentyaml(content_path):
+    """Theme/faction for a ContentPacks/<Theme>[/<Faction>]/content.yaml path.
+
+    A theme-level wrapper (ContentPacks/<Theme>/content.yaml) -> (Theme, None).
+    A faction pack (ContentPacks/<Theme>/<Faction>/content.yaml) -> (Theme, Faction).
+    """
+    parts = os.path.normpath(content_path).split(os.sep)
+    if "ContentPacks" not in parts:
+        return None, None
+    after = parts[parts.index("ContentPacks") + 1:]
+    if not after:
+        return None, None
+    theme = after[0]
+    faction = after[1] if len(after) >= 3 else None  # [Theme, Faction, content.yaml]
+    return theme, faction
 
 
 def collect_active_files(mod_dir):
-    """Return list of (abs_path, theme, faction) for active rules files."""
-    mod_yaml = os.path.join(mod_dir, "mod.yaml")
-    with open(mod_yaml, encoding="utf-8") as f:
-        roots = parse_miniyaml(f.read())
+    """Return list of (abs_path, theme, faction) for active rules files.
 
+    Themes/factions are attributed from the including content.yaml's folder, so
+    a wrapper pack that simply loads a monolithic ruleset still tags its theme.
+    """
     files = []
     seen = set()
 
@@ -253,42 +258,95 @@ def collect_active_files(mod_dir):
             seen.add(path)
             files.append((path, theme, faction))
 
-    # Rules: section (monolithic + base)
+    def resolve_include(value):
+        if not value:
+            return None
+        v = value.strip()
+        return resolve_pkg_path(v if "|" in v else "cameo|" + v, mod_dir)
+
+    def process_content(content_path, _depth=0):
+        theme, faction = theme_faction_from_contentyaml(content_path)
+        with open(content_path, encoding="utf-8") as cf:
+            for cn in parse_miniyaml(cf.read()):
+                if cn.key == "Rules":
+                    for rc in cn.children:
+                        add(resolve_pkg_path(rc.key, mod_dir), theme, faction)
+                elif cn.key == "Include" and _depth < 4:
+                    nested = resolve_include(cn.value)
+                    if nested and os.path.isfile(nested):
+                        process_content(nested, _depth + 1)
+
+    mod_yaml = os.path.join(mod_dir, "mod.yaml")
+    with open(mod_yaml, encoding="utf-8") as f:
+        roots = parse_miniyaml(f.read())
     for node in roots:
-        if node.key == "Rules":
+        if node.key == "Rules":  # base/shared rules (no theme)
             for c in node.children:
-                p = resolve_pkg_path(c.key, mod_dir)
-                if p:
-                    theme = monolithic_theme(c.key)
-                    add(p, theme, None)
-        if node.key == "Include":
-            # Include: ContentPacks/Theme/Faction/content.yaml
-            inc = resolve_pkg_path("cameo|" + node.value, mod_dir) if node.value else None
+                add(resolve_pkg_path(c.key, mod_dir), None, None)
+        elif node.key == "Include":
+            inc = resolve_include(node.value)
             if inc and os.path.isfile(inc):
-                with open(inc, encoding="utf-8") as cf:
-                    for cn in parse_miniyaml(cf.read()):
-                        if cn.key == "Rules":
-                            for rc in cn.children:
-                                p = resolve_pkg_path(rc.key, mod_dir)
-                                theme, faction = faction_from_path(p or "", mod_dir)
-                                add(p, theme, faction)
+                process_content(inc)
     return files
 
 
-MONOLITHIC_THEMES = {
-    "redalert.yaml": "RedAlert",
-    "tiberiansun.yaml": "TiberianSun",
-    "redalert2.yaml": "RedAlert2",
-    "starcraft.yaml": "StarCraft",
-    "warcraft2.yaml": "WarCraft2",
-    "outpost2.yaml": "Outpost2",
-    "tkm.yaml": "TKM",
-}
+def collect_section_files(mod_dir, section):
+    """Return absolute paths of active files under a mod.yaml top section."""
+    mod_yaml = os.path.join(mod_dir, "mod.yaml")
+    with open(mod_yaml, encoding="utf-8") as f:
+        roots = parse_miniyaml(f.read())
+    out = []
+    for node in roots:
+        if node.key == section:
+            for c in node.children:
+                p = resolve_pkg_path(c.key, mod_dir)
+                if p and os.path.isfile(p):
+                    out.append(p)
+    return out
 
 
-def monolithic_theme(ref):
-    base = ref.split("|")[-1].split("/")[-1]
-    return MONOLITHIC_THEMES.get(base)
+def collect_weapon_files(mod_dir):
+    """Return absolute paths of active weapon-definition files."""
+    mod_yaml = os.path.join(mod_dir, "mod.yaml")
+    with open(mod_yaml, encoding="utf-8") as f:
+        roots = parse_miniyaml(f.read())
+    out = []
+    for node in roots:
+        if node.key == "Weapons":
+            for c in node.children:
+                p = resolve_pkg_path(c.key, mod_dir)
+                if p and os.path.isfile(p):
+                    out.append(p)
+    return out
+
+
+def build_weapon_stats(mod_dir):
+    """name(lower) -> {range, reload, damage} for all resolved weapons."""
+    wrs = RuleSet()
+    for path in collect_weapon_files(mod_dir):
+        with open(path, encoding="utf-8") as f:
+            wrs.add_file(f.read(), None, None)
+    stats = {}
+    for low in list(wrs.raw):
+        if low.startswith("^"):
+            continue
+        w = wrs.resolve(low)
+        if w is None:
+            continue
+        rng = w.child_value("Range")
+        reload = w.child_value("ReloadDelay")
+        dmg = None
+        for c in w.children:
+            if c.key == "Warhead" or c.key.startswith("Warhead@"):
+                d = c.child_value("Damage")
+                if d and d.lstrip("-").isdigit():
+                    dmg = max(dmg or 0, int(d))
+        stats[low] = {
+            "range": rng,
+            "reload": int(reload) if (reload and reload.isdigit()) else None,
+            "damage": dmg,
+        }
+    return stats
 
 
 # ---------------------------------------------------------------------------
@@ -366,6 +424,51 @@ def actor_render_image(node):
     return None
 
 
+def _int_or_none(s):
+    if s and s.lstrip("-").isdigit():
+        return int(s)
+    return None
+
+
+def actor_stats(node, weapon_stats):
+    """Combat/utility stats dict for tooltips (None fields omitted by caller)."""
+    stats = {}
+    h = node.child("Health")
+    if h is not None:
+        stats["hp"] = _int_or_none(h.child_value("HP"))
+    a = node.child("Armor")
+    if a is not None and a.child_value("Type"):
+        stats["armor"] = a.child_value("Type")
+    m = node.child("Mobile")
+    if m is not None and m.child_value("Speed"):
+        stats["speed"] = _int_or_none(m.child_value("Speed"))
+    rev = node.child("RevealsShadow")
+    if rev is not None and rev.child_value("Range"):
+        stats["sight"] = rev.child_value("Range")
+    pw = node.child("Power")
+    if pw is None:
+        pw = node.child("ScalePower")
+    if pw is not None and pw.child_value("Amount"):
+        stats["power"] = _int_or_none(pw.child_value("Amount"))
+
+    # Armaments -> weapon names + best damage/range.
+    weapons = []
+    for c in node.children:
+        if c.key == "Armament" or c.key.startswith("Armament@"):
+            wname = c.child_value("Weapon")
+            if not wname:
+                continue
+            ws = weapon_stats.get(wname.lower(), {})
+            weapons.append({
+                "name": wname,
+                "damage": ws.get("damage"),
+                "range": ws.get("range") or c.child_value("Range"),
+            })
+    if weapons:
+        stats["weapons"] = weapons
+    return {k: v for k, v in stats.items() if v not in (None, "")}
+
+
 # ---------------------------------------------------------------------------
 # Faction / theme model
 # ---------------------------------------------------------------------------
@@ -400,7 +503,7 @@ MONO_FACTIONS = {
         ("protoss", "Protoss", ["protoss"]),
         ("zerg", "Zerg", ["zerg"]),
     ],
-    "WarCraft2": [
+    "Warcraft2": [
         ("human2", "Human", ["human2", "human"]),
         ("orc2", "Orc", ["orc2", "orc"]),
     ],
@@ -417,7 +520,7 @@ MONO_THEME_NAMES = {
     "TiberianSun": "Tiberian Sun",
     "RedAlert2": "Red Alert 2",
     "StarCraft": "StarCraft",
-    "WarCraft2": "Warcraft 2",
+    "Warcraft2": "Warcraft 2",
     "Outpost2": "Outpost 2",
     "TKM": "TKM",
 }
@@ -471,12 +574,13 @@ def dot_segments(*texts):
 # ---------------------------------------------------------------------------
 
 
-def extract_actor(name, node):
+def extract_actor(name, node, weapon_stats):
     b = actor_buildable(node)
     if b is None:
         return None
     bucket, hidden = normalize_queue(b["queues"])
-    icon = b["icon"] or actor_render_image(node) or name.lower()
+    icon_seq = b["icon"] or "icon"
+    seq_image = actor_render_image(node) or name.lower()
     return {
         "id": name,
         "name": actor_name(node) or name,
@@ -484,8 +588,10 @@ def extract_actor(name, node):
         "rawQueues": b["queues"],
         "cost": actor_cost(node),
         "buildLimit": b["buildLimit"],
-        "icon": icon,
+        "iconSeq": icon_seq,
+        "seqImage": seq_image,
         "hidden": hidden,
+        "stats": actor_stats(node, weapon_stats),
         # prereq tokens stripped of ~ / ! decoration, negations dropped
         "prereqs": [
             p.lstrip("~").strip()
@@ -515,7 +621,7 @@ SEED_TOKENS = {
         "protoss": ["scnexus", "scgateway", "scstargate", "scrobofacility"],
         "zerg": ["schatchery", "sclair", "schive", "scspawningpool"],
     },
-    "WarCraft2": {
+    "Warcraft2": {
         "human2": ["wc2townhall", "wc2barracks.human", "wc2keep", "wc2castle"],
         "orc2": ["wc2greathall", "wc2barracks.orc", "wc2stronghold", "wc2fortress"],
     },
@@ -530,6 +636,71 @@ SEED_TOKENS = {
     },
     "TKM": {"tkm": []},
 }
+
+
+def resolve_and_copy_icons(mod_dir, tree, icons_dir):
+    """Resolve each actor's icon sprite from the sequences YAML and copy the
+    ones that are a single on-disk PNG into icons_dir. Sets node['png'] to the
+    copied filename when available. Returns (copied, total)."""
+    import shutil
+
+    seq_rs = RuleSet()
+    for path in collect_section_files(mod_dir, "Sequences"):
+        with open(path, encoding="utf-8") as f:
+            seq_rs.add_file(f.read(), None, None)
+
+    # Index every asset file by lowercased basename.
+    file_index = {}
+    for root, _dirs, files in os.walk(mod_dir):
+        for fn in files:
+            file_index.setdefault(fn.lower(), os.path.join(root, fn))
+
+    def icon_filename(image, icon_seq):
+        img = seq_rs.resolve(image)
+        if img is None:
+            return None, None
+        seq = img.child(icon_seq)
+        if seq is None:
+            return None, None
+        fname = seq.child_value("Filename")
+        if not fname:
+            defaults = img.child("Defaults")
+            if defaults is not None:
+                fname = defaults.child_value("Filename")
+        start = seq.child_value("Start")
+        return fname, start
+
+    os.makedirs(icons_dir, exist_ok=True)
+    copied = total = 0
+    seen = {}
+    for th in tree["themes"]:
+        for fa in th["factions"]:
+            for n in fa["nodes"]:
+                total += 1
+                fname, start = icon_filename(n.get("seqImage", ""), n.get("iconSeq", "icon"))
+                if not fname:
+                    continue
+                fname = fname.strip()
+                # Only single-frame PNG cameos can be copied as-is (no crop).
+                if not fname.lower().endswith(".png"):
+                    continue
+                if start not in (None, "0"):
+                    continue
+                src = file_index.get(fname.lower())
+                if not src:
+                    continue
+                out_name = n["id"].lower().replace("/", "_").replace("\\", "_") + ".png"
+                if fname.lower() not in seen:
+                    try:
+                        shutil.copyfile(src, os.path.join(icons_dir, out_name))
+                        seen[fname.lower()] = out_name
+                    except OSError:
+                        continue
+                else:
+                    out_name = seen[fname.lower()]
+                n["png"] = out_name
+                copied += 1
+    return copied, total
 
 
 def propagate_factions(theme, theme_ids, actors):
@@ -580,11 +751,11 @@ def propagate_factions(theme, theme_ids, actors):
     return members
 
 
-def build(rs):
+def build(rs, weapon_stats):
     # Extract all buildable actors.
     actors = {}
     for low, node in rs.actors():
-        rec = extract_actor(node.key, node)
+        rec = extract_actor(node.key, node, weapon_stats)
         if rec is not None:
             actors[node.key] = rec
 
@@ -765,9 +936,21 @@ def main():
                     help="use a LOCAL mods/cameo dir instead of fetching upstream")
     ap.add_argument("--cache", default=os.path.join(here, ".cache", "Cameo-mod"),
                     help="where to keep the sparse upstream clone")
+    repo_root = os.path.normpath(os.path.join(here, "..", ".."))
     ap.add_argument(
         "--out", default=os.path.normpath(os.path.join(here, "..", "data", "techtree.json"))
     )
+    ap.add_argument(
+        "--units-out",
+        default=os.path.join(repo_root, "cameo-units", "data", "units.json"),
+        help="also write the richer units dataset (with icons) here",
+    )
+    ap.add_argument(
+        "--icons-out",
+        default=os.path.join(repo_root, "cameo-units", "icons"),
+        help="copy resolved PNG cameos here",
+    )
+    ap.add_argument("--no-icons", action="store_true", help="skip icon resolution/copy")
     ap.add_argument("--debug", action="store_true")
     args = ap.parse_args()
 
@@ -820,14 +1003,39 @@ def main():
         print(f"\n== queues == {dict(sorted(queues.items(), key=lambda x:-x[1]))}")
         return
 
-    tree = build(rs)
+    weapon_stats = build_weapon_stats(mod_dir)
+    print(f"loaded weapon stats: {len(weapon_stats)}")
+    tree = build(rs, weapon_stats)
     today = datetime.date.today().isoformat()
     tree["generated"] = today + (f" · {args.ref} {commit}" if commit else "")
     tree["source"] = source
 
+    if not args.no_icons:
+        copied, total = resolve_and_copy_icons(mod_dir, tree, args.icons_out)
+        print(f"icons: copied {copied}/{total} PNG cameos -> {args.icons_out}")
+
+    # Graph dataset (techtree): drop the heavier per-node fields it doesn't use.
+    graph = json.loads(json.dumps(tree))
+    for th in graph["themes"]:
+        for fa in th["factions"]:
+            for n in fa["nodes"]:
+                for k in ("stats", "iconSeq", "seqImage", "png"):
+                    n.pop(k, None)
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
     with open(args.out, "w", encoding="utf-8") as f:
-        json.dump(tree, f, ensure_ascii=False, separators=(",", ":"))
+        json.dump(graph, f, ensure_ascii=False, separators=(",", ":"))
+
+    # Units dataset (grid view): keep stats + icon paths.
+    if args.units_out:
+        for th in tree["themes"]:
+            for fa in th["factions"]:
+                for n in fa["nodes"]:
+                    n.pop("seqImage", None)
+                    n.pop("iconSeq", None)
+        os.makedirs(os.path.dirname(args.units_out), exist_ok=True)
+        with open(args.units_out, "w", encoding="utf-8") as f:
+            json.dump(tree, f, ensure_ascii=False, separators=(",", ":"))
+        print(f"wrote {args.units_out}")
 
     total_nodes = sum(len(fa["nodes"]) for th in tree["themes"] for fa in th["factions"])
     total_edges = sum(len(fa["edges"]) for th in tree["themes"] for fa in th["factions"])
