@@ -844,17 +844,34 @@ def build(rs, weapon_stats):
         if actor_id not in membership[theme][faction]:
             membership[theme][faction].append(actor_id)
 
-    # --- Content-pack themes: folder attribution -------------------------
+    # --- Content-pack themes: folder attribution, faction-prereq override ---
+    # Folder usually equals faction, but the mod occasionally files an actor in
+    # the wrong faction folder (e.g. GDI's EYE lives under Nod/). The faction
+    # prerequisite is authoritative, so if an actor's prereqs name a sibling
+    # faction (its alias appears as a token segment), trust that over the folder.
+    content_aliases = {
+        t: {f: f.lower() for f in content_factions[t]} for t in CONTENT_THEMES
+    }
     for name, rec in actors.items():
         attrs = rs.attribution.get(name.lower(), ())
-        for (theme, faction) in attrs:
-            if theme not in CONTENT_THEMES:
-                continue
-            if faction and faction.lower() != "shared":
-                add_member(theme, faction, name)
-            else:
-                for f in content_factions[theme]:
+        themes_here = {t for (t, _f) in attrs if t in CONTENT_THEMES}
+        if not themes_here:
+            continue
+        segs = dot_segments(*rec["prereqs"])
+        for theme in themes_here:
+            prereq_factions = [
+                f for f, alias in content_aliases[theme].items() if alias in segs
+            ]
+            if prereq_factions:
+                for f in prereq_factions:
                     add_member(theme, f, name)
+                continue
+            folder_factions = [
+                f for (t, f) in attrs
+                if t == theme and f and f.lower() != "shared"
+            ]
+            for f in (folder_factions or content_factions[theme]):
+                add_member(theme, f, name)
 
     # --- Monolithic themes: graph propagation ----------------------------
     # Themes whose faction separation is too weak to be meaningful are shown
