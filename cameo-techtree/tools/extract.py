@@ -435,7 +435,9 @@ def actor_stats(node, weapon_stats):
     stats = {}
     h = node.child("Health")
     if h is not None:
-        stats["hp"] = _int_or_none(h.child_value("HP"))
+        hp = _int_or_none(h.child_value("HP"))
+        # Engine stores HP ×100; the in-game UI shows HP/100.
+        stats["hp"] = round(hp / 100) if hp is not None else None
     a = node.child("Armor")
     if a is not None and a.child_value("Type"):
         stats["armor"] = a.child_value("Type")
