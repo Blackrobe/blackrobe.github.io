@@ -667,6 +667,22 @@ def icon_basename(actor_id):
     return re.sub(r"[^a-z0-9._-]+", "_", actor_id.lower()) + ".png"
 
 
+def assign_existing_icons(tree, icons_dir):
+    """Set node['png'] from PNGs already present in icons_dir (no copying).
+
+    Used by --no-icons so a metadata-only regenerate keeps the committed icons
+    referenced instead of silently dropping them from units.json."""
+    kept = 0
+    for th in tree["themes"]:
+        for fa in th["factions"]:
+            for n in fa["nodes"]:
+                name = icon_basename(n["id"])
+                if os.path.isfile(os.path.join(icons_dir, name)):
+                    n["png"] = name
+                    kept += 1
+    return kept
+
+
 def resolve_and_copy_icons(mod_dir, tree, icons_dir, cameo_dir=None):
     """Populate icons_dir with a cameo PNG per actor and set node['png'].
 
@@ -1086,6 +1102,11 @@ def main():
         eng, png, total = resolve_and_copy_icons(mod_dir, tree, args.icons_out, cameo_dir)
         src = "engine+png" if cameo_dir else "png-only"
         print(f"icons ({src}): {eng} engine + {png} png = {eng + png}/{total} -> {args.icons_out}")
+    else:
+        # Don't recopy, but keep png references consistent with what's already
+        # committed in icons_out (otherwise units.json would drop all icons).
+        kept = assign_existing_icons(tree, args.icons_out)
+        print(f"icons (no-copy): kept {kept} existing references in {args.icons_out}")
 
     # Graph dataset (techtree): drop the heavier per-node fields it doesn't use.
     graph = json.loads(json.dumps(tree))
