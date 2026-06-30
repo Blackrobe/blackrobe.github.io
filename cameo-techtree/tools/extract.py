@@ -320,6 +320,28 @@ def collect_weapon_files(mod_dir):
     return out
 
 
+_FLUENT_RE = re.compile(r"^([A-Za-z][\w-]*)\s*=\s*(.+)$")
+
+
+def load_fluent(mod_dir):
+    """Parse the mod's Fluent (.ftl) messages into {key: text}.
+
+    Only top-level `key = value` messages are kept (attributes / continuations
+    are ignored), which is enough to resolve actor Tooltip name keys.
+    """
+    messages = {}
+    for path in collect_section_files(mod_dir, "FluentMessages"):
+        with open(path, encoding="utf-8") as f:
+            for line in f:
+                s = line.rstrip("\n")
+                if not s or s.lstrip().startswith("#"):
+                    continue
+                m = _FLUENT_RE.match(s)
+                if m:
+                    messages[m.group(1)] = m.group(2).strip()
+    return messages
+
+
 def build_weapon_stats(mod_dir):
     """name(lower) -> {range, reload, damage} for all resolved weapons."""
     wrs = RuleSet()
@@ -1045,6 +1067,20 @@ def main():
     tree["generated"] = today + (f" · {args.ref} {commit}" if commit else "")
     tree["source"] = source
 
+    # Resolve Fluent name keys to display text, and build a prerequisite-token ->
+    # display-name map (token resolves to a provider actor's translated name;
+    # untranslatable tokens such as conditions stay as-is in the viewer).
+    fluent = load_fluent(mod_dir)
+    prereq_names = {}
+    for th in tree["themes"]:
+        for fa in th["factions"]:
+            for n in fa["nodes"]:
+                n["name"] = fluent.get(n["name"], n["name"])
+                for tok in n.get("provides", ()):
+                    prereq_names.setdefault(tok.lower(), n["name"])
+                prereq_names.setdefault(n["id"].lower(), n["name"])
+    tree["prereqNames"] = prereq_names
+
     if not args.no_icons:
         cameo_dir = args.cameo_dir if os.path.isdir(args.cameo_dir) else None
         eng, png, total = resolve_and_copy_icons(mod_dir, tree, args.icons_out, cameo_dir)
@@ -1053,6 +1089,7 @@ def main():
 
     # Graph dataset (techtree): drop the heavier per-node fields it doesn't use.
     graph = json.loads(json.dumps(tree))
+    graph.pop("prereqNames", None)
     for th in graph["themes"]:
         for fa in th["factions"]:
             for n in fa["nodes"]:

@@ -21,7 +21,13 @@
 </header>
 <main id="grid"></main>
 <div id="tip" class="tip hidden"></div>
-<footer>Cameos rendered from the mod sprites. Hover a unit for stats. <span id="gen"></span></footer>
+<div id="overlay" class="overlay hidden">
+  <div id="detail" class="detail" role="dialog" aria-modal="true">
+    <button id="detailClose" aria-label="close">×</button>
+    <div id="detailBody"></div>
+  </div>
+</div>
+<footer>Cameos rendered from the mod sprites. Hover for stats; click a unit for weapons &amp; prerequisites. <span id="gen"></span></footer>
 <script src="app.js"></script>
 </body>
 </html>

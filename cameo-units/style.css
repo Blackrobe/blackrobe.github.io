@@ -66,6 +66,43 @@ main { padding: 12px 14px 60px; }
 .tip .sec { margin-top: 6px; color: var(--muted); }
 .tip .tags { display: flex; flex-wrap: wrap; gap: 3px; margin-top: 2px; }
 .tip .tag { background: var(--panel2); border: 1px solid var(--line); border-radius: 3px; padding: 0 4px; }
+.overlay {
+  position: fixed; inset: 0; z-index: 30;
+  background: rgba(0,0,0,.55); display: flex; align-items: center; justify-content: center;
+}
+.detail {
+  position: relative; width: 320px; max-width: calc(100vw - 32px); max-height: calc(100vh - 80px);
+  overflow: auto; background: var(--panel); border: 1px solid var(--line);
+  border-radius: 10px; padding: 16px 18px; box-shadow: 0 10px 40px #000a;
+}
+#detailClose {
+  position: absolute; top: 8px; right: 10px; background: none; border: none;
+  color: var(--muted); font-size: 22px; line-height: 1; cursor: pointer;
+}
+#detailClose:hover { color: var(--text); }
+.detail .head { display: flex; gap: 12px; align-items: center; margin-bottom: 10px; }
+.detail .head img, .detail .head .ph {
+  width: 64px; height: 48px; border-radius: 4px; object-fit: contain;
+  image-rendering: pixelated; background: #0c0e12; flex: 0 0 auto;
+}
+.detail h2 { margin: 0; font-size: 17px; color: var(--accent); }
+.detail .sub { color: var(--muted); font-size: 12px; }
+.detail h3 {
+  font-size: 12px; text-transform: uppercase; letter-spacing: .5px;
+  color: var(--muted); margin: 14px 0 5px;
+}
+.detail .empty { color: var(--muted); }
+.detail ul { margin: 0; padding-left: 0; list-style: none; }
+.detail .weap { padding: 4px 0; border-bottom: 1px solid var(--line); }
+.detail .weap:last-child { border-bottom: none; }
+.detail .weap .wn { font-weight: 600; }
+.detail .weap .ws { color: var(--muted); font-size: 12px; }
+.detail .prereqs { display: flex; flex-wrap: wrap; gap: 5px; }
+.detail .prereq {
+  background: var(--panel2); border: 1px solid var(--line); border-radius: 4px;
+  padding: 2px 7px; font-size: 12px;
+}
+.detail .prereq.raw { color: var(--muted); font-style: italic; }
 footer {
   position: fixed; bottom: 0; left: 0; right: 0;
   background: var(--panel); border-top: 1px solid var(--line);

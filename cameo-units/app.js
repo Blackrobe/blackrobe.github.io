@@ -9,6 +9,7 @@ const qc = (q) => QUEUE_COLORS[q] ?? "#6b7280";
 
 const $ = (id) => document.getElementById(id);
 let DATA = null;
+let FACNAMES = {}; // token -> display name, for the currently selected faction
 
 async function boot() {
   try {
@@ -27,6 +28,9 @@ async function boot() {
   $("faction").addEventListener("change", render);
   $("search").addEventListener("input", render);
   $("showUpg").addEventListener("change", render);
+  $("detailClose").addEventListener("click", closeDetail);
+  $("overlay").addEventListener("click", (e) => { if (e.target === $("overlay")) closeDetail(); });
+  document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeDetail(); });
   onTheme();
 }
 
@@ -49,6 +53,12 @@ function render() {
   if (!fac) return;
   const showUpg = $("showUpg").checked;
   const q = $("search").value.trim().toLowerCase();
+
+  // token -> name for this faction (faction-accurate), falls back to global map.
+  FACNAMES = {};
+  for (const n of fac.nodes)
+    for (const p of n.provides || [])
+      if (!(p.toLowerCase() in FACNAMES)) FACNAMES[p.toLowerCase()] = n.name;
 
   const groups = {};
   let shown = 0;
@@ -99,6 +109,7 @@ function makeTile(n, q) {
   el.addEventListener("mouseenter", (e) => showTip(n, e));
   el.addEventListener("mousemove", moveTip);
   el.addEventListener("mouseleave", () => $("tip").classList.add("hidden"));
+  el.addEventListener("click", () => { $("tip").classList.add("hidden"); openDetail(n); });
   return el;
 }
 
@@ -115,24 +126,57 @@ function showTip(n, e) {
   if (s.power != null) rows.push(["power", (s.power > 0 ? "+" : "") + s.power]);
   if (n.buildLimit != null) rows.push(["limit", n.buildLimit]);
 
-  let weap = "";
-  if (s.weapons && s.weapons.length) {
-    weap = '<div class="sec">weapons</div>' + s.weapons.map((w) =>
-      `${w.name}${w.damage != null ? " · " + w.damage + " dmg" : ""}${w.range ? " · rng " + w.range : ""}`
-    ).join("<br>");
-  }
-  const tags = (arr) => arr && arr.length
-    ? `<div class="tags">${arr.map((x) => `<span class="tag">${x}</span>`).join("")}</div>`
-    : '<span style="color:var(--muted)">—</span>';
-
   const tip = $("tip");
   tip.innerHTML =
     `<h3>${n.name || n.id}</h3>` +
     `<dl>${rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>` +
-    weap +
-    `<div class="sec">prerequisites</div>${tags(n.prereqs)}`;
+    `<div class="sec">click for weapons &amp; prerequisites</div>`;
   tip.classList.remove("hidden");
   moveTip(e);
+}
+
+function prereqName(token) {
+  const k = token.toLowerCase();
+  return FACNAMES[k] || (DATA.prereqNames && DATA.prereqNames[k]) || null;
+}
+
+function openDetail(n) {
+  const visual = n.png
+    ? `<img src="icons/${n.png}" alt="">`
+    : `<div class="ph" style="background:${qc(n.queue)}"></div>`;
+
+  const s = n.stats || {};
+  let weapons = '<p class="empty">None</p>';
+  if (s.weapons && s.weapons.length) {
+    weapons = "<ul>" + s.weapons.map((w) => {
+      const bits = [];
+      if (w.damage != null) bits.push(w.damage + " dmg");
+      if (w.range) bits.push("range " + w.range);
+      return `<li class="weap"><span class="wn">${w.name}</span>` +
+        (bits.length ? ` <span class="ws">${bits.join(" · ")}</span>` : "") + "</li>";
+    }).join("") + "</ul>";
+  }
+
+  let prereqs = '<p class="empty">None</p>';
+  if (n.prereqs && n.prereqs.length) {
+    prereqs = '<div class="prereqs">' + n.prereqs.map((p) => {
+      const name = prereqName(p);
+      return name
+        ? `<span class="prereq">${name}</span>`
+        : `<span class="prereq raw">${p}</span>`;
+    }).join("") + "</div>";
+  }
+
+  $("detailBody").innerHTML =
+    `<div class="head">${visual}<div><h2>${n.name || n.id}</h2>` +
+    `<div class="sub">${n.id}${n.queue ? " · " + n.queue : ""}${n.cost != null ? " · $" + n.cost : ""}</div></div></div>` +
+    `<h3>Weapons</h3>${weapons}` +
+    `<h3>Prerequisites</h3>${prereqs}`;
+  $("overlay").classList.remove("hidden");
+}
+
+function closeDetail() {
+  $("overlay").classList.add("hidden");
 }
 
 function moveTip(e) {
