@@ -1,0 +1,3 @@
+# Cached sparse clone of upstream Cameo-mod used by tools/extract.py
+tools/.cache/
+__pycache__/

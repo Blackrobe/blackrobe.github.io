@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cameo Tech Tree</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://unpkg.com/cytoscape@3.30.2/dist/cytoscape.min.js"></script>
+<script src="https://unpkg.com/dagre@0.8.5/dist/dagre.min.js"></script>
+<script src="https://unpkg.com/cytoscape-dagre@2.5.0/cytoscape-dagre.js"></script>
+</head>
+<body>
+<header>
+  <h1>Cameo Tech Tree</h1>
+  <div class="controls">
+    <label>Theme
+      <select id="theme"></select>
+    </label>
+    <label>Faction
+      <select id="faction"></select>
+    </label>
+    <label class="search">Find
+      <input id="search" type="text" placeholder="actor or prereq…" autocomplete="off">
+    </label>
+    <label class="check"><input type="checkbox" id="hideHidden" checked> hide upgrades/research</label>
+    <span id="approx" class="approx hidden">⚠ approximate faction split</span>
+    <span id="meta" class="meta"></span>
+  </div>
+</header>
+<div id="cy"></div>
+<aside id="info" class="info hidden">
+  <button id="infoClose" aria-label="close">×</button>
+  <div id="infoBody"></div>
+</aside>
+<div id="legend" class="legend"></div>
+<footer>
+  Generated from the Cameo-mod rules. Edges = production prerequisites.
+  <span id="gen"></span>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>
