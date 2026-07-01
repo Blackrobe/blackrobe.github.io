@@ -281,15 +281,18 @@ function fillIndicator(box, items, top, bottom) {
   box.innerHTML = items.map(({ el, cls }) => {
     const src = el.querySelector("img")?.src ?? "";
     const label = el.querySelector(".nm")?.textContent ?? "";
-    return `<img class="off-chip ${cls}" src="${src}" data-id="${el.dataset.id}" title="${label}">`;
+    const visual = src
+      ? `<img class="off-chip ${cls}" src="${src}" alt="">`
+      : `<div class="off-chip ${cls} placeholder"></div>`;
+    return `<div class="off-item" data-id="${el.dataset.id}">${visual}<div class="off-nm">${label}</div></div>`;
   }).join("");
   box.classList.remove("hidden");
 }
 
 function scrollToChip(e) {
-  const img = e.target.closest(".off-chip");
-  if (!img) return;
-  const target = $("grid").querySelector(`.tile[data-id="${img.dataset.id}"]`);
+  const item = e.target.closest(".off-item");
+  if (!item) return;
+  const target = $("grid").querySelector(`.tile[data-id="${item.dataset.id}"]`);
   if (target) target.scrollIntoView({ behavior: "smooth", block: "center" });
 }
 

@@ -92,13 +92,18 @@ main { padding: 12px 14px 60px; }
 }
 .off-indicator.top { background: linear-gradient(to bottom, rgba(20,23,28,.97) 60%, transparent); }
 .off-indicator.bottom { bottom: 0; background: linear-gradient(to top, rgba(20,23,28,.97) 60%, transparent); }
+.off-item { width: 96px; flex: 0 0 auto; cursor: pointer; text-align: center; }
 .off-chip {
-  width: 96px; height: 60px; object-fit: contain; image-rendering: pixelated;
-  background: #0c0e12; border-radius: 4px; cursor: pointer; flex: 0 0 auto;
+  width: 100%; height: 60px; object-fit: contain; image-rendering: pixelated;
+  background: #0c0e12; border-radius: 4px; display: block;
   border: 2px solid var(--line);
 }
 .off-chip.req-link { border-color: #e0a23f; }
 .off-chip.unlock-link { border-color: #4a90d9; }
+.off-nm {
+  font-size: 11px; color: var(--text); margin-top: 4px; line-height: 1.2;
+  height: 2.4em; overflow: hidden;
+}
 
 .tip {
   position: fixed; z-index: 20; max-width: 280px; pointer-events: none;
