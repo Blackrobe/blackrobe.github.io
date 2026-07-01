@@ -337,7 +337,7 @@ function showTip(n, e) {
   const tip = $("tip");
   tip.innerHTML =
     `<h3>${n.name || n.id}</h3>` +
-    `<dl>${statRows(n).map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>` +
+    `<dl><dt>Internal ID</dt><dd>${n.id}</dd></dl>` +
     `<div class="sec">click for full details</div>`;
   tip.classList.remove("hidden");
   moveTip(e);
