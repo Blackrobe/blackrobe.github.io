@@ -538,13 +538,18 @@ def actor_stats(node, weapon_stats):
     if pw is not None and pw.child_value("Amount"):
         stats["power"] = _int_or_none(pw.child_value("Amount"))
 
-    # Armaments -> weapon names + best damage/range.
+    # Armaments -> weapon names + best damage/range. Actors that can fire while
+    # garrisoned/deployed etc. often declare a second Armament for the same
+    # Weapon (different mount/muzzle, identical stats) - dedupe by weapon name
+    # so those show once instead of as visual duplicates.
     weapons = []
+    seen_weapons = set()
     for c in node.children:
         if c.key == "Armament" or c.key.startswith("Armament@"):
             wname = c.child_value("Weapon")
-            if not wname:
+            if not wname or wname.lower() in seen_weapons:
                 continue
+            seen_weapons.add(wname.lower())
             ws = weapon_stats.get(wname.lower(), {})
             weapons.append({
                 "name": wname,
