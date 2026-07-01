@@ -253,6 +253,10 @@ function applyLinks(n) {
   const markLinked = (id, cls) => {
     for (const el of tilesFor(id)) {
       el.classList.add(cls);
+      // Compact copies (Upgrade "Requires:" icons) are secondary references
+      // to the same unit - skip them for the offscreen indicator so it only
+      // ever points at a unit's one "real" tile.
+      if (el.classList.contains("compact")) continue;
       const r = el.getBoundingClientRect();
       if (r.bottom < headerBottom()) offscreen.push({ el, cls, dir: "above" });
       else if (r.top > innerHeight) offscreen.push({ el, cls, dir: "below" });

@@ -634,6 +634,16 @@ CONTENT_THEMES = {
     "RedAlert2Mod": "Red Alert 2 (Mod)",
 }
 
+# Content-pack faction folder -> prereq/name suffix alias(es), for themes
+# where actors don't use the folder name itself as the suffix. Default (no
+# entry) is the folder name lowercased, e.g. TiberianDawn's GDI/ -> "gdi".
+CONTENT_FACTION_ALIASES = {
+    "RedAlert2Mod": {
+        "AsianAlliance": ["asian"], "Syndicate": ["latin"], "Consortium": ["steel"],
+        "Naxis": ["nax"], "SchwarzerMond": ["nax2"], "FutureTech": ["futu"],
+    },
+}
+
 # Monolithic themes: faction attribution by dot-segment suffix in the actor
 # name or its prerequisite tokens. (id, display, [suffix aliases]).
 MONO_FACTIONS = {
@@ -983,7 +993,11 @@ def build(rs, weapon_stats):
     # prerequisite is authoritative, so if an actor's prereqs name a sibling
     # faction (its alias appears as a token segment), trust that over the folder.
     content_aliases = {
-        t: {f: f.lower() for f in content_factions[t]} for t in CONTENT_THEMES
+        t: {
+            f: CONTENT_FACTION_ALIASES.get(t, {}).get(f, [f.lower()])
+            for f in content_factions[t]
+        }
+        for t in CONTENT_THEMES
     }
     for name, rec in actors.items():
         attrs = rs.attribution.get(name.lower(), ())
@@ -993,7 +1007,8 @@ def build(rs, weapon_stats):
         segs = dot_segments(*rec["prereqs"])
         for theme in themes_here:
             prereq_factions = [
-                f for f, alias in content_aliases[theme].items() if alias in segs
+                f for f, aliases in content_aliases[theme].items()
+                if any(a in segs for a in aliases)
             ]
             if prereq_factions:
                 for f in prereq_factions:
