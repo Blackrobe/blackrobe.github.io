@@ -43,7 +43,7 @@ main { padding: 12px 14px 60px; }
 }
 .tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 8px; }
 
-.req-groups { column-width: 240px; column-gap: 14px; }
+.req-groups { column-width: 320px; column-gap: 14px; }
 .req-group {
   break-inside: avoid; margin-bottom: 14px;
   background: var(--panel2); border: 1px solid var(--line); border-radius: 8px;
