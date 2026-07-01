@@ -55,7 +55,16 @@ async function boot() {
   });
   $("showUpg").addEventListener("change", render);
   $("showLinks").addEventListener("change", clearLinks);
-  if (!HAS_HOVER) $("showLinks").closest("label").classList.add("hidden");
+  $("showTooltip").addEventListener("change", () => {
+    if (!$("showTooltip").checked) $("tip").classList.add("hidden");
+  });
+  if (!HAS_HOVER) {
+    $("showLinks").closest("label").classList.add("hidden");
+    $("showTooltip").closest("label").classList.add("hidden");
+  }
+  $("settingsBtn").addEventListener("click", () => $("settingsOverlay").classList.remove("hidden"));
+  $("settingsClose").addEventListener("click", closeSettings);
+  $("settingsOverlay").addEventListener("click", (e) => { if (e.target === $("settingsOverlay")) closeSettings(); });
   $("offTop").addEventListener("click", scrollToChip);
   $("offBottom").addEventListener("click", scrollToChip);
   $("detailClose").addEventListener("click", closeDetail);
@@ -66,7 +75,11 @@ async function boot() {
     const target = CUR_NODES.find((n) => n.id === el.dataset.id);
     if (target) openDetail(target);
   });
-  document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeDetail(); });
+  document.addEventListener("keydown", (e) => {
+    if (e.key !== "Escape") return;
+    closeDetail();
+    closeSettings();
+  });
   toggleSearchClear();
   onTheme(true);
 }
@@ -235,7 +248,10 @@ function makeTile(n, q, compact) {
     : `<div class="cost free">—</div>`;
   el.innerHTML = `${visual}<div class="nm">${n.name || n.id}</div>${cost}`;
   if (HAS_HOVER) {
-    el.addEventListener("mouseenter", (e) => { showTip(n, e); applyLinks(n); });
+    el.addEventListener("mouseenter", (e) => {
+      if ($("showTooltip").checked) showTip(n, e);
+      applyLinks(n);
+    });
     el.addEventListener("mousemove", moveTip);
     el.addEventListener("mouseleave", () => { $("tip").classList.add("hidden"); clearLinks(); });
   }
@@ -447,6 +463,10 @@ function openDetail(n) {
 
 function closeDetail() {
   $("overlay").classList.add("hidden");
+}
+
+function closeSettings() {
+  $("settingsOverlay").classList.add("hidden");
 }
 
 function moveTip(e) {

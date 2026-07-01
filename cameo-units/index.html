@@ -18,8 +18,7 @@
         <button id="searchClear" class="clear-btn hidden" type="button" aria-label="clear search">×</button>
       </span>
     </label>
-    <label class="check"><input type="checkbox" id="showUpg" checked> show upgrades/research</label>
-    <label class="check"><input type="checkbox" id="showLinks" checked> highlight prereqs/unlocks on hover</label>
+    <button id="settingsBtn" class="settings-btn" type="button" aria-label="settings">⚙ Settings</button>
     <span id="approx" class="approx hidden">⚠ approximate faction split</span>
     <span id="meta" class="meta"></span>
     <a class="alt" href="../cameo-techtree/">graph view →</a>
@@ -35,7 +34,16 @@
     <div id="detailBody"></div>
   </div>
 </div>
-<footer>Cameos rendered from the mod sprites. Hover for stats; click a unit for weapons &amp; prerequisites. <span id="gen"></span></footer>
+<div id="settingsOverlay" class="overlay hidden">
+  <div id="settingsPanel" class="detail settings" role="dialog" aria-modal="true">
+    <button id="settingsClose" aria-label="close">×</button>
+    <h2>Settings</h2>
+    <label class="check"><input type="checkbox" id="showUpg" checked> show upgrades/research</label>
+    <label class="check"><input type="checkbox" id="showTooltip"> show tooltip on hover</label>
+    <label class="check"><input type="checkbox" id="showLinks" checked> highlight prereqs/unlocks on hover</label>
+  </div>
+</div>
+<footer>Cameos rendered from the mod sprites. Click a unit for weapons &amp; prerequisites. <span id="gen"></span></footer>
 <script src="app.js"></script>
 </body>
 </html>
