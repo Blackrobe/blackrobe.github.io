@@ -1,0 +1,89 @@
+name: Sync tech-tree data from Cameo-mod tags
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-techtree
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout website repo
+        uses: actions/checkout@v4
+
+      - name: Check latest Cameo-mod tag
+        id: tag
+        run: |
+          LATEST=$(curl -sf https://api.github.com/repos/cameo-mod/Cameo-mod/tags | jq -r '.[0].name')
+          if [ -z "$LATEST" ] || [ "$LATEST" = "null" ]; then
+            echo "Could not resolve latest tag" >&2
+            exit 1
+          fi
+          echo "latest=$LATEST" >> "$GITHUB_OUTPUT"
+          if [ -f .cameo-mod-tag ] && [ "$(cat .cameo-mod-tag)" = "$LATEST" ]; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout Cameo-mod at latest tag
+        if: steps.tag.outputs.changed == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: cameo-mod/Cameo-mod
+          ref: ${{ steps.tag.outputs.latest }}
+          path: Cameo-mod
+
+      - name: Set up .NET
+        if: steps.tag.outputs.changed == 'true'
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Build Cameo-mod engine + mod
+        if: steps.tag.outputs.changed == 'true'
+        working-directory: Cameo-mod
+        run: make all
+
+      - name: Export cameo icons
+        if: steps.tag.outputs.changed == 'true'
+        working-directory: Cameo-mod/engine
+        env:
+          MOD_SEARCH_PATHS: ${{ github.workspace }}/Cameo-mod/mods
+          ENGINE_DIR: '..'
+        run: dotnet bin/OpenRA.Utility.dll cameo --export-cameos "${{ github.workspace }}/cameo-cache"
+
+      - name: Set up Python
+        if: steps.tag.outputs.changed == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Regenerate techtree/units data
+        if: steps.tag.outputs.changed == 'true'
+        run: |
+          python cameo-techtree/tools/extract.py \
+            --mod Cameo-mod/mods/cameo \
+            --cameo-dir cameo-cache
+
+      - name: Commit and push
+        if: steps.tag.outputs.changed == 'true'
+        run: |
+          echo "${{ steps.tag.outputs.latest }}" > .cameo-mod-tag
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .cameo-mod-tag cameo-techtree/data cameo-units/data cameo-units/icons
+          if git diff --cached --quiet; then
+            echo "No data changes"
+          else
+            git commit -m "Sync tech-tree data to ${{ steps.tag.outputs.latest }}"
+            git push
+          fi
