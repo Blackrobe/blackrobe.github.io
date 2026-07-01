@@ -154,7 +154,7 @@ function statRows(n) {
   if (s.hp != null) rows.push(["hp", s.hp]);
   if (s.armor) rows.push(["armor", s.armor]);
   if (s.speed != null) rows.push(["speed", s.speed]);
-  if (s.sight) rows.push(["sight", s.sight]);
+  if (s.sight) rows.push(["sight", s.sight.toFixed(2) + " tiles"]);
   if (s.power != null) rows.push(["power", (s.power > 0 ? "+" : "") + s.power]);
   if (n.buildLimit != null) rows.push(["limit", n.buildLimit]);
   return rows;
@@ -192,6 +192,16 @@ function unlocks(n) {
   return out;
 }
 
+function weaponListHtml(list) {
+  return "<ul>" + list.map((w) => {
+    const bits = [];
+    if (w.damage != null) bits.push(w.damage + " dmg");
+    if (w.range != null) bits.push("range " + w.range.toFixed(2) + " tiles");
+    return `<li class="weap"><span class="wn">${w.name}</span>` +
+      (bits.length ? ` <span class="ws">${bits.join(" · ")}</span>` : "") + "</li>";
+  }).join("") + "</ul>";
+}
+
 function openDetail(n) {
   const visual = n.png
     ? `<img src="icons/${n.png}" alt="">`
@@ -204,13 +214,16 @@ function openDetail(n) {
   const s = n.stats || {};
   let weapons = '<p class="empty">None</p>';
   if (s.weapons && s.weapons.length) {
-    weapons = "<ul>" + s.weapons.map((w) => {
-      const bits = [];
-      if (w.damage != null) bits.push(w.damage + " dmg");
-      if (w.range) bits.push("range " + w.range);
-      return `<li class="weap"><span class="wn">${w.name}</span>` +
-        (bits.length ? ` <span class="ws">${bits.join(" · ")}</span>` : "") + "</li>";
-    }).join("") + "</ul>";
+    const hasEliteSplit = s.weapons.some((w) => w.elite === true);
+    if (hasEliteSplit) {
+      const standard = s.weapons.filter((w) => w.elite !== true);
+      const elite = s.weapons.filter((w) => w.elite === true);
+      weapons =
+        `<h4>Standard</h4>${weaponListHtml(standard)}` +
+        `<h4>Elite (rank 3)</h4>${weaponListHtml(elite)}`;
+    } else {
+      weapons = weaponListHtml(s.weapons);
+    }
   }
 
   let prereqs = '<p class="empty">None</p>';

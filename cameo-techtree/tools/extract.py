@@ -515,6 +515,26 @@ def _int_or_none(s):
     return None
 
 
+def _wdist_to_tiles(raw):
+    """Convert a raw WDist value (1024 units/cell; this mod always authors
+    plain integers, never the 'Nc' cell notation) to tiles."""
+    n = _int_or_none(raw)
+    return round(n / 1024, 2) if n is not None else None
+
+
+def classify_elite(cond):
+    """True/False/None: whether an Armament's RequiresCondition gates it to
+    the elite veterancy rank, the pre-elite rank, or neither."""
+    if not cond:
+        return None
+    clauses = {c.strip().lower() for c in cond.split("&&")}
+    if "!rank-elite" in clauses:
+        return False
+    if "rank-elite" in clauses:
+        return True
+    return None
+
+
 def actor_stats(node, weapon_stats):
     """Combat/utility stats dict for tooltips (None fields omitted by caller)."""
     stats = {}
@@ -529,9 +549,9 @@ def actor_stats(node, weapon_stats):
     m = node.child("Mobile")
     if m is not None and m.child_value("Speed"):
         stats["speed"] = _int_or_none(m.child_value("Speed"))
-    rev = node.child("RevealsShadow")
+    rev = node.child("RevealsShroud")
     if rev is not None and rev.child_value("Range"):
-        stats["sight"] = rev.child_value("Range")
+        stats["sight"] = _wdist_to_tiles(rev.child_value("Range"))
     pw = node.child("Power")
     if pw is None:
         pw = node.child("ScalePower")
@@ -551,10 +571,13 @@ def actor_stats(node, weapon_stats):
                 continue
             seen_weapons.add(wname.lower())
             ws = weapon_stats.get(wname.lower(), {})
+            dmg = ws.get("damage")
             weapons.append({
                 "name": wname,
-                "damage": ws.get("damage"),
-                "range": ws.get("range") or c.child_value("Range"),
+                # Warhead Damage is stored ×100, same convention as Health.HP.
+                "damage": round(dmg / 100) if dmg is not None else None,
+                "range": _wdist_to_tiles(ws.get("range") or c.child_value("Range")),
+                "elite": classify_elite(c.child_value("RequiresCondition")),
             })
     if weapons:
         stats["weapons"] = weapons

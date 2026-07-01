@@ -91,6 +91,10 @@ main { padding: 12px 14px 60px; }
   font-size: 12px; text-transform: uppercase; letter-spacing: .5px;
   color: var(--muted); margin: 14px 0 5px;
 }
+.detail h4 {
+  font-size: 11px; color: var(--accent); margin: 8px 0 3px; opacity: .85;
+}
+.detail h4:first-child { margin-top: 0; }
 .detail .empty { color: var(--muted); }
 .detail .descr { color: var(--text); font-size: 12px; font-style: italic; margin: 0; }
 .detail dl.stats { display: grid; grid-template-columns: auto 1fr; gap: 2px 8px; margin: 0; font-size: 12px; }
