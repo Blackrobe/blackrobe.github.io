@@ -8,6 +8,10 @@ const QUEUE_COLORS = {
 const qc = (q) => QUEUE_COLORS[q] ?? "#6b7280";
 
 const $ = (id) => document.getElementById(id);
+// Touch devices have no real pointer hover - a tap fires mouseenter but never
+// mouseleave until the user taps elsewhere, leaving tooltips/outlines stuck.
+// Only wire up hover behavior where the pointer genuinely supports it.
+const HAS_HOVER = matchMedia("(hover: hover) and (pointer: fine)").matches;
 let DATA = null;
 let CUR_NODES = []; // nodes of the currently selected faction, for "unlocks" lookups
 // token -> distinct providing nodes. A token can have more than one real
@@ -51,6 +55,7 @@ async function boot() {
   });
   $("showUpg").addEventListener("change", render);
   $("showLinks").addEventListener("change", clearLinks);
+  if (!HAS_HOVER) $("showLinks").closest("label").classList.add("hidden");
   $("offTop").addEventListener("click", scrollToChip);
   $("offBottom").addEventListener("click", scrollToChip);
   $("detailClose").addEventListener("click", closeDetail);
@@ -229,9 +234,11 @@ function makeTile(n, q, compact) {
     ? `<div class="cost${n.cost === 0 ? " free" : ""}">$${n.cost}</div>`
     : `<div class="cost free">—</div>`;
   el.innerHTML = `${visual}<div class="nm">${n.name || n.id}</div>${cost}`;
-  el.addEventListener("mouseenter", (e) => { showTip(n, e); applyLinks(n); });
-  el.addEventListener("mousemove", moveTip);
-  el.addEventListener("mouseleave", () => { $("tip").classList.add("hidden"); clearLinks(); });
+  if (HAS_HOVER) {
+    el.addEventListener("mouseenter", (e) => { showTip(n, e); applyLinks(n); });
+    el.addEventListener("mousemove", moveTip);
+    el.addEventListener("mouseleave", () => { $("tip").classList.add("hidden"); clearLinks(); });
+  }
   el.addEventListener("click", () => { $("tip").classList.add("hidden"); openDetail(n); });
   return el;
 }
