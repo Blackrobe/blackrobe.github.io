@@ -9,9 +9,12 @@ const qc = (q) => QUEUE_COLORS[q] ?? "#6b7280";
 
 const $ = (id) => document.getElementById(id);
 let DATA = null;
-let FACNAMES = {}; // token -> display name, for the currently selected faction
 let CUR_NODES = []; // nodes of the currently selected faction, for "unlocks" lookups
-let TOKEN_NODES = {}; // token -> providing node, for the requires-groups + hover-link feature
+// token -> distinct providing nodes. A token can have more than one real
+// provider (e.g. a building aliases both a faction-specific and a shared
+// generic token) - keeping all of them is what keeps Prerequisites/Unlocks/
+// requires-groups mutually consistent instead of arbitrarily picking one.
+let TOKEN_NODES = {};
 const LS_THEME = "cameo-units:theme";
 const LS_FACTION = "cameo-units:faction";
 
@@ -107,15 +110,12 @@ function render() {
   const showUpg = $("showUpg").checked;
   const q = $("search").value.trim().toLowerCase();
 
-  // token -> name for this faction (faction-accurate), falls back to global map.
-  FACNAMES = {};
-  // token -> providing node - used by the Upgrade requires-groups and hover-link highlight.
   TOKEN_NODES = {};
   for (const n of fac.nodes) {
     for (const p of n.provides || []) {
       const k = p.toLowerCase();
-      if (!(k in FACNAMES)) FACNAMES[k] = n.name;
-      if (!(k in TOKEN_NODES)) TOKEN_NODES[k] = n;
+      const arr = (TOKEN_NODES[k] ||= []);
+      if (!arr.some((x) => x.id === n.id)) arr.push(n);
     }
   }
 
@@ -159,13 +159,20 @@ function renderRequiresGroups(list, q, tokenNodes) {
 
   // "Requires:" only cares about building gates - upgrade-chain and hidden
   // tech-level prerequisites are still visible in an upgrade's own detail
-  // modal, but would just be clutter/dead icons here.
-  const groups = new Map(); // sorted-token-key -> { tokens, nodes }
+  // modal, but would just be clutter/dead icons here. Group by the resolved
+  // BUILDING(S), not the raw token text - some buildings alias more than one
+  // token (a shared generic one + a faction-specific one) for the same slot,
+  // and grouping by token text alone would split one building's upgrades
+  // into multiple duplicate-looking "Requires:" groups.
+  const groups = new Map(); // sorted-node-id-key -> { reqNodes, nodes }
   for (const n of list) {
-    const toks = [...new Set((n.prereqs || []).map((p) => p.toLowerCase()))]
-      .filter((tok) => tokenNodes[tok]?.queue === "Building");
-    const key = toks.slice().sort().join("|");
-    if (!groups.has(key)) groups.set(key, { tokens: toks, nodes: [] });
+    const toks = [...new Set((n.prereqs || []).map((p) => p.toLowerCase()))];
+    const reqNodes = new Map(); // building id -> node
+    for (const tok of toks)
+      for (const rn of tokenNodes[tok] || [])
+        if (rn.queue === "Building") reqNodes.set(rn.id, rn);
+    const key = [...reqNodes.keys()].sort().join("|");
+    if (!groups.has(key)) groups.set(key, { reqNodes: [...reqNodes.values()], nodes: [] });
     groups.get(key).nodes.push(n);
   }
 
@@ -177,18 +184,17 @@ function renderRequiresGroups(list, q, tokenNodes) {
   for (const [, group] of entries) {
     const box = document.createElement("div");
     box.className = "req-group";
-    if (group.tokens.length) {
+    if (group.reqNodes.length) {
       const head = document.createElement("div");
       head.className = "req-head";
       head.textContent = "Requires:";
       const icons = document.createElement("div");
       icons.className = "req-icons";
-      for (const tok of group.tokens) {
-        const rn = tokenNodes[tok];
+      for (const rn of group.reqNodes) {
         // Reuse the exact same tile (hover tip, click-to-detail, hover-link
         // highlighting) just rendered smaller, so it behaves like any other
         // icon instead of being a dead picture.
-        icons.appendChild(rn ? makeTile(rn, q, true) : placeholderReqTile(tok));
+        icons.appendChild(makeTile(rn, q, true));
       }
       box.appendChild(head);
       box.appendChild(icons);
@@ -202,13 +208,6 @@ function renderRequiresGroups(list, q, tokenNodes) {
     wrap.appendChild(box);
   }
   return wrap;
-}
-
-function placeholderReqTile(label) {
-  const el = document.createElement("div");
-  el.className = "tile compact dim";
-  el.innerHTML = `<div class="placeholder" style="background:#333b48">${label.slice(0, 22)}</div>`;
-  return el;
 }
 
 function matches(n, q) {
@@ -273,10 +272,8 @@ function applyLinks(n) {
     }
   };
 
-  for (const tok of n.prereqs || []) {
-    const rn = TOKEN_NODES[tok.toLowerCase()];
-    if (rn) markLinked(rn.id, "req-link");
-  }
+  for (const tok of n.prereqs || [])
+    for (const rn of TOKEN_NODES[tok.toLowerCase()] || []) markLinked(rn.id, "req-link");
   for (const u of unlocks(n)) markLinked(u.id, "unlock-link");
 
   showOffscreenIndicators(offscreen);
@@ -346,9 +343,15 @@ function showTip(n, e) {
   moveTip(e);
 }
 
+// A token can have more than one real provider in this faction (see
+// TOKEN_NODES) - join them with "or" so an alternate-provider prereq like
+// "high_tech_factory" shows every building that actually satisfies it,
+// instead of arbitrarily naming just one.
 function prereqName(token) {
   const k = token.toLowerCase();
-  return FACNAMES[k] || (DATA.prereqNames && DATA.prereqNames[k]) || null;
+  const nodes = TOKEN_NODES[k];
+  if (nodes && nodes.length) return nodes.map((n) => n.name).join(" or ");
+  return (DATA.prereqNames && DATA.prereqNames[k]) || null;
 }
 
 // Other units in the same faction that need one of this unit's provided
