@@ -10,6 +10,9 @@ const qc = (q) => QUEUE_COLORS[q] ?? "#6b7280";
 const $ = (id) => document.getElementById(id);
 let DATA = null;
 let FACNAMES = {}; // token -> display name, for the currently selected faction
+let CUR_NODES = []; // nodes of the currently selected faction, for "unlocks" lookups
+const LS_THEME = "cameo-units:theme";
+const LS_FACTION = "cameo-units:faction";
 
 async function boot() {
   try {
@@ -22,28 +25,56 @@ async function boot() {
   DATA.themes.forEach((t, i) => {
     const o = document.createElement("option");
     o.value = i; o.textContent = `${t.name} (${t.factions.length})`;
+    o.dataset.name = t.name;
     $("theme").appendChild(o);
   });
-  $("theme").addEventListener("change", onTheme);
-  $("faction").addEventListener("change", render);
+  const savedTheme = localStorage.getItem(LS_THEME);
+  if (savedTheme) {
+    const opt = [...$("theme").options].find((o) => o.dataset.name === savedTheme);
+    if (opt) $("theme").value = opt.value;
+  }
+  $("theme").addEventListener("change", () => onTheme(false));
+  $("faction").addEventListener("change", () => { saveSelection(); render(); });
   $("search").addEventListener("input", render);
   $("showUpg").addEventListener("change", render);
   $("detailClose").addEventListener("click", closeDetail);
   $("overlay").addEventListener("click", (e) => { if (e.target === $("overlay")) closeDetail(); });
+  $("detailBody").addEventListener("click", (e) => {
+    const el = e.target.closest(".unlock");
+    if (!el) return;
+    const target = CUR_NODES.find((n) => n.id === el.dataset.id);
+    if (target) openDetail(target);
+  });
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeDetail(); });
-  onTheme();
+  onTheme(true);
 }
 
-function onTheme() {
+function saveSelection() {
+  const t = DATA.themes[+$("theme").value];
+  const fac = t && t.factions[+$("faction").value];
+  if (t) localStorage.setItem(LS_THEME, t.name);
+  if (fac) localStorage.setItem(LS_FACTION, fac.name);
+}
+
+function onTheme(restoring) {
   const t = DATA.themes[+$("theme").value];
   const fs = $("faction");
   fs.innerHTML = "";
   t.factions.forEach((f, i) => {
     const o = document.createElement("option");
     o.value = i; o.textContent = `${f.name} (${f.nodes.filter(n => !n.hidden).length})`;
+    o.dataset.name = f.name;
     fs.appendChild(o);
   });
+  if (restoring) {
+    const savedFaction = localStorage.getItem(LS_FACTION);
+    if (savedFaction) {
+      const opt = [...fs.options].find((o) => o.dataset.name === savedFaction);
+      if (opt) fs.value = opt.value;
+    }
+  }
   $("approx").classList.toggle("hidden", !!t.accurate);
+  saveSelection();
   render();
 }
 
@@ -51,6 +82,7 @@ function render() {
   const t = DATA.themes[+$("theme").value];
   const fac = t.factions[+$("faction").value];
   if (!fac) return;
+  CUR_NODES = fac.nodes;
   const showUpg = $("showUpg").checked;
   const q = $("search").value.trim().toLowerCase();
 
@@ -113,7 +145,7 @@ function makeTile(n, q) {
   return el;
 }
 
-function showTip(n, e) {
+function statRows(n) {
   const s = n.stats || {};
   const rows = [];
   rows.push(["actor", n.id]);
@@ -125,12 +157,15 @@ function showTip(n, e) {
   if (s.sight) rows.push(["sight", s.sight]);
   if (s.power != null) rows.push(["power", (s.power > 0 ? "+" : "") + s.power]);
   if (n.buildLimit != null) rows.push(["limit", n.buildLimit]);
+  return rows;
+}
 
+function showTip(n, e) {
   const tip = $("tip");
   tip.innerHTML =
     `<h3>${n.name || n.id}</h3>` +
-    `<dl>${rows.map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>` +
-    `<div class="sec">click for weapons &amp; prerequisites</div>`;
+    `<dl>${statRows(n).map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>` +
+    `<div class="sec">click for full details</div>`;
   tip.classList.remove("hidden");
   moveTip(e);
 }
@@ -140,10 +175,31 @@ function prereqName(token) {
   return FACNAMES[k] || (DATA.prereqNames && DATA.prereqNames[k]) || null;
 }
 
+// Other units in the same faction that need one of this unit's provided
+// tokens as a prerequisite (the inverse of "Prerequisites").
+function unlocks(n) {
+  const tokens = new Set((n.provides || []).map((p) => p.toLowerCase()));
+  if (!tokens.size) return [];
+  const seen = new Set();
+  const out = [];
+  for (const other of CUR_NODES) {
+    if (other.id === n.id || seen.has(other.id)) continue;
+    if ((other.prereqs || []).some((p) => tokens.has(p.toLowerCase()))) {
+      seen.add(other.id);
+      out.push(other);
+    }
+  }
+  return out;
+}
+
 function openDetail(n) {
   const visual = n.png
     ? `<img src="icons/${n.png}" alt="">`
     : `<div class="ph" style="background:${qc(n.queue)}"></div>`;
+
+  const description = n.description
+    ? `<p class="descr">${n.description}</p>`
+    : "";
 
   const s = n.stats || {};
   let weapons = '<p class="empty">None</p>';
@@ -167,11 +223,22 @@ function openDetail(n) {
     }).join("") + "</div>";
   }
 
+  const unlocked = unlocks(n);
+  let unlocksHtml = '<p class="empty">Nothing</p>';
+  if (unlocked.length) {
+    unlocksHtml = '<div class="prereqs">' + unlocked.map((u) =>
+      `<span class="prereq unlock" data-id="${u.id}">${u.name || u.id}</span>`
+    ).join("") + "</div>";
+  }
+
   $("detailBody").innerHTML =
     `<div class="head">${visual}<div><h2>${n.name || n.id}</h2>` +
     `<div class="sub">${n.id}${n.queue ? " · " + n.queue : ""}${n.cost != null ? " · $" + n.cost : ""}</div></div></div>` +
+    description +
+    `<h3>Stats</h3><dl class="stats">${statRows(n).map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join("")}</dl>` +
     `<h3>Weapons</h3>${weapons}` +
-    `<h3>Prerequisites</h3>${prereqs}`;
+    `<h3>Prerequisites</h3>${prereqs}` +
+    `<h3>Unlocks</h3>${unlocksHtml}`;
   $("overlay").classList.remove("hidden");
 }
 

@@ -305,6 +305,42 @@ def collect_section_files(mod_dir, section):
     return out
 
 
+def collect_section_files_recursive(mod_dir, section):
+    """Like collect_section_files, but also follows content-pack Include:
+    chains the same way collect_active_files does for Rules (a content-pack
+    wrapper's own top-level <section>/Include children are merged in as if
+    written directly in mod.yaml at that point)."""
+    files = []
+    seen = set()
+
+    def add(path):
+        if path and path not in seen and os.path.isfile(path):
+            seen.add(path)
+            files.append(path)
+
+    def resolve_include(value):
+        if not value:
+            return None
+        v = value.strip()
+        return resolve_pkg_path(v if "|" in v else "cameo|" + v, mod_dir)
+
+    def process_nodes(nodes, _depth=0):
+        for node in nodes:
+            if node.key == section:
+                for c in node.children:
+                    add(resolve_pkg_path(c.key, mod_dir))
+            elif node.key == "Include" and _depth < 4:
+                nested = resolve_include(node.value)
+                if nested and os.path.isfile(nested):
+                    with open(nested, encoding="utf-8") as nf:
+                        process_nodes(parse_miniyaml(nf.read()), _depth + 1)
+
+    mod_yaml = os.path.join(mod_dir, "mod.yaml")
+    with open(mod_yaml, encoding="utf-8") as f:
+        process_nodes(parse_miniyaml(f.read()))
+    return files
+
+
 def collect_weapon_files(mod_dir):
     """Return absolute paths of active weapon-definition files."""
     mod_yaml = os.path.join(mod_dir, "mod.yaml")
@@ -320,25 +356,50 @@ def collect_weapon_files(mod_dir):
     return out
 
 
-_FLUENT_RE = re.compile(r"^([A-Za-z][\w-]*)\s*=\s*(.+)$")
+_FLUENT_RE = re.compile(r"^([A-Za-z][\w-]*)\s*=\s*(.*)$")
+_FLUENT_ATTR_RE = re.compile(r"^\s+\.([A-Za-z][\w-]*)\s*=\s*(.*)$")
 
 
 def load_fluent(mod_dir):
     """Parse the mod's Fluent (.ftl) messages into {key: text}.
 
-    Only top-level `key = value` messages are kept (attributes / continuations
-    are ignored), which is enough to resolve actor Tooltip name keys.
+    Handles top-level `key = value` messages (used for actor Tooltip name
+    keys) and `.attribute = value` messages (used for long-form Buildable
+    Description text, e.g. `template-mbt.description`), including their
+    indented multi-line continuations.
     """
     messages = {}
-    for path in collect_section_files(mod_dir, "FluentMessages"):
+    for path in collect_section_files_recursive(mod_dir, "FluentMessages"):
         with open(path, encoding="utf-8") as f:
-            for line in f:
-                s = line.rstrip("\n")
-                if not s or s.lstrip().startswith("#"):
+            last_key = None
+            cur_key = None
+            for raw in f:
+                s = raw.rstrip("\n")
+                if not s.strip():
+                    last_key = cur_key = None
                     continue
+                if s.lstrip().startswith("#"):
+                    continue
+
+                m_attr = _FLUENT_ATTR_RE.match(s) if last_key else None
+                if m_attr:
+                    cur_key = f"{last_key}.{m_attr.group(1)}"
+                    if m_attr.group(2).strip():
+                        messages[cur_key] = m_attr.group(2).strip()
+                    continue
+
                 m = _FLUENT_RE.match(s)
                 if m:
-                    messages[m.group(1)] = m.group(2).strip()
+                    last_key = cur_key = m.group(1)
+                    if m.group(2).strip():
+                        messages[last_key] = m.group(2).strip()
+                    continue
+
+                # Indented continuation of the previous key/attribute's value.
+                if cur_key and s[:1].isspace():
+                    extra = s.strip()
+                    if extra:
+                        messages[cur_key] = (messages.get(cur_key, "") + " " + extra).strip()
     return messages
 
 
@@ -411,11 +472,13 @@ def actor_buildable(node):
     prereqs = split_list(b.child_value("Prerequisites"))
     build_limit = b.child_value("BuildLimit")
     icon = b.child_value("Icon")
+    description = b.child_value("Description")
     return {
         "queues": queues,
         "prereqs": prereqs,
         "buildLimit": int(build_limit) if (build_limit and build_limit.lstrip("-").isdigit()) else None,
         "icon": icon,
+        "description": description,
     }
 
 
@@ -612,6 +675,7 @@ def extract_actor(name, node, weapon_stats):
         "rawQueues": b["queues"],
         "cost": actor_cost(node),
         "buildLimit": b["buildLimit"],
+        "description": b["description"],
         "iconSeq": icon_seq,
         "seqImage": seq_image,
         "hidden": hidden,
@@ -1109,6 +1173,8 @@ def main():
         for fa in th["factions"]:
             for n in fa["nodes"]:
                 n["name"] = fluent.get(n["name"], n["name"])
+                if n.get("description"):
+                    n["description"] = fluent.get(n["description"], n["description"])
                 for tok in n.get("provides", ()):
                     prereq_names.setdefault(tok.lower(), n["name"])
                 prereq_names.setdefault(n["id"].lower(), n["name"])
@@ -1131,7 +1197,7 @@ def main():
     for th in graph["themes"]:
         for fa in th["factions"]:
             for n in fa["nodes"]:
-                for k in ("stats", "iconSeq", "seqImage", "png"):
+                for k in ("stats", "iconSeq", "seqImage", "png", "description"):
                     n.pop(k, None)
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
     with open(args.out, "w", encoding="utf-8") as f:
