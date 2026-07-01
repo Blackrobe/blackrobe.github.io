@@ -23,12 +23,15 @@ async function boot() {
     return;
   }
   if (DATA.generated) $("gen").textContent = "· data: " + DATA.generated;
-  DATA.themes.forEach((t, i) => {
-    const o = document.createElement("option");
-    o.value = i; o.textContent = `${t.name} (${t.factions.length})`;
-    o.dataset.name = t.name;
-    $("theme").appendChild(o);
-  });
+  DATA.themes
+    .map((t, i) => ({ t, i }))
+    .sort((a, b) => a.t.name.localeCompare(b.t.name))
+    .forEach(({ t, i }) => {
+      const o = document.createElement("option");
+      o.value = i; o.textContent = `${t.name} (${t.factions.length})`;
+      o.dataset.name = t.name;
+      $("theme").appendChild(o);
+    });
   const savedTheme = localStorage.getItem(LS_THEME);
   if (savedTheme) {
     const opt = [...$("theme").options].find((o) => o.dataset.name === savedTheme);
@@ -75,12 +78,15 @@ function onTheme(restoring) {
   const t = DATA.themes[+$("theme").value];
   const fs = $("faction");
   fs.innerHTML = "";
-  t.factions.forEach((f, i) => {
-    const o = document.createElement("option");
-    o.value = i; o.textContent = `${f.name} (${f.nodes.filter(n => !n.hidden).length})`;
-    o.dataset.name = f.name;
-    fs.appendChild(o);
-  });
+  t.factions
+    .map((f, i) => ({ f, i }))
+    .sort((a, b) => a.f.name.localeCompare(b.f.name))
+    .forEach(({ f, i }) => {
+      const o = document.createElement("option");
+      o.value = i; o.textContent = `${f.name} (${f.nodes.filter(n => !n.hidden).length})`;
+      o.dataset.name = f.name;
+      fs.appendChild(o);
+    });
   if (restoring) {
     const savedFaction = localStorage.getItem(LS_FACTION);
     if (savedFaction) {
