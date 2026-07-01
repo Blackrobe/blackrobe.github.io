@@ -35,6 +35,30 @@ main { padding: 12px 14px 60px; }
   padding-left: 8px;
 }
 .tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 8px; }
+
+.req-groups { display: flex; flex-direction: column; gap: 14px; }
+.req-group {
+  background: var(--panel2); border: 1px solid var(--line); border-radius: 8px;
+  padding: 10px 10px 12px;
+}
+.req-head {
+  font-size: 11px; text-transform: uppercase; letter-spacing: .5px;
+  color: var(--muted); margin-bottom: 6px;
+}
+.req-head.none { font-style: italic; }
+.req-icons { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 10px; }
+.req-item { display: flex; flex-direction: column; align-items: center; width: 64px; }
+.req-item span {
+  font-size: 10px; color: var(--text); text-align: center; line-height: 1.2;
+  margin-top: 2px; max-height: 2.4em; overflow: hidden;
+}
+.req-icon {
+  width: 48px; height: 36px; border-radius: 4px; object-fit: contain;
+  image-rendering: pixelated; background: #0c0e12; display: block;
+  border: 1px solid var(--line);
+}
+.req-icon.ph { background: var(--panel); }
+.req-group .tiles { grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); }
 .tile {
   background: var(--panel); border: 1px solid var(--line); border-radius: 6px;
   padding: 6px; text-align: center; cursor: pointer; position: relative;
@@ -42,6 +66,18 @@ main { padding: 12px 14px 60px; }
 }
 .tile:hover { border-color: var(--accent); }
 .tile.dim { opacity: .2; }
+.tile.hover-focus {
+  border-color: #3fd97a; box-shadow: 0 0 0 2px #3fd97a; z-index: 2;
+}
+.tile.req-link, .tile.unlock-link {
+  z-index: 2; animation: tile-pulse 1s ease-in-out infinite;
+}
+.tile.req-link { border-color: #e0a23f; box-shadow: 0 0 0 2px #e0a23f; }
+.tile.unlock-link { border-color: #4a90d9; box-shadow: 0 0 0 2px #4a90d9; }
+@keyframes tile-pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.08); }
+}
 .tile .cameo {
   width: 100%; height: 60px; border-radius: 4px; object-fit: contain;
   image-rendering: pixelated; background: #0c0e12; display: block;

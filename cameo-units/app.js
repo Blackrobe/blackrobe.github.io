@@ -1,9 +1,9 @@
 "use strict";
 
-const QUEUE_ORDER = ["Building", "Defense", "Infantry", "Vehicle", "Aircraft", "Ship", "Upgrade", ""];
+const QUEUE_ORDER = ["Building", "Defense", "Infantry", "Vehicle", "Aircraft", "Ship", "Upgrade", "Promotions", ""];
 const QUEUE_COLORS = {
   Building: "#4a90d9", Defense: "#7a5cc4", Infantry: "#3fa34d", Vehicle: "#d98a3f",
-  Aircraft: "#46b3b3", Ship: "#3f6fd9", Upgrade: "#b3457a", "": "#6b7280",
+  Aircraft: "#46b3b3", Ship: "#3f6fd9", Upgrade: "#b3457a", Promotions: "#8a6dd1", "": "#6b7280",
 };
 const qc = (q) => QUEUE_COLORS[q] ?? "#6b7280";
 
@@ -11,6 +11,7 @@ const $ = (id) => document.getElementById(id);
 let DATA = null;
 let FACNAMES = {}; // token -> display name, for the currently selected faction
 let CUR_NODES = []; // nodes of the currently selected faction, for "unlocks" lookups
+let TOKEN_NODES = {}; // token -> providing node, for the requires-groups + hover-link feature
 const LS_THEME = "cameo-units:theme";
 const LS_FACTION = "cameo-units:faction";
 
@@ -37,6 +38,7 @@ async function boot() {
   $("faction").addEventListener("change", () => { saveSelection(); render(); });
   $("search").addEventListener("input", render);
   $("showUpg").addEventListener("change", render);
+  $("showLinks").addEventListener("change", clearLinks);
   $("detailClose").addEventListener("click", closeDetail);
   $("overlay").addEventListener("click", (e) => { if (e.target === $("overlay")) closeDetail(); });
   $("detailBody").addEventListener("click", (e) => {
@@ -88,9 +90,15 @@ function render() {
 
   // token -> name for this faction (faction-accurate), falls back to global map.
   FACNAMES = {};
-  for (const n of fac.nodes)
-    for (const p of n.provides || [])
-      if (!(p.toLowerCase() in FACNAMES)) FACNAMES[p.toLowerCase()] = n.name;
+  // token -> providing node - used by the Upgrade requires-groups and hover-link highlight.
+  TOKEN_NODES = {};
+  for (const n of fac.nodes) {
+    for (const p of n.provides || []) {
+      const k = p.toLowerCase();
+      if (!(k in FACNAMES)) FACNAMES[k] = n.name;
+      if (!(k in TOKEN_NODES)) TOKEN_NODES[k] = n;
+    }
+  }
 
   const groups = {};
   let shown = 0;
@@ -111,13 +119,61 @@ function render() {
     sec.className = "queue-section";
     sec.style.setProperty("--qc", qc(queue));
     sec.innerHTML = `<h2>${queue || "Other"} · ${list.length}</h2>`;
-    const tiles = document.createElement("div");
-    tiles.className = "tiles";
-    for (const n of list) tiles.appendChild(makeTile(n, q));
-    sec.appendChild(tiles);
+    if (queue === "Upgrade") {
+      sec.appendChild(renderRequiresGroups(list, q, TOKEN_NODES));
+    } else {
+      const tiles = document.createElement("div");
+      tiles.className = "tiles";
+      for (const n of list) tiles.appendChild(makeTile(n, q));
+      sec.appendChild(tiles);
+    }
     grid.appendChild(sec);
   }
   if (!grid.children.length) grid.innerHTML = '<p style="color:var(--muted)">No units match.</p>';
+}
+
+// Upgrades grouped by their (translated) prerequisite set, each group headed
+// by "Requires:" + the icon(s) of whatever provides that requirement.
+function renderRequiresGroups(list, q, tokenNodes) {
+  const wrap = document.createElement("div");
+  wrap.className = "req-groups";
+
+  const groups = new Map(); // sorted-token-key -> { tokens, nodes }
+  for (const n of list) {
+    const toks = [...new Set((n.prereqs || []).map((p) => p.toLowerCase()))];
+    const key = toks.slice().sort().join("|");
+    if (!groups.has(key)) groups.set(key, { tokens: toks, nodes: [] });
+    groups.get(key).nodes.push(n);
+  }
+
+  const entries = [...groups.entries()].sort((a, b) => {
+    if (!a[0] !== !b[0]) return a[0] ? 1 : -1; // no-requirement group first
+    return a[0].localeCompare(b[0]);
+  });
+
+  for (const [, group] of entries) {
+    const box = document.createElement("div");
+    box.className = "req-group";
+    if (group.tokens.length) {
+      const items = group.tokens.map((tok) => {
+        const rn = tokenNodes[tok];
+        const label = rn ? (rn.name || rn.id) : tok;
+        const icon = rn && rn.png
+          ? `<img class="req-icon" src="icons/${rn.png}" alt="">`
+          : `<div class="req-icon ph"></div>`;
+        return `<div class="req-item">${icon}<span>${label}</span></div>`;
+      }).join("");
+      box.innerHTML = `<div class="req-head">Requires:</div><div class="req-icons">${items}</div>`;
+    } else {
+      box.innerHTML = `<div class="req-head none">Always available</div>`;
+    }
+    const tiles = document.createElement("div");
+    tiles.className = "tiles";
+    for (const n of group.nodes) tiles.appendChild(makeTile(n, q));
+    box.appendChild(tiles);
+    wrap.appendChild(box);
+  }
+  return wrap;
 }
 
 function matches(n, q) {
@@ -131,6 +187,7 @@ function matches(n, q) {
 function makeTile(n, q) {
   const el = document.createElement("div");
   el.className = "tile" + (matches(n, q) ? "" : " dim");
+  el.dataset.id = n.id;
   const visual = n.png
     ? `<img class="cameo" loading="lazy" src="icons/${n.png}" alt="">`
     : `<div class="placeholder" style="background:${qc(n.queue)}">${(n.name || n.id).slice(0, 22)}</div>`;
@@ -138,11 +195,40 @@ function makeTile(n, q) {
     ? `<div class="cost${n.cost === 0 ? " free" : ""}">$${n.cost}</div>`
     : `<div class="cost free">—</div>`;
   el.innerHTML = `${visual}<div class="nm">${n.name || n.id}</div>${cost}`;
-  el.addEventListener("mouseenter", (e) => showTip(n, e));
+  el.addEventListener("mouseenter", (e) => { showTip(n, e); applyLinks(n); });
   el.addEventListener("mousemove", moveTip);
-  el.addEventListener("mouseleave", () => $("tip").classList.add("hidden"));
+  el.addEventListener("mouseleave", () => { $("tip").classList.add("hidden"); clearLinks(); });
   el.addEventListener("click", () => { $("tip").classList.add("hidden"); openDetail(n); });
   return el;
+}
+
+// Hover-link highlight: green outline on the hovered tile, orange on what it
+// requires, blue on what it unlocks (reverse-prerequisite). Toggled by #showLinks.
+function clearLinks() {
+  $("grid").querySelectorAll(".hover-focus,.req-link,.unlock-link").forEach((el) => {
+    el.classList.remove("hover-focus", "req-link", "unlock-link");
+  });
+}
+
+function applyLinks(n) {
+  if (!$("showLinks").checked) return;
+  clearLinks();
+  const grid = $("grid");
+  const tileFor = (id) => grid.querySelector(`.tile[data-id="${id}"]`);
+
+  const self = tileFor(n.id);
+  if (self) self.classList.add("hover-focus");
+
+  for (const tok of n.prereqs || []) {
+    const rn = TOKEN_NODES[tok.toLowerCase()];
+    const el = rn && tileFor(rn.id);
+    if (el) el.classList.add("req-link");
+  }
+
+  for (const u of unlocks(n)) {
+    const el = tileFor(u.id);
+    if (el) el.classList.add("unlock-link");
+  }
 }
 
 function statRows(n) {

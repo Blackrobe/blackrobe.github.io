@@ -666,7 +666,9 @@ def normalize_queue(queues):
                 return bucket, False
     if not queues:
         return "", True
-    # Upgrades / Research / Promotions / Addons / Disabled etc.
+    if any("promotion" in q.lower() for q in queues):
+        return "Promotions", True
+    # Upgrades / Research / Addons / Disabled etc.
     return "Upgrade", True
 
 
