@@ -12,7 +12,12 @@
   <div class="controls">
     <label>Theme <select id="theme"></select></label>
     <label>Faction <select id="faction"></select></label>
-    <label class="search">Find <input id="search" type="text" placeholder="unit / prereq…" autocomplete="off"></label>
+    <label class="search">Find
+      <span class="search-wrap">
+        <input id="search" type="text" placeholder="unit / prereq…" autocomplete="off">
+        <button id="searchClear" class="clear-btn hidden" type="button" aria-label="clear search">×</button>
+      </span>
+    </label>
     <label class="check"><input type="checkbox" id="showUpg" checked> show upgrades/research</label>
     <label class="check"><input type="checkbox" id="showLinks" checked> highlight prereqs/unlocks on hover</label>
     <span id="approx" class="approx hidden">⚠ approximate faction split</span>

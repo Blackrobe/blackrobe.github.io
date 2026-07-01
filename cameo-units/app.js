@@ -36,7 +36,13 @@ async function boot() {
   }
   $("theme").addEventListener("change", () => onTheme(false));
   $("faction").addEventListener("change", () => { saveSelection(); render(); });
-  $("search").addEventListener("input", render);
+  $("search").addEventListener("input", () => { toggleSearchClear(); render(); });
+  $("searchClear").addEventListener("click", () => {
+    $("search").value = "";
+    toggleSearchClear();
+    render();
+    $("search").focus();
+  });
   $("showUpg").addEventListener("change", render);
   $("showLinks").addEventListener("change", clearLinks);
   $("offTop").addEventListener("click", scrollToChip);
@@ -50,7 +56,12 @@ async function boot() {
     if (target) openDetail(target);
   });
   document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeDetail(); });
+  toggleSearchClear();
   onTheme(true);
+}
+
+function toggleSearchClear() {
+  $("searchClear").classList.toggle("hidden", !$("search").value);
 }
 
 function saveSelection() {
@@ -304,7 +315,7 @@ function statRows(n) {
   rows.push(["cost", n.cost != null ? "$" + n.cost : "—"]);
   if (s.hp != null) rows.push(["hp", s.hp]);
   if (s.armor) rows.push(["armor", s.armor]);
-  if (s.speed != null) rows.push(["speed", s.speed]);
+  if (s.speed != null) rows.push(["speed", s.speed.toFixed(2) + " tiles/sec"]);
   if (s.sight) rows.push(["sight", s.sight.toFixed(2) + " tiles"]);
   if (s.power != null) rows.push(["power", (s.power > 0 ? "+" : "") + s.power]);
   if (n.buildLimit != null) rows.push(["limit", n.buildLimit]);

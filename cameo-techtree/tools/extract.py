@@ -541,9 +541,15 @@ def classify_elite(cond):
 
 
 # Real-world seconds per game tick at Normal game speed (mod.yaml
-# GameSpeeds.default.Timestep = 40ms). Reload/DPS vary with game speed in
-# practice; this just picks the same baseline the game defaults to.
+# GameSpeeds.default.Timestep = 40ms). Reload/DPS/speed vary with game speed
+# in practice; this just picks the same baseline the game defaults to.
 TICK_SECONDS = 0.04
+
+
+def _speed_to_tiles_per_sec(raw):
+    """Mobile.Speed is WDist units (1024/cell) moved per tick."""
+    n = _int_or_none(raw)
+    return round(n / 1024 / TICK_SECONDS, 2) if n is not None else None
 
 
 def weapon_reload_and_dps(ws):
@@ -578,7 +584,7 @@ def actor_stats(node, weapon_stats):
         stats["armor"] = a.child_value("Type")
     m = node.child("Mobile")
     if m is not None and m.child_value("Speed"):
-        stats["speed"] = _int_or_none(m.child_value("Speed"))
+        stats["speed"] = _speed_to_tiles_per_sec(m.child_value("Speed"))
     rev = node.child("RevealsShroud")
     if rev is not None and rev.child_value("Range"):
         stats["sight"] = _wdist_to_tiles(rev.child_value("Range"))
