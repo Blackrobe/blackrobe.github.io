@@ -120,8 +120,9 @@ main { padding: 12px 14px 60px; }
   padding: 10px 12px; box-shadow: 0 6px 24px #0009; font-size: 12px;
 }
 .tip h3 { margin: 0 0 6px; font-size: 14px; color: var(--accent); }
-.tip dl { display: grid; grid-template-columns: auto 1fr; gap: 1px 8px; margin: 0; }
+.tip dl { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 1px 8px; margin: 0; }
 .tip dt { color: var(--muted); white-space: nowrap; }
+.tip dd { overflow-wrap: anywhere; margin: 0; }
 .tip .sec { margin-top: 6px; color: var(--muted); }
 .tip .tags { display: flex; flex-wrap: wrap; gap: 3px; margin-top: 2px; }
 .tip .tag { background: var(--panel2); border: 1px solid var(--line); border-radius: 3px; padding: 0 4px; }
