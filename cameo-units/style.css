@@ -43,7 +43,7 @@ main { padding: 12px 14px 60px; }
 }
 .tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(96px, 1fr)); gap: 8px; }
 
-.req-groups { column-width: 320px; column-gap: 14px; }
+.req-groups { column-width: 380px; column-gap: 14px; }
 .req-group {
   break-inside: avoid; margin-bottom: 14px;
   background: var(--panel2); border: 1px solid var(--line); border-radius: 8px;
@@ -55,7 +55,7 @@ main { padding: 12px 14px 60px; }
 }
 .req-head.none { font-style: italic; }
 .req-icons { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 10px; }
-.req-group .tiles { grid-template-columns: repeat(auto-fill, minmax(84px, 1fr)); }
+.req-group .tiles { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .tile {
   background: var(--panel); border: 1px solid var(--line); border-radius: 6px;
   padding: 6px; text-align: center; cursor: pointer; position: relative;
