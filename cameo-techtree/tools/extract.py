@@ -774,8 +774,8 @@ def extract_actor(name, node, weapon_stats):
 # starting point). Tokens are lowercased prerequisite names.
 SEED_TOKENS = {
     "RedAlert": {
-        "allies": ["rafact.allies", "barr", "rafix.allies", "dome.allies"],
-        "soviet": ["rafact.soviet", "tent", "rafix.soviet", "dome.soviet"],
+        "allies": ["rafact.allies", "tent", "rafix.allies", "dome.allies"],
+        "soviet": ["rafact.soviet", "barr", "rafix.soviet", "dome.soviet"],
         "japan": ["rafact.japan", "modtentj", "modtent", "rafix.japan", "dome.japan"],
     },
     "TiberianSun": {
