@@ -93,8 +93,8 @@ main { padding: 12px 14px 60px; }
 .off-indicator.top { background: linear-gradient(to bottom, rgba(20,23,28,.97) 60%, transparent); }
 .off-indicator.bottom { bottom: 0; background: linear-gradient(to top, rgba(20,23,28,.97) 60%, transparent); }
 .off-chip {
-  width: 32px; height: 24px; object-fit: contain; image-rendering: pixelated;
-  background: #0c0e12; border-radius: 3px; cursor: pointer; flex: 0 0 auto;
+  width: 96px; height: 60px; object-fit: contain; image-rendering: pixelated;
+  background: #0c0e12; border-radius: 4px; cursor: pointer; flex: 0 0 auto;
   border: 2px solid var(--line);
 }
 .off-chip.req-link { border-color: #e0a23f; }
