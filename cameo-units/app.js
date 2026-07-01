@@ -157,9 +157,13 @@ function renderRequiresGroups(list, q, tokenNodes) {
   const wrap = document.createElement("div");
   wrap.className = "req-groups";
 
+  // "Requires:" only cares about building gates - upgrade-chain and hidden
+  // tech-level prerequisites are still visible in an upgrade's own detail
+  // modal, but would just be clutter/dead icons here.
   const groups = new Map(); // sorted-token-key -> { tokens, nodes }
   for (const n of list) {
-    const toks = [...new Set((n.prereqs || []).map((p) => p.toLowerCase()))];
+    const toks = [...new Set((n.prereqs || []).map((p) => p.toLowerCase()))]
+      .filter((tok) => tokenNodes[tok]?.queue === "Building");
     const key = toks.slice().sort().join("|");
     if (!groups.has(key)) groups.set(key, { tokens: toks, nodes: [] });
     groups.get(key).nodes.push(n);
@@ -189,7 +193,7 @@ function renderRequiresGroups(list, q, tokenNodes) {
       box.appendChild(head);
       box.appendChild(icons);
     } else {
-      box.innerHTML = `<div class="req-head none">Always available</div>`;
+      box.innerHTML = `<div class="req-head none">No building requirement</div>`;
     }
     const tiles = document.createElement("div");
     tiles.className = "tiles";
