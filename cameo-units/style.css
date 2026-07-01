@@ -138,8 +138,10 @@ main { padding: 12px 14px 60px; }
 .detail ul { margin: 0; padding-left: 0; list-style: none; }
 .detail .weap { padding: 4px 0; border-bottom: 1px solid var(--line); }
 .detail .weap:last-child { border-bottom: none; }
+.detail .weap .wl1 { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
 .detail .weap .wn { font-weight: 600; }
-.detail .weap .ws { color: var(--muted); font-size: 12px; }
+.detail .weap .dps { color: var(--accent); font-size: 12px; white-space: nowrap; }
+.detail .weap .ws { color: var(--muted); font-size: 12px; padding-left: 10px; }
 .detail .prereqs { display: flex; flex-wrap: wrap; gap: 5px; }
 .detail .prereq {
   background: var(--panel2); border: 1px solid var(--line); border-radius: 4px;

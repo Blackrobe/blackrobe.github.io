@@ -404,7 +404,7 @@ def load_fluent(mod_dir):
 
 
 def build_weapon_stats(mod_dir):
-    """name(lower) -> {range, reload, damage} for all resolved weapons."""
+    """name(lower) -> {range, reload, damage, burst, burstDelays} for all resolved weapons."""
     wrs = RuleSet()
     for path in collect_weapon_files(mod_dir):
         with open(path, encoding="utf-8") as f:
@@ -418,6 +418,8 @@ def build_weapon_stats(mod_dir):
             continue
         rng = w.child_value("Range")
         reload = w.child_value("ReloadDelay")
+        burst = w.child_value("Burst")
+        burst_delays = [int(d) for d in split_list(w.child_value("BurstDelays")) if d.lstrip("-").isdigit()]
         dmg = None
         for c in w.children:
             if c.key == "Warhead" or c.key.startswith("Warhead@"):
@@ -428,6 +430,9 @@ def build_weapon_stats(mod_dir):
             "range": rng,
             "reload": int(reload) if (reload and reload.isdigit()) else None,
             "damage": dmg,
+            # Engine defaults: Burst=1, BurstDelays=[5] (see WeaponInfo.cs).
+            "burst": int(burst) if (burst and burst.isdigit()) else 1,
+            "burstDelays": burst_delays or [5],
         }
     return stats
 
@@ -535,6 +540,31 @@ def classify_elite(cond):
     return None
 
 
+# Real-world seconds per game tick at Normal game speed (mod.yaml
+# GameSpeeds.default.Timestep = 40ms). Reload/DPS vary with game speed in
+# practice; this just picks the same baseline the game defaults to.
+TICK_SECONDS = 0.04
+
+
+def weapon_reload_and_dps(ws):
+    """(reload_seconds, dps) for one full attack cycle (a full burst, not
+    just the gap between shots within it), or (None, None) if unknown."""
+    dmg = ws.get("damage")
+    reload_ticks = ws.get("reload")
+    if dmg is None or not reload_ticks:
+        return None, None
+    burst = ws.get("burst") or 1
+    delays = ws.get("burstDelays") or [5]
+    gap_ticks = sum(delays[i % len(delays)] for i in range(burst - 1))
+    cycle_ticks = reload_ticks + gap_ticks
+    if cycle_ticks <= 0:
+        return None, None
+    reload_seconds = round(cycle_ticks * TICK_SECONDS, 2)
+    damage_per_cycle = (dmg / 100) * burst
+    dps = round(damage_per_cycle / (cycle_ticks * TICK_SECONDS), 1)
+    return reload_seconds, dps
+
+
 def actor_stats(node, weapon_stats):
     """Combat/utility stats dict for tooltips (None fields omitted by caller)."""
     stats = {}
@@ -572,12 +602,15 @@ def actor_stats(node, weapon_stats):
             seen_weapons.add(wname.lower())
             ws = weapon_stats.get(wname.lower(), {})
             dmg = ws.get("damage")
+            reload_seconds, dps = weapon_reload_and_dps(ws)
             weapons.append({
                 "name": wname,
                 # Warhead Damage is stored ×100, same convention as Health.HP.
                 "damage": round(dmg / 100) if dmg is not None else None,
                 "range": _wdist_to_tiles(ws.get("range") or c.child_value("Range")),
                 "elite": classify_elite(c.child_value("RequiresCondition")),
+                "reload": reload_seconds,
+                "dps": dps,
             })
     if weapons:
         stats["weapons"] = weapons

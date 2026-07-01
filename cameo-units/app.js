@@ -283,8 +283,12 @@ function weaponListHtml(list) {
     const bits = [];
     if (w.damage != null) bits.push(w.damage + " dmg");
     if (w.range != null) bits.push("range " + w.range.toFixed(2) + " tiles");
-    return `<li class="weap"><span class="wn">${w.name}</span>` +
-      (bits.length ? ` <span class="ws">${bits.join(" · ")}</span>` : "") + "</li>";
+    if (w.reload != null) bits.push("reload " + w.reload.toFixed(2) + "s");
+    return `<li class="weap">` +
+      `<div class="wl1"><span class="wn">${w.name}</span>` +
+      (w.dps != null ? `<span class="dps">${w.dps.toFixed(1)} DPS</span>` : "") + `</div>` +
+      (bits.length ? `<div class="ws">${bits.join(" · ")}</div>` : "") +
+      "</li>";
   }).join("") + "</ul>";
 }
 
